@@ -6,3 +6,4 @@ node_modules
 coverage
 .pnp.loader.mjs
 .pnp.cjs
+test/test_files
