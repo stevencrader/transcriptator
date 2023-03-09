@@ -1,0 +1,30 @@
+{
+    "name": "transcriptator",
+    "version": "1.0.0",
+    "description": "Library for converting the various transcript file formats to a common format.",
+    "main": "src/index.ts",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --write .",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stevencrader/transcriptator.git"
+    },
+    "keywords": [
+        "podcasting",
+        "transcript"
+    ],
+    "author": "Steven Crader",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/stevencrader/transcriptator/issues"
+    },
+    "homepage": "https://github.com/stevencrader/transcriptator#readme",
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "prettier": "^2.8.4",
+        "typescript": "^4.9.5"
+    }
+}
