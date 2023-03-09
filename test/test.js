@@ -1,2 +1,5 @@
 const lib = require("../dist/index.js")
-lib.transcriptator()
+
+test("Example Test", () => {
+    lib.transcriptator()
+});

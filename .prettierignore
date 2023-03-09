@@ -2,3 +2,7 @@
 .yarn
 yarn.lock
 dist
+node_modules
+coverage
+.pnp.loader.mjs
+.pnp.cjs
