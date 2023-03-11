@@ -1,0 +1,9867 @@
+1
+00:00:00,780 --> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat
+
+2
+00:00:06,210 --> 00:00:12,990
+formable hello everybody welcome
+to a delayed board meeting of
+
+3
+00:00:12,990 --> 00:00:17,070
+podcasting 2.0 preserving,
+protecting and extending the
+
+4
+00:00:17,100 --> 00:00:20,220
+open independent podcasting
+ecosystem that's what we're all
+
+5
+00:00:20,220 --> 00:00:22,980
+about. And we talk about it once
+a week with everybody in the
+
+6
+00:00:22,980 --> 00:00:25,740
+board meeting everything
+happening at podcast index.org
+
+7
+00:00:25,950 --> 00:00:29,190
+Of course the podcast namespace
+and everything at podcast index
+
+8
+00:00:29,190 --> 00:00:31,890
+dot social. I'm Adam curry here
+in the heart of the tech show
+
+9
+00:00:31,890 --> 00:00:36,060
+country and Alabama. The man who
+fills up your generator say
+
+10
+00:00:36,060 --> 00:00:38,460
+hello to my friend on the other
+end. Ladies and gentlemen, Mr.
+
+11
+00:00:38,460 --> 00:00:40,080
+Dave Jones.
+
+12
+00:00:41,340 --> 00:00:43,260
+Unknown: Adam Clark curry. Yes.
+
+13
+00:00:44,790 --> 00:00:47,970
+Dave Jones: Don't for one day.
+Party.
+
+14
+00:00:48,000 --> 00:00:50,460
+Adam Curry: Why are you being
+stern with me? You threw out an
+
+15
+00:00:50,460 --> 00:00:53,070
+Adam Clark curry that triggered
+me right away.
+
+16
+00:00:53,400 --> 00:00:54,660
+Dave Jones: Yeah, no, I knew it
+would.
+
+17
+00:00:55,500 --> 00:00:57,390
+Adam Curry: David Ashley Jones.
+
+18
+00:00:57,510 --> 00:01:03,150
+Dave Jones: Yes. There's only
+one I only have one rule and
+
+19
+00:01:03,150 --> 00:01:04,770
+then no part no part long gone.
+
+20
+00:01:05,400 --> 00:01:09,030
+Adam Curry: But we cleaned up.
+There was only Dame DeLoreans
+
+21
+00:01:09,030 --> 00:01:11,700
+panties apparently around the
+flagpole. Everything else was
+
+22
+00:01:11,700 --> 00:01:15,060
+clean. We didn't do anything.
+Anything bad. I'm so sorry.
+
+23
+00:01:17,040 --> 00:01:18,540
+Dave Jones: It was much
+entertaining.
+
+24
+00:01:18,570 --> 00:01:20,910
+Adam Curry: Oh, well. You heard
+it while you're at the office
+
+25
+00:01:20,910 --> 00:01:21,330
+listening.
+
+26
+00:01:21,360 --> 00:01:24,630
+Dave Jones: I got a bootleg. I
+got somebody sent me a bootleg.
+
+27
+00:01:24,630 --> 00:01:25,290
+Okay, I
+
+28
+00:01:25,290 --> 00:01:28,020
+Adam Curry: purposely did not
+record because I didn't want any
+
+29
+00:01:28,020 --> 00:01:30,660
+evidence that we were breaking
+the law not only breaking the
+
+30
+00:01:30,660 --> 00:01:34,020
+law by playing two and a half
+hours of licensed music on the
+
+31
+00:01:34,020 --> 00:01:38,010
+stream, but also taking money
+for it which which is, I think a
+
+32
+00:01:38,010 --> 00:01:39,300
+super violation.
+
+33
+00:01:40,020 --> 00:01:44,040
+Dave Jones: There there is there
+is a bootleg if you know the
+
+34
+00:01:44,040 --> 00:01:48,060
+right guy down on Fifth Avenue,
+behind the corner.
+
+35
+00:01:48,630 --> 00:01:50,400
+Adam Curry: Canal Street is what
+you're talking about Canal
+
+36
+00:01:50,400 --> 00:01:50,700
+Street.
+
+37
+00:01:51,720 --> 00:01:53,850
+Dave Jones: With enough sets you
+can get a you can get a bootleg
+
+38
+00:01:53,850 --> 00:01:54,210
+for those
+
+39
+00:01:54,210 --> 00:01:55,680
+Adam Curry: who are wondering
+what we're talking about.
+
+40
+00:01:55,770 --> 00:01:58,740
+Yesterday, we were ready to go
+for our regular regularly
+
+41
+00:01:58,740 --> 00:02:02,250
+scheduled board meeting time.
+And well there were two things
+
+42
+00:02:02,250 --> 00:02:05,580
+that happen actually, I now the
+hill country here in Texas had
+
+43
+00:02:05,580 --> 00:02:10,620
+had a pretty big storm. I have
+Thursday, Friday and Thursday
+
+44
+00:02:10,620 --> 00:02:13,620
+and Thursday morning was really
+bad with golf ball sized hail,
+
+45
+00:02:13,950 --> 00:02:19,020
+which sounded great against our
+metal roof. In the morning, I
+
+46
+00:02:19,020 --> 00:02:22,470
+was crazy. I was I mean the dog
+was freaked out. I have not seen
+
+47
+00:02:22,470 --> 00:02:25,380
+our dog freaked out by anything.
+But this freaked her out. And
+
+48
+00:02:25,380 --> 00:02:32,700
+then Friday it just I mean, it
+really missed Fredericksburg and
+
+49
+00:02:32,700 --> 00:02:36,450
+went right past us. Some prayer
+was involved, I'm sure. But
+
+50
+00:02:37,650 --> 00:02:40,080
+Dave Jones: yes, diversionary
+prayer. Yes, I forgot.
+
+51
+00:02:40,830 --> 00:02:44,130
+Adam Curry: Yes, but I forgot to
+add a diversionary tactic for
+
+52
+00:02:44,130 --> 00:02:49,020
+you. And it hit pretty hard. So
+So now, somewhere down the line,
+
+53
+00:02:49,020 --> 00:02:52,020
+my bandwidth was totally
+crapping out my upstream was
+
+54
+00:02:52,020 --> 00:02:57,030
+about 500 kilobits per second,
+which is not the typical
+
+55
+00:02:57,030 --> 00:03:01,080
+upstream. And that just as as I
+was figuring that out, you know,
+
+56
+00:03:01,080 --> 00:03:06,420
+bringing out different access
+points. I've gotten, you know,
+
+57
+00:03:06,420 --> 00:03:10,800
+I've got T Mobile Verizon, I
+have, if all else fails, I've
+
+58
+00:03:10,800 --> 00:03:14,100
+got Starlink, although that does
+introduce some latency. So we're
+
+59
+00:03:14,100 --> 00:03:16,800
+messing around with that. And
+then Dave goes, Oh, bad signal.
+
+60
+00:03:16,830 --> 00:03:19,590
+The power went down in the
+office. What happened there?
+
+61
+00:03:20,220 --> 00:03:24,450
+Dave Jones: Yeah, yeah, that's
+so yeah, I guess yesterday was a
+
+62
+00:03:24,450 --> 00:03:28,980
+total cluster. I mean, like, I
+got in the car, even going back
+
+63
+00:03:28,980 --> 00:03:33,540
+before what? What happened with
+the show, I got in the car, to
+
+64
+00:03:33,540 --> 00:03:37,320
+leave to go to the office for
+work. And I get a ping on my
+
+65
+00:03:37,320 --> 00:03:41,400
+phone. I look down at the phone
+and it says, you've got a guest,
+
+66
+00:03:41,400 --> 00:03:47,010
+Mike, Michael and Sam from wave
+lake at 9am. Oh, right. What?
+
+67
+00:03:47,040 --> 00:03:52,830
+None, right? No. 30. And so I
+get to the office and I emailed
+
+68
+00:03:52,830 --> 00:03:53,490
+them. And I'm like,
+
+69
+00:03:53,520 --> 00:03:55,050
+Adam Curry: and they're always
+there. We're sitting ready. They
+
+70
+00:03:55,050 --> 00:03:56,580
+got the headphones on everything
+good.
+
+71
+00:03:58,500 --> 00:04:01,770
+Dave Jones: I was like, Hey,
+guys, please tell me this was a
+
+72
+00:04:01,920 --> 00:04:04,650
+this was a timezone mix up. And
+I didn't actually send you a
+
+73
+00:04:04,650 --> 00:04:06,570
+load report. And they were like,
+No, you send it for nine. I was
+
+74
+00:04:06,570 --> 00:04:07,500
+like, damn it.
+
+75
+00:04:08,130 --> 00:04:10,080
+Adam Curry: How does it? How
+does that happen? Because you
+
+76
+00:04:10,080 --> 00:04:13,470
+use you know, use Google use
+your calendar for that.
+
+77
+00:04:14,070 --> 00:04:16,920
+Dave Jones: Now use fast mails,
+calendar, but it's all through
+
+78
+00:04:16,920 --> 00:04:21,420
+the iPhone. I don't think I've
+ever messed that up in in a
+
+79
+00:04:21,420 --> 00:04:25,590
+mess. I just totally boned it. I
+mean, like, it was terrible. And
+
+80
+00:04:25,590 --> 00:04:28,890
+then it turned out it was it was
+actually good that they didn't,
+
+81
+00:04:29,100 --> 00:04:32,520
+they didn't that we had to move
+the interview because then all
+
+82
+00:04:32,520 --> 00:04:34,350
+that stuff happened with your
+bandwidth and then the power
+
+83
+00:04:34,350 --> 00:04:37,800
+went off at work. And so then I
+was like, I gotta go back. I
+
+84
+00:04:37,800 --> 00:04:39,960
+mean, I gotta get back to the
+office now.
+
+85
+00:04:40,560 --> 00:04:43,410
+Adam Curry: Does it blip or does
+it fail over nicely to the to
+
+86
+00:04:43,410 --> 00:04:46,860
+the UPS is that handle the
+switch over to the generator?
+
+87
+00:04:47,220 --> 00:04:51,180
+Dave Jones: Yes, it's same. It's
+seamless. But see, we have for
+
+88
+00:04:51,210 --> 00:04:54,420
+four reasons. We can't get
+natural gas. We have diesel
+
+89
+00:04:54,420 --> 00:04:55,950
+generator. And so
+
+90
+00:04:56,100 --> 00:04:58,830
+Adam Curry: you are single
+handedly responsible for climate
+
+91
+00:04:58,830 --> 00:04:59,640
+change right now.
+
+92
+00:05:00,000 --> 00:05:04,170
+Dave Jones: If I was and I was I
+was pouring five gallons of
+
+93
+00:05:04,170 --> 00:05:08,430
+climate change into the
+generator with every jug less
+
+94
+00:05:08,430 --> 00:05:08,550
+than
+
+95
+00:05:10,349 --> 00:05:12,989
+Adam Curry: five gallons of
+climate change coming right up.
+
+96
+00:05:13,019 --> 00:05:15,899
+That's how they should measure
+it. Oh my god, yeah, pretty
+
+97
+00:05:15,899 --> 00:05:16,589
+climate change.
+
+98
+00:05:17,520 --> 00:05:20,970
+Dave Jones: And that's the so I
+got like, the lightning struck
+
+99
+00:05:20,970 --> 00:05:23,970
+the power pole that feeds our
+building and we have three phase
+
+100
+00:05:23,970 --> 00:05:27,750
+power. So it took one of the
+lines, it was just gone. I mean,
+
+101
+00:05:27,750 --> 00:05:30,360
+like it just blew the thing off
+the pole. And
+
+102
+00:05:31,199 --> 00:05:33,209
+Adam Curry: what the whole
+transformer blew right off the
+
+103
+00:05:33,209 --> 00:05:33,539
+pole.
+
+104
+00:05:33,570 --> 00:05:35,460
+Dave Jones: There wasn't a
+transformer it's like it's like
+
+105
+00:05:35,460 --> 00:05:39,240
+there's it's three phase so you
+get three lines coming in in one
+
+106
+00:05:39,300 --> 00:05:45,420
+one of the connector lines that
+go off the main was just gone.
+
+107
+00:05:45,660 --> 00:05:48,810
+And so the power of come they
+came out
+
+108
+00:05:49,980 --> 00:05:52,230
+Adam Curry: you didn't get your
+your your gear out and clamp in
+
+109
+00:05:52,230 --> 00:05:53,640
+the pole and reconnect that
+thing.
+
+110
+00:05:55,050 --> 00:05:57,210
+Dave Jones: I don't I don't
+know. I don't do a lot of poll
+
+111
+00:05:57,210 --> 00:05:57,960
+work these days.
+
+112
+00:06:00,300 --> 00:06:01,110
+Adam Curry: These days.
+
+113
+00:06:01,650 --> 00:06:07,890
+Dave Jones: Now now I'm on all
+this. Now, because the isobar is
+
+114
+00:06:07,890 --> 00:06:10,170
+working so well now I'm just
+feet. I'm trying to feed the
+
+115
+00:06:10,170 --> 00:06:11,790
+isobar as much as I can I sell
+
+116
+00:06:11,790 --> 00:06:13,890
+Adam Curry: bought is
+unbelievable. I love I was just
+
+117
+00:06:13,890 --> 00:06:16,320
+telling Tina, how that works is
+that how does that happen? How
+
+118
+00:06:16,320 --> 00:06:19,260
+do they even do that? It's magic
+map. They have running, running
+
+119
+00:06:19,260 --> 00:06:21,000
+some kind of transcript in real
+time.
+
+120
+00:06:21,780 --> 00:06:23,400
+Dave Jones: But I got home about
+one o'clock in the morning.
+
+121
+00:06:23,430 --> 00:06:26,520
+Adam Curry: Oh my goodness.
+Power was back on by them.
+
+122
+00:06:27,510 --> 00:06:29,730
+Dave Jones: Yeah, where they
+fixed so we had to turn because
+
+123
+00:06:29,730 --> 00:06:33,330
+it wasn't actually all the way
+out. It was just it was out of
+
+124
+00:06:33,330 --> 00:06:37,710
+phase. Only one of the lines was
+gone. So things were like
+
+125
+00:06:38,550 --> 00:06:44,490
+flickering lights. were flashing
+like disco tech. Yeah.
+
+126
+00:06:45,660 --> 00:06:47,370
+Adam Curry: Phasing. Oh, that's
+fantastic.
+
+127
+00:06:47,670 --> 00:06:50,940
+Dave Jones: That was horrible.
+It was scary. So they were like
+
+128
+00:06:50,940 --> 00:06:52,440
+yeah, we're shutting the whole
+thing. We're just shutting the
+
+129
+00:06:52,440 --> 00:06:55,950
+whole Yeah, make sense. Anyway,
+so did didn't want that. But it
+
+130
+00:06:55,950 --> 00:06:58,890
+was it was just a weird, man.
+It's just a weird weekend so
+
+131
+00:06:58,890 --> 00:07:00,330
+far. Very strange.
+
+132
+00:07:00,990 --> 00:07:03,660
+Adam Curry: Well, I'm so hot
+man. So and you and your work
+
+133
+00:07:03,660 --> 00:07:06,840
+today as well at the office? I
+did. Yeah. Because he went right
+
+134
+00:07:06,840 --> 00:07:12,090
+back in at nine o'clock. No. Was
+there eight? Yeah. After getting
+
+135
+00:07:12,090 --> 00:07:12,810
+home at one.
+
+136
+00:07:13,530 --> 00:07:15,600
+Dave Jones: Yeah, but I'm gonna
+I'm gonna sleep really good
+
+137
+00:07:15,600 --> 00:07:18,300
+tomorrow. Okay, I'm making that
+today. I'm making up for it.
+
+138
+00:07:18,300 --> 00:07:21,510
+Tonight. I took a shower, before
+the show to like, wake myself up
+
+139
+00:07:21,510 --> 00:07:22,500
+getting myself fired up.
+
+140
+00:07:22,530 --> 00:07:24,930
+Adam Curry: Yeah. You're lit.
+
+141
+00:07:25,860 --> 00:07:28,140
+Dave Jones: Lit and lit. is lit
+as I can
+
+142
+00:07:28,140 --> 00:07:31,440
+Adam Curry: get this show is
+lit, which is the formula for
+
+143
+00:07:31,500 --> 00:07:35,160
+for success. As far as I'm
+concerned. This is a live item
+
+144
+00:07:35,160 --> 00:07:39,090
+tag where if you use the
+appropriate podcast app, you'll
+
+145
+00:07:39,090 --> 00:07:42,300
+actually get an alert for this
+pod verse seems to be the one
+
+146
+00:07:42,300 --> 00:07:45,480
+that's doing it the best I think
+podcast addict has it and don't
+
+147
+00:07:45,660 --> 00:07:49,770
+is that out of beta yet. The
+podcast addict alert system.
+
+148
+00:07:50,100 --> 00:07:54,870
+Okay. And of course, Europe
+curio caster. I was looking at
+
+149
+00:07:54,870 --> 00:08:00,240
+the charts yesterday. With me
+spinning our tunes for two and a
+
+150
+00:08:00,240 --> 00:08:05,760
+half hours, something really
+magically happened. And to me,
+
+151
+00:08:05,760 --> 00:08:09,630
+it was yeah, it happens during a
+regular show, too. But there's
+
+152
+00:08:09,630 --> 00:08:14,010
+something about the audience
+participation that just went
+
+153
+00:08:14,010 --> 00:08:17,910
+with the flow. And, you know,
+because of course we have the
+
+154
+00:08:17,910 --> 00:08:20,880
+chat room when you when you use
+pod verse, the chat room opens
+
+155
+00:08:20,880 --> 00:08:24,240
+up, you get the live signal. You
+go into the live the live item
+
+156
+00:08:24,240 --> 00:08:27,090
+right there and your list. You
+can chat along and you can boost
+
+157
+00:08:27,090 --> 00:08:30,660
+in real time. And I think was
+Todd Cochran. Mr. Blueberry, he
+
+158
+00:08:30,660 --> 00:08:35,250
+started off. He's like 25,000
+SATs and he wanted a song. And
+
+159
+00:08:35,250 --> 00:08:39,210
+he said right there, the next
+request has to be five more. And
+
+160
+00:08:39,210 --> 00:08:42,690
+it was like, Okay, the next one
+was 30,000. And then I think,
+
+161
+00:08:43,500 --> 00:08:48,750
+was Carolyn Blaney. She sent
+20,000 requested something, but
+
+162
+00:08:48,750 --> 00:08:52,710
+blueberry came in and said, I'm
+gonna add 15,000 to make up so
+
+163
+00:08:52,710 --> 00:08:55,740
+it's 35 for her request. And
+people just do things up and up
+
+164
+00:08:55,740 --> 00:09:00,720
+and up, like 5060 70,000 SATs
+and requests and I'm like, stop.
+
+165
+00:09:01,440 --> 00:09:06,210
+First of all, I was embarrassed.
+Yeah. But also, I discovered
+
+166
+00:09:06,210 --> 00:09:11,520
+something else. When you open up
+the stream to requests, you get
+
+167
+00:09:11,520 --> 00:09:14,970
+a lot of shit. It's not really
+necessarily in the groove of the
+
+168
+00:09:14,970 --> 00:09:19,260
+dance party. Metallica Okay,
+right? Yeah, I like Metallica
+
+169
+00:09:19,260 --> 00:09:22,380
+too. It's just, you know, and
+then followed by polka music
+
+170
+00:09:22,380 --> 00:09:25,770
+from Weird Al Yankovic it was it
+was a little a little hectic, it
+
+171
+00:09:25,770 --> 00:09:29,430
+was all over the spectrum. But
+we had a good very reminiscent
+
+172
+00:09:29,430 --> 00:09:32,400
+Dave Jones: of FUBAR Fridays
+with the Dropbox.
+
+173
+00:09:33,900 --> 00:09:35,640
+Adam Curry: Daily source code.
+Exactly.
+
+174
+00:09:35,790 --> 00:09:38,190
+Dave Jones: Yeah, that was all
+over the map to like some of the
+
+175
+00:09:38,190 --> 00:09:40,200
+some of those was like, okay,
+yeah,
+
+176
+00:09:40,320 --> 00:09:43,410
+Adam Curry: yeah, yeah. But it
+was it was really fun. And it
+
+177
+00:09:43,410 --> 00:09:48,090
+was just nice to see everyone
+kind of go with the flow. And
+
+178
+00:09:48,120 --> 00:09:52,830
+that's something that we're
+bringing something really
+
+179
+00:09:52,830 --> 00:09:56,070
+beautiful back that existed
+many, many many years ago. I
+
+180
+00:09:56,070 --> 00:10:01,080
+mean, these days you even have
+Okay, I should probably play
+
+181
+00:10:01,080 --> 00:10:07,740
+this chat GPT is now doing radio
+GPT they're literally pitching
+
+182
+00:10:09,120 --> 00:10:15,960
+AI voices to run your radio
+station. And I got to play this
+
+183
+00:10:15,990 --> 00:10:20,280
+this little demo they have. So
+as I've done a lot of top 40
+
+184
+00:10:20,280 --> 00:10:25,440
+radio work certainly in the in
+the 90s, late 80s, early 90s it
+
+185
+00:10:25,440 --> 00:10:27,990
+already was very formulaic. Now
+you had a lot of leeway
+
+186
+00:10:27,990 --> 00:10:30,900
+depending on who you were what
+time slot you have, you know
+
+187
+00:10:30,900 --> 00:10:36,150
+what station, but in general,
+Steve Kingston legendary program
+
+188
+00:10:36,150 --> 00:10:39,360
+director who was at GE 100 When
+I was there, he would say, Hey,
+
+189
+00:10:39,360 --> 00:10:43,890
+man, and a monkey could do this.
+Just read the liner cards and
+
+190
+00:10:43,890 --> 00:10:48,690
+hit the button. And literally,
+that's it always ended with z
+
+191
+00:10:48,690 --> 00:10:49,320
+100.
+
+192
+00:10:51,390 --> 00:10:52,620
+Dave Jones: That's in New York,
+right? Z. When
+
+193
+00:10:52,620 --> 00:10:55,710
+Adam Curry: do you want 100?
+Toby? Yeah, I was brought in by
+
+194
+00:10:55,710 --> 00:10:58,680
+Scott Shannon, who's the legend
+who I've you know, had probably
+
+195
+00:10:58,710 --> 00:11:01,650
+any of my radio career to thank
+because I emulated him so much.
+
+196
+00:11:02,010 --> 00:11:06,840
+So the I all the elements that
+you know, just for the regular
+
+197
+00:11:06,840 --> 00:11:09,750
+jocks I will say for you know,
+except for drive time in the
+
+198
+00:11:09,750 --> 00:11:13,770
+morning, and drive time in the
+afternoon. everyone kind of has
+
+199
+00:11:13,770 --> 00:11:16,920
+to follow these rules overnight.
+You could break some some, some
+
+200
+00:11:16,920 --> 00:11:21,330
+rules and stuff, but now they
+still the most expensive part of
+
+201
+00:11:21,330 --> 00:11:24,840
+any organization is going to be
+people so screw the DJs get rid
+
+202
+00:11:24,840 --> 00:11:27,570
+of the button pushers. We don't
+even need monkeys anymore.
+
+203
+00:11:27,780 --> 00:11:32,850
+Listen to this promo from radio
+GPT. And by the way, everything
+
+204
+00:11:33,240 --> 00:11:36,270
+that they're talking about is
+something that you are told and
+
+205
+00:11:36,300 --> 00:11:39,660
+trained to do as a disc jockey.
+These days eatery
+
+206
+00:11:39,690 --> 00:11:42,450
+Unknown: is revolutionizing the
+audio industry with the launch
+
+207
+00:11:42,450 --> 00:11:46,560
+of radio GPT, the world's first
+AI driven localized radio
+
+208
+00:11:46,560 --> 00:11:52,710
+content solution. Ready radio
+GPT combines the power of GPT
+
+209
+00:11:52,710 --> 00:11:56,280
+three technology with future
+ease AI driven story discovery
+
+210
+00:11:56,280 --> 00:12:00,690
+and social content system Rubik
+posts, as well as AI voice tech
+
+211
+00:12:00,690 --> 00:12:03,780
+to provide an unmatched
+localized radio experience for
+
+212
+00:12:03,780 --> 00:12:09,810
+any market any format or grid
+using q3. Link. Topical system,
+
+213
+00:12:09,930 --> 00:12:14,400
+along with AI voice technology,
+radio GPT brings a radio station
+
+214
+00:12:14,400 --> 00:12:14,910
+to life.
+
+215
+00:12:15,570 --> 00:12:17,250
+Adam Curry: It brings the radio
+station to life.
+
+216
+00:12:18,090 --> 00:12:19,740
+Dave Jones: It actually kills.
+
+217
+00:12:20,130 --> 00:12:22,590
+Unknown: I can see what's in
+your music log and talk about
+
+218
+00:12:22,590 --> 00:12:25,890
+the songs or artists on your
+station. Oh, wow,
+
+219
+00:12:25,920 --> 00:12:26,670
+Dave Jones: you're dead.
+
+220
+00:12:27,450 --> 00:12:29,550
+Unknown: I can see what's
+happening in your local market
+
+221
+00:12:29,550 --> 00:12:32,430
+right now and talk about it in
+real time. Right? It looks like
+
+222
+00:12:32,430 --> 00:12:35,730
+the Dairy Queen is flooded. I
+can post on your Facebook,
+
+223
+00:12:35,760 --> 00:12:39,240
+Instagram, Twitter and tick tock
+during my show. Hey, I'm
+
+224
+00:12:39,240 --> 00:12:40,260
+Adam Curry: doing a show. Listen
+
+225
+00:12:40,260 --> 00:12:41,700
+Unknown: to me talk about what's
+coming up.
+
+226
+00:12:41,910 --> 00:12:42,780
+Adam Curry: I'm going to record.
+
+227
+00:12:43,740 --> 00:12:46,710
+Unknown: I am great at teasing
+and pre promoting content going
+
+228
+00:12:46,710 --> 00:12:47,460
+into breaks.
+
+229
+00:12:47,490 --> 00:12:51,060
+Adam Curry: Oh, you're teasing.
+Oh, yeah. Coming up next on 100.
+
+230
+00:12:51,090 --> 00:12:54,780
+Unknown: I can talk about the
+weather or traffic is nice. I
+
+231
+00:12:54,780 --> 00:12:57,150
+can see how many people are
+listening right now through
+
+232
+00:12:57,150 --> 00:13:00,180
+future streaming and say hello
+to certain locations.
+
+233
+00:13:00,240 --> 00:13:02,640
+Dave Jones: Oh, Cleveland.
+
+234
+00:13:03,479 --> 00:13:06,119
+Unknown: I can take open mic
+audio from listeners using
+
+235
+00:13:06,119 --> 00:13:08,819
+future immobile and incorporate
+their thoughts. Oh, yeah, the
+
+236
+00:13:08,819 --> 00:13:09,179
+Rockies
+
+237
+00:13:09,180 --> 00:13:09,810
+Dave Jones: go Oh, yeah,
+
+238
+00:13:09,810 --> 00:13:13,260
+Adam Curry: that'll that'll end
+well. I think gone are the days
+
+239
+00:13:13,260 --> 00:13:15,900
+of Shindig, what was your
+favorite radio station?
+
+240
+00:13:16,950 --> 00:13:20,970
+Unknown: questions and feedback
+into my show. I can share news
+
+241
+00:13:20,970 --> 00:13:23,790
+updates and current events
+relevant to your audience's
+
+242
+00:13:23,790 --> 00:13:25,230
+interests and demographics.
+
+243
+00:13:25,259 --> 00:13:29,969
+Adam Curry: Okay, she knows my
+interest in demographics. But
+
+244
+00:13:29,969 --> 00:13:31,289
+Donna had a buddy and plans.
+
+245
+00:13:32,250 --> 00:13:34,980
+Unknown: I have experienced
+conducting engaging interviews
+
+246
+00:13:35,010 --> 00:13:36,990
+with notable guests and experts
+now.
+
+247
+00:13:38,550 --> 00:13:41,250
+Adam Curry: This is the one this
+is the one that I'm like you're
+
+248
+00:13:41,250 --> 00:13:44,010
+gonna do an interview with
+notable guests okay?
+
+249
+00:13:44,580 --> 00:13:47,460
+Unknown: You can give away
+prizes, tickets, and exclusive
+
+250
+00:13:47,460 --> 00:13:51,090
+experiences to listeners through
+on air contests using future
+
+251
+00:13:51,090 --> 00:13:52,470
+mobile splash contesting
+
+252
+00:13:52,500 --> 00:13:54,720
+Adam Curry: flash contesting it
+should be Whoa, would you be
+
+253
+00:13:54,720 --> 00:13:55,950
+contrasting but okay,
+
+254
+00:13:56,490 --> 00:13:59,010
+Unknown: I am skilled at
+creating unique and entertaining
+
+255
+00:13:59,010 --> 00:14:02,010
+breaks that keep your audience
+engaged and coming back for
+
+256
+00:14:02,010 --> 00:14:02,370
+more.
+
+257
+00:14:03,120 --> 00:14:05,940
+Adam Curry: So this this drivel
+and by the way, they have a
+
+258
+00:14:05,940 --> 00:14:10,800
+video of this of this AI bot she
+doesn't blink and trust me to be
+
+259
+00:14:10,800 --> 00:14:13,710
+a good podcast or like me you
+got to blink have to read all
+
+260
+00:14:13,710 --> 00:14:16,830
+kinds of ticks otherwise you
+just no good you got to have
+
+261
+00:14:16,830 --> 00:14:17,070
+that
+
+262
+00:14:17,640 --> 00:14:19,260
+Dave Jones: most that's the
+bottom bar
+
+263
+00:14:20,760 --> 00:14:25,260
+Adam Curry: is not blinking. So
+this of course is atrocious. But
+
+264
+00:14:25,290 --> 00:14:29,580
+this will this will get get
+radio airtime people will do
+
+265
+00:14:29,580 --> 00:14:33,810
+this. And compared to what we
+had going on yesterday. It's
+
+266
+00:14:33,840 --> 00:14:38,430
+there's just no comparison that
+the thing lived it live. And
+
+267
+00:14:38,430 --> 00:14:42,060
+people were feeding back in real
+time. The whole thing was just a
+
+268
+00:14:42,060 --> 00:14:46,080
+beautiful experience. It was so
+special about it
+
+269
+00:14:46,350 --> 00:14:51,480
+Dave Jones: as a DJ Yeah. I
+mean, so this is this was great.
+
+270
+00:14:51,930 --> 00:14:58,770
+So I'm listening to the bootleg.
+And, and, and it's it reminded
+
+271
+00:14:58,770 --> 00:15:01,920
+me so you weren't expecting
+thing. You weren't expecting for
+
+272
+00:15:01,920 --> 00:15:04,890
+things to go in that direction?
+No, I was not like better No,
+
+273
+00:15:04,920 --> 00:15:07,680
+yeah, back in the day when you
+would do a daily source code and
+
+274
+00:15:07,680 --> 00:15:10,920
+things would you came in knowing
+what you were getting your your
+
+275
+00:15:11,070 --> 00:15:11,940
+bad rest on,
+
+276
+00:15:12,150 --> 00:15:13,890
+Adam Curry: that allows stuff.
+Yeah, good to go. Yeah.
+
+277
+00:15:13,920 --> 00:15:18,090
+Dave Jones: And so this, this,
+this evolved at the first, maybe
+
+278
+00:15:18,090 --> 00:15:23,040
+the first 15 minutes or so 20
+minutes, you're kind of like
+
+279
+00:15:23,040 --> 00:15:27,090
+understanding where this thing
+was headed. About 30 minutes
+
+280
+00:15:27,090 --> 00:15:29,490
+into it, you're hitting the
+groove, I'm gonna like it was.
+
+281
+00:15:29,790 --> 00:15:33,030
+And then and then an hour in,
+you were just, I mean, it was
+
+282
+00:15:33,030 --> 00:15:36,690
+full, it was like it was 2004
+all over again. I mean, these
+
+283
+00:15:36,720 --> 00:15:40,410
+are 2007. I mean, he's been,
+you're killing it.
+
+284
+00:15:40,440 --> 00:15:42,870
+Adam Curry: The thing that was
+that was weird is I, you know,
+
+285
+00:15:42,870 --> 00:15:47,400
+Spotify, the he used to have.
+Spotify would allow third party
+
+286
+00:15:47,400 --> 00:15:50,730
+apps. And you could have two
+songs or more even. But you
+
+287
+00:15:50,730 --> 00:15:54,150
+could have two tracks, one
+playing and one queued up. So
+
+288
+00:15:54,150 --> 00:15:56,880
+while one is playing, you can
+then go listen to another one.
+
+289
+00:15:57,060 --> 00:16:00,150
+But if you only have one,
+Spotify app, you can't queue
+
+290
+00:16:00,150 --> 00:16:03,870
+anything up. So I was literally
+like stopping it clicking on
+
+291
+00:16:03,870 --> 00:16:06,390
+something while I'm talking
+clicking on the next one. And
+
+292
+00:16:06,390 --> 00:16:08,340
+then because it had to load for
+a second, you know, the
+
+293
+00:16:08,340 --> 00:16:11,310
+bandwidth was kind of shitty as
+well. So I was really just, you
+
+294
+00:16:11,310 --> 00:16:16,950
+know, it was very, very low bar
+low tech, to do it this way. And
+
+295
+00:16:16,950 --> 00:16:20,010
+luckily, I had a couple of
+tracks myself. So, you know, if
+
+296
+00:16:20,010 --> 00:16:22,680
+I was trying to queue something
+up, I could, you know, do
+
+297
+00:16:22,680 --> 00:16:25,920
+something else on a different a
+pre fader Listen, but it was
+
+298
+00:16:25,950 --> 00:16:30,330
+definitely not ideal from a,
+from a music library standpoint,
+
+299
+00:16:30,330 --> 00:16:32,610
+it's too bad that Spotify
+doesn't allow you to do that
+
+300
+00:16:32,610 --> 00:16:33,120
+anymore.
+
+301
+00:16:34,620 --> 00:16:37,080
+Dave Jones: I've never done
+obviously never done any of that
+
+302
+00:16:37,080 --> 00:16:40,410
+kind of thing. So I'm imagining
+that the way it goes is your the
+
+303
+00:16:40,800 --> 00:16:46,710
+the track this live is playing
+and then you and then off sort
+
+304
+00:16:46,710 --> 00:16:51,120
+of offline or off air pre prefix
+you okay, you're listening to
+
+305
+00:16:51,120 --> 00:16:53,430
+the next tried to get up to
+figure out what's what is going
+
+306
+00:16:53,430 --> 00:16:56,400
+to be Yeah, and then you cute.
+You're okay. That's how it goes.
+
+307
+00:16:56,520 --> 00:16:59,370
+Yeah. The fact that you couldn't
+do that, and it was still as
+
+308
+00:16:59,520 --> 00:17:02,010
+smooth as it was. I mean, your
+brother?
+
+309
+00:17:02,460 --> 00:17:05,070
+Adam Curry: Totally. Hey, I'm
+also available for bar mitzvahs
+
+310
+00:17:05,070 --> 00:17:13,020
+and weddings. boosters,
+boosters, boosters live. We've
+
+311
+00:17:13,020 --> 00:17:17,490
+saved yet another life. I'm very
+happy to. Very happy. Yeah,
+
+312
+00:17:17,490 --> 00:17:22,440
+well. I think this person wanted
+to stay anonymous. Okay, thanks
+
+313
+00:17:22,440 --> 00:17:26,940
+for opening my eyes to the pod
+fasting side effects, which I
+
+314
+00:17:26,940 --> 00:17:31,500
+think is called pod speeding.
+Because sound pod pod fasting
+
+315
+00:17:31,500 --> 00:17:34,020
+Dave Jones: sounds like you're
+not lucky like you're listening.
+
+316
+00:17:34,020 --> 00:17:34,800
+Yes, yes.
+
+317
+00:17:34,890 --> 00:17:38,310
+Adam Curry: So my use case was
+this. I tried to listen to the
+
+318
+00:17:38,310 --> 00:17:43,260
+show live on pod verse. But my
+wife is in Germany, but my wife
+
+319
+00:17:43,260 --> 00:17:45,480
+wouldn't let me listen to the
+whole show. So the next morning,
+
+320
+00:17:45,480 --> 00:17:49,410
+I would one point 25 bit to re
+listen to the bits I heard, live
+
+321
+00:17:49,410 --> 00:17:52,680
+and catch up on the missed out
+sections. Of course, this meant
+
+322
+00:17:52,680 --> 00:17:55,860
+that I'd be fidgety the day
+after now I know why. And I
+
+323
+00:17:55,860 --> 00:17:57,060
+won't do it again.
+
+324
+00:17:58,440 --> 00:18:00,570
+Dave Jones: Thank you very much
+about that. There's a delay.
+
+325
+00:18:00,570 --> 00:18:03,840
+There's your it takes you a day
+to come down.
+
+326
+00:18:03,870 --> 00:18:07,350
+Adam Curry: Yes. Okay, well, how
+about this? So RTP Richard
+
+327
+00:18:07,350 --> 00:18:11,820
+Peterson, key cop something when
+you and I were discussing this,
+
+328
+00:18:12,030 --> 00:18:16,320
+and it really blew my mind I
+have to set it up. So when we
+
+329
+00:18:16,320 --> 00:18:19,980
+were talking about you know that
+this stuff can hijack your
+
+330
+00:18:19,980 --> 00:18:23,550
+nervous system and makes you
+impatient with the people you
+
+331
+00:18:23,580 --> 00:18:28,260
+around you who you love or nip
+the office or your kids. It
+
+332
+00:18:28,260 --> 00:18:32,190
+conditions you to accept fake
+people like that radio GPT lady,
+
+333
+00:18:32,610 --> 00:18:35,820
+you know, there's a whole bunch
+of downsides to it. And you said
+
+334
+00:18:35,820 --> 00:18:38,040
+that, you know, you had heard me
+bitching about this several
+
+335
+00:18:38,040 --> 00:18:42,570
+years ago. And and you stopped
+doing it and you notice that
+
+336
+00:18:42,930 --> 00:18:45,390
+immediately you or not like a
+day or two later you had more
+
+337
+00:18:45,390 --> 00:18:47,940
+patience, right? Am I my
+recounting that correctly?
+
+338
+00:18:48,240 --> 00:18:50,430
+Dave Jones: Yeah, it took a
+couple of days it took two three
+
+339
+00:18:50,430 --> 00:18:54,480
+days and then I realized that
+everything felt more right and
+
+340
+00:18:54,510 --> 00:18:58,140
+like everything just felt
+normal. And like like as far as
+
+341
+00:18:58,140 --> 00:19:01,230
+listening to the speak because I
+was so used to I've been
+
+342
+00:19:01,230 --> 00:19:07,020
+listening to you guys for years
+on fast speed and it took it
+
+343
+00:19:07,020 --> 00:19:12,840
+took two or three days for me to
+get used to not hearing you like
+
+344
+00:19:12,840 --> 00:19:16,860
+that. But then it's like is as
+soon as my mind adjusted to it,
+
+345
+00:19:17,100 --> 00:19:20,580
+everything else fell into place
+to own on like in the world.
+
+346
+00:19:21,600 --> 00:19:24,960
+Adam Curry: So one of the things
+you would use is the silence
+
+347
+00:19:24,960 --> 00:19:31,860
+chopper. From Yes, so now listen
+to that podcast. So this is last
+
+348
+00:19:31,860 --> 00:19:38,310
+week's board meeting the minute
+you start talking about the sped
+
+349
+00:19:38,310 --> 00:19:44,370
+up chopped silences you actually
+start talking fast. Listen to it
+
+350
+00:19:44,490 --> 00:19:46,410
+as a as a reformed
+
+351
+00:19:47,280 --> 00:19:51,270
+Dave Jones: podcast, multi multi
+multi XOR I don't know what you
+
+352
+00:19:51,270 --> 00:19:55,170
+call that multispeed person
+sick. Yeah. Yeah, as a
+
+353
+00:19:56,910 --> 00:19:58,320
+Unknown: form, sicko. Yeah,
+
+354
+00:19:58,320 --> 00:20:01,920
+Dave Jones: I used I used to
+listen to All my podcasts in one
+
+355
+00:20:02,220 --> 00:20:07,680
+at one point I speed up speed up
+with the with the whatever
+
+356
+00:20:07,710 --> 00:20:10,380
+whatever that thing is where
+chops out the silences between
+
+357
+00:20:10,410 --> 00:20:11,190
+them and all that kind of stuff.
+
+358
+00:20:11,220 --> 00:20:12,990
+Adam Curry: Yeah, the silence
+chopper. Did you hear what you
+
+359
+00:20:12,990 --> 00:20:15,330
+just did there? Yeah, I started
+
+360
+00:20:15,330 --> 00:20:17,730
+Dave Jones: as I just went, boom
+
+361
+00:20:17,730 --> 00:20:19,380
+Adam Curry: a little bit. Yeah.
+And then and then right after
+
+362
+00:20:19,380 --> 00:20:21,480
+that you slow down again listen,
+listen,
+
+363
+00:20:21,659 --> 00:20:23,849
+Dave Jones: whatever, whatever
+that thing is where chops out
+
+364
+00:20:23,849 --> 00:20:25,829
+the silences between them and
+all that kind of stuff. Yeah,
+
+365
+00:20:25,829 --> 00:20:29,669
+the silence chopper. Silence Joe
+Yeah. And then.
+
+366
+00:20:30,720 --> 00:20:32,820
+Adam Curry: And then you go back
+to normal speed. I think that
+
+367
+00:20:33,510 --> 00:20:36,420
+it's still in you. The
+programming is still there. You
+
+368
+00:20:36,420 --> 00:20:39,120
+need you need an exorcism, I
+believe I believe
+
+369
+00:20:39,540 --> 00:20:40,410
+Dave Jones: it's a virus
+
+370
+00:20:46,950 --> 00:20:52,200
+Adam Curry: you're cured, you're
+healed. Thank you for that.
+
+371
+00:20:54,600 --> 00:20:56,220
+Fantastic observation.
+
+372
+00:20:56,610 --> 00:20:58,350
+Dave Jones: This is a good
+observation because I'm
+
+373
+00:20:58,830 --> 00:21:03,330
+naturally sort of a stammer
+because I try to get my brain
+
+374
+00:21:03,330 --> 00:21:09,300
+goes faster than my mouth. So I
+have to get them in sync. And if
+
+375
+00:21:09,300 --> 00:21:14,130
+I I do this, the way I talk on
+the show is exactly the way I
+
+376
+00:21:14,130 --> 00:21:18,330
+talk to people in all around me
+all the time. And I realize that
+
+377
+00:21:18,330 --> 00:21:21,960
+it frustrates them. And so I
+tried to talk slower, but then
+
+378
+00:21:21,960 --> 00:21:25,440
+if it could, because when I talk
+fast, my stammering gets way
+
+379
+00:21:25,440 --> 00:21:28,770
+worse. It's not stuttering. It's
+not like that Nina is not like
+
+380
+00:21:28,770 --> 00:21:33,480
+that, is because I start a
+sentence. Realize it realize
+
+381
+00:21:33,480 --> 00:21:37,050
+that that's not the right way to
+start it and then go back and
+
+382
+00:21:37,050 --> 00:21:40,770
+sometimes I'll start a sentence
+three times in a row. And it
+
+383
+00:21:40,770 --> 00:21:44,850
+drives Melissa crazy. So like,
+the faster I get it becomes just
+
+384
+00:21:44,910 --> 00:21:47,160
+like it turns into mush.
+
+385
+00:21:47,190 --> 00:21:50,550
+Adam Curry: Oh, that's
+interesting. Well, actually, I
+
+386
+00:21:50,550 --> 00:21:55,590
+find the way you talk very
+engaging I in fact, I enjoy it.
+
+387
+00:21:56,520 --> 00:21:58,860
+Believe me if I didn't like it,
+I would be fuck this thing. I'm
+
+388
+00:21:58,860 --> 00:22:04,260
+not gonna this board meeting for
+two hours. But I enjoy
+
+389
+00:22:04,530 --> 00:22:09,750
+personally. I like flaws. I like
+it when people except the
+
+390
+00:22:09,750 --> 00:22:12,270
+president, the president, he has
+no brains left. I mean, that's
+
+391
+00:22:12,270 --> 00:22:16,530
+different. What he's what he's
+got going on there. But I like
+
+392
+00:22:16,560 --> 00:22:21,540
+Cridland has also has a stammer.
+And it's quite endearing. He is
+
+393
+00:22:22,470 --> 00:22:27,810
+M's and ELLs. And I like it. I
+like that kind of stuff.
+
+394
+00:22:28,440 --> 00:22:30,990
+Dave Jones: I like the humanity
+of it in Yeah. Oh, yeah. It
+
+395
+00:22:30,990 --> 00:22:31,230
+makes
+
+396
+00:22:31,230 --> 00:22:34,650
+Adam Curry: you human. It's the
+exact opposite of the robo jock.
+
+397
+00:22:35,160 --> 00:22:37,560
+Dave Jones: That's yeah, that
+shakes said nothing wrong.
+
+398
+00:22:37,710 --> 00:22:41,550
+Adam Curry: Right. There's
+nothing wrong, nothing unique.
+
+399
+00:22:41,550 --> 00:22:45,780
+Nothing interesting. Nothing
+that makes you and certainly the
+
+400
+00:22:45,780 --> 00:22:49,200
+writing was inhumane. I mean,
+you know, it's like, this stuff,
+
+401
+00:22:49,200 --> 00:22:54,240
+in my opinion, all that those
+little nuances will never work.
+
+402
+00:22:54,330 --> 00:22:58,350
+Unless, you know, people start
+tricking themselves by listening
+
+403
+00:22:58,350 --> 00:23:03,360
+to roboticized speech to begin
+with, which is what pod speeding
+
+404
+00:23:03,360 --> 00:23:05,100
+is. Your
+
+405
+00:23:05,130 --> 00:23:08,550
+Dave Jones: I immediately I
+immediately heard the problem
+
+406
+00:23:08,550 --> 00:23:13,800
+with that. You know, AI bots?
+Yeah, the DJ no fake DJ vanilla.
+
+407
+00:23:14,430 --> 00:23:23,910
+Yeah, it's funny how it like,
+have you seen the AR RT stuff?
+
+408
+00:23:23,910 --> 00:23:28,740
+And it always messes up the
+hands? Yes. Like the floors look
+
+409
+00:23:28,740 --> 00:23:32,820
+like they're look like a bunch
+of chopsticks by the way yeah,
+
+410
+00:23:32,820 --> 00:23:35,100
+that's there's something about
+you sound like
+
+411
+00:23:35,130 --> 00:23:37,200
+Adam Curry: she sounded like
+that. But like chopstick
+
+412
+00:23:37,200 --> 00:23:45,600
+fingers, yeah, sounds like, this
+is the value for value podcast.
+
+413
+00:23:45,750 --> 00:23:48,900
+For those who need an
+explanation. We have a whole
+
+414
+00:23:48,900 --> 00:23:52,890
+website for IT value number four
+value dot info. But the whole
+
+415
+00:23:52,890 --> 00:23:56,820
+concept is, we give you value,
+which is free for anyone to
+
+416
+00:23:56,820 --> 00:24:00,600
+receive. Because of course, we
+can charge what we want and make
+
+417
+00:24:00,600 --> 00:24:04,920
+it set up behind a paywall or
+make it to premium content only.
+
+418
+00:24:04,920 --> 00:24:08,040
+But only you can determine what
+something's worth to you. And
+
+419
+00:24:08,040 --> 00:24:11,970
+maybe a lot of money is 50 cents
+or $5 a month or a week or
+
+420
+00:24:11,970 --> 00:24:15,540
+whatever. And maybe $500 is what
+it's worth to you because of
+
+421
+00:24:15,540 --> 00:24:18,900
+some incredible tip that we gave
+you or we made you feel good or
+
+422
+00:24:18,900 --> 00:24:22,380
+made you laugh or made you feel
+human, you get to determine that
+
+423
+00:24:22,380 --> 00:24:25,500
+and send it back to us. And we
+prefer if you do it in a modern
+
+424
+00:24:25,500 --> 00:24:29,250
+podcast app, podcast apps.com is
+where you can find a whole bunch
+
+425
+00:24:29,250 --> 00:24:32,550
+of someone who had an since we
+have so many apps and services
+
+426
+00:24:32,550 --> 00:24:38,730
+now using the podcast index, and
+the API associated with it that
+
+427
+00:24:38,760 --> 00:24:42,720
+we should probably put the edge
+that actually forward you to
+
+428
+00:24:42,720 --> 00:24:46,710
+podcast index.org/apps We should
+probably only put apps there now
+
+429
+00:24:46,740 --> 00:24:51,330
+and then and make a new section
+for all the different hosting
+
+430
+00:24:51,330 --> 00:24:54,390
+companies and services. Which
+probably Yeah, I agree with
+
+431
+00:24:55,350 --> 00:24:57,330
+Dave Jones: that because you
+just like you go to podcast
+
+432
+00:24:57,330 --> 00:24:59,370
+apps.com And you see Buzzsprout
+
+433
+00:24:59,640 --> 00:25:03,660
+Adam Curry: Yeah, Is that
+someone something anyone can do
+
+434
+00:25:03,660 --> 00:25:06,630
+with? With a, with a pull
+request? That'd be great. That'd
+
+435
+00:25:06,630 --> 00:25:09,690
+be great. If we can get those
+TPS reports done by tomorrow,
+
+436
+00:25:09,690 --> 00:25:14,790
+that'd be great. Just ask me,
+that's real value there. We
+
+437
+00:25:14,790 --> 00:25:17,610
+would appreciate if someone did
+that as value for value that is
+
+438
+00:25:17,610 --> 00:25:20,130
+valid. valid value.
+
+439
+00:25:20,550 --> 00:25:23,970
+Dave Jones: The comments, the
+cross out comments work on the
+
+440
+00:25:23,970 --> 00:25:32,730
+website continues. Yeah. And
+gourmet. Nathan, John, they're
+
+441
+00:25:32,730 --> 00:25:34,890
+continuing, you know, they're
+just chipping away at this
+
+442
+00:25:34,890 --> 00:25:39,000
+thing. And I was was going to
+get the latest pull request out
+
+443
+00:25:39,000 --> 00:25:41,700
+today into production, but I
+didn't get a chance to but there
+
+444
+00:25:41,700 --> 00:25:44,550
+I mean, that they're continuing
+to do I think they may have
+
+445
+00:25:44,550 --> 00:25:49,950
+their eyes set on posting, like
+feedback like replies.
+
+446
+00:25:50,490 --> 00:25:54,510
+Adam Curry: Oh, okay. Oh, right.
+From the right from the website.
+
+447
+00:25:54,929 --> 00:25:58,019
+Dave Jones: Yeah, yeah. And so
+the changelog podcast guys got
+
+448
+00:25:58,019 --> 00:26:02,939
+in there. And we're pitching in
+to on Oh, cool, awesome stuff.
+
+449
+00:26:02,939 --> 00:26:05,759
+So yeah, I mean, it's, it's
+going somewhere. There's this a
+
+450
+00:26:05,759 --> 00:26:09,539
+team effort, the website being
+open source is fantastic. Number
+
+451
+00:26:09,539 --> 00:26:11,699
+one, because you don't have the
+amount of
+
+452
+00:26:12,180 --> 00:26:13,950
+Adam Curry: time to time.
+
+453
+00:26:14,730 --> 00:26:18,240
+Dave Jones: Yeah, you know, it's
+funny, it's funny, not being a
+
+454
+00:26:18,240 --> 00:26:21,630
+JavaScript guy. I learned all
+the horrible things about
+
+455
+00:26:21,630 --> 00:26:24,540
+JavaScript after the fact. So
+these are all new to me. Yeah.
+
+456
+00:26:24,570 --> 00:26:29,370
+And and I say, Oh, my God date
+is zero indexed on the month and
+
+457
+00:26:29,400 --> 00:26:33,330
+everyone's like, Oh, yeah, you
+can tell the funding this years
+
+458
+00:26:33,330 --> 00:26:34,020
+to life,
+
+459
+00:26:34,140 --> 00:26:37,590
+Adam Curry: as well. So since
+you mentioned that, I have, I
+
+460
+00:26:37,590 --> 00:26:42,720
+have a comment about the
+integration of get Alby and
+
+461
+00:26:42,720 --> 00:26:48,900
+websites. So the experience is
+as follows. And I noticed this,
+
+462
+00:26:49,110 --> 00:26:53,790
+it really hit me when I used pod
+verse on the web, the web
+
+463
+00:26:53,790 --> 00:27:00,360
+version. Here's the experience.
+So you have your your wallet
+
+464
+00:27:00,360 --> 00:27:04,800
+connected, or you're using the
+lb extension. So let's take
+
+465
+00:27:04,800 --> 00:27:09,300
+podcast index.org as an example.
+And there's a beautiful box and
+
+466
+00:27:09,300 --> 00:27:12,840
+you type it all in and you hit
+go with the number. And then
+
+467
+00:27:12,930 --> 00:27:15,540
+I'll be if you're not already
+authorized, I'll be able to go
+
+468
+00:27:15,540 --> 00:27:19,500
+through that process. And then
+it pops up and it says, pay this
+
+469
+00:27:19,500 --> 00:27:24,450
+amount to this person, sit,
+create a budget. You know,
+
+470
+00:27:24,450 --> 00:27:29,250
+always remember, this was all
+these options, because it has to
+
+471
+00:27:29,250 --> 00:27:32,790
+go through the splits, it does
+each one independently. And if
+
+472
+00:27:32,790 --> 00:27:35,310
+you don't know what you're
+doing, if you don't say you do
+
+473
+00:27:35,310 --> 00:27:39,660
+this, then it spits back every
+single time. It's like people
+
+474
+00:27:39,660 --> 00:27:42,540
+you don't know it's very
+confusing. And the whole budget
+
+475
+00:27:42,540 --> 00:27:46,800
+thing it's like, what we need is
+an explanation. And the same
+
+476
+00:27:46,800 --> 00:27:49,950
+goes for when you do it with POD
+verse on the web. So get Albie,
+
+477
+00:27:50,190 --> 00:27:53,370
+because I got a very nice boost
+today. But it didn't go through
+
+478
+00:27:53,370 --> 00:27:57,240
+the splits. And I know why.
+Because it was just a user I'd
+
+479
+00:27:57,240 --> 00:28:01,170
+get Alby and they're using the
+extension popped it up curry in
+
+480
+00:28:01,170 --> 00:28:04,020
+the keeper, boom, and then
+whatever else happened that just
+
+481
+00:28:04,020 --> 00:28:09,690
+dumped out. So we've that has to
+be and I understand why from the
+
+482
+00:28:09,690 --> 00:28:12,810
+get Alby side, I understand, but
+that has to be looked at so
+
+483
+00:28:12,810 --> 00:28:16,470
+maybe Bumi. And the guys can can
+take a look at just making it a
+
+484
+00:28:16,470 --> 00:28:18,840
+little more clear. You know,
+what is a budget? Why do I need
+
+485
+00:28:18,840 --> 00:28:21,600
+a budget? Do I want a budget?
+Why do I have to remember this
+
+486
+00:28:21,600 --> 00:28:25,260
+for the rest? You know, just it
+needs? We need some explanation
+
+487
+00:28:25,260 --> 00:28:28,440
+there. Just some words that
+explain to people what's
+
+488
+00:28:28,440 --> 00:28:29,100
+happening.
+
+489
+00:28:30,030 --> 00:28:31,980
+Dave Jones: Yeah, I've noticed
+that too. And I've kind of
+
+490
+00:28:31,980 --> 00:28:33,480
+forgotten about it. Yeah.
+
+491
+00:28:35,490 --> 00:28:36,360
+Adam Curry: I have Trillium.
+
+492
+00:28:37,980 --> 00:28:39,300
+Dave Jones: Oh, yeah, that thing
+you're you're
+
+493
+00:28:39,660 --> 00:28:43,080
+Adam Curry: organizing. Yes. My
+second brain. Exactly. Yeah,
+
+494
+00:28:43,110 --> 00:28:46,050
+Dave Jones: admit, to bring that
+up a few times. Because it runs
+
+495
+00:28:46,050 --> 00:28:48,810
+you through. It's like, okay,
+sand, sand, sand. Sand is it
+
+496
+00:28:48,810 --> 00:28:50,160
+runs through every one of those.
+Yeah,
+
+497
+00:28:50,160 --> 00:28:53,910
+Adam Curry: and we know what's
+happening. But mere mortals and
+
+498
+00:28:53,910 --> 00:28:57,210
+then we're not talking the
+podcast, mere mortals will have
+
+499
+00:28:57,210 --> 00:29:01,680
+an issue. So that will be
+something that that we could
+
+500
+00:29:01,680 --> 00:29:02,160
+work on.
+
+501
+00:29:02,880 --> 00:29:06,660
+Dave Jones: Let me throw let me
+throw this at you. Maybe at a
+
+502
+00:29:06,660 --> 00:29:09,240
+left field here or it may not be
+I don't know where your where
+
+503
+00:29:09,240 --> 00:29:12,150
+your minds at but what do you
+think about the Spreaker thing
+
+504
+00:29:12,150 --> 00:29:14,730
+going free? Did you see that?
+Yeah.
+
+505
+00:29:15,450 --> 00:29:19,380
+Adam Curry: I think it's a bit
+of a red herring. Because it's
+
+506
+00:29:19,380 --> 00:29:23,340
+not entirely free. Yes, storage
+may be free. But there are still
+
+507
+00:29:23,340 --> 00:29:26,760
+different tiers. It's kind of a
+thing. It's a little bit of a
+
+508
+00:29:26,760 --> 00:29:27,660
+bait and switch.
+
+509
+00:29:28,169 --> 00:29:30,539
+Dave Jones: Okay, you may you
+sound like you know more about
+
+510
+00:29:30,539 --> 00:29:33,329
+this than me because I tried to
+figure out what they meant and I
+
+511
+00:29:33,329 --> 00:29:36,719
+couldn't make their press
+release make sense. I went
+
+512
+00:29:36,720 --> 00:29:39,420
+Adam Curry: to the source I went
+to the guru Todd Cochran.
+
+513
+00:29:40,560 --> 00:29:43,860
+Cochran told me now this is bait
+and switch, they've got they've
+
+514
+00:29:43,860 --> 00:29:47,280
+got they still have different
+levels and you don't get
+
+515
+00:29:47,280 --> 00:29:52,050
+everything. It is definitely a
+nice offering. To me. It's a
+
+516
+00:29:52,050 --> 00:29:56,460
+Hail Mary. It's like what are we
+going to do now? This is I heart
+
+517
+00:29:56,460 --> 00:29:58,620
+I believe, right? Do they own
+Spreaker?
+
+518
+00:29:59,130 --> 00:30:01,920
+Dave Jones: Yes, and I've got
+So, I would like to dig in on
+
+519
+00:30:01,920 --> 00:30:04,530
+that, after you say this,
+because I've got some, I've got
+
+520
+00:30:04,530 --> 00:30:05,490
+some art stuff.
+
+521
+00:30:05,730 --> 00:30:12,150
+Adam Curry: Oh, good. It seems
+like some Todd didn't seem
+
+522
+00:30:12,180 --> 00:30:16,620
+overly concerned about it. I'm
+very concerned in general,
+
+523
+00:30:16,620 --> 00:30:21,750
+because I just don't believe in
+free. Because there is no such
+
+524
+00:30:21,750 --> 00:30:25,140
+thing as free. And you're gonna
+get screwed somewhere down the
+
+525
+00:30:25,140 --> 00:30:29,970
+line. If anything by by getting
+the rug pulled from under you, I
+
+526
+00:30:29,970 --> 00:30:35,460
+don't like it because I know how
+much goes into running a good
+
+527
+00:30:35,460 --> 00:30:39,570
+host and the I don't know much
+about Spreaker I believe back in
+
+528
+00:30:39,570 --> 00:30:44,580
+the early days, Spreaker was
+caching the content early, early
+
+529
+00:30:44,580 --> 00:30:47,580
+days long time, I may be wrong,
+but that was Stitcher. I'm
+
+530
+00:30:47,580 --> 00:30:53,190
+sorry, write your stitches, a
+scrap that I know what goes into
+
+531
+00:30:53,190 --> 00:30:56,460
+making a hosting company work,
+especially with customer
+
+532
+00:30:56,460 --> 00:31:02,190
+service. And I want all of our,
+all of the hosting companies to
+
+533
+00:31:02,190 --> 00:31:06,180
+prosper, and I want them to be
+able to, to, you know, to
+
+534
+00:31:06,180 --> 00:31:08,910
+provide good customer service
+and good service in general at a
+
+535
+00:31:08,910 --> 00:31:14,040
+fair price. And something like
+this comes along. And you know,
+
+536
+00:31:14,040 --> 00:31:17,640
+it's kind of like anchor so it
+may also pollute, you know, just
+
+537
+00:31:17,640 --> 00:31:20,190
+get a lot of pollution out
+there, I think is probably to
+
+538
+00:31:20,190 --> 00:31:25,050
+jack up their numbers. Look how
+many podcasts we've got. So I
+
+539
+00:31:25,080 --> 00:31:30,360
+did I just don't hold them in
+high regard for doing this. And
+
+540
+00:31:30,660 --> 00:31:35,190
+it just doesn't seem like I
+mean, I feel and then I'd love
+
+541
+00:31:35,190 --> 00:31:38,850
+to hear what about the I heart
+stuff, I feel personally that
+
+542
+00:31:38,850 --> 00:31:45,390
+there should be a way for
+podcast host to bring people on
+
+543
+00:31:45,450 --> 00:31:49,710
+at a quid pro quo of value for
+value. It's like, we're gonna
+
+544
+00:31:49,710 --> 00:31:54,330
+take 20% Split until a certain
+amount, or whatever, if you want
+
+545
+00:31:54,330 --> 00:31:57,690
+to pay, you know, you can pay
+instead of doing that it's all
+
+546
+00:31:57,690 --> 00:32:00,600
+enabled right out of the gate.
+Something like that, I think
+
+547
+00:32:00,600 --> 00:32:03,570
+would be a great offering. And I
+think that people would pick up
+
+548
+00:32:03,570 --> 00:32:06,300
+on it. And I think that you'd
+probably make more than 20 bucks
+
+549
+00:32:06,300 --> 00:32:09,210
+a month that you that you do
+normally from these podcasts. So
+
+550
+00:32:09,330 --> 00:32:11,100
+it would be a net win in my
+mind.
+
+551
+00:32:11,699 --> 00:32:14,249
+Dave Jones: Well, that's the
+only way I can make this make
+
+552
+00:32:14,249 --> 00:32:19,679
+sense. And this is before I've
+fully understood that it wasn't
+
+553
+00:32:19,679 --> 00:32:21,779
+free across the board. Because I
+was thinking at first I was
+
+554
+00:32:21,779 --> 00:32:24,269
+thinking, Oh, this is a Charles
+Schwab type deal. You know what
+
+555
+00:32:24,269 --> 00:32:29,339
+I mean? Where they? Schwab was
+about three years ago, dropped
+
+556
+00:32:29,339 --> 00:32:31,259
+their commission fees on trades.
+Oh, yeah.
+
+557
+00:32:31,260 --> 00:32:33,750
+Adam Curry: And everyone
+dropped? Yeah, everybody had to
+
+558
+00:32:33,750 --> 00:32:34,500
+drop it. Yeah.
+
+559
+00:32:34,980 --> 00:32:37,080
+Dave Jones: And so I thought it
+was free across the board. But
+
+560
+00:32:37,230 --> 00:32:40,320
+this is a little it changes a
+little bit. But I still I still
+
+561
+00:32:40,320 --> 00:32:46,050
+think some of this may apply.
+Maybe they are looking out and
+
+562
+00:32:46,050 --> 00:32:50,130
+they know something ever, I
+think, at least on our show me
+
+563
+00:32:50,130 --> 00:32:54,270
+and you both believe that anchor
+isn't going to last forever.
+
+564
+00:32:54,270 --> 00:32:57,360
+It's going to fold at some
+point. It's too much of an
+
+565
+00:32:57,360 --> 00:33:01,470
+albatross around around Spotify
+neck. And that's completely
+
+566
+00:33:01,470 --> 00:33:07,890
+free. Maybe the the ease of use
+of the of the anchor app and all
+
+567
+00:33:07,890 --> 00:33:10,470
+that stuff was you know, the
+thing that made it a train
+
+568
+00:33:10,470 --> 00:33:14,490
+wreck. I mean, maybe they just
+think that their ad dai ad
+
+569
+00:33:14,490 --> 00:33:17,910
+offering is enough to make up
+the difference of all this. You
+
+570
+00:33:17,910 --> 00:33:18,180
+know,
+
+571
+00:33:18,780 --> 00:33:23,010
+Adam Curry: what, how about that
+maybe? Good point. Maybe they're
+
+572
+00:33:23,010 --> 00:33:26,460
+thinking, Hey, as long as we get
+enough people, jump folks with
+
+573
+00:33:26,460 --> 00:33:29,580
+with a with a podcast feed will
+actually be able to fulfill the
+
+574
+00:33:29,580 --> 00:33:30,300
+inventory.
+
+575
+00:33:30,959 --> 00:33:32,429
+Dave Jones: Yeah, that's what
+I'm thinking. Yeah,
+
+576
+00:33:32,460 --> 00:33:33,960
+Adam Curry: that makes sense.
+That makes sense.
+
+577
+00:33:34,199 --> 00:33:35,789
+Dave Jones: Okay, well, that
+leads me into this. I brought
+
+578
+00:33:35,789 --> 00:33:43,529
+some clips. Do you have my
+clips? I do. The lets you know,
+
+579
+00:33:43,529 --> 00:33:49,709
+there was some talk about Marcos
+discussion on I guess it was
+
+580
+00:33:49,709 --> 00:33:53,489
+MacBreak. Weekly, which I did
+not watch. Yeah, I didn't watch
+
+581
+00:33:53,489 --> 00:33:57,239
+it initially. And then I and
+then I did and it, you know,
+
+582
+00:33:57,239 --> 00:33:59,759
+it's fine. I had, I really
+didn't have much of a problem
+
+583
+00:33:59,759 --> 00:34:02,189
+with I think there was some
+misunderstanding with chapters.
+
+584
+00:34:02,189 --> 00:34:05,219
+But other than that, I mean,
+basically, Marco at least he
+
+585
+00:34:05,219 --> 00:34:07,439
+basically just said, I don't
+want people telling me what to
+
+586
+00:34:07,439 --> 00:34:07,799
+do.
+
+587
+00:34:08,820 --> 00:34:11,010
+Adam Curry: And you know, I hear
+you. I don't want people telling
+
+588
+00:34:11,010 --> 00:34:11,880
+me what to do either.
+
+589
+00:34:12,360 --> 00:34:15,720
+Dave Jones: I don't either. And
+so I'm like, Okay, I mean, I
+
+590
+00:34:15,720 --> 00:34:20,490
+really wasn't bothered by
+anything that he said. But the
+
+591
+00:34:20,520 --> 00:34:23,040
+more interesting part of their
+conversation that was about
+
+592
+00:34:23,040 --> 00:34:30,270
+advertising, and the display,
+Lea one ad market is life
+
+593
+00:34:30,270 --> 00:34:30,750
+threatening.
+
+594
+00:34:30,959 --> 00:34:32,759
+Unknown: We're going through I
+don't know about you, Marco and
+
+595
+00:34:32,759 --> 00:34:35,489
+I don't know, we've heard from
+other podcasters. We're going
+
+596
+00:34:35,489 --> 00:34:40,139
+through an advertising downturn
+that is existential, it's life
+
+597
+00:34:40,139 --> 00:34:40,469
+threatening.
+
+598
+00:34:40,499 --> 00:34:45,239
+Oh, yeah. It's not that bad for
+our show. But it's, it's this is
+
+599
+00:34:45,239 --> 00:34:47,939
+the worst ad market we've seen
+in probably a few years. Yeah.
+
+600
+00:34:48,510 --> 00:34:53,730
+Adam Curry: Yeah. Well, that is
+only accentuated by NPR, who say
+
+601
+00:34:53,730 --> 00:34:57,480
+they have a $30 million deficit
+and it's pretty much from the
+
+602
+00:34:57,480 --> 00:34:58,770
+podcasting department.
+
+603
+00:34:59,490 --> 00:35:03,750
+Dave Jones: Yeah, not So I think
+there's a clearly there's shows
+
+604
+00:35:03,750 --> 00:35:06,630
+out there that are doing they're
+doing just fine. And as the
+
+605
+00:35:06,630 --> 00:35:12,150
+Independence shows they have
+kept their in markets that
+
+606
+00:35:12,150 --> 00:35:14,430
+they're doing. They're doing
+okay. That mean they're not
+
+607
+00:35:14,430 --> 00:35:15,570
+doing great but they're doing if
+I
+
+608
+00:35:15,570 --> 00:35:18,870
+Adam Curry: may, and I don't
+know much about it but but what
+
+609
+00:35:18,870 --> 00:35:22,680
+I know from the past with AD
+markets, if you have a brides
+
+610
+00:35:22,680 --> 00:35:27,390
+magazine, you're always going to
+get DJs venues dressmakers, and
+
+611
+00:35:27,420 --> 00:35:30,480
+and you know this this was the
+PC Magazine, you know, back in
+
+612
+00:35:30,480 --> 00:35:33,510
+the day, you know, you're gonna
+get Dell and HP and everyone's
+
+613
+00:35:33,510 --> 00:35:35,370
+gonna advertise because it's
+just kind of built into their
+
+614
+00:35:35,370 --> 00:35:40,500
+budget. If you're a general
+program, a general podcast, and
+
+615
+00:35:40,500 --> 00:35:47,910
+you're looking for BMW and and
+and T Mobile, etc. Get that's
+
+616
+00:35:47,910 --> 00:35:53,040
+where you're gonna get cut. So a
+specialist tech podcast or we
+
+617
+00:35:53,070 --> 00:35:56,970
+like a Bitcoin podcast, I'm sure
+there may be some some pullback
+
+618
+00:35:57,000 --> 00:35:59,700
+on the on the overall numbers.
+But that's pretty much what
+
+619
+00:35:59,700 --> 00:36:01,890
+you're, you're still going to
+get that it may even involve
+
+620
+00:36:01,890 --> 00:36:05,190
+more host reads I don't think
+that the dynamic inserted ad
+
+621
+00:36:05,190 --> 00:36:08,130
+market is probably the is really
+being affected. But apparently,
+
+622
+00:36:08,910 --> 00:36:15,030
+even in Leo's network, he says
+existential. I think that's
+
+623
+00:36:15,030 --> 00:36:17,700
+because he just has too many
+people too many shows. And as we
+
+624
+00:36:17,700 --> 00:36:20,760
+all know, you can't you can't
+monetize the network. If it's
+
+625
+00:36:20,760 --> 00:36:23,250
+just twit itself. I'm sure
+that's doing fine. I'm sure
+
+626
+00:36:23,250 --> 00:36:26,730
+security now is doing okay. But
+everything else yeah, it may
+
+627
+00:36:26,730 --> 00:36:28,890
+just be a pullback, because just
+too much
+
+628
+00:36:29,940 --> 00:36:33,450
+Unknown: play Lea to it. This is
+normal. This is normal behavior.
+
+629
+00:36:33,450 --> 00:36:36,900
+And when you're at the bottom of
+the down, it might feel like the
+
+630
+00:36:36,900 --> 00:36:39,660
+world's never going to come
+back. But it will eventually.
+
+631
+00:36:40,260 --> 00:36:43,620
+Good tell that to my AD team.
+Okay. Actually, we have a we
+
+632
+00:36:43,620 --> 00:36:47,100
+have an unusual problem, because
+foolishly we built something
+
+633
+00:36:47,100 --> 00:36:50,760
+that has high overhead. Yeah.
+And I mean, we have a two and a
+
+634
+00:36:50,760 --> 00:36:56,040
+half million dollar a year. Not.
+So we don't have the luxury of
+
+635
+00:36:56,040 --> 00:36:58,800
+saying, well, if advertising,
+Stan will just weather it and go
+
+636
+00:36:58,800 --> 00:37:01,410
+through it. Thank goodness that
+we did do that. And I think
+
+637
+00:37:01,410 --> 00:37:05,190
+everybody who's in podcasting,
+for real understands that the
+
+638
+00:37:05,190 --> 00:37:08,130
+only thing that keeps podcasting
+and live as the community, the
+
+639
+00:37:08,130 --> 00:37:11,190
+listeners, the people who you
+have a relationship, direct
+
+640
+00:37:11,190 --> 00:37:14,490
+relationship with, and clubs,
+Patreon, that kind of thing
+
+641
+00:37:14,490 --> 00:37:18,330
+really give not only give you
+that little extra income, but
+
+642
+00:37:18,330 --> 00:37:21,300
+they make a big difference in
+bonding the audience to you. So
+
+643
+00:37:21,300 --> 00:37:24,360
+we two years ago, we created
+club twit, and that was that was
+
+644
+00:37:24,360 --> 00:37:29,490
+a huge part of it. But it's
+still I mean, it's still 1/10 of
+
+645
+00:37:29,490 --> 00:37:33,000
+1% or something, maybe it's I
+would love if I get 5% of the
+
+646
+00:37:33,000 --> 00:37:35,880
+audience to subscribe, we
+wouldn't need advertisers. But
+
+647
+00:37:35,880 --> 00:37:38,550
+right now it's not even 1% Most
+people will getting something
+
+648
+00:37:38,550 --> 00:37:40,470
+for free aren't gonna start
+suddenly paying for it, I'm
+
+649
+00:37:40,470 --> 00:37:40,830
+afraid.
+
+650
+00:37:44,099 --> 00:37:46,109
+Adam Curry: I'm afraid you're
+wrong. I'm afraid you're wrong.
+
+651
+00:37:46,349 --> 00:37:49,649
+Dave Jones: You know, clearly
+he's wrong. But that that is
+
+652
+00:37:50,189 --> 00:37:53,519
+that speaks to what you're
+saying these in specific shows
+
+653
+00:37:53,549 --> 00:37:56,249
+are going to do okay, can't
+monetize the network. But they
+
+654
+00:37:56,249 --> 00:38:01,409
+these middle sort of middle
+weight columns like a I don't
+
+655
+00:38:01,409 --> 00:38:04,589
+know the term middle weight
+where this kind of like a fat
+
+656
+00:38:05,429 --> 00:38:09,479
+over hedge, you know, network or
+show with those dread ads? Yes,
+
+657
+00:38:09,479 --> 00:38:10,589
+you're in trouble. Yeah.
+
+658
+00:38:10,860 --> 00:38:15,720
+Adam Curry: It's also I'm sorry,
+podcasting. The only reason it
+
+659
+00:38:15,720 --> 00:38:19,740
+works. I have one example. Well,
+actually, this podcast was a
+
+660
+00:38:19,740 --> 00:38:22,590
+great example. But it's slightly
+different because we have a
+
+661
+00:38:22,590 --> 00:38:26,760
+project attached to it. So we do
+have a specific ask for specific
+
+662
+00:38:26,760 --> 00:38:31,950
+thing. But without the podcast,
+believe me, we wouldn't be
+
+663
+00:38:31,950 --> 00:38:36,690
+getting anywhere near what we're
+what we're getting now. But no
+
+664
+00:38:36,690 --> 00:38:41,250
+agenda is the example. And you'd
+have to keep asking, we ask
+
+665
+00:38:41,250 --> 00:38:44,010
+everybody we had a newsletter
+before the night before the
+
+666
+00:38:44,010 --> 00:38:48,420
+show. We had the newsletter has
+content in it, but we it's
+
+667
+00:38:48,600 --> 00:38:56,490
+definitely a an ask. The
+overhead is incredibly low. And
+
+668
+00:38:56,490 --> 00:39:00,720
+that is partially because of the
+we've we've followed the whole
+
+669
+00:39:00,720 --> 00:39:06,660
+model all the way through time,
+talent, treasure. So voyage zero
+
+670
+00:39:06,660 --> 00:39:10,260
+mark up in the northern part of
+the Netherlands for almost 13
+
+671
+00:39:10,260 --> 00:39:13,020
+years, maybe longer. He's been
+running our infrastructure,
+
+672
+00:39:13,020 --> 00:39:16,260
+keeping that overhead incredibly
+low. Considering the amount of
+
+673
+00:39:16,260 --> 00:39:20,490
+bandwidth we push. Every website
+was built by someone else who
+
+674
+00:39:20,550 --> 00:39:24,420
+just jumped in to help. And we
+acknowledge them and give them
+
+675
+00:39:24,420 --> 00:39:28,080
+credit for it. And they give him
+props. And by the way, they they
+
+676
+00:39:28,080 --> 00:39:31,380
+sometimes put a little donate
+thing on their own work for
+
+677
+00:39:31,380 --> 00:39:35,490
+that, which we're fine with. So
+keeping that this that show was
+
+678
+00:39:35,490 --> 00:39:39,210
+run out of the vortex top
+drawer, basically, you know, I
+
+679
+00:39:39,210 --> 00:39:41,970
+do all the production stuff. He
+handles all the money stuff.
+
+680
+00:39:41,970 --> 00:39:45,150
+Now, we we of course we have an
+accountant and you know, we do
+
+681
+00:39:45,150 --> 00:39:48,690
+have to pay a little extra and
+they're, you know, someone puts
+
+682
+00:39:48,690 --> 00:39:50,910
+together the spreadsheet. It's
+from his family, so we're
+
+683
+00:39:50,910 --> 00:39:53,700
+getting pretty cheap labor
+there. But that's only because
+
+684
+00:39:53,760 --> 00:39:57,330
+it really grew out of just too
+much for us to handle In
+
+685
+00:39:57,330 --> 00:40:00,240
+addition, but we've kept the
+overhead just it's us It's
+
+686
+00:40:00,240 --> 00:40:05,130
+actually and, again, time
+talent, treasure. I have three
+
+687
+00:40:05,130 --> 00:40:09,600
+four people who reliably,
+reliably send me clips that are
+
+688
+00:40:09,600 --> 00:40:13,200
+perfectly produced and we credit
+them for it. In fact, the clip
+
+689
+00:40:13,200 --> 00:40:17,070
+custodian is in the value for
+value split gets a split. He
+
+690
+00:40:17,070 --> 00:40:22,140
+does, yes. Jeff Smith, who has
+created all of our sound imaging
+
+691
+00:40:22,140 --> 00:40:25,140
+and whenever we say she, we need
+jingle for that just miss shows
+
+692
+00:40:25,140 --> 00:40:29,370
+up. You're not gonna send us a
+bill, the art. Now not all of
+
+693
+00:40:29,370 --> 00:40:31,680
+the audit, we changed the art
+for every single show. Not all
+
+694
+00:40:31,680 --> 00:40:35,550
+the artists have a wallet. I've
+encouraged them to get one. The
+
+695
+00:40:35,550 --> 00:40:39,510
+winning artists whose art is
+huge in the show gets a split. I
+
+696
+00:40:39,510 --> 00:40:39,690
+wish
+
+697
+00:40:39,690 --> 00:40:41,460
+Dave Jones: people would send
+art for our show. Just say.
+
+698
+00:40:43,349 --> 00:40:46,769
+Adam Curry: Yeah, we'll be fine.
+The overhead low is incredibly
+
+699
+00:40:46,769 --> 00:40:49,049
+important. And this is what
+Spotify screwed up.
+
+700
+00:40:49,590 --> 00:40:51,690
+Dave Jones: Well, this is
+affecting I want to I want to
+
+701
+00:40:51,690 --> 00:40:54,060
+throw a curveball at you in a
+second. But I gotta set it up.
+
+702
+00:40:54,420 --> 00:40:56,340
+Okay, I gotta set it up. And
+then I'm gonna I'm gonna
+
+703
+00:40:56,400 --> 00:40:59,340
+curveball the spit ball at you.
+It's gonna be a breaker.
+
+704
+00:41:00,900 --> 00:41:04,110
+Adam Curry: All right. My bad is
+quarks. I'm ready.
+
+705
+00:41:04,200 --> 00:41:09,420
+Dave Jones: Okay, the. So I
+think this is also affecting,
+
+706
+00:41:09,750 --> 00:41:14,070
+it's affecting the big guys too.
+But they've been able to do
+
+707
+00:41:14,070 --> 00:41:16,800
+something that the middleweight
+mass, say the big guys, I mean,
+
+708
+00:41:16,800 --> 00:41:20,910
+like our heart and the big the
+big players, the big ones. So
+
+709
+00:41:20,940 --> 00:41:25,770
+they have tactics that the small
+guys don't have, or the smaller
+
+710
+00:41:25,770 --> 00:41:31,440
+guys don't have. So this is a
+interview on decoder with Conal
+
+711
+00:41:31,440 --> 00:41:35,190
+Byrne, the CEO of ahart,
+digital. And so I heard is split
+
+712
+00:41:35,190 --> 00:41:38,850
+into sort of two components.
+They're split into their digital
+
+713
+00:41:38,850 --> 00:41:41,520
+audio group and the multi
+platform group. The digital
+
+714
+00:41:41,520 --> 00:41:44,520
+audio group has podcasts, the
+multi platform group has
+
+715
+00:41:44,520 --> 00:41:50,640
+broadcast radio, and in turn,
+sort of traditional broadcast.
+
+716
+00:41:51,000 --> 00:41:55,350
+So play 101, how you hide the
+numbers,
+
+717
+00:41:55,620 --> 00:41:59,550
+Unknown: we felt at I heart that
+a lot of the value that we had
+
+718
+00:41:59,550 --> 00:42:05,130
+as a company, we wanted to
+unlock and make more transparent
+
+719
+00:42:05,160 --> 00:42:10,530
+to the investor community, to
+audiences, to researchers to
+
+720
+00:42:10,530 --> 00:42:14,880
+analysts. One way to do that is
+to create different operating
+
+721
+00:42:14,880 --> 00:42:18,270
+segments in your company so that
+you can talk more about how well
+
+722
+00:42:18,270 --> 00:42:21,300
+you're doing inside certain
+divisions and businesses, as
+
+723
+00:42:21,300 --> 00:42:25,590
+opposed to it all getting lumped
+together into one big overall
+
+724
+00:42:25,590 --> 00:42:26,550
+set of numbers.
+
+725
+00:42:28,409 --> 00:42:31,229
+Adam Curry: Right, which Spotify
+doesn't do very well actually
+
+726
+00:42:31,349 --> 00:42:31,619
+read.
+
+727
+00:42:31,620 --> 00:42:34,050
+Dave Jones: They're not very
+good. So when I say hide the
+
+728
+00:42:34,050 --> 00:42:35,850
+numbers, I don't mean that like
+they're doing anything
+
+729
+00:42:35,850 --> 00:42:38,550
+nefarious, because all companies
+do this. It's just normal. No,
+
+730
+00:42:38,550 --> 00:42:38,670
+they're
+
+731
+00:42:38,670 --> 00:42:41,400
+Adam Curry: just trying to
+trying to show the Wall Street.
+
+732
+00:42:41,910 --> 00:42:44,640
+Dave Jones: Yeah, yeah, this is
+this. This is just normal. But
+
+733
+00:42:44,670 --> 00:42:49,200
+but the smaller, the smaller
+groups that can't do this sort
+
+734
+00:42:49,200 --> 00:42:55,080
+of financial trickery. But the
+so if you look at there's a
+
+735
+00:42:55,080 --> 00:42:59,190
+document in there with the I
+heart financials that you may
+
+736
+00:42:59,190 --> 00:43:02,640
+want to look at, yeah, I got it.
+I mean, look at this. I'm
+
+737
+00:43:02,640 --> 00:43:05,490
+looking at I'm looking at
+accountant here. You're like
+
+738
+00:43:05,490 --> 00:43:09,270
+Adam Curry: a stock guru. This
+is like DHL plugged all of a
+
+739
+00:43:09,270 --> 00:43:13,980
+sudden, okay. I'm looking at a
+revenue stream in a table. My
+
+740
+00:43:13,980 --> 00:43:14,940
+eyes are swimming.
+
+741
+00:43:15,000 --> 00:43:20,820
+Dave Jones: All right. Yeah. So
+the I'm thinking that the
+
+742
+00:43:20,820 --> 00:43:25,770
+middleweights? Well, let's just
+look at our heart thing. So they
+
+743
+00:43:25,770 --> 00:43:33,900
+said they say on here that they
+grew in their, in their podcast
+
+744
+00:43:33,900 --> 00:43:38,700
+group, they, it says that they
+grew 44.3% for the three months
+
+745
+00:43:38,730 --> 00:43:45,660
+ended December 22. December
+2022. Year, in your footnote,
+
+746
+00:43:45,660 --> 00:43:55,200
+though, correct. In says, it
+says this, absent excluding
+
+747
+00:43:55,200 --> 00:44:00,240
+political revenue, ah, it was
+only six and a half percent,
+
+748
+00:44:00,270 --> 00:44:03,570
+right. It was an election year.
+It was an election year and 22.
+
+749
+00:44:03,780 --> 00:44:06,570
+Adam Curry: Yeah. Which is
+billions of dollars billions of
+
+750
+00:44:06,570 --> 00:44:07,200
+dollars.
+
+751
+00:44:07,590 --> 00:44:10,230
+Dave Jones: The same thing with
+broadcast broadcast that it grew
+
+752
+00:44:10,230 --> 00:44:13,710
+point 9% in the third quarter
+and the fourth quarter, it
+
+753
+00:44:13,710 --> 00:44:16,890
+actually seemed to exclude
+political ad revenue. It was a
+
+754
+00:44:16,890 --> 00:44:21,090
+loss of 2.8% Yeah, you go in
+it's the same thing for the hope
+
+755
+00:44:21,090 --> 00:44:25,080
+for the full year. The full year
+goes from a 22% growth and
+
+756
+00:44:25,080 --> 00:44:27,300
+podcast revenue to only a 5%.
+The
+
+757
+00:44:27,300 --> 00:44:30,330
+Adam Curry: beauty of political
+ads is they don't give a crap
+
+758
+00:44:30,360 --> 00:44:33,480
+they don't care what you're on
+the more crazy you are the
+
+759
+00:44:33,480 --> 00:44:33,960
+better
+
+760
+00:44:34,440 --> 00:44:38,100
+Dave Jones: and they blast it
+across everything. They let do
+
+761
+00:44:38,100 --> 00:44:43,200
+like the most broad spectrum by
+good catch. So this to me what
+
+762
+00:44:43,200 --> 00:44:49,710
+what was what was bothering me
+or a little weird was why 2022
+
+763
+00:44:49,710 --> 00:44:52,740
+was a very hard financial
+economic year. But the
+
+764
+00:44:52,740 --> 00:44:55,620
+advertising wasn't as down as
+much as you thought it was. A
+
+765
+00:44:55,620 --> 00:44:58,530
+bit of money came in for the
+cause of the political
+
+766
+00:44:58,530 --> 00:45:01,680
+advertising but then at 23 Now
+you're starting to see the pain.
+
+767
+00:45:01,710 --> 00:45:05,280
+Yeah, like the first quarter of
+23 has been brutal. And that
+
+768
+00:45:05,400 --> 00:45:11,820
+that's where I think that this
+may, this may explain Springer's
+
+769
+00:45:11,820 --> 00:45:15,630
+move here. Because being being
+part of I Heart, they may be
+
+770
+00:45:15,630 --> 00:45:19,320
+feeling feeling the hit. And
+they may this may be a push
+
+771
+00:45:19,350 --> 00:45:23,910
+across the entire company
+eventually to go full in dai
+
+772
+00:45:24,570 --> 00:45:29,700
+dynamic ad insertion. And if
+that happens, those done, the
+
+773
+00:45:29,700 --> 00:45:34,200
+more inventory space you push
+onto the market, it's going to
+
+774
+00:45:34,200 --> 00:45:37,830
+push those CPM rates way down.
+Oh, yeah, you're just gonna have
+
+775
+00:45:37,830 --> 00:45:41,400
+too much, you're gonna have too
+much ad space to be filled. And
+
+776
+00:45:41,400 --> 00:45:43,860
+that's going to affect that's
+going to drive everything down
+
+777
+00:45:43,860 --> 00:45:48,360
+for everybody across the board.
+I think this the Latin the fact
+
+778
+00:45:48,360 --> 00:45:52,350
+that the last year was a
+political year and going into
+
+779
+00:45:52,350 --> 00:45:55,710
+2023. This could be bad, though.
+It's
+
+780
+00:45:56,639 --> 00:45:58,109
+Adam Curry: bad. It's guaranteed
+to be bad
+
+781
+00:45:58,289 --> 00:46:01,409
+Dave Jones: on because everybody
+thinks da everybody thinks oh,
+
+782
+00:46:01,919 --> 00:46:05,399
+listening to leet Leo,
+everybody's like, Oh, well
+
+783
+00:46:06,089 --> 00:46:10,289
+spoke, you know, the baked in
+ads, the host reads, those are
+
+784
+00:46:10,469 --> 00:46:14,759
+struggling right now. But Dai is
+where that's okay. But I'm
+
+785
+00:46:14,759 --> 00:46:18,389
+thinking the AI is about to take
+a hit to
+
+786
+00:46:18,719 --> 00:46:22,259
+Adam Curry: I think it was about
+$13 billion spent political
+
+787
+00:46:22,259 --> 00:46:26,129
+advertising and all medium.
+That's a lot of money. It's a
+
+788
+00:46:26,129 --> 00:46:31,559
+crapload of money. It Yeah. And
+but yeah, that's why you know,
+
+789
+00:46:31,559 --> 00:46:35,429
+all the numbers, you know,
+they're down. You know, like,
+
+790
+00:46:35,579 --> 00:46:38,969
+revenue numbers. What I hear is
+like, 23% growth in the first
+
+791
+00:46:38,969 --> 00:46:41,369
+quarter, and then you know, six.
+
+792
+00:46:42,840 --> 00:46:47,730
+Dave Jones: Yeah, I think so
+this, the Spreaker thing feels
+
+793
+00:46:47,730 --> 00:46:52,440
+like if they if they actually
+have enough people take them up
+
+794
+00:46:52,440 --> 00:46:57,150
+on up on this offer. And it's
+all based on Dai. This could end
+
+795
+00:46:57,150 --> 00:47:00,600
+up being a pretty bad thing
+across the across the industry.
+
+796
+00:47:00,630 --> 00:47:03,120
+Oh, it's gonna suck. This is
+what everybody doesn't
+
+797
+00:47:03,120 --> 00:47:07,590
+understand that dai the more the
+more people you have the sign up
+
+798
+00:47:07,590 --> 00:47:12,150
+for Dai, the lower the CPMs. Get
+for everybody.
+
+799
+00:47:12,360 --> 00:47:15,840
+Adam Curry: Also. Yeah. And I
+think the CPMs of the inserted
+
+800
+00:47:15,840 --> 00:47:21,180
+ads are quite low. Actually.
+They're probably in the 8% 10%.
+
+801
+00:47:21,210 --> 00:47:25,470
+I'm just spouting because I
+don't really know. I did enjoy
+
+802
+00:47:25,500 --> 00:47:31,020
+something Cridland posted on the
+podcast index dot social. It was
+
+803
+00:47:31,020 --> 00:47:35,730
+a screenshot of some, I guess
+tweet and it was a tweet or
+
+804
+00:47:36,300 --> 00:47:40,140
+remastered on doesn't matter.
+Podcasts are the new am talk
+
+805
+00:47:40,140 --> 00:47:43,140
+radio. Have you heard the ads on
+am talk radio, which like
+
+806
+00:47:43,140 --> 00:47:47,670
+reading your junk folder. And,
+and that's true. And you know,
+
+807
+00:47:47,700 --> 00:47:51,150
+it's ad load really is just, you
+know, putting as much in as
+
+808
+00:47:51,150 --> 00:47:53,250
+possible so they can actually
+pay the bills.
+
+809
+00:47:54,510 --> 00:47:57,360
+Dave Jones: This this Conal
+Byrne guy. Yeah, he actually had
+
+810
+00:47:57,630 --> 00:48:00,690
+this play a heart too, because
+he adds something that I think
+
+811
+00:48:00,690 --> 00:48:01,650
+is relevant to this,
+
+812
+00:48:01,740 --> 00:48:03,750
+Unknown: there was a moment on
+YouTube, where we all sort of
+
+813
+00:48:03,750 --> 00:48:06,720
+realized the same thing around
+like, 2010 or so there's like,
+
+814
+00:48:06,720 --> 00:48:09,390
+no, the optimal video is this
+length, and you have to open
+
+815
+00:48:09,390 --> 00:48:12,390
+with this kind of thing, and
+then close it with that. And to
+
+816
+00:48:12,390 --> 00:48:15,960
+some extent, you kill creativity
+and true innovation when you
+
+817
+00:48:15,960 --> 00:48:18,360
+start to reverse engineer what
+an asset should be for the
+
+818
+00:48:18,360 --> 00:48:21,600
+content platform that it's going
+to be distributed on. In fact,
+
+819
+00:48:21,600 --> 00:48:25,410
+you almost certainly kill, I
+think, true creativity when you
+
+820
+00:48:25,410 --> 00:48:29,280
+hit that moment. Podcasting,
+just as a side questions, not
+
+821
+00:48:29,280 --> 00:48:32,100
+your question, but as a side
+answer to it real quick.
+
+822
+00:48:32,310 --> 00:48:37,350
+Podcasting has bucked that a
+lot. To date. It has resisted
+
+823
+00:48:37,350 --> 00:48:42,270
+this notion of a podcast episode
+is supposed to be 28 minutes
+
+824
+00:48:42,270 --> 00:48:45,810
+long and have to add brakes.
+It's actually a lot of different
+
+825
+00:48:45,810 --> 00:48:50,220
+kinds of things. It can be a
+true crime limited series of
+
+826
+00:48:50,220 --> 00:48:53,220
+eight to 10 episodes that are 30
+minutes long. It can also be
+
+827
+00:48:53,880 --> 00:48:56,730
+Stuff to Blow Your Mind episode
+that sometimes three hours long
+
+828
+00:48:56,730 --> 00:48:59,760
+of just two guys talking about
+stuff. And both are completely
+
+829
+00:48:59,760 --> 00:49:04,170
+okay, and really perform well,
+actually. So it hasn't yet hit
+
+830
+00:49:04,170 --> 00:49:06,570
+this moment of reverse
+engineering from the platforms
+
+831
+00:49:06,570 --> 00:49:07,410
+that it's on.
+
+832
+00:49:08,670 --> 00:49:12,090
+Adam Curry: Now, where was this?
+It was just part of that
+
+833
+00:49:12,210 --> 00:49:14,100
+hodgepodge thing. Yeah, it
+
+834
+00:49:14,100 --> 00:49:15,750
+Dave Jones: was Yeah. Because it
+was
+
+835
+00:49:15,749 --> 00:49:17,729
+Adam Curry: really interesting.
+I read a what I thought was a
+
+836
+00:49:17,729 --> 00:49:25,049
+very honest rundown from the
+Hollywood Reporter. And it
+
+837
+00:49:25,049 --> 00:49:31,469
+really explained, you know, this
+hot pod Summit. I'll read just a
+
+838
+00:49:31,469 --> 00:49:35,129
+couple pieces here from this
+article, which to me was like,
+
+839
+00:49:35,159 --> 00:49:36,839
+you know, the Hollywood Reporter
+is going to give you the
+
+840
+00:49:36,839 --> 00:49:39,239
+Hollywood angle, which means
+it's all about the money. That's
+
+841
+00:49:39,269 --> 00:49:42,839
+it's always all about the money
+in various conversation with
+
+842
+00:49:42,839 --> 00:49:45,539
+studio executives and creators a
+common refrain with the
+
+843
+00:49:45,539 --> 00:49:49,019
+difficulties of turning a profit
+on podcasting alone, even
+
+844
+00:49:49,019 --> 00:49:52,019
+Spotify, which recently
+revisited its podcast leadership
+
+845
+00:49:52,049 --> 00:49:55,379
+again, and had layoffs and show
+cancellations in his podcast
+
+846
+00:49:55,379 --> 00:49:58,649
+division is reevaluating its
+spending after pouring more than
+
+847
+00:49:58,649 --> 00:50:01,469
+$1 billion into licensing deals
+with acquisitions in the past
+
+848
+00:50:01,469 --> 00:50:06,719
+few years. As such, repackaging
+audio content and seeking out
+
+849
+00:50:06,719 --> 00:50:11,339
+derivatives like film and TV
+adaptations could be the key to
+
+850
+00:50:11,339 --> 00:50:15,119
+actually making good money in
+podcasting, especially now that
+
+851
+00:50:15,119 --> 00:50:18,809
+the mega deals of recent years
+are getting rare. And podcasters
+
+852
+00:50:18,959 --> 00:50:21,899
+are feeling the pressure to seek
+out more ad dollars from bigger
+
+853
+00:50:21,899 --> 00:50:25,769
+buyers to keep the lights on
+long term. And all of this isn't
+
+854
+00:50:25,769 --> 00:50:28,709
+even to acknowledge the creative
+ambitions around podcasting,
+
+855
+00:50:28,709 --> 00:50:32,219
+where creators want to produce
+expensive, Buzzy narrative
+
+856
+00:50:32,219 --> 00:50:35,579
+projects that can have a
+tangible impact on policy or
+
+857
+00:50:35,579 --> 00:50:38,609
+public conversation, but may
+have a harder time receiving
+
+858
+00:50:38,609 --> 00:50:41,939
+funding and support compared to
+the more assured success of
+
+859
+00:50:41,939 --> 00:50:47,189
+cheaper always on chat shows.
+And this is where a lot of stuff
+
+860
+00:50:47,189 --> 00:50:52,499
+has gone wrong. You know, the,
+in fact, I think the short form
+
+861
+00:50:53,189 --> 00:50:58,319
+or you know, the limited Ron
+eight episode, true crime,
+
+862
+00:50:58,499 --> 00:51:02,249
+fabulous format, but you just
+got to have a couple of really
+
+863
+00:51:02,459 --> 00:51:06,059
+good people who get together and
+do this as almost as a theater
+
+864
+00:51:06,059 --> 00:51:08,819
+troupe. You know, someone's got
+to be able to do the editing,
+
+865
+00:51:08,819 --> 00:51:11,819
+you've all got to be in it for,
+you know, for the love of what
+
+866
+00:51:11,819 --> 00:51:14,789
+you're doing. Because there's
+just not enough money to go
+
+867
+00:51:14,789 --> 00:51:17,669
+around to be funding these
+projects, which from what the
+
+868
+00:51:17,669 --> 00:51:21,419
+Hollywood Reporter is saying are
+basically pilots is basically a
+
+869
+00:51:21,419 --> 00:51:27,119
+pile. And I know that Dana
+Brunetti, who was a you know,
+
+870
+00:51:27,119 --> 00:51:30,869
+big no agenda guy. And he also
+got he got very interested in
+
+871
+00:51:30,869 --> 00:51:33,239
+podcasting 2.0 with the
+transcripts and chapter
+
+872
+00:51:33,239 --> 00:51:38,309
+features. He did 50 Shades of
+Grey, and was the producer on
+
+873
+00:51:39,419 --> 00:51:44,729
+House of Cards, top notch guy,
+top notch guy. And he he's, I
+
+874
+00:51:44,729 --> 00:51:47,789
+want to do a podcast network. I
+said, No, you don't. But okay,
+
+875
+00:51:47,999 --> 00:51:50,969
+so I want to do a podcast
+network. Basically, it's all
+
+876
+00:51:50,969 --> 00:51:55,949
+scripts, it's all pilots, it's
+all pitches. And of course, it
+
+877
+00:51:55,949 --> 00:51:58,379
+became a very expensive
+proposition because people are
+
+878
+00:51:58,379 --> 00:52:01,559
+now trying to make audio dramas
+out of them. And there's really
+
+879
+00:52:01,559 --> 00:52:06,179
+only room for a few and a few
+that will be will be big hits,
+
+880
+00:52:06,179 --> 00:52:13,619
+and it just is limited and who
+can do that stuff. And all the
+
+881
+00:52:13,619 --> 00:52:16,259
+other podcasts, it's just like
+blogging. When that started, I'm
+
+882
+00:52:16,259 --> 00:52:19,169
+gonna be a millionaire. I'm
+gonna be the next Joe Rogan.
+
+883
+00:52:19,169 --> 00:52:21,239
+It's just it's not that simple.
+
+884
+00:52:21,840 --> 00:52:24,180
+Dave Jones: I'm glad you brought
+that up, because this this is
+
+885
+00:52:24,240 --> 00:52:34,140
+the perfect time for me to say
+dai you suck. I mean, like it is
+
+886
+00:52:34,230 --> 00:52:37,560
+Dai is, and this is the part of
+
+887
+00:52:37,589 --> 00:52:41,639
+Adam Curry: dynamic add insert
+insertions. Yet
+
+888
+00:52:42,749 --> 00:52:48,359
+Dave Jones: this, it needs. This
+feels like shouting in the wind.
+
+889
+00:52:48,599 --> 00:52:51,779
+But it needs to stop stop
+sucking before it ruins
+
+890
+00:52:51,779 --> 00:52:56,879
+everything. The part of what
+Marco was saying on there was
+
+891
+00:52:56,909 --> 00:53:01,739
+about chapters was that the
+dynamic ad insertion messes up
+
+892
+00:53:01,739 --> 00:53:07,259
+the timing on chapters. Right
+and the so if you look at the
+
+893
+00:53:07,259 --> 00:53:09,809
+tray, if you look at the
+namespace, you've got
+
+894
+00:53:10,199 --> 00:53:15,299
+transcripts, chapters and
+soundbites, the out of let's see
+
+895
+00:53:16,019 --> 00:53:23,579
+20 to 20 out of 20 tags in the
+namespace. Three of them can be
+
+896
+00:53:23,579 --> 00:53:29,699
+affected by dynamic by lousy
+dynamic ad insertion. So if, if
+
+897
+00:53:29,699 --> 00:53:33,629
+we think about dynamic ad
+insertion for what it it will,
+
+898
+00:53:33,659 --> 00:53:37,589
+first of all chapters can be
+done and transcripts and sound
+
+899
+00:53:37,589 --> 00:53:42,239
+bites, all three can be done and
+take dynamic ad insertion into
+
+900
+00:53:42,239 --> 00:53:45,749
+account. Perfectly fine.
+Buzzsprout does it right now.
+
+901
+00:53:47,399 --> 00:53:51,839
+All of their time spent stamps
+are modified when the ads go in.
+
+902
+00:53:51,839 --> 00:53:51,929
+Yeah,
+
+903
+00:53:51,929 --> 00:53:53,849
+Adam Curry: bus bras, the only
+one I think that really pays
+
+904
+00:53:53,849 --> 00:53:54,689
+attention to that.
+
+905
+00:53:55,650 --> 00:54:00,360
+Dave Jones: That is it can be
+done if you if you care about
+
+906
+00:54:00,360 --> 00:54:06,150
+it. End to End soup to nuts to
+make this thing to make it stay
+
+907
+00:54:06,150 --> 00:54:15,090
+consistent. Dynamic ad insertion
+into your audio that results in
+
+908
+00:54:15,090 --> 00:54:22,950
+screwing up the timing of your
+other metadata points is like
+
+909
+00:54:23,340 --> 00:54:28,200
+inserting dynamic banner ads
+into your website which randomly
+
+910
+00:54:28,200 --> 00:54:31,140
+screw up your CSS and change the
+way your website layout
+
+911
+00:54:31,200 --> 00:54:32,370
+Adam Curry: tortured,
+hallelujah.
+
+912
+00:54:33,630 --> 00:54:36,810
+Dave Jones: This is what we're
+going to run into. We would not
+
+913
+00:54:36,810 --> 00:54:41,250
+tolerate that on the web. We
+would not tolerate an ad coming
+
+914
+00:54:41,250 --> 00:54:45,750
+in dynamically and changing the
+entire look and feel of the
+
+915
+00:54:45,750 --> 00:54:49,890
+website or the or all the sudden
+making the web making the font
+
+916
+00:54:49,890 --> 00:54:50,370
+bigger.
+
+917
+00:54:50,460 --> 00:54:53,430
+Adam Curry: We tolerate so much.
+I mean, just the other day I was
+
+918
+00:54:53,430 --> 00:54:59,700
+listening to pod news weekly
+review and it just cuts in the
+
+919
+00:54:59,700 --> 00:55:04,200
+comments. Session, let's take a
+break tu tu tu tu tu. And then
+
+920
+00:55:04,200 --> 00:55:08,280
+it comes back in and I forgot
+what they were talking about. It
+
+921
+00:55:08,280 --> 00:55:08,850
+was brutal,
+
+922
+00:55:08,880 --> 00:55:14,220
+Dave Jones: brutal. If you let a
+dynamic ad insertion, blow up
+
+923
+00:55:14,220 --> 00:55:18,930
+your website layout, you've
+chosen easy money over and over
+
+924
+00:55:18,960 --> 00:55:24,750
+content quality. In that, that
+is the the problem here. The
+
+925
+00:55:24,750 --> 00:55:31,170
+point of podcasting is audio. If
+you let a dynamic ad provider,
+
+926
+00:55:31,440 --> 00:55:35,670
+just blow up your audio and and
+your feed and make your fan
+
+927
+00:55:35,670 --> 00:55:40,680
+screw that it is a poor
+experience all the way around. I
+
+928
+00:55:40,680 --> 00:55:42,600
+mean, I, in some ways, I don't
+
+929
+00:55:43,079 --> 00:55:44,879
+Adam Curry: say we should not
+allow.
+
+930
+00:55:46,980 --> 00:55:50,700
+Dave Jones: I agree Satan, I
+think you're exactly right. We
+
+931
+00:55:50,700 --> 00:55:55,020
+should not allow this is that
+wasn't appropriate voice for
+
+932
+00:55:55,020 --> 00:55:56,010
+what Dai is
+
+933
+00:55:56,250 --> 00:56:00,990
+Adam Curry: the evil. Evil is a
+tool of Satan show title.
+
+934
+00:56:01,530 --> 00:56:06,120
+Dave Jones: It is a tool of
+Beelzebub. And that should be
+
+935
+00:56:06,540 --> 00:56:10,320
+it's a darkness a dark tool.
+Yeah, and here's what's gonna
+
+936
+00:56:10,320 --> 00:56:16,740
+happen. Everybody's everybody's
+dar implementations that went in
+
+937
+00:56:16,740 --> 00:56:23,520
+with no care about any of the
+supporting structure, like the
+
+938
+00:56:23,520 --> 00:56:27,990
+trap chapters, transcripts, all
+this because it is going to end
+
+939
+00:56:28,020 --> 00:56:33,630
+result in things being screwed
+up from here on out. And then
+
+940
+00:56:33,660 --> 00:56:38,160
+the DA market is going to tank
+when everybody floods in to try
+
+941
+00:56:38,160 --> 00:56:41,370
+and do dir because host raids
+aren't making any money. The
+
+942
+00:56:41,370 --> 00:56:44,250
+CPMs are going to go down and
+we're going to end up with punch
+
+943
+00:56:44,250 --> 00:56:47,550
+the monkey banner ads. In audio,
+
+944
+00:56:48,900 --> 00:56:51,750
+Adam Curry: I forgot all about
+punch the monkey. That's what's
+
+945
+00:56:51,750 --> 00:56:54,360
+gonna happen once the monkey and
+whack a mole. Remember that rock
+
+946
+00:56:54,360 --> 00:56:54,630
+and roll?
+
+947
+00:56:55,860 --> 00:56:57,570
+Dave Jones: You're gonna have
+the equivalent that is what
+
+948
+00:56:57,570 --> 00:57:00,390
+we're going to be left with this
+disgusting audio as
+
+949
+00:57:00,570 --> 00:57:02,550
+Adam Curry: well. Honestly, when
+it comes to the ad market, we're
+
+950
+00:57:02,550 --> 00:57:06,240
+still basically counting hips. I
+mean, yeah, it's all bullshit.
+
+951
+00:57:07,260 --> 00:57:11,280
+It's not without any it's not
+real IAB is is bullshit,
+
+952
+00:57:11,280 --> 00:57:15,150
+bullshit numbers. I mean, I love
+that's why I love op three, op
+
+953
+00:57:15,150 --> 00:57:17,370
+three, at least it's open,
+everyone can see what it is. You
+
+954
+00:57:17,370 --> 00:57:20,730
+can agree you can disagree. But
+it's all the same for everybody.
+
+955
+00:57:21,750 --> 00:57:25,230
+Now, but when you get all these
+different ways of counting and
+
+956
+00:57:25,350 --> 00:57:29,430
+not counting and who cares? A
+download or listen, time spent
+
+957
+00:57:29,430 --> 00:57:32,790
+list? I got all those steps. I
+got all the time spent
+
+958
+00:57:33,180 --> 00:57:37,020
+completion rate. Yeah, my
+completion rate here at home was
+
+959
+00:57:37,020 --> 00:57:38,790
+100%. Let me know. I mean, I'm
+just telling you.
+
+960
+00:57:40,020 --> 00:57:43,410
+Dave Jones: I think you mean
+it's a whole five
+
+961
+00:57:43,409 --> 00:57:44,159
+Adam Curry: by five.
+
+962
+00:57:45,300 --> 00:57:46,080
+Dave Jones: Oh, no cat
+
+963
+00:57:46,079 --> 00:57:51,329
+Adam Curry: and all counts,
+baby. Exactly. Yeah, I feel bad
+
+964
+00:57:51,329 --> 00:57:55,529
+about it. But I understand
+because there was such a hype.
+
+965
+00:57:55,949 --> 00:58:00,059
+Certainly in the last couple of
+years, so much free money. So
+
+966
+00:58:00,059 --> 00:58:05,609
+much. D E is going into
+podcasting. Cuz that's what the
+
+967
+00:58:05,609 --> 00:58:09,029
+you know, all that money's dried
+up. Now. Notice there's no more
+
+968
+00:58:09,029 --> 00:58:13,319
+Africa podcast day and, and
+bipoc podcast day, that's all
+
+969
+00:58:13,319 --> 00:58:16,049
+starting to fade away because
+the money is kind of drying up.
+
+970
+00:58:17,159 --> 00:58:17,579
+Now.
+
+971
+00:58:19,050 --> 00:58:19,950
+Dave Jones: Right?
+
+972
+00:58:20,039 --> 00:58:25,829
+Adam Curry: mean, it just seems
+to me that, you know, money in
+
+973
+00:58:25,829 --> 00:58:30,299
+money out I mean, it, there's
+just less of it. And it was a
+
+974
+00:58:30,299 --> 00:58:32,519
+lot of people were riding high
+on the hog. The podcast
+
+975
+00:58:32,519 --> 00:58:35,519
+Industrial Complex was there.
+And now you know, you get
+
+976
+00:58:35,519 --> 00:58:38,459
+YouTube saying they'll do
+something or soft toss or toss
+
+977
+00:58:38,459 --> 00:58:40,079
+away stuff. They don't really
+care.
+
+978
+00:58:40,589 --> 00:58:42,659
+Dave Jones: They really don't do
+things like inclusion
+
+979
+00:58:42,659 --> 00:58:45,269
+initiatives when you have lots
+of money. Yeah, but then, you
+
+980
+00:58:45,269 --> 00:58:48,779
+know, but then when you have,
+when you're cutting, even the
+
+981
+00:58:48,779 --> 00:58:51,599
+people you have, that you see
+how important those things
+
+982
+00:58:51,599 --> 00:58:54,599
+actually are to people. Because
+they, you know, they're like,
+
+983
+00:58:54,629 --> 00:58:58,169
+Oh, well, you know, we got to
+let you know, we don't care that
+
+984
+00:58:58,169 --> 00:59:01,199
+much. We get this money thing,
+you know?
+
+985
+00:59:01,380 --> 00:59:03,660
+Adam Curry: Yeah, it's like,
+they're not even they don't even
+
+986
+00:59:03,660 --> 00:59:06,960
+talk to Cridland. I mean, we
+want to do anything in podcast
+
+987
+00:59:06,960 --> 00:59:08,520
+and you gotta at least talk to
+Cridland,
+
+988
+00:59:09,030 --> 00:59:11,850
+Dave Jones: we care enough and
+we care a whole bunch until it
+
+989
+00:59:11,850 --> 00:59:13,590
+affects the stock price. And
+then we don't care about
+
+990
+00:59:14,730 --> 00:59:17,130
+Adam Curry: the exact the people
+that care for the podcasters is
+
+991
+00:59:17,130 --> 00:59:20,640
+right here in this group. People
+who care the ones that podcast
+
+992
+00:59:20,640 --> 00:59:25,650
+index dot social, they actually
+care. Now, I still truly believe
+
+993
+00:59:25,650 --> 00:59:28,950
+the reason why this project is
+working is because everybody has
+
+994
+00:59:28,950 --> 00:59:33,270
+a shot at at a cut of the money
+flow. Everybody's got a chance
+
+995
+00:59:33,270 --> 00:59:36,690
+at and everybody can include
+themselves. I really believe
+
+996
+00:59:36,690 --> 00:59:40,530
+that that's a big part of the of
+the of the of the I mean that
+
+997
+00:59:40,800 --> 00:59:44,040
+it's exciting to me every day. I
+wake up
+
+998
+00:59:44,999 --> 00:59:47,879
+Dave Jones: go ahead with value
+for value. All that matters is
+
+999
+00:59:47,879 --> 00:59:51,299
+the is the quality of the
+content. Yeah, yeah. If you make
+
+1000
+00:59:51,299 --> 00:59:56,819
+a good product, you get value.
+That's there's no other. There's
+
+1001
+00:59:56,819 --> 00:59:58,739
+no other secret sauce. You don't
+you
+
+1002
+00:59:58,740 --> 01:00:01,620
+Adam Curry: don't have to buy
+adds in games that you know that
+
+1003
+01:00:01,620 --> 01:00:05,100
+start auto downloading or
+convince people to click on
+
+1004
+01:00:05,100 --> 01:00:07,890
+stuff now you're absolutely
+right. And I get great
+
+1005
+01:00:07,890 --> 01:00:10,110
+statistics. Speaking of which,
+by the way,
+
+1006
+01:00:11,159 --> 01:00:12,929
+Dave Jones: you have statistics.
+Yeah, I
+
+1007
+01:00:12,930 --> 01:00:18,360
+Adam Curry: got lots of stats,
+contracts, contracts CLN, sh a x
+
+1008
+01:00:18,360 --> 01:00:22,710
+dot app, it is doing something
+very interesting. I wanted to
+
+1009
+01:00:22,710 --> 01:00:27,270
+pitch this to other people who
+listen to this podcast. So they
+
+1010
+01:00:27,270 --> 01:00:31,890
+are statistics company, I guess
+their company was really, it's
+
+1011
+01:00:31,890 --> 01:00:37,140
+really just an app. And that app
+loads in your browser that it's
+
+1012
+01:00:37,140 --> 01:00:41,670
+without a server, I think,
+almost server lists. And all
+
+1013
+01:00:41,670 --> 01:00:44,280
+your stats are loaded up and
+they run in your browser. And I
+
+1014
+01:00:44,280 --> 01:00:47,880
+think they're doing with that
+with web assembly, that was not
+
+1015
+01:00:47,880 --> 01:00:51,570
+the way what it is web assembly.
+And so they said, hey, you know,
+
+1016
+01:00:51,570 --> 01:00:56,370
+we want to, we want to be a part
+of the flow. So can we have
+
+1017
+01:00:56,670 --> 01:00:59,940
+access to the podcaster wallet,
+which we had done previously for
+
+1018
+01:00:59,940 --> 01:01:03,900
+fountain? And you don't have to
+tell me who else who else. So
+
+1019
+01:01:04,140 --> 01:01:07,590
+you can actually stream Satoshis
+rather the first ones. So
+
+1020
+01:01:07,590 --> 01:01:11,640
+contracts is now actively out
+there. Marketing to podcasters,
+
+1021
+01:01:11,640 --> 01:01:15,210
+Hey, come on in, look at all the
+stats we'll give you give you a
+
+1022
+01:01:15,210 --> 01:01:20,130
+wallet, we sign you up, we make
+you value for value enabled. And
+
+1023
+01:01:20,160 --> 01:01:23,880
+and you can manage your splits
+right here. And we're a
+
+1024
+01:01:23,880 --> 01:01:26,880
+statistics provider. And of
+course, they I don't know
+
+1025
+01:01:26,880 --> 01:01:30,090
+exactly what they take, but you
+know, but they've they have, you
+
+1026
+01:01:30,090 --> 01:01:32,280
+know, the wallet can wherever
+they are getting Satoshi
+
+1027
+01:01:32,280 --> 01:01:37,140
+somewhere in the flow. I want to
+pitch to anybody who wants to do
+
+1028
+01:01:37,140 --> 01:01:41,400
+this, we have what I think is
+called a Partner API. Some
+
+1029
+01:01:41,400 --> 01:01:45,930
+special access anything you even
+if you just want to be an
+
+1030
+01:01:45,930 --> 01:01:50,670
+onboarding partner, you know,
+you can you can do a deal with
+
+1031
+01:01:50,670 --> 01:01:54,810
+Alby or possibly with breeze
+coming up or you know, or
+
+1032
+01:01:54,810 --> 01:01:57,810
+voltage or, and there's so many
+different people you can do a
+
+1033
+01:01:57,810 --> 01:02:01,800
+deal with a pot with with
+wallets. Or maybe your wallet
+
+1034
+01:02:01,800 --> 01:02:08,160
+provider I don't know. Or maybe
+you just do a an arm's length
+
+1035
+01:02:08,160 --> 01:02:12,540
+deal and connect people into get
+Alby doesn't matter, you can
+
+1036
+01:02:12,570 --> 01:02:16,830
+onboard people into value for
+value and get a piece of the
+
+1037
+01:02:16,830 --> 01:02:19,350
+action for doing that. And I
+really want to encourage people
+
+1038
+01:02:19,350 --> 01:02:23,430
+to think about doing that. It's
+a great way to move value for
+
+1039
+01:02:23,430 --> 01:02:28,080
+value forward when we're growing
+at about 100 new podcasts a day.
+
+1040
+01:02:29,219 --> 01:02:31,499
+Dave Jones: That brings up
+that's that actually makes me
+
+1041
+01:02:31,499 --> 01:02:33,839
+want to bring up Daniel J.
+Lewis, his comment about the
+
+1042
+01:02:33,839 --> 01:02:34,529
+fees?
+
+1043
+01:02:35,340 --> 01:02:37,800
+Adam Curry: Yes, please. Well,
+
+1044
+01:02:39,420 --> 01:02:41,370
+Dave Jones: I think I mean, it's
+not it's not too much to get
+
+1045
+01:02:41,370 --> 01:02:46,320
+into. But I think that, here's
+the way that I look at the My
+
+1046
+01:02:46,320 --> 01:02:50,790
+reasoning for lightning based
+value for value is really
+
+1047
+01:02:50,790 --> 01:02:56,700
+simple. It's undie, platform
+mobile. If that's a word,
+
+1048
+01:02:57,869 --> 01:03:00,449
+Adam Curry: we prefer to say
+censorship resistant,
+
+1049
+01:03:00,690 --> 01:03:04,170
+Dave Jones: it's okay. Also
+known as on D platform,
+
+1050
+01:03:05,099 --> 01:03:06,929
+Adam Curry: let me just write
+that down another show title.
+
+1051
+01:03:08,340 --> 01:03:12,030
+Dave Jones: No middlemen, the
+payment goes from directly from
+
+1052
+01:03:12,030 --> 01:03:17,400
+the listener directly to you.
+There's nobody in between. And
+
+1053
+01:03:17,400 --> 01:03:23,280
+the fees are small, very tiny
+networks, you run it yourself.
+
+1054
+01:03:23,520 --> 01:03:27,660
+But in order 123, those are the
+way those are the order of
+
+1055
+01:03:27,660 --> 01:03:33,360
+importance that I see those that
+correct. The higher fees that he
+
+1056
+01:03:33,360 --> 01:03:38,430
+is talking about, all come from
+add on services. So if if I
+
+1057
+01:03:38,430 --> 01:03:42,630
+haven't, if I if I run a number
+on myself list, I'm just going
+
+1058
+01:03:42,630 --> 01:03:47,790
+to give a scenario. If I run an
+umbrella in my house, and I also
+
+1059
+01:03:47,790 --> 01:03:53,370
+run a podcast zone, those
+lightning value value payments
+
+1060
+01:03:53,370 --> 01:03:57,480
+coming from the listener to me,
+the fees are virtually non
+
+1061
+01:03:57,480 --> 01:04:03,540
+existent. Correct, they're very,
+very small, way less than
+
+1062
+01:04:03,540 --> 01:04:10,530
+anything else you can get. Now,
+if I have a custodial wallet
+
+1063
+01:04:10,530 --> 01:04:16,020
+somewhere, let's just say with
+blueberry, or Alby or some other
+
+1064
+01:04:16,020 --> 01:04:18,450
+place that okay that they're
+going to take a percentage
+
+1065
+01:04:18,480 --> 01:04:23,070
+because you've given you're now
+using their service and also you
+
+1066
+01:04:23,070 --> 01:04:26,820
+add on a cot, you know,
+contracts for staff. But
+
+1067
+01:04:26,820 --> 01:04:29,670
+there's, you know, you're you're
+now using somebody else's sir,
+
+1068
+01:04:29,850 --> 01:04:34,170
+all these serve all these fees,
+they're coming from additional
+
+1069
+01:04:34,170 --> 01:04:37,680
+services that people are
+offering, but those aren't, but
+
+1070
+01:04:37,740 --> 01:04:41,550
+at the low of this, that's the
+difference is at the at the most
+
+1071
+01:04:41,550 --> 01:04:45,030
+fundamental level, in the
+lightening value for value
+
+1072
+01:04:45,030 --> 01:04:50,970
+ecosystem. I can run it myself
+and avoid all that. Yes. But in
+
+1073
+01:04:50,970 --> 01:04:55,620
+the other system, the Patreon
+the the you know, these other
+
+1074
+01:04:55,950 --> 01:05:00,120
+papers, you can't you don't even
+have that option. You were
+
+1075
+01:05:00,120 --> 01:05:04,380
+excluded in the Fiat world from
+from participating in that
+
+1076
+01:05:04,380 --> 01:05:05,490
+whatsoever in
+
+1077
+01:05:05,490 --> 01:05:08,670
+Adam Curry: addition, so that I
+think a good example. And now
+
+1078
+01:05:08,700 --> 01:05:12,480
+apps will charge what apps want
+to charge. And I, and it's
+
+1079
+01:05:12,480 --> 01:05:18,480
+unfortunate but the fee, label,
+you know, the network fee, for
+
+1080
+01:05:18,480 --> 01:05:23,640
+actually transferring a payment
+is not the same as a fee that is
+
+1081
+01:05:23,670 --> 01:05:27,060
+taken by an app or a service,
+yet, they're both called a fee.
+
+1082
+01:05:27,450 --> 01:05:32,340
+Voila, it is what it is. But if
+you take the plugin, the pod
+
+1083
+01:05:32,340 --> 01:05:36,930
+press plug in, I think it is
+power press. So there's a 3%
+
+1084
+01:05:36,930 --> 01:05:41,310
+fee, they tack on for that. If
+you don't like it, it's a free
+
+1085
+01:05:41,310 --> 01:05:46,200
+market. It's a free market, you
+can you can go to some other
+
+1086
+01:05:46,200 --> 01:05:49,770
+servers who do it for less.
+Same, we were saying with
+
+1087
+01:05:49,770 --> 01:05:54,180
+podcast apps, if a podcast app
+is charging 5%, and your
+
+1088
+01:05:54,180 --> 01:05:57,390
+listeners don't like it, your
+listeners can use a different
+
+1089
+01:05:57,390 --> 01:06:02,160
+app, you can recommend a
+different app. This is this is
+
+1090
+01:06:02,160 --> 01:06:04,620
+the open market this is you
+know, and it's we're already
+
+1091
+01:06:04,620 --> 01:06:07,470
+getting close to having enough
+competition out there that it
+
+1092
+01:06:07,470 --> 01:06:12,990
+will naturally kind of drive the
+prices down. It's beautiful that
+
+1093
+01:06:12,990 --> 01:06:16,800
+way. And ultimately, as you
+point out, you can have an
+
+1094
+01:06:16,800 --> 01:06:21,810
+umbrella at home on your cable
+modem. And wherever, wherever
+
+1095
+01:06:21,810 --> 01:06:26,130
+you want to host host your
+files. And you can keep that
+
+1096
+01:06:26,130 --> 01:06:28,620
+really within your own realm,
+which is the beauty of
+
+1097
+01:06:28,620 --> 01:06:31,080
+podcasting. And you'll still be
+listed right up there with all
+
+1098
+01:06:31,080 --> 01:06:34,230
+the big boys and podcasts. Next,
+it comes out of the same API.
+
+1099
+01:06:35,250 --> 01:06:39,210
+Dave Jones: In the end, there's
+an M M, I'm not saying that
+
+1100
+01:06:39,210 --> 01:06:42,510
+everybody can run an umbrella.
+I'm, that's not at all what I'm
+
+1101
+01:06:42,510 --> 01:06:48,870
+saying. I'm saying in this in
+this framework in this scenario,
+
+1102
+01:06:49,440 --> 01:06:54,060
+you you could if you wanted to,
+if you wanted to go learn it,
+
+1103
+01:06:54,180 --> 01:06:57,780
+and you or if you have the the
+ability, or if you know somebody
+
+1104
+01:06:57,780 --> 01:07:02,430
+that can help you, you can do it
+yourself. In the other world you
+
+1105
+01:07:02,430 --> 01:07:06,420
+can't. That's that is to me that
+is the fundamental difference of
+
+1106
+01:07:06,420 --> 01:07:10,440
+what's better everything else.
+Everything else is just sort of
+
+1107
+01:07:10,440 --> 01:07:11,640
+like gravy on top of that,
+
+1108
+01:07:11,670 --> 01:07:13,800
+Adam Curry: including the the
+fact that micro payments
+
+1109
+01:07:13,830 --> 01:07:17,970
+themselves are just not feasible
+in any other system. In a Fiat
+
+1110
+01:07:18,060 --> 01:07:23,160
+Fiat world is just not possible.
+Right. Right. We're so smart.
+
+1111
+01:07:24,240 --> 01:07:30,630
+Dave Jones: That's the same
+thing. You know, do you see red
+
+1112
+01:07:30,630 --> 01:07:35,250
+circle started popping? No, I
+didn't cool. Yes. Yeah. They
+
+1113
+01:07:35,250 --> 01:07:38,820
+started they started and there's
+so he might Kayden over at Red
+
+1114
+01:07:38,820 --> 01:07:42,510
+Circle started the pod pain flow
+a couple of days ago, and he's
+
+1115
+01:07:42,570 --> 01:07:46,260
+easy said he's got about 13,000
+feets he thinks Wow. Fantastic.
+
+1116
+01:07:46,290 --> 01:07:49,290
+Yes. So that's coming on board.
+We've got there's somebody
+
+1117
+01:07:49,290 --> 01:07:52,830
+there's another host, a larger
+host that is about to start
+
+1118
+01:07:53,280 --> 01:07:55,590
+popping in that I cannot reveal
+yet.
+
+1119
+01:07:56,039 --> 01:08:00,209
+Adam Curry: Oh, Todd Cochran,
+all of a sudden, I just, I
+
+1120
+01:08:00,209 --> 01:08:04,889
+can't. I had a very interesting
+conversation. I can't talk. You
+
+1121
+01:08:04,889 --> 01:08:09,539
+can't say it yet. Don't worry.
+It's coming. In the crowning.
+
+1122
+01:08:11,609 --> 01:08:14,399
+Sorry, sorry, sorry. Sorry.
+
+1123
+01:08:15,389 --> 01:08:19,739
+Dave Jones: I like to just say,
+give a heads up, even though I'm
+
+1124
+01:08:19,829 --> 01:08:22,589
+being coy. I like to give a
+heads up because I'd like I like
+
+1125
+01:08:22,589 --> 01:08:26,099
+people to hear that things are
+happening. So they, they realize
+
+1126
+01:08:26,099 --> 01:08:29,729
+that they're the things move
+slow, you know, things in the in
+
+1127
+01:08:29,729 --> 01:08:33,449
+open source projects. Prior and
+then podcasting, especially
+
+1128
+01:08:33,449 --> 01:08:36,689
+things move slow. So I like to
+let people know that there is
+
+1129
+01:08:36,719 --> 01:08:39,059
+momentum and things are
+happening and don't get
+
+1130
+01:08:39,059 --> 01:08:42,239
+discouraged. Even even because
+they're going oh, this
+
+1131
+01:08:42,870 --> 01:08:46,050
+Adam Curry: is so much
+happening. I mean, I have to say
+
+1132
+01:08:46,050 --> 01:08:49,980
+especially blueberry, big props.
+I listened to their podcast
+
+1133
+01:08:49,980 --> 01:08:54,900
+insider, all about namespace all
+about the new features, that
+
+1134
+01:08:54,900 --> 01:08:59,340
+Todd has seen the writing on the
+wall, them and I really
+
+1135
+01:08:59,340 --> 01:09:03,210
+appreciate that about him. He's
+just gone. I know, everything's
+
+1136
+01:09:03,240 --> 01:09:07,200
+flat. So we got to go, you know,
+everyone's zigging, you ever
+
+1137
+01:09:07,200 --> 01:09:11,670
+we're gonna zag. We'll go over
+and do this. And he's really
+
+1138
+01:09:11,670 --> 01:09:16,140
+pushing and he's educating. And
+he's, he's doing it himself. Now
+
+1139
+01:09:16,140 --> 01:09:18,900
+he's, he's eating the dog food,
+which is important. It's really
+
+1140
+01:09:18,900 --> 01:09:24,960
+important. And, you know, this
+is the difference between making
+
+1141
+01:09:25,800 --> 01:09:30,480
+bold, especially value for value
+work, is by following you know,
+
+1142
+01:09:30,480 --> 01:09:35,460
+the general guidelines, the
+general format of explaining
+
+1143
+01:09:35,490 --> 01:09:38,520
+value, you want value back,
+there's a feedback loop, you got
+
+1144
+01:09:38,520 --> 01:09:42,840
+to thank people. You know, you
+got to do it consistently. And
+
+1145
+01:09:42,870 --> 01:09:46,560
+for my money, you should also be
+mentioning the amount of
+
+1146
+01:09:46,560 --> 01:09:50,400
+Satoshis that you're receiving.
+Because it first of all, is very
+
+1147
+01:09:50,400 --> 01:09:54,450
+transparent. People love that.
+It's also very aspirational. And
+
+1148
+01:09:54,450 --> 01:09:58,110
+we've seen that ourselves. Like,
+just with that live thing we did
+
+1149
+01:09:58,410 --> 01:10:02,430
+with the dance party. If I
+didn't tell people to request I
+
+1150
+01:10:02,430 --> 01:10:05,820
+didn't tell people to boost 5000
+SATs more for each song. I
+
+1151
+01:10:05,820 --> 01:10:08,130
+didn't come up with that. But I
+accepted it.
+
+1152
+01:10:09,690 --> 01:10:12,030
+Dave Jones: As you're breaking,
+you're breaking the rules based
+
+1153
+01:10:12,030 --> 01:10:13,110
+podcasting order.
+
+1154
+01:10:14,250 --> 01:10:16,980
+Adam Curry: This international
+international rules of
+
+1155
+01:10:16,980 --> 01:10:18,510
+podcasting rules based order.
+
+1156
+01:10:18,720 --> 01:10:21,630
+Dave Jones: Yeah, exactly. In
+the in the internet in the
+
+1157
+01:10:21,630 --> 01:10:23,970
+international rules based
+podcasting order. We're like
+
+1158
+01:10:23,970 --> 01:10:24,780
+North Korea.
+
+1159
+01:10:25,920 --> 01:10:29,550
+Adam Curry: Yeah, we're lobbing
+missiles everywhere. There does
+
+1160
+01:10:30,420 --> 01:10:35,130
+Dave Jones: that. Fancy Japan
+mostly. They were in the air at
+
+1161
+01:10:35,130 --> 01:10:35,550
+one point.
+
+1162
+01:10:37,290 --> 01:10:40,290
+Adam Curry: I just want to do a
+couple of quick boosts that
+
+1163
+01:10:40,290 --> 01:10:44,490
+we've been receiving since since
+starting Dred Scott who of
+
+1164
+01:10:44,490 --> 01:10:49,920
+course we love 33,333 He wants a
+birthday shout out. Well, of
+
+1165
+01:10:49,920 --> 01:10:54,930
+course. Happy birthday. Happy
+birthday drab. I think was his
+
+1166
+01:10:54,930 --> 01:10:57,150
+panties that were left on the
+turntable yesterday. I'm
+
+1167
+01:10:57,150 --> 01:10:59,280
+Dave Jones: not quite sure. Hey,
+now Hey,
+
+1168
+01:11:00,150 --> 01:11:04,170
+Adam Curry: thank you to phone
+boy. Cuz I I did interrupt his
+
+1169
+01:11:04,170 --> 01:11:08,130
+show, or we interrupted his show
+on the stream. 6969 sent that
+
+1170
+01:11:08,130 --> 01:11:10,800
+twice. Actually. He said never
+thought I'd be a lead in for the
+
+1171
+01:11:10,800 --> 01:11:13,500
+pod father on a Saturday,
+Phoenix and I appreciate all
+
+1172
+01:11:13,500 --> 01:11:17,040
+you're doing to advance
+podcasting. Come experience the
+
+1173
+01:11:17,040 --> 01:11:22,050
+Lotus effect for yourself at
+oops, at Lotus effect dot show.
+
+1174
+01:11:22,590 --> 01:11:25,440
+And thank you very much for
+letting us letting us break in
+
+1175
+01:11:25,440 --> 01:11:32,640
+like that. We just shot in here
+sir Spencer 16969 Thanks again.
+
+1176
+01:11:32,640 --> 01:11:35,070
+Dave. For the wonderful time
+Sunday. I'm bowls with buds.
+
+1177
+01:11:35,070 --> 01:11:38,520
+Thanks, Adam for the club 30
+throwback in the rowdy boardroom
+
+1178
+01:11:38,520 --> 01:11:43,350
+dance party. Yes, anyone can run
+an unbroken, not everyone is
+
+1179
+01:11:43,350 --> 01:11:48,390
+willing but for minimal effort.
+Everyone is capable. I think
+
+1180
+01:11:48,390 --> 01:11:53,400
+that's actually kind of true.
+They do minimum, a man's just as
+
+1181
+01:11:53,400 --> 01:11:56,910
+much to learn how to set up a
+podcast is to set that up.
+
+1182
+01:11:57,720 --> 01:12:00,750
+Dave Jones: People set up a
+stereo system. That's not easy,
+
+1183
+01:12:00,750 --> 01:12:01,230
+either. I remember
+
+1184
+01:12:01,230 --> 01:12:03,960
+Adam Curry: those days. You got
+to strip the wires for the
+
+1185
+01:12:03,960 --> 01:12:05,220
+speaker connectors.
+
+1186
+01:12:05,880 --> 01:12:07,650
+Dave Jones: Yeah. And your mom
+would always call you and ask
+
+1187
+01:12:07,650 --> 01:12:09,030
+you wouldn't How do you turn it
+on? You
+
+1188
+01:12:09,030 --> 01:12:12,300
+Adam Curry: turn it off? Are you
+connected properly? Watch cable.
+
+1189
+01:12:17,070 --> 01:12:19,890
+Okay, let's see. Well, we'll do
+more, we'll do more boost in a
+
+1190
+01:12:19,890 --> 01:12:20,340
+second.
+
+1191
+01:12:24,930 --> 01:12:30,180
+Dave Jones: Added enclosure. So
+dad was working with Dan
+
+1192
+01:12:30,180 --> 01:12:35,820
+Benjamin on a on a project of
+his and he needed he needed a
+
+1193
+01:12:35,820 --> 01:12:36,600
+way to
+
+1194
+01:12:36,630 --> 01:12:37,650
+Adam Curry: are you an advisor?
+
+1195
+01:12:39,810 --> 01:12:46,440
+Dave Jones: Yes, yeah. I'm an
+8am, an unpaid adviser. The the
+
+1196
+01:12:46,440 --> 01:12:52,080
+API, he needed a way to call the
+API and say, Okay, I've got an
+
+1197
+01:12:52,080 --> 01:12:57,960
+iTunes ID and an enclosure URL.
+I don't know any other way to
+
+1198
+01:12:57,960 --> 01:13:01,680
+reach outside. He's like I got I
+want. I know the enclosure URL
+
+1199
+01:13:01,680 --> 01:13:05,550
+of the episode I need to get.
+And I know the iTunes ID of the
+
+1200
+01:13:05,550 --> 01:13:10,320
+feed. So I given those two
+things. I want to be able to
+
+1201
+01:13:10,320 --> 01:13:14,190
+give them to the index to the
+API and have in Have you
+
+1202
+01:13:14,190 --> 01:13:19,050
+returned the show the episode.
+So we did that. So that's
+
+1203
+01:13:19,080 --> 01:13:22,530
+interesting. That's in there
+now. So if you have if you hit a
+
+1204
+01:13:22,530 --> 01:13:27,690
+scenario where you're like, I
+don't know the episode GUID, or
+
+1205
+01:13:27,690 --> 01:13:31,230
+any other the title or really
+anything else about the episode,
+
+1206
+01:13:31,440 --> 01:13:36,930
+all I know is the enclosure URL.
+You can now submit you can now
+
+1207
+01:13:36,960 --> 01:13:40,410
+add that on as an extra
+parameter to the episodes by
+
+1208
+01:13:40,410 --> 01:13:43,950
+iTunes ID your episodes by feed
+ID endpoints. And it will give
+
+1209
+01:13:43,950 --> 01:13:47,100
+you back the correct episode
+information.
+
+1210
+01:13:48,030 --> 01:13:51,210
+Adam Curry: Okay. Yes, that
+sounds like a cool endpoint.
+
+1211
+01:13:52,080 --> 01:13:53,490
+Dave Jones: That's pretty neat.
+We hang in
+
+1212
+01:13:53,490 --> 01:13:55,470
+Adam Curry: that all night. Oh,
+episode.
+
+1213
+01:13:58,050 --> 01:14:01,740
+Dave Jones: We were moving
+forward then. The API.
+
+1214
+01:14:02,310 --> 01:14:05,040
+Adam Curry: Good. pretty rich,
+getting pretty rich there, Dave?
+
+1215
+01:14:05,460 --> 01:14:07,140
+Dave Jones: stuff with it? Yeah,
+you can do a lot of stuff with
+
+1216
+01:14:07,140 --> 01:14:09,480
+it. I don't think I even talked
+about on the show that you can
+
+1217
+01:14:09,480 --> 01:14:18,000
+now get live items back from the
+episodes endpoint. So if you
+
+1218
+01:14:18,000 --> 01:14:23,400
+call the episodes by feed ID
+endpoint to give it a feed ID or
+
+1219
+01:14:23,400 --> 01:14:29,160
+a feed URL. It will hand you
+back the episodes and the live
+
+1220
+01:14:29,160 --> 01:14:34,290
+items. If if the show is live,
+has live out of scheduled or
+
+1221
+01:14:34,290 --> 01:14:39,930
+live currently, you will get
+those back to there's there's a
+
+1222
+01:14:39,930 --> 01:14:42,930
+lot of stuff that I only post
+about, like when we change the
+
+1223
+01:14:42,930 --> 01:14:45,390
+API. I'm only posting about it
+on podcast index dot social, and
+
+1224
+01:14:45,390 --> 01:14:46,890
+I forget to talk about it on the
+show.
+
+1225
+01:14:46,920 --> 01:14:51,480
+Adam Curry: No, this was good.
+There was something else I saw
+
+1226
+01:14:52,170 --> 01:14:59,880
+on the GitHub. An author tag you
+were talking about. I think just
+
+1227
+01:14:59,880 --> 01:15:00,510
+some So you're
+
+1228
+01:15:00,510 --> 01:15:02,550
+Dave Jones: ready to talk about
+publisher?
+
+1229
+01:15:03,150 --> 01:15:05,280
+Adam Curry: Publisher? Yeah.
+Publisher author. Yes.
+
+1230
+01:15:05,910 --> 01:15:10,830
+Dave Jones: So there's a
+proposal for a tag. This is
+
+1231
+01:15:10,830 --> 01:15:12,720
+namespace talk. You want to drop
+that? Oh,
+
+1232
+01:15:13,260 --> 01:15:15,180
+Adam Curry: I'm sorry. We
+haven't done that in quite a
+
+1233
+01:15:15,180 --> 01:15:22,500
+while. And now it's time for
+some hot namespace talk. Yeah,
+
+1234
+01:15:22,500 --> 01:15:26,550
+so I heard the dance party last
+night. Yeah. Jennifer came right
+
+1235
+01:15:26,550 --> 01:15:30,360
+in, man. She's like, she's
+partying down.
+
+1236
+01:15:30,870 --> 01:15:33,750
+Dave Jones: It is 730. On
+Saturday. Nice. I mean, that's
+
+1237
+01:15:33,750 --> 01:15:34,200
+appropriate.
+
+1238
+01:15:35,130 --> 01:15:36,360
+Adam Curry: It's okay. For now.
+Yeah.
+
+1239
+01:15:38,730 --> 01:15:42,570
+Dave Jones: So that there was a
+proposal for a publisher, a way
+
+1240
+01:15:42,570 --> 01:15:47,730
+to track publishers of shows
+instead of just simply the, the,
+
+1241
+01:15:47,730 --> 01:15:53,730
+the host of the show. So if you
+have, like a way to for you to
+
+1242
+01:15:53,730 --> 01:16:00,600
+go in and say, Okay, I want to
+see all of the podcasts by I
+
+1243
+01:16:00,600 --> 01:16:04,830
+don't know what at wondery or
+luminary, or NPR just made NPR,
+
+1244
+01:16:04,830 --> 01:16:10,590
+NPR is NPR. Some of them are
+tagged correctly, or tagged in a
+
+1245
+01:16:10,590 --> 01:16:13,980
+way that you can do that some of
+them aren't. If there was a tag
+
+1246
+01:16:13,980 --> 01:16:20,520
+there that was specifically for
+that. In the so he gives the
+
+1247
+01:16:20,520 --> 01:16:24,420
+reference of the iTunes author
+tag, which is supposed to kind
+
+1248
+01:16:24,420 --> 01:16:29,220
+of be that way. But it's, it's a
+little too freeform. And so the
+
+1249
+01:16:29,220 --> 01:16:33,180
+freeform of the of it. Again,
+not a word, but the free form 80
+
+1250
+01:16:33,180 --> 01:16:40,560
+of it is a little problematic,
+because you can't it gets messy.
+
+1251
+01:16:41,250 --> 01:16:45,540
+Is it? You know, if you have to,
+if you have two publishers,
+
+1252
+01:16:45,540 --> 01:16:48,270
+let's just say it's a joint
+effort between the New York
+
+1253
+01:16:48,270 --> 01:16:52,410
+Times and cereal Yeah. Are you
+just gonna have freeform text in
+
+1254
+01:16:52,410 --> 01:16:55,320
+their New York Times and cereal?
+And then another one may say
+
+1255
+01:16:55,320 --> 01:16:56,910
+cereal a New York Times? No,
+that's
+
+1256
+01:16:56,910 --> 01:16:59,340
+Adam Curry: not that's not
+that's not structured data
+
+1257
+01:16:59,580 --> 01:17:05,760
+Dave Jones: is not structured
+data. So he proposed a way to do
+
+1258
+01:17:05,760 --> 01:17:08,910
+it by, you know, will in a more
+structured way where you have
+
+1259
+01:17:08,910 --> 01:17:11,850
+multiple entries there where
+it's for each publisher,
+
+1260
+01:17:12,360 --> 01:17:17,310
+enclosed in sort of a parent
+tag. And then you can ease more
+
+1261
+01:17:17,310 --> 01:17:20,850
+easily aggregate that and then
+go back after the fact and say,
+
+1262
+01:17:20,850 --> 01:17:23,880
+show me all the podcasts by the
+New York Times and you get them
+
+1263
+01:17:23,880 --> 01:17:27,810
+all. Together. think there needs
+more comments on that though?
+
+1264
+01:17:27,930 --> 01:17:31,380
+Adam Curry: Okay. I have a link
+to it in the in the show notes.
+
+1265
+01:17:31,890 --> 01:17:35,700
+Dave Jones: Because I'm a little
+I think it's not. It needs that
+
+1266
+01:17:35,700 --> 01:17:38,610
+it. I see what he's doing. And I
+like it, but it does need some
+
+1267
+01:17:38,610 --> 01:17:41,130
+work. And I think there just
+needs to be more voices in there
+
+1268
+01:17:41,130 --> 01:17:49,860
+commenting on it would be good.
+Also in the namespace. On that
+
+1269
+01:17:49,860 --> 01:17:53,280
+side of things, let's see what
+actually didn't me. I didn't
+
+1270
+01:17:53,280 --> 01:17:55,860
+have another namespace you get
+anything else I get find this?
+
+1271
+01:17:55,860 --> 01:17:59,640
+Adam Curry: Yes. I wanted to
+give another plug for the
+
+1272
+01:17:59,640 --> 01:18:04,170
+transcript search tool, which
+Steven B put together. He needs
+
+1273
+01:18:04,170 --> 01:18:08,010
+a domain name right now. It's
+transcript das search dot versal
+
+1274
+01:18:08,010 --> 01:18:13,170
+dot app. Not a great name. No,
+but it's it's how we started
+
+1275
+01:18:13,170 --> 01:18:16,650
+everything off. And he uses that
+kind of as his building place.
+
+1276
+01:18:17,130 --> 01:18:21,750
+This thing is outstanding. And
+I'm not sure how to integrate it
+
+1277
+01:18:21,750 --> 01:18:26,850
+into public life. I use it all
+the time. I mean, you literally
+
+1278
+01:18:26,850 --> 01:18:33,300
+type in A C podcasting. 2.0 and
+you can search the directory,
+
+1279
+01:18:33,330 --> 01:18:37,260
+that was my request. Okay, there
+it is podcasting. 2.0. And then
+
+1280
+01:18:37,260 --> 01:18:40,590
+you can say Alright, now I'm
+going to do a search term. So
+
+1281
+01:18:40,590 --> 01:18:43,680
+let's give me a search term.
+That's crazy. Dave, what's
+
+1282
+01:18:43,680 --> 01:18:45,420
+something that we could use in
+our
+
+1283
+01:18:45,450 --> 01:18:45,900
+Dave Jones: show?
+
+1284
+01:18:45,930 --> 01:18:48,720
+Adam Curry: Yeah, in our show,
+yeah. Something that's gonna
+
+1285
+01:18:48,720 --> 01:18:50,220
+show up once or twice.
+
+1286
+01:18:50,790 --> 01:18:56,130
+Dave Jones: Just only once or
+twice. Oh my gosh. Okay, cake.
+
+1287
+01:18:56,310 --> 01:19:00,120
+See, aka Jenkins
+
+1288
+01:19:00,150 --> 01:19:05,340
+Adam Curry: Well turns out
+episode 118 one occurrence, and
+
+1289
+01:19:05,340 --> 01:19:09,570
+I can click on the timecode and
+then I can hit play these things
+
+1290
+01:19:09,570 --> 01:19:13,050
+that was just icing on the cake
+for a corporation to score
+
+1291
+01:19:13,050 --> 01:19:18,630
+brownie points. Oh, come on.
+That's pretty rad. Episode 100
+
+1292
+01:19:18,660 --> 01:19:22,470
+streamers and dreamers 158 17
+
+1293
+01:19:22,500 --> 01:19:24,720
+Unknown: craft services table
+eating cake and drinking
+
+1294
+01:19:24,720 --> 01:19:25,320
+Prosecco.
+
+1295
+01:19:25,380 --> 01:19:30,210
+Adam Curry: Even got it from
+from a clip. This is good.
+
+1296
+01:19:30,750 --> 01:19:34,080
+Dave Jones: That is red. is rad.
+Correct? Yeah,
+
+1297
+01:19:34,110 --> 01:19:37,890
+Adam Curry: let's see if RAD is
+in there. Let's see rad. Rad.
+
+1298
+01:19:38,910 --> 01:19:42,780
+Seems like there's a lot in
+there. Also picks up rod Do you
+
+1299
+01:19:42,780 --> 01:19:49,380
+know the traditional way maybe
+if I do it in quotes, I wonder
+
+1300
+01:19:49,380 --> 01:19:53,190
+how well that search is. Let me
+see. Yeah, nothing when I do it
+
+1301
+01:19:53,190 --> 01:19:57,540
+and in quotes nothing. How about
+radio and now it doesn't,
+
+1302
+01:19:57,990 --> 01:20:02,160
+doesn't do the Boolean
+unfortunate Ellie just says it's
+
+1303
+01:20:02,160 --> 01:20:05,310
+beautiful something something
+needs to be done with this tool
+
+1304
+01:20:05,460 --> 01:20:10,620
+other than just, I use it. I use
+it all the time, particularly
+
+1305
+01:20:10,620 --> 01:20:15,870
+when divorce acts as a dad. Now
+I can just go Yeah, you did. And
+
+1306
+01:20:15,870 --> 01:20:18,000
+I boom, click click, you saw a
+fast I did that.
+
+1307
+01:20:20,070 --> 01:20:22,170
+Dave Jones: That's really very
+
+1308
+01:20:22,170 --> 01:20:25,140
+Adam Curry: impressive is very,
+very impressive. And firstly, it
+
+1309
+01:20:25,140 --> 01:20:28,740
+needs a domain names to even be
+first of all these domain name.
+
+1310
+01:20:29,190 --> 01:20:33,510
+It's just it's it's fantastic.
+It's a great tool.
+
+1311
+01:20:35,250 --> 01:20:38,520
+Dave Jones: I found Okay, so I
+found this the so we have we
+
+1312
+01:20:38,520 --> 01:20:44,820
+have phase six here. And we've
+got a few tags, I think we need
+
+1313
+01:20:44,820 --> 01:20:49,830
+to start to coalesce around what
+what we think is going to get to
+
+1314
+01:20:49,860 --> 01:20:51,540
+has a chance to make it in
+there.
+
+1315
+01:20:51,570 --> 01:20:52,800
+Adam Curry: Okay, what was the
+
+1316
+01:20:52,800 --> 01:20:58,290
+Dave Jones: list? There is?
+Value see the secret message.
+
+1317
+01:20:58,530 --> 01:21:05,640
+There's the state tag, which I'm
+sure Daniel has a comment about
+
+1318
+01:21:05,640 --> 01:21:12,300
+the name of that. The state tag
+is just some way to identify
+
+1319
+01:21:13,710 --> 01:21:17,280
+where weather this some things
+about this feed that don't
+
+1320
+01:21:17,280 --> 01:21:21,510
+really fit into other
+categories. So things like is it
+
+1321
+01:21:21,510 --> 01:21:26,820
+free? Is it premium? That kind
+of that kind of thing? As it is
+
+1322
+01:21:26,820 --> 01:21:31,470
+a paid for feed? Let's see what
+the let's see what I've got in
+
+1323
+01:21:31,470 --> 01:21:36,870
+there already. Yeah, so is it?
+Is it true? Is this under a
+
+1324
+01:21:36,870 --> 01:21:42,630
+trial? Is the podcast on hiatus?
+Is it a subscription only? Is
+
+1325
+01:21:42,630 --> 01:21:47,610
+it? Is it an under a trial
+period by the published by the
+
+1326
+01:21:47,640 --> 01:21:51,510
+hosting platform, sort of some
+stuff about the feed that you
+
+1327
+01:21:51,510 --> 01:21:58,230
+might want to know. But it's you
+could group them together. And
+
+1328
+01:21:58,230 --> 01:22:00,990
+this may not be a great way to
+do it. I'm just I just threw
+
+1329
+01:22:00,990 --> 01:22:07,050
+this out there for comment, then
+you have John Spurlock's events.
+
+1330
+01:22:07,200 --> 01:22:10,650
+Adam Curry: Yes, yes. Yes. Yes.
+Well, that really needs some
+
+1331
+01:22:10,650 --> 01:22:11,910
+work the events tag.
+
+1332
+01:22:13,980 --> 01:22:16,590
+Dave Jones: It's got a lot of
+commentary on it right here.
+
+1333
+01:22:16,620 --> 01:22:21,840
+Okay. And, and I feel like we
+need to start trying to decide
+
+1334
+01:22:21,840 --> 01:22:26,640
+whether or not that can actually
+get get refined to in a way that
+
+1335
+01:22:26,640 --> 01:22:33,570
+everybody's happy with to get
+into Phase six. The C D has
+
+1336
+01:22:33,570 --> 01:22:38,340
+guests, James grillin. proposed
+a tag. There's just a simple
+
+1337
+01:22:38,340 --> 01:22:43,440
+Boolean tag. Patek podcast co
+lon has guests, yes or no,
+
+1338
+01:22:43,470 --> 01:22:50,670
+right. And it's just, it's just
+what it says on the box. A lot
+
+1339
+01:22:50,670 --> 01:22:52,080
+of people seem to like this
+idea.
+
+1340
+01:22:52,110 --> 01:22:54,120
+Adam Curry: Yeah, sounds good.
+That sounds good to me.
+
+1341
+01:22:54,660 --> 01:22:57,810
+Dave Jones: My first thought
+when I saw it was math. And then
+
+1342
+01:22:58,650 --> 01:23:01,290
+like, and then I thought about
+it. And I'm like, you know, that
+
+1343
+01:23:01,290 --> 01:23:03,540
+actually is pretty good idea.
+There's really not another way
+
+1344
+01:23:03,540 --> 01:23:09,780
+to get that. And a lot of these
+tags are about it seems like in
+
+1345
+01:23:09,780 --> 01:23:14,130
+phase six, there's a lot of
+stuff around just giving
+
+1346
+01:23:14,130 --> 01:23:18,990
+information that is not, maybe
+it's not necessary, it's not
+
+1347
+01:23:18,990 --> 01:23:25,140
+critical to the show. But it's
+helpful to have Dara say,
+
+1348
+01:23:25,380 --> 01:23:31,860
+discovery. Like, I can see this
+feeding. So these fall under a
+
+1349
+01:23:31,860 --> 01:23:40,080
+category to me of, of bits of
+information that you as the
+
+1350
+01:23:40,080 --> 01:23:45,930
+podcaster may want to let other
+let the world know. It's it's
+
+1351
+01:23:45,930 --> 01:23:50,160
+not. It's sort of like, like,
+like the person tag, or the
+
+1352
+01:23:50,160 --> 01:23:56,880
+location tag, it's it's just, I
+can put this into my show, I can
+
+1353
+01:23:56,880 --> 01:24:00,390
+mark this in my show at my
+hosting company that gives a
+
+1354
+01:24:00,390 --> 01:24:07,410
+signal to the world about what
+they can expect to find in my
+
+1355
+01:24:07,410 --> 01:24:12,630
+show. I found those sorts of
+things to be valuable, because,
+
+1356
+01:24:13,410 --> 01:24:16,560
+you know, some people just
+don't, they don't like interview
+
+1357
+01:24:16,560 --> 01:24:19,860
+shows. They're just not that
+like, it's I'm never gonna
+
+1358
+01:24:19,860 --> 01:24:23,130
+listen to an interview show. I
+don't really listen to hardly
+
+1359
+01:24:23,130 --> 01:24:26,790
+any interview shows. I guess
+it's just not my thing. And so
+
+1360
+01:24:26,820 --> 01:24:30,300
+if it's a show that has guests,
+I'm probably not gonna listen to
+
+1361
+01:24:30,300 --> 01:24:38,550
+it. And I can see that being
+just more you know, ways to let
+
+1362
+01:24:38,550 --> 01:24:43,320
+the universe know about what are
+the sort of the framework of
+
+1363
+01:24:43,320 --> 01:24:52,260
+what your show is? Again, not
+not critical, but helpful. Um,
+
+1364
+01:24:52,260 --> 01:24:52,410
+hold
+
+1365
+01:24:52,410 --> 01:24:56,010
+Adam Curry: on one second. Let
+me let me tell you, like, let me
+
+1366
+01:24:56,010 --> 01:24:56,610
+test this.
+
+1367
+01:24:57,690 --> 01:24:59,580
+Dave Jones: My first thought
+when I saw it was math
+
+1368
+01:25:00,000 --> 01:25:03,600
+Adam Curry: They go long live
+the ISO bought
+
+1369
+01:25:04,169 --> 01:25:06,989
+Dave Jones: the ISO but thought
+I said, Man, they thought that
+
+1370
+01:25:06,989 --> 01:25:10,469
+was the most the right way to
+say, man.
+
+1371
+01:25:10,949 --> 01:25:12,899
+Adam Curry: Doesn't matter. I'm
+still loving it.
+
+1372
+01:25:15,780 --> 01:25:19,440
+Dave Jones: And the remote item
+tag, I really think out of the
+
+1373
+01:25:19,440 --> 01:25:22,470
+whole batch, the remote item tag
+is the one I want to get in
+
+1374
+01:25:22,470 --> 01:25:23,100
+there the most.
+
+1375
+01:25:23,130 --> 01:25:24,840
+Adam Curry: I'm with you on
+that. I like that idea.
+
+1376
+01:25:25,980 --> 01:25:28,290
+Dave Jones: I think if nothing
+else, we need to get the remote
+
+1377
+01:25:28,290 --> 01:25:34,020
+item tag in there. Events. To
+me, it goes in this order remote
+
+1378
+01:25:34,020 --> 01:25:43,080
+item events. And then there's
+list mediums. And I think those
+
+1379
+01:25:43,080 --> 01:25:45,150
+list mediums need to go in there
+as well.
+
+1380
+01:25:45,660 --> 01:25:48,600
+Adam Curry: Yeah, yeah, that's a
+good one. Because we need we
+
+1381
+01:25:48,600 --> 01:25:51,510
+need. We need a lot. We need
+something for that. I'm looking
+
+1382
+01:25:51,510 --> 01:25:56,070
+at the music side project.com.
+And the search is just not
+
+1383
+01:25:56,070 --> 01:26:01,200
+music. The search populates with
+everything. It doesn't. Yeah,
+
+1384
+01:26:01,890 --> 01:26:06,480
+that's inherently not right. And
+I think that, I don't know,
+
+1385
+01:26:06,480 --> 01:26:11,550
+maybe if you just search for any
+term in them, that you think
+
+1386
+01:26:11,550 --> 01:26:13,560
+would be music, I get podcast.
+
+1387
+01:26:14,610 --> 01:26:18,870
+Dave Jones: Oh, what if you
+search for podcasting today? No,
+
+1388
+01:26:18,870 --> 01:26:24,120
+yeah, you get a podcast. That's
+not That's not the way I think
+
+1389
+01:26:24,120 --> 01:26:26,220
+it should be. No, he intended
+that.
+
+1390
+01:26:26,340 --> 01:26:28,770
+Adam Curry: Is there a way to
+only search for music?
+
+1391
+01:26:29,850 --> 01:26:32,040
+Dave Jones: That I thought
+that's what it would do? Yeah.
+
+1392
+01:26:32,040 --> 01:26:32,190
+But
+
+1393
+01:26:32,190 --> 01:26:34,470
+Adam Curry: how do we have an
+API endpoint?
+
+1394
+01:26:38,070 --> 01:26:38,970
+Unknown: I thought we did.
+
+1395
+01:26:41,130 --> 01:26:44,460
+Adam Curry: Maybe not. Yikes.
+Maybe we do. Here's another
+
+1396
+01:26:44,460 --> 01:26:47,040
+question. Is wavelike Tada. We
+
+1397
+01:26:47,040 --> 01:26:48,090
+Dave Jones: do we do, don't we?
+
+1398
+01:26:48,300 --> 01:26:50,220
+Adam Curry: I don't know. I'm
+not in charge of that.
+
+1399
+01:26:50,580 --> 01:26:56,490
+Dave Jones: Wave. Wave like is
+not pod pinging? They're not no
+
+1400
+01:26:57,690 --> 01:26:59,910
+Adam Curry: but they but they
+are adding stuff to the to the
+
+1401
+01:26:59,910 --> 01:27:00,540
+index.
+
+1402
+01:27:01,530 --> 01:27:04,560
+Dave Jones: Hmm Yeah, well,
+we're Yeah, we're picking it up.
+
+1403
+01:27:04,800 --> 01:27:13,320
+Okay. They submit Yeah. That
+their Gosh, net now you know
+
+1404
+01:27:13,320 --> 01:27:18,150
+what now I feel caught off guard
+because they may be pod paying
+
+1405
+01:27:18,150 --> 01:27:20,910
+me who runs this
+
+1406
+01:27:20,910 --> 01:27:23,340
+Adam Curry: a I don't know who
+runs anything who runs the show
+
+1407
+01:27:23,340 --> 01:27:23,700
+here?
+
+1408
+01:27:25,410 --> 01:27:31,590
+Dave Jones: Podcast? No idea.
+Wow. I have no idea what
+
+1409
+01:27:31,590 --> 01:27:39,870
+anything. That's good. This is
+good. Good question. I'm
+
+1410
+01:27:39,870 --> 01:27:44,580
+literally ever saw Michael ever
+wave like a potty.
+
+1411
+01:27:45,450 --> 01:27:47,280
+Adam Curry: That's so funny.
+That's so funny.
+
+1412
+01:27:48,630 --> 01:27:52,740
+Dave Jones: I see. No. I see no
+pod paying that I've ever sent
+
+1413
+01:27:52,740 --> 01:27:55,530
+to Mike. I think he's just
+submitting. All right.
+
+1414
+01:27:56,190 --> 01:27:57,750
+Adam Curry: Because I'm super
+pumped. And we're going to have
+
+1415
+01:27:57,750 --> 01:27:59,160
+these guys on pretty soon,
+right?
+
+1416
+01:28:00,060 --> 01:28:04,290
+Dave Jones: Yeah, the after we
+after we screwed them. After I
+
+1417
+01:28:04,290 --> 01:28:04,980
+screwed them over. We're
+
+1418
+01:28:04,980 --> 01:28:06,840
+Adam Curry: gonna have on
+eventually. Right. We'll fix
+
+1419
+01:28:06,840 --> 01:28:07,410
+that. Yeah.
+
+1420
+01:28:07,440 --> 01:28:10,650
+Dave Jones: Okay. Yeah, I am
+kind of glad that they did. I
+
+1421
+01:28:10,650 --> 01:28:12,180
+screwed that up. And they didn't
+show up.
+
+1422
+01:28:12,480 --> 01:28:13,980
+Adam Curry: And that would have
+been even worse. Yeah. Would
+
+1423
+01:28:13,980 --> 01:28:16,080
+have been worse. We had sorry,
+by the way we
+
+1424
+01:28:18,270 --> 01:28:18,990
+Dave Jones: understand Adam,
+
+1425
+01:28:19,020 --> 01:28:22,260
+Adam Curry: so I was just Yeah,
+right. Well, I switched to a
+
+1426
+01:28:22,260 --> 01:28:25,740
+different a different internet
+connection. That worked. Okay.
+
+1427
+01:28:26,850 --> 01:28:29,940
+But the amount of people who
+said hey, I'm available, I can
+
+1428
+01:28:29,940 --> 01:28:33,060
+do it like Sam Sethi like hey, I
+can do I can jump on right now.
+
+1429
+01:28:33,060 --> 01:28:35,520
+I couldn't do anything that Dave
+can do. I'm like, no.
+
+1430
+01:28:37,110 --> 01:28:42,240
+Dave Jones: Let's see how it is.
+Sam you can be okay. Exactly.
+
+1431
+01:28:42,240 --> 01:28:43,200
+You know, my back.
+
+1432
+01:28:43,770 --> 01:28:46,530
+Adam Curry: And I'm like, No,
+this is not gonna happen. That's
+
+1433
+01:28:46,530 --> 01:28:48,840
+not ever gonna happen. This is
+the show.
+
+1434
+01:28:49,560 --> 01:28:51,900
+Dave Jones: Hey, James Sam's
+ever ever out of town? Give me a
+
+1435
+01:28:51,900 --> 01:28:52,320
+call
+
+1436
+01:28:56,520 --> 01:28:58,110
+Adam Curry: Yeah, that's what
+your for your friends as well.
+
+1437
+01:28:58,110 --> 01:29:00,210
+The duty you read in
+
+1438
+01:29:00,210 --> 01:29:01,230
+Dave Jones: the back. So that's
+right.
+
+1439
+01:29:04,530 --> 01:29:06,930
+Adam Curry: You got thanks for
+people I do have. I do have
+
+1440
+01:29:06,930 --> 01:29:11,310
+another small item that I'm not
+quite sure. I just want to bring
+
+1441
+01:29:11,310 --> 01:29:14,700
+it up. Because, you know, I've
+been looking at noster I've been
+
+1442
+01:29:14,700 --> 01:29:19,860
+on noster I have a you know, my
+key is there whatever. I go on
+
+1443
+01:29:19,860 --> 01:29:23,850
+from time to time. And I'm
+sensing hostility. I don't like
+
+1444
+01:29:23,850 --> 01:29:26,940
+it. And I'll tell you what it
+is. It goes like this.
+
+1445
+01:29:27,870 --> 01:29:30,600
+Podcasting to point out value
+for value stocks, everything
+
+1446
+01:29:30,600 --> 01:29:35,610
+should be zaps and wishes okay,
+because you know, like whatever
+
+1447
+01:29:35,610 --> 01:29:37,770
+people can say whatever they
+want, because now this
+
+1448
+01:29:37,770 --> 01:29:40,800
+Dave Jones: thing they you just
+said is this a tone that you're
+
+1449
+01:29:40,800 --> 01:29:43,350
+picking up? Or is this something
+that was actually said?
+
+1450
+01:29:43,380 --> 01:29:45,450
+Adam Curry: No, it was said it
+was said that way? There was
+
+1451
+01:29:45,480 --> 01:29:47,850
+there was a thread? Yeah, I
+mean, of course I am
+
+1452
+01:29:47,880 --> 01:29:51,000
+interpreting the actual tone of
+voice, which is what I
+
+1453
+01:29:51,000 --> 01:29:55,830
+translated to appropriately.
+Yes, yes. And of course, Oscar
+
+1454
+01:29:55,830 --> 01:30:00,480
+over the fountain immediately
+makes zapping available I'm on
+
+1455
+01:30:00,480 --> 01:30:06,240
+fountain, to the fountain
+wallet. And I'm, I'm just not
+
+1456
+01:30:06,240 --> 01:30:11,100
+feeling good about this. I'm not
+sure what it is, other than it
+
+1457
+01:30:11,100 --> 01:30:17,130
+feels like Ellen, Ellen URL
+mafia all over again. You know,
+
+1458
+01:30:17,550 --> 01:30:21,540
+like Henry, there was even a
+thread like, you know, noster
+
+1459
+01:30:21,540 --> 01:30:25,230
+should replace RSS feeds or
+whatever. There's all kinds of
+
+1460
+01:30:25,230 --> 01:30:29,610
+stuff and and I'm just like, I'm
+not worried about any of that.
+
+1461
+01:30:29,970 --> 01:30:38,910
+But I want to be able to harness
+the the excitement over zaps. If
+
+1462
+01:30:38,910 --> 01:30:44,160
+there's a valid place for that
+in, in podcasting value for
+
+1463
+01:30:44,160 --> 01:30:48,600
+value streaming stuff, I just
+don't see it. And it's kind of
+
+1464
+01:30:48,600 --> 01:30:49,440
+bugged me.
+
+1465
+01:30:50,250 --> 01:30:54,450
+Dave Jones: I mean, it's been
+irritating me too. And it's so
+
+1466
+01:30:54,450 --> 01:31:00,030
+this, I saw the RSS thing.
+There's this cult, this,
+
+1467
+01:31:00,540 --> 01:31:03,840
+Adam Curry: who used to use the
+C word C word you may use cult?
+
+1468
+01:31:04,740 --> 01:31:05,010
+No.
+
+1469
+01:31:06,240 --> 01:31:09,210
+Dave Jones: Maybe Maybe I
+started to say culture. Oh,
+
+1470
+01:31:09,690 --> 01:31:13,290
+cool. Maybe called is a root
+word of culture is called. It is
+
+1471
+01:31:13,290 --> 01:31:17,460
+a twofer. I get them both. Yes.
+Right. So there's this, there's
+
+1472
+01:31:17,460 --> 01:31:19,950
+this sort of like, I feel like
+there's a I've been spending
+
+1473
+01:31:19,950 --> 01:31:23,850
+time on nostra to, to, I need to
+understand this thing and what
+
+1474
+01:31:23,850 --> 01:31:26,310
+and what's happening over there?
+And what's being said, and I
+
+1475
+01:31:26,310 --> 01:31:30,000
+just want I don't like, don't
+like, there being all this
+
+1476
+01:31:30,030 --> 01:31:31,710
+motion. And I don't understand
+what's happening.
+
+1477
+01:31:32,460 --> 01:31:35,520
+Adam Curry: Yeah, there you go.
+That's exactly it. Yeah, it's
+
+1478
+01:31:35,520 --> 01:31:35,850
+like,
+
+1479
+01:31:35,880 --> 01:31:38,880
+Dave Jones: it's like this, like
+a bunch of loud things, driving
+
+1480
+01:31:38,880 --> 01:31:41,220
+by your house, you know, for 15
+minutes, eventually, you're
+
+1481
+01:31:41,220 --> 01:31:47,430
+gonna get out and look out the
+window. So this spending time to
+
+1482
+01:31:47,430 --> 01:31:52,920
+me, I feel like there is this
+culture of the sugar daddy
+
+1483
+01:31:52,920 --> 01:31:57,000
+culture in Austria, and I think
+it comes from Dorsey the fact
+
+1484
+01:31:57,030 --> 01:32:02,580
+that that Dorsey is bankrolling
+a bunch of stuff over there.
+
+1485
+01:32:02,610 --> 01:32:05,820
+Yeah. Agree. And that that's
+where you get this sort of like,
+
+1486
+01:32:05,850 --> 01:32:09,120
+I'm going to pay a bounty of, of
+a million sets, if somebody
+
+1487
+01:32:09,120 --> 01:32:14,430
+makes RSS feeds on noster. It's
+like, why this is, it's just a
+
+1488
+01:32:14,430 --> 01:32:20,010
+dumb idea. To me, it's the whole
+it's the it's just dumb. I mean,
+
+1489
+01:32:20,010 --> 01:32:23,640
+there are, so you're going to
+ingest an RSS feed, and then
+
+1490
+01:32:24,360 --> 01:32:28,650
+post it on noster. Like, what is
+it? What's the point? And I
+
+1491
+01:32:28,650 --> 01:32:30,810
+don't even know, I just don't
+understand this. And we've
+
+1492
+01:32:30,810 --> 01:32:33,420
+already we already went down
+this road. That is, I think
+
+1493
+01:32:33,420 --> 01:32:38,640
+people, people in the not in the
+Ellen URL nostra group may not
+
+1494
+01:32:38,640 --> 01:32:41,730
+understand that we've already
+thought a lot of this stuff
+
+1495
+01:32:41,730 --> 01:32:45,600
+through. Yeah, we've fought the
+battle to get some to get this
+
+1496
+01:32:45,600 --> 01:32:51,240
+stuff the way that it operates
+now, and that is, you, you it is
+
+1497
+01:32:51,240 --> 01:32:58,800
+not the right solution to force
+some to force the listener to
+
+1498
+01:32:58,800 --> 01:33:03,630
+create an invoice every time
+they want to pay you. It's key
+
+1499
+01:33:03,630 --> 01:33:07,980
+send is much as much as people
+may not like he said it is the
+
+1500
+01:33:07,980 --> 01:33:12,750
+right answer to this problem.
+And being able to, and there
+
+1501
+01:33:12,750 --> 01:33:17,160
+should not have to be any name
+resolution, that putting a a
+
+1502
+01:33:17,160 --> 01:33:24,600
+node ID into a feed with key
+send is the lamest and meanest
+
+1503
+01:33:24,600 --> 01:33:28,170
+solution. And it solves this
+problem perfectly. The app
+
+1504
+01:33:28,260 --> 01:33:32,820
+doesn't have to do hardly any
+work at all. It just, it just
+
+1505
+01:33:32,820 --> 01:33:36,690
+looks at the node ID and boom,
+it's done. You don't have to do
+
+1506
+01:33:36,690 --> 01:33:43,050
+all this crazy Ellen, your LP.
+Look at your nip 50 sevens. And
+
+1507
+01:33:43,050 --> 01:33:46,500
+all this guy's like, you got to
+do all that. And so that's 10
+
+1508
+01:33:46,500 --> 01:33:49,530
+splits in their feed. I mean,
+look at Think about how hard
+
+1509
+01:33:49,530 --> 01:33:50,370
+that is for the app.
+
+1510
+01:33:51,750 --> 01:33:55,590
+Adam Curry: How about this? Is
+there a way to make a bridge so
+
+1511
+01:33:55,590 --> 01:33:59,880
+people if they're really want to
+send a zap, they can zap a
+
+1512
+01:33:59,880 --> 01:34:03,060
+podcast and it hits the bridge,
+and that splits it into keys.
+
+1513
+01:34:03,060 --> 01:34:05,640
+And that's something Brian of
+London would build, by the way.
+
+1514
+01:34:06,330 --> 01:34:08,280
+It's one of those Rube Goldberg
+things.
+
+1515
+01:34:10,110 --> 01:34:12,630
+Dave Jones: I'm just I'm just
+not interested. Okay. I'm not
+
+1516
+01:34:12,630 --> 01:34:20,400
+interested in the, to me. Here's
+not noster has a people that I
+
+1517
+01:34:20,400 --> 01:34:29,190
+respect like Alex Gleason have
+some interest in noster. And so
+
+1518
+01:34:29,400 --> 01:34:34,230
+I'm not going to say that it's a
+pile of crap. But I just feel
+
+1519
+01:34:34,230 --> 01:34:38,520
+like the use cases they're
+trying to put it to my opinion
+
+1520
+01:34:38,520 --> 01:34:42,270
+is the the social media use case
+was the worst.
+
+1521
+01:34:42,299 --> 01:34:43,889
+Adam Curry: It's probably the
+worst one they could have used.
+
+1522
+01:34:43,919 --> 01:34:44,969
+I totally agree.
+
+1523
+01:34:46,230 --> 01:34:48,810
+Dave Jones: It should have been
+something it could have should
+
+1524
+01:34:48,810 --> 01:34:53,100
+have come out of the gate with a
+different use case. And because
+
+1525
+01:34:53,100 --> 01:34:59,490
+this this thing is just not
+compelling to me. I get on my
+
+1526
+01:34:59,490 --> 01:35:03,810
+app And I don't want to be like
+Debbie downer, like, beat this
+
+1527
+01:35:03,810 --> 01:35:07,620
+thing down. Because I don't want
+people doing that to the early
+
+1528
+01:35:07,620 --> 01:35:11,010
+work of of what we're doing here
+either things that we're running
+
+1529
+01:35:11,010 --> 01:35:13,770
+with scissors, they're running
+with scissors. I want to be
+
+1530
+01:35:13,770 --> 01:35:18,600
+fair. But it's just I don't see
+the point of a lot of this. A
+
+1531
+01:35:18,600 --> 01:35:21,840
+lot of these use cases as the
+way they're being implemented
+
+1532
+01:35:21,840 --> 01:35:25,680
+because you have the I get on my
+noster app. I mean, I forget
+
+1533
+01:35:25,680 --> 01:35:32,880
+what the Damas and half the time
+I've got, I get on there, I
+
+1534
+01:35:32,880 --> 01:35:36,120
+start to scroll my timeline, and
+then things begin are popping
+
+1535
+01:35:36,120 --> 01:35:40,620
+up. Like after the fact, like,
+there were five seconds
+
+1536
+01:35:40,680 --> 01:35:42,240
+Adam Curry: the relay start to
+kick in.
+
+1537
+01:35:43,980 --> 01:35:46,410
+Dave Jones: And then and then I
+don't know where I'm at in my
+
+1538
+01:35:46,410 --> 01:35:49,560
+timeline anymore, and no. Okay,
+so let's scroll back up to the
+
+1539
+01:35:49,560 --> 01:35:55,290
+top, scroll by start start
+again. And then people's names
+
+1540
+01:35:55,290 --> 01:35:59,490
+are showing up as just pub keys
+and generic avatars. They're
+
+1541
+01:35:59,490 --> 01:36:03,300
+just permanent that way. And
+then, and I tap on, then it does
+
+1542
+01:36:03,300 --> 01:36:07,800
+the name resolution to find out
+who they are. It's just not a
+
+1543
+01:36:07,800 --> 01:36:08,550
+great experience
+
+1544
+01:36:08,580 --> 01:36:11,310
+Adam Curry: I'm seeing in the
+chat room or head saying no, no,
+
+1545
+01:36:11,310 --> 01:36:14,760
+no, it's easy to do. It took
+less than a weekend to add Ellen
+
+1546
+01:36:14,760 --> 01:36:18,300
+Euro fall back. If Kishen fails,
+the guys that get Alby are
+
+1547
+01:36:18,300 --> 01:36:21,540
+suggesting it if we need to stop
+something, I need you to say it
+
+1548
+01:36:21,540 --> 01:36:26,760
+now. Why exactly is it not? Is
+it too too much overhead for
+
+1549
+01:36:26,760 --> 01:36:28,020
+apps to do this.
+
+1550
+01:36:29,100 --> 01:36:38,010
+Dave Jones: So So if if you have
+if you have to force breeze to
+
+1551
+01:36:38,040 --> 01:36:41,940
+on a show like ours, which which
+has nine splits, if you have to
+
+1552
+01:36:41,940 --> 01:36:48,810
+force breeze, to do an Ellen URL
+p resolution nine times every
+
+1553
+01:36:48,810 --> 01:36:55,200
+minute, and boosts on top of
+that. That's not That's not just
+
+1554
+01:36:55,200 --> 01:36:59,400
+a lot of a lot of load on the
+server. Imagine if you have 100
+
+1555
+01:36:59,400 --> 01:37:02,340
+listeners at all listening to
+your podcast at the same time,
+
+1556
+01:37:02,340 --> 01:37:05,010
+which is where we want this
+thing to be Yeah, imagine,
+
+1557
+01:37:05,040 --> 01:37:11,370
+imagine no agenda. You have Oh
+goodness. 700 people listening
+
+1558
+01:37:11,400 --> 01:37:14,400
+live at the same time. 2000
+
+1559
+01:37:14,430 --> 01:37:15,660
+Adam Curry: Let's make it 2000.
+Again,
+
+1560
+01:37:15,660 --> 01:37:19,470
+Dave Jones: let's say 2000
+people listening live on breeze.
+
+1561
+01:37:20,580 --> 01:37:24,930
+Every one of those breeze apps
+is sending a streaming payment
+
+1562
+01:37:25,080 --> 01:37:29,730
+once a minute and having to do
+pretend potentially nine or 10 l
+
+1563
+01:37:29,730 --> 01:37:35,400
+in your LP invoice generations
+and look up processes through
+
+1564
+01:37:35,400 --> 01:37:39,120
+nip 57. That's a that's called a
+DDoS attack.
+
+1565
+01:37:39,420 --> 01:37:42,120
+Adam Curry: Thank you. That's
+exactly that's exactly what it
+
+1566
+01:37:42,120 --> 01:37:47,520
+would be. Yeah, it's just not
+both ends. By the way. You'd be
+
+1567
+01:37:47,520 --> 01:37:48,750
+dossing your own app,
+
+1568
+01:37:49,500 --> 01:37:52,470
+Dave Jones: your is too much
+overhead. You can't you can't do
+
+1569
+01:37:52,470 --> 01:37:57,300
+that. And the nature of the
+streaming payments is is
+
+1570
+01:37:57,300 --> 01:38:01,440
+critical booster great booster
+grams are awesome. But the
+
+1571
+01:38:01,440 --> 01:38:05,490
+streaming per minute payments,
+that's where the lifeblood of
+
+1572
+01:38:05,490 --> 01:38:08,580
+the future lightening value for
+value economy comes from,
+
+1573
+01:38:09,180 --> 01:38:13,920
+because that is how people I
+forget to boost it. And I'm
+
+1574
+01:38:13,920 --> 01:38:17,700
+listening to the show. But I
+always know that that 100 SATs
+
+1575
+01:38:17,700 --> 01:38:20,310
+minute that I selected, that's
+always going to be ping, ping,
+
+1576
+01:38:20,310 --> 01:38:22,950
+ping, ping ping, right. And I
+don't have to, I don't have to
+
+1577
+01:38:22,950 --> 01:38:27,120
+remember in people, once a
+minute you the podcasters
+
+1578
+01:38:27,120 --> 01:38:30,420
+looking at their dashboard is
+Ping, ping ping to get income
+
+1579
+01:38:30,420 --> 01:38:31,830
+coming in. And then also it's
+
+1580
+01:38:32,940 --> 01:38:38,130
+Adam Curry: okay, that's a good
+point. People who who want to
+
+1581
+01:38:38,160 --> 01:38:42,060
+integrate and this arrowhead is
+not going to stop who thinks
+
+1582
+01:38:42,060 --> 01:38:45,390
+zapping is important, that's
+great. But your your fucking
+
+1583
+01:38:45,390 --> 01:38:48,750
+everybody else because you can't
+do splits. You're not going to
+
+1584
+01:38:48,750 --> 01:38:51,420
+do that no one's going to be
+zapping nine different times and
+
+1585
+01:38:51,420 --> 01:38:55,020
+nine different values. So you're
+circumventing the whole process.
+
+1586
+01:38:55,740 --> 01:39:01,200
+And I would I would also
+encourage other apps and
+
+1587
+01:39:01,200 --> 01:39:04,860
+services to consider that you're
+really undermining it.
+
+1588
+01:39:05,820 --> 01:39:07,710
+Dave Jones: You're podcasting is
+not social media. They're
+
+1589
+01:39:07,710 --> 01:39:08,370
+correct.
+
+1590
+01:39:08,520 --> 01:39:12,060
+Adam Curry: And I love zapping
+as as a replacement for like I
+
+1591
+01:39:12,060 --> 01:39:16,170
+think that's a great idea. It's
+fantastic to I mean, and that's
+
+1592
+01:39:16,170 --> 01:39:20,580
+where it's appropriate. Makes a
+lot of and I liked it that it's
+
+1593
+01:39:20,580 --> 01:39:24,810
+getting people into the into the
+habit of returning some value
+
+1594
+01:39:24,810 --> 01:39:28,650
+for something I like that a lot.
+I really do. But stay in your
+
+1595
+01:39:28,650 --> 01:39:31,860
+lane, because it's an it's not a
+we put a lot of work into the
+
+1596
+01:39:31,860 --> 01:39:35,460
+whole infrastructure. And you
+know, when I hear the get Alby
+
+1597
+01:39:35,460 --> 01:39:38,460
+and everyone wants to do this, I
+think they're riding a train and
+
+1598
+01:39:38,460 --> 01:39:40,740
+they're screwing themselves and
+other people with it.
+
+1599
+01:39:42,360 --> 01:39:48,870
+Dave Jones: I agree to and I
+think that I fully understand
+
+1600
+01:39:48,870 --> 01:39:55,380
+what you're saying. I think
+you're right. The zapping is a
+
+1601
+01:39:55,380 --> 01:39:59,970
+great mechanic for returning
+value for a value for value ecos
+
+1602
+01:40:00,000 --> 01:40:04,410
+system in general, it makes
+sense. The way that the way that
+
+1603
+01:40:04,410 --> 01:40:07,740
+noster it the social media
+aspect of nostrils designed the
+
+1604
+01:40:07,740 --> 01:40:11,940
+zapping makes sense. That's Yes,
+podcasting. They're not the
+
+1605
+01:40:11,940 --> 01:40:14,760
+same. keep them separate. This
+just doesn't make sense for
+
+1606
+01:40:14,760 --> 01:40:18,450
+podcasting. We've, we've, we've
+been through this we've done
+
+1607
+01:40:18,480 --> 01:40:21,900
+this is where two and a half
+years into this noster is brand
+
+1608
+01:40:21,900 --> 01:40:24,300
+new. This is not the same thing.
+
+1609
+01:40:25,200 --> 01:40:27,930
+Adam Curry: Yeah, and the main
+thing, and this is what I want
+
+1610
+01:40:27,930 --> 01:40:34,320
+to say to our head who's saying
+no, it's the same as a boost.
+
+1611
+01:40:34,350 --> 01:40:40,470
+No, it's not. Because we have a
+split flow is not the same as a
+
+1612
+01:40:40,470 --> 01:40:46,560
+boost. I'm just I, you know, as
+a wallet provider get Alby makes
+
+1613
+01:40:46,560 --> 01:40:48,750
+total sense. They can do
+whatever they want, you know,
+
+1614
+01:40:48,780 --> 01:40:54,900
+they want to do Aaron, what is
+the what is the API payment
+
+1615
+01:40:54,900 --> 01:41:01,110
+thing? Was LSAT? Yeah, they
+there'll be many applications
+
+1616
+01:41:01,110 --> 01:41:06,870
+for LSAT. Absolutely. Fountain,
+questionable. So I'm just saying
+
+1617
+01:41:06,900 --> 01:41:11,340
+if you want to break the system
+by by having people circumvent
+
+1618
+01:41:11,340 --> 01:41:15,810
+the splits. Have at it, but
+you're going to lose out in the
+
+1619
+01:41:15,810 --> 01:41:17,220
+long run in the long run.
+
+1620
+01:41:18,540 --> 01:41:22,470
+Dave Jones: I think there's a
+general issue here where this
+
+1621
+01:41:22,470 --> 01:41:26,040
+has always been the word and I
+just want to be, I want to step
+
+1622
+01:41:26,040 --> 01:41:28,470
+back and be gracious to
+everybody for a minute. I think
+
+1623
+01:41:28,470 --> 01:41:36,570
+there is a a, there's always
+been within this project. There
+
+1624
+01:41:36,570 --> 01:41:40,950
+have been Bitcoiners coming to
+podcasting and podcasting coming
+
+1625
+01:41:40,950 --> 01:41:45,390
+to Bitcoin. Yeah. And so the
+those there's a natural sort of
+
+1626
+01:41:45,390 --> 01:41:52,500
+missing a natural, a natural,
+like a Venn diagram. And they
+
+1627
+01:41:52,500 --> 01:41:54,450
+overlap in the middle, but
+there's a lot of places they
+
+1628
+01:41:54,450 --> 01:41:58,200
+don't. So there's there's going
+to be a natural tendency for one
+
+1629
+01:41:58,200 --> 01:42:00,570
+side to do things one way the
+other side to do things the
+
+1630
+01:42:00,570 --> 01:42:06,180
+other way. And in podcasting 2.0
+We have to make we have to be in
+
+1631
+01:42:06,180 --> 01:42:09,450
+the middle of that of that Venn
+diagram and make those things
+
+1632
+01:42:09,510 --> 01:42:13,020
+mesh. Yeah, because the Bitcoin
+people are gonna see things one
+
+1633
+01:42:13,020 --> 01:42:14,940
+way and be like, Yeah, let's do
+that. To me, this is the
+
+1634
+01:42:14,940 --> 01:42:21,390
+fundamental mistake of of, of
+forcing alien URL. Elon, you RLP
+
+1635
+01:42:21,390 --> 01:42:25,440
+down and down podcasting,
+throat, it's not gonna work
+
+1636
+01:42:25,440 --> 01:42:27,810
+we've already thought this
+through. So just
+
+1637
+01:42:28,230 --> 01:42:31,890
+Adam Curry: just know that we
+have looked at we have looked at
+
+1638
+01:42:31,890 --> 01:42:34,200
+it is not necessarily going to
+be a great idea.
+
+1639
+01:42:34,830 --> 01:42:38,430
+Dave Jones: Yeah, and podcasters
+also have ideas that don't fit
+
+1640
+01:42:39,060 --> 01:42:42,150
+within the other side. So we
+have to mediate that as well. So
+
+1641
+01:42:42,180 --> 01:42:45,840
+yeah, I think I think there's
+just a bit especially the bit
+
+1642
+01:42:45,990 --> 01:42:49,980
+the Bitcoin people, because
+there's money involved. And what
+
+1643
+01:42:49,980 --> 01:42:52,080
+you see it with these bounties
+and that kind of thing, that
+
+1644
+01:42:52,080 --> 01:42:56,610
+they, they just want to run off
+and do something and it's like
+
+1645
+01:42:56,610 --> 01:42:59,670
+you guys, you mean you can't,
+she's not the way it works. And
+
+1646
+01:42:59,670 --> 01:43:03,090
+you got to slow down and get
+some consensus here. And think
+
+1647
+01:43:03,090 --> 01:43:06,990
+about, think about the the
+industry and the audience that
+
+1648
+01:43:06,990 --> 01:43:09,450
+you're trying to address with
+the technology that you're
+
+1649
+01:43:09,450 --> 01:43:12,930
+making. If you're, if you're
+trying to address problems
+
+1650
+01:43:12,930 --> 01:43:17,250
+within podcasting, or music, or
+other types of things, you need
+
+1651
+01:43:17,250 --> 01:43:20,970
+to understand that industry
+fully before you dive in and
+
+1652
+01:43:20,970 --> 01:43:24,240
+start building something and
+trying to propose a standard
+
+1653
+01:43:24,510 --> 01:43:27,090
+standards aren't bad, but you
+have to at least understand what
+
+1654
+01:43:27,090 --> 01:43:28,740
+the audience needs before you
+make it.
+
+1655
+01:43:28,830 --> 01:43:33,150
+Adam Curry: I guess now, I know
+how Marco feels. Right? Because
+
+1656
+01:43:33,150 --> 01:43:36,030
+I really felt like people were
+bullying. You know, it's like,
+
+1657
+01:43:36,060 --> 01:43:42,420
+Nah, man, this is the way to go.
+This is the way it is right now.
+
+1658
+01:43:42,420 --> 01:43:43,500
+I don't think so.
+
+1659
+01:43:44,640 --> 01:43:46,740
+Dave Jones: Anyway, you know, I
+know some people did that to
+
+1660
+01:43:46,740 --> 01:43:49,800
+Marco that I you know, we we
+told the people early on to
+
+1661
+01:43:49,800 --> 01:43:55,080
+chill out and stop being that
+way. You know, I don't think I
+
+1662
+01:43:55,080 --> 01:43:57,960
+think his problems over those
+people not not with yes, no,
+
+1663
+01:43:57,990 --> 01:43:59,340
+Adam Curry: no, no, no, I know
+that. I know.
+
+1664
+01:44:01,260 --> 01:44:03,690
+Dave Jones: He made he made a
+comment about standards. And you
+
+1665
+01:44:03,690 --> 01:44:04,110
+know, we
+
+1666
+01:44:05,400 --> 01:44:06,900
+Adam Curry: do we have a
+standard there's lots of
+
+1667
+01:44:07,080 --> 01:44:07,500
+there's,
+
+1668
+01:44:08,070 --> 01:44:09,960
+Dave Jones: I think those are
+gonna be the other thing I said
+
+1669
+01:44:09,960 --> 01:44:15,030
+we we we briefly entertained
+calling things standards and
+
+1670
+01:44:15,030 --> 01:44:15,300
+made
+
+1671
+01:44:15,330 --> 01:44:18,330
+Adam Curry: by requests from
+from hosting companies, by the
+
+1672
+01:44:18,330 --> 01:44:21,660
+way, it was a request to do
+that. And I think we even tried
+
+1673
+01:44:21,660 --> 01:44:24,150
+to I certainly tried to pick
+that up and it just died on the
+
+1674
+01:44:24,150 --> 01:44:27,060
+vine. And And honestly, I'm
+happy.
+
+1675
+01:44:28,890 --> 01:44:31,440
+Dave Jones: Their specs, these
+are these justifications and you
+
+1676
+01:44:31,440 --> 01:44:34,380
+can either do them or not, you
+don't nobody's forcing anybody
+
+1677
+01:44:34,380 --> 01:44:35,130
+to do anything.
+
+1678
+01:44:35,220 --> 01:44:38,070
+Adam Curry: Yeah, exactly.
+You're all podcasting. 2.0 It's
+
+1679
+01:44:38,070 --> 01:44:41,880
+just more podcasting is not
+breaking anything. It's not
+
+1680
+01:44:41,880 --> 01:44:44,910
+changing anything. It's not
+making a new standard. And we're
+
+1681
+01:44:44,910 --> 01:44:47,370
+gonna we have some interesting
+meeting scheduled with people
+
+1682
+01:44:47,370 --> 01:44:50,280
+who are kind of into that I'm
+not sure I would even be for
+
+1683
+01:44:50,280 --> 01:44:53,760
+calling it a standard or W three
+C. You know, I love the way
+
+1684
+01:44:53,790 --> 01:44:58,140
+everything works. Now. We're the
+boss, and everyone else can
+
+1685
+01:44:58,140 --> 01:45:06,840
+pounce like that. I like that
+system I mean it's so far it's
+
+1686
+01:45:06,840 --> 01:45:09,540
+worked out really well it's been
+a very open process and it's
+
+1687
+01:45:09,540 --> 01:45:12,870
+been fantastic you know and the
+minute you bring you know like
+
+1688
+01:45:12,900 --> 01:45:15,810
+official structure into it I was
+like oh that's gonna ruin it
+
+1689
+01:45:17,640 --> 01:45:22,680
+Dave Jones: you can Yeah, that's
+right. Oh airhead says landing
+
+1690
+01:45:22,680 --> 01:45:25,770
+addresses are no longer only
+Elon URL that's right because
+
+1691
+01:45:26,520 --> 01:45:31,380
+because we booked that system
+initially to get key sand in
+
+1692
+01:45:31,380 --> 01:45:33,840
+there as well so that's right I
+said I mean this this stuff has
+
+1693
+01:45:33,840 --> 01:45:34,620
+been thought through
+
+1694
+01:45:35,340 --> 01:45:39,000
+Adam Curry: Yeah. Anyway, let's
+take a few people as we move
+
+1695
+01:45:39,000 --> 01:45:47,850
+towards a buck 45 here okay, we
+got the SIR Spencer stuff we got
+
+1696
+01:45:49,560 --> 01:45:55,440
+blueberry 17,776 Big freedom
+boost sending boost pilling
+
+1697
+01:45:55,440 --> 01:45:59,040
+karma. Tonight I will attempt
+giving comedian Sam Tripoli the
+
+1698
+01:45:59,070 --> 01:46:02,640
+PC 2.0 equivalent of telling
+someone that 911 hijackers were
+
+1699
+01:46:02,640 --> 01:46:04,980
+identified by the passports
+found at the base of the Twin
+
+1700
+01:46:04,980 --> 01:46:12,300
+Towers. Okay, sounds great. Oh,
+and there's Phoenix. The better
+
+1701
+01:46:12,300 --> 01:46:17,400
+half of a phone boy. Also 6969
+SAS Thank you pod father for all
+
+1702
+01:46:17,400 --> 01:46:20,040
+you're doing lady Phoenix and
+Lord phone boy the Lowe's
+
+1703
+01:46:20,040 --> 01:46:24,240
+effect. Come for the shenanigans
+stay for the party. We really
+
+1704
+01:46:24,240 --> 01:46:29,400
+appreciate you guys letting us
+bust in here. Eric P. P 33,333.
+
+1705
+01:46:29,400 --> 01:46:34,350
+About an hour ago Dred Scott
+5555 says Adam was really having
+
+1706
+01:46:34,350 --> 01:46:36,390
+fun yesterday was great to
+witness. It was great to have
+
+1707
+01:46:36,390 --> 01:46:39,780
+you all there as well. Dred
+Scott also, the only guy I'll
+
+1708
+01:46:39,780 --> 01:46:43,560
+check it again, but the only guy
+ever to use the tally coin
+
+1709
+01:46:43,590 --> 01:46:47,340
+unchained payment system that we
+have so proudly displayed by
+
+1710
+01:46:47,340 --> 01:46:59,130
+request. He did send us let's
+see. Holy crap. drab. I see
+
+1711
+01:46:59,130 --> 01:46:59,700
+nuts.
+
+1712
+01:47:00,330 --> 01:47:02,460
+Dave Jones: When did he fall in
+the keyboard?
+
+1713
+01:47:02,490 --> 01:47:05,640
+Adam Curry: 224,035. saps
+
+1714
+01:47:07,500 --> 01:47:11,280
+Unknown: sock 20 is blades only
+Impala
+
+1715
+01:47:11,610 --> 01:47:13,560
+Adam Curry: shouldn't add to the
+tally coin yesterday.
+
+1716
+01:47:14,280 --> 01:47:15,480
+Dave Jones: JB you do too much.
+
+1717
+01:47:15,570 --> 01:47:18,090
+Adam Curry: I really do much.
+And we give him we only give him
+
+1718
+01:47:18,090 --> 01:47:22,350
+like a 5% cut on the split for
+chapters. Well, I do give it on
+
+1719
+01:47:22,350 --> 01:47:25,920
+every single podcast I do. So
+maybe he's able to recycle some
+
+1720
+01:47:25,920 --> 01:47:33,330
+of it. And let's see, chat F
+3333. Hey, I only requested Ride
+
+1721
+01:47:33,330 --> 01:47:35,400
+the Lightning after someone
+requested milkshake. Yeah,
+
+1722
+01:47:35,400 --> 01:47:38,610
+that's right. That was for you a
+special milkshake. Milkshake. So
+
+1723
+01:47:40,440 --> 01:47:47,310
+yes, chat F No. 3333 A Chris,
+you know 9013 You can't just go
+
+1724
+01:47:47,310 --> 01:47:51,000
+out there do pole work whenever
+you want. You first have to call
+
+1725
+01:47:51,000 --> 01:47:55,830
+up and put in a poll request.
+Yeah. Dred Scott boosting Dave's
+
+1726
+01:47:55,830 --> 01:48:00,690
+poll works 5555 your poll work
+was outstanding. I've been told
+
+1727
+01:48:00,810 --> 01:48:06,120
+and there's dread with a pre
+boost 55,555 or dread.
+
+1728
+01:48:07,110 --> 01:48:09,600
+Dave Jones: I'm gonna start
+sending this back. Yeah. Yeah,
+
+1729
+01:48:09,690 --> 01:48:12,330
+Adam Curry: yeah, we got your
+and that's another beautiful
+
+1730
+01:48:12,330 --> 01:48:14,610
+thing. We don't need any
+permission to send him money.
+
+1731
+01:48:15,180 --> 01:48:17,160
+Dave Jones: That's right. And he
+didn't even stop us. That's the
+
+1732
+01:48:17,160 --> 01:48:18,300
+beautiful thing about Kison
+
+1733
+01:48:19,110 --> 01:48:21,510
+Adam Curry: lyceum. Which of
+course is Martin Linda's Coke, a
+
+1734
+01:48:21,510 --> 01:48:25,560
+replay of yesterday's Liberty
+boost regarding and those 2112
+
+1735
+01:48:25,770 --> 01:48:28,980
+Regarding the song 55 million
+Frenchmen. And Benjamin
+
+1736
+01:48:28,980 --> 01:48:32,340
+Bellinis. Post music tip. This
+is always so cryptic, happy
+
+1737
+01:48:32,340 --> 01:48:37,170
+music. radio.com. Okay, thank
+you very much, Martin. Let's see
+
+1738
+01:48:37,170 --> 01:48:43,560
+what else do I have? I think I
+think that's all it is. I know,
+
+1739
+01:48:43,560 --> 01:48:47,220
+you'll of course have all of the
+all of the booths from
+
+1740
+01:48:47,220 --> 01:48:51,000
+yesterday, I think I think
+pretty much everybody so we can
+
+1741
+01:48:51,000 --> 01:48:53,850
+run through them pretty quick,
+because a lot of requests there.
+
+1742
+01:48:53,850 --> 01:48:54,300
+So
+
+1743
+01:48:54,810 --> 01:48:57,390
+Dave Jones: I grabbed the
+boosts. I didn't try to get the
+
+1744
+01:48:57,390 --> 01:49:00,300
+boost from today or anything.
+I'm just gonna stick and read
+
+1745
+01:49:00,300 --> 01:49:03,000
+the boost that I had prepared
+for Friday's show. Yeah, that's
+
+1746
+01:49:03,000 --> 01:49:05,550
+probably good. Because I got
+everybody else. Yeah. And then
+
+1747
+01:49:05,550 --> 01:49:09,930
+we'll sort it out later. Yeah.
+Well, we had a we had $200 from
+
+1748
+01:49:10,020 --> 01:49:11,910
+Oscar Mary over fountain. Oh,
+
+1749
+01:49:12,780 --> 01:49:18,450
+Unknown: wow. 20 is Blake on am
+Paula thank you, Oscar.
+
+1750
+01:49:19,080 --> 01:49:21,900
+Dave Jones: Very kind enough
+always to support us monthly.
+
+1751
+01:49:22,500 --> 01:49:27,300
+Appreciate Oscar. Thank you,
+brother. And we got some booster
+
+1752
+01:49:27,300 --> 01:49:31,110
+grants. We got 22 to 22 big road
+ducks from Todd in Northern
+
+1753
+01:49:31,110 --> 01:49:34,920
+Virginia. Just boosting it to
+eggs can't stop won't stop
+
+1754
+01:49:38,280 --> 01:49:39,720
+Adam Curry: don't stop don't
+stop
+
+1755
+01:49:41,670 --> 01:49:43,320
+Dave Jones: don't let anybody
+make you stop. Don't
+
+1756
+01:49:43,320 --> 01:49:43,920
+Adam Curry: ever ever,
+
+1757
+01:49:44,370 --> 01:49:47,940
+Dave Jones: ever mere mortals
+podcast. 2222 Road ducks he says
+
+1758
+01:49:47,940 --> 01:49:51,420
+no secrets between board members
+spilled Buzzsprout beans Dave
+
+1759
+01:49:51,630 --> 01:49:52,890
+Buzzsprout being Buzzsprout
+
+1760
+01:49:52,890 --> 01:49:56,220
+Adam Curry: beans. That's about
+boost boost boost.
+
+1761
+01:49:57,030 --> 01:49:58,740
+Dave Jones: I didn't know I had
+bus route beans
+
+1762
+01:49:58,950 --> 01:50:00,960
+Adam Curry: must have must be
+something You alluded to
+
+1763
+01:50:00,960 --> 01:50:01,470
+somewhere
+
+1764
+01:50:04,410 --> 01:50:06,180
+Dave Jones: okay, I don't even
+remember I'm sorry. I don't
+
+1765
+01:50:06,180 --> 01:50:10,770
+remember. more memorable
+character back again 5555
+
+1766
+01:50:10,770 --> 01:50:14,010
+through found and he says,
+Congrats on getting to your
+
+1767
+01:50:14,010 --> 01:50:17,190
+first Bitcoin meetup. Dave,
+Texas slim will be at the one
+
+1768
+01:50:17,190 --> 01:50:20,970
+here in Brisbane next week. I'm
+super pumped on my birthday as
+
+1769
+01:50:20,970 --> 01:50:24,120
+well. Oh, cool. I'm going to
+Brisbane,
+
+1770
+01:50:24,540 --> 01:50:28,140
+Adam Curry: Brisbane, Brisbane,
+Brisbane, Brisbane, Brisbane,
+
+1771
+01:50:28,770 --> 01:50:36,840
+Dave Jones: Brisbane, this was
+it. Yeah. Whoosh. 12498 the
+
+1772
+01:50:36,840 --> 01:50:40,320
+fountain nappy says bye
+podcasting. 2.0x go podcasting
+
+1773
+01:50:40,320 --> 01:50:42,270
+just keep it at the suggested
+speed.
+
+1774
+01:50:43,560 --> 01:50:45,450
+Adam Curry: Yeah, we will go
+podcast
+
+1775
+01:50:49,590 --> 01:50:51,570
+Dave Jones: close to Texas slim
+going all the way down to
+
+1776
+01:50:51,570 --> 01:50:52,200
+Australia for
+
+1777
+01:50:52,230 --> 01:50:54,750
+Adam Curry: he's doing beef
+initiative down under. He's
+
+1778
+01:50:54,780 --> 01:50:57,630
+doing the same. He's been really
+getting a lot of attention.
+
+1779
+01:50:58,530 --> 01:51:00,690
+Dave Jones: And he's preaching
+the gospel. Like to the far
+
+1780
+01:51:00,690 --> 01:51:01,980
+flung reaches of the Earth. It
+was a
+
+1781
+01:51:01,980 --> 01:51:05,100
+Adam Curry: pretty cool article
+about him and ABC, which is
+
+1782
+01:51:05,100 --> 01:51:08,700
+Australian Broadcasting
+Corporation, M M, five M. And
+
+1783
+01:51:08,850 --> 01:51:13,170
+they said, A man who's who's who
+goes by Texas limb. And we asked
+
+1784
+01:51:13,170 --> 01:51:15,780
+him for his full name. He said
+that's all you need to know tax
+
+1785
+01:51:15,780 --> 01:51:22,410
+asleep. Like you don't need to
+know I'm Texas slavers. My Mama
+
+1786
+01:51:22,440 --> 01:51:24,420
+knows me by Texas. flim that's
+enough.
+
+1787
+01:51:26,700 --> 01:51:28,110
+Dave Jones: Takes us asleep. But
+it
+
+1788
+01:51:28,110 --> 01:51:29,880
+Adam Curry: was interesting to
+see because you know, of course
+
+1789
+01:51:29,940 --> 01:51:32,970
+there was Bitcoiners there and
+you know, like a typical beef
+
+1790
+01:51:32,970 --> 01:51:35,850
+initiative meetup and talking
+about purchasing, you know, the
+
+1791
+01:51:35,850 --> 01:51:40,050
+beef with Bitcoin and what the
+Australian media but glommed on
+
+1792
+01:51:40,050 --> 01:51:43,470
+to is, you know, this undertone
+up feels a lot like the
+
+1793
+01:51:43,470 --> 01:51:50,130
+sovereign man movement, like no,
+no, no, no, no, I did have to do
+
+1794
+01:51:50,130 --> 01:51:51,000
+something negative.
+
+1795
+01:51:51,030 --> 01:51:56,310
+Dave Jones: They always do that.
+Yeah. Clark in 25,001 SATs
+
+1796
+01:51:56,310 --> 01:52:00,090
+through fountain switching from
+Fiat cookbooks to boosting every
+
+1797
+01:52:00,090 --> 01:52:03,210
+episode up the good work and see
+it the next meetup Dave, that's
+
+1798
+01:52:03,210 --> 01:52:03,600
+my buddy.
+
+1799
+01:52:03,630 --> 01:52:07,530
+Adam Curry: Oh, nice. He was at
+the Bitcoin meetup
+
+1800
+01:52:08,130 --> 01:52:10,830
+Dave Jones: that we wrote
+together that's powered Oh nice.
+
+1801
+01:52:11,190 --> 01:52:16,500
+Adam Curry: You take the flatbed
+you don't drive that outside
+
+1802
+01:52:16,500 --> 01:52:18,300
+you're 15 minutes city is that
+the
+
+1803
+01:52:21,390 --> 01:52:25,110
+Dave Jones: Yeah, nothing in
+Birmingham is 15 That's not even
+
+1804
+01:52:25,140 --> 01:52:30,090
+you can't even do 15 minutes in
+so I went from contracts
+
+1805
+01:52:30,150 --> 01:52:34,230
+13579 13 festivity now through
+pod versus finally time again to
+
+1806
+01:52:34,230 --> 01:52:37,110
+listen to the podcast and boost
+alright, we agree on the
+
+1807
+01:52:37,110 --> 01:52:40,380
+listening speed it somehow feels
+wrong to listen faster than 1x
+
+1808
+01:52:40,380 --> 01:52:47,760
+and cut pauses boost believer
+Thank you 16 969 From Hey
+
+1809
+01:52:47,760 --> 01:52:51,360
+citizen through pod verse. He
+says another great show fellas
+
+1810
+01:52:51,480 --> 01:52:53,640
+when I grow up I want to be just
+like you too.
+
+1811
+01:52:53,789 --> 01:52:57,269
+Adam Curry: Oh, oh how you doing
+booster just like us.
+
+1812
+01:52:57,749 --> 01:53:02,009
+Dave Jones: So sweet. Mere
+Mortals podcast to 2222 from
+
+1813
+01:53:02,009 --> 01:53:05,879
+found through fountain he says
+Bitcoin meetup update takes a
+
+1814
+01:53:05,879 --> 01:53:09,479
+slam is awesome. And I need to
+analyze some of my food choices.
+
+1815
+01:53:09,569 --> 01:53:16,289
+Also bitcoin is awesome. Go
+Bitcoin ing. We so I see. We had
+
+1816
+01:53:16,289 --> 01:53:19,139
+to lead up to the meetup. Yeah.
+And then the
+
+1817
+01:53:19,140 --> 01:53:21,300
+Adam Curry: actual meetup
+themselves. I think Slim is now
+
+1818
+01:53:21,300 --> 01:53:22,980
+on his way to Thailand.
+
+1819
+01:53:24,240 --> 01:53:26,820
+Dave Jones: Wow. Yeah, this
+world tour. Well, he
+
+1820
+01:53:26,850 --> 01:53:30,150
+Adam Curry: he was he intended
+to retire to Thailand before he
+
+1821
+01:53:30,180 --> 01:53:32,790
+kind of came out of retirement
+to do this beef initiative.
+
+1822
+01:53:32,910 --> 01:53:35,550
+Because Thailand is interesting.
+I'm not talking Bangkok.
+
+1823
+01:53:35,940 --> 01:53:40,140
+Although that is that is fun for
+some things. But more like Shang
+
+1824
+01:53:40,140 --> 01:53:44,220
+Mei Xiang. I've been to Thailand
+in a documentary. They're really
+
+1825
+01:53:44,220 --> 01:53:48,600
+nice, really nice people. A very
+just sweet population very
+
+1826
+01:53:48,600 --> 01:53:53,040
+giving very open. They love
+their royal family, you know, so
+
+1827
+01:53:53,040 --> 01:53:58,050
+they're, they're very, they're
+nationalists. Food is fantastic.
+
+1828
+01:54:00,420 --> 01:54:06,240
+It's cheap, cheap to live there.
+It's, I understand you, the Thai
+
+1829
+01:54:06,240 --> 01:54:07,830
+culture is really wonderful.
+
+1830
+01:54:08,640 --> 01:54:11,460
+Dave Jones: I've got a friend of
+a friend who lived in Thailand
+
+1831
+01:54:11,580 --> 01:54:16,320
+as a teacher for gosh, seven or
+eight years. And every time he
+
+1832
+01:54:16,320 --> 01:54:19,860
+came back to the US, he was
+like, Oh, my God, things are so
+
+1833
+01:54:19,860 --> 01:54:24,000
+expensive here. He said it was
+very cheap there. Lady said you
+
+1834
+01:54:24,000 --> 01:54:28,950
+could you could have a big meal
+with five of your buddies Jen.
+
+1835
+01:54:29,490 --> 01:54:32,910
+You know, it would cost you as
+much as like a meal for two here
+
+1836
+01:54:33,030 --> 01:54:35,640
+Adam Curry: unless you go to the
+no hands restaurant in Bangkok,
+
+1837
+01:54:35,640 --> 01:54:40,440
+which is a whole nother story.
+Okay, you know what, you know
+
+1838
+01:54:40,440 --> 01:54:44,940
+what the no hands restaurant is
+so so so the food is in a table
+
+1839
+01:54:44,940 --> 01:54:50,040
+is kind of like it's a round
+table. And there's to bench
+
+1840
+01:54:50,040 --> 01:54:53,430
+seats comfortable, you know,
+pillows and everything. So you
+
+1841
+01:54:53,430 --> 01:54:59,340
+and your friends sit near the
+food and behind you will be your
+
+1842
+01:54:59,340 --> 01:55:03,930
+servant. Who then who then will
+get your food prepared and feed
+
+1843
+01:55:03,930 --> 01:55:04,530
+it to you?
+
+1844
+01:55:05,730 --> 01:55:06,540
+Dave Jones: Whoa,
+
+1845
+01:55:06,570 --> 01:55:14,190
+Adam Curry: typically naked. Oh,
+it's that kind of it was a long
+
+1846
+01:55:14,190 --> 01:55:17,910
+time ago. But it was a
+documentary. Funny enough
+
+1847
+01:55:18,269 --> 01:55:20,459
+Dave Jones: is it sounds like a
+plot of a movie is what it
+
+1848
+01:55:20,459 --> 01:55:21,269
+sounds like. Yeah,
+
+1849
+01:55:21,300 --> 01:55:23,790
+Adam Curry: yeah, that's when
+you know well if you remember
+
+1850
+01:55:23,910 --> 01:55:27,360
+faces of death they actually
+don't remember that the monkey
+
+1851
+01:55:27,360 --> 01:55:29,550
+head sticking out and they chop
+the head off and they ate the
+
+1852
+01:55:29,550 --> 01:55:31,470
+brains from the live monkey
+remember that?
+
+1853
+01:55:31,829 --> 01:55:35,969
+Dave Jones: Yeah, yeah, that was
+VHS tape.
+
+1854
+01:55:37,500 --> 01:55:40,650
+Adam Curry: 15/50 generation VHS
+tape. Exactly.
+
+1855
+01:55:43,320 --> 01:55:45,750
+Dave Jones: I was convinced that
+was real. Like this is all real
+
+1856
+01:55:45,750 --> 01:55:52,530
+man. This was great Yale, our
+buddy yell from Vienna. sent us
+
+1857
+01:55:52,560 --> 01:55:55,560
+155,555 sets
+
+1858
+01:55:57,420 --> 01:56:01,890
+Unknown: Sakala Dias Blaze on am
+Paula. Thank you. Thank you.
+
+1859
+01:56:02,490 --> 01:56:04,380
+Dave Jones: He says hey, gents,
+thank you for your courage from
+
+1860
+01:56:04,380 --> 01:56:08,370
+Vienna but disgusting native ad
+with Austrian finance journaux
+
+1861
+01:56:08,700 --> 01:56:13,230
+Nico jilts. We've got a new 2.0
+enabled podcast using substack
+
+1862
+01:56:13,380 --> 01:56:17,760
+fix the money.net with
+interviews, prophecy tutorials,
+
+1863
+01:56:18,000 --> 01:56:20,760
+and commentary from the Bitcoin
+lobbying world. Thank you both
+
+1864
+01:56:20,760 --> 01:56:23,670
+for your encouragement and
+patience in GitHub and Mastodon
+
+1865
+01:56:23,760 --> 01:56:31,350
+mercy and Dunker Nice. Thank you
+yo, appreciate it. 6969 from a
+
+1866
+01:56:31,350 --> 01:56:35,130
+citizen to pod verse he says. Do
+you think sites like no agenda
+
+1867
+01:56:35,130 --> 01:56:38,430
+social.com will have a way to
+receive boost the way Podcasts
+
+1868
+01:56:38,430 --> 01:56:38,790
+can.
+
+1869
+01:56:39,480 --> 01:56:41,610
+Adam Curry: I don't see why.
+Well how about zaps?
+
+1870
+01:56:42,120 --> 01:56:47,100
+Dave Jones: daps Yeah, yeah,
+that's That's great. There
+
+1871
+01:56:47,100 --> 01:56:51,120
+again. That's that's the thing
+zaps find for social media. It's
+
+1872
+01:56:51,120 --> 01:56:55,830
+slow motion. It's it's fine.
+Yeah. Not good for podcasts. No.
+
+1873
+01:56:55,920 --> 01:57:00,060
+Yes. Don't don't put boosts into
+your into your social. Don't put
+
+1874
+01:57:00,060 --> 01:57:03,990
+yourselves into podcasting.
+Matthew says
+
+1875
+01:57:04,440 --> 01:57:06,750
+Adam Curry: I'm with you all add
+my two cents right to it.
+
+1876
+01:57:07,860 --> 01:57:11,520
+Dave Jones: Another another 6969
+from Hey, citizens, he says a
+
+1877
+01:57:11,550 --> 01:57:15,150
+feature request for the podcast
+apps, streaming sets using the
+
+1878
+01:57:15,150 --> 01:57:17,940
+DeVore act multiplier. You
+listen at one and a half speed
+
+1879
+01:57:17,940 --> 01:57:18,870
+you stream one and a half.
+
+1880
+01:57:21,570 --> 01:57:24,930
+Adam Curry: I agree with that. I
+think that's the way to go. This
+
+1881
+01:57:24,930 --> 01:57:27,360
+is a great idea. Now you're
+cooking.
+
+1882
+01:57:27,840 --> 01:57:30,600
+Dave Jones: Yeah, you pay for
+it. Yeah, boy logs and it's
+
+1883
+01:57:30,600 --> 01:57:33,750
+100,000 SAS through pod verse.
+He says thanks for all your hard
+
+1884
+01:57:33,750 --> 01:57:36,780
+work. I'm showing my partner how
+V for V works by sending this
+
+1885
+01:57:36,780 --> 01:57:39,540
+one now. Thank you. Oh, cool.
+100,000 sets.
+
+1886
+01:57:39,570 --> 01:57:42,390
+Adam Curry: Wow, you know what
+you get for that? Bolo.
+
+1887
+01:57:42,420 --> 01:57:46,260
+Unknown: Sakala 20 is Blaze on I
+am Paula
+
+1888
+01:57:47,760 --> 01:57:54,660
+Dave Jones: Ameet to SC 32,023
+cents Palindrome there 3202335
+
+1889
+01:57:54,660 --> 01:57:59,220
+vs. Podcasting live from floss
+conference in Tel Aviv. A P dot
+
+1890
+01:58:00,420 --> 01:58:04,800
+C A P dot a hammock or H A.
+Okay, I'm gonna have to read
+
+1891
+01:58:04,800 --> 01:58:11,160
+this as a website. A P dot h
+amakor.org. dot i l go
+
+1892
+01:58:11,160 --> 01:58:11,790
+podcasting.
+
+1893
+01:58:12,270 --> 01:58:13,770
+Adam Curry: Okay, go podcast.
+
+1894
+01:58:15,930 --> 01:58:21,660
+Dave Jones: Thank you. Todd
+Cochran. 150,420 sets
+
+1895
+01:58:23,490 --> 01:58:27,600
+Unknown: off 20 is Blaze ohm am
+Paula.
+
+1896
+01:58:27,900 --> 01:58:31,440
+Dave Jones: He's you're showing
+off now. 50% of what was said on
+
+1897
+01:58:31,440 --> 01:58:35,970
+the last show was seriously deer
+in the headlights discuss. What
+
+1898
+01:58:35,970 --> 01:58:36,600
+did we say?
+
+1899
+01:58:36,630 --> 01:58:43,170
+Adam Curry: I don't know all
+about about I don't know. That
+
+1900
+01:58:43,170 --> 01:58:44,430
+all he said is not only wrote
+
+1901
+01:58:45,600 --> 01:58:47,700
+Dave Jones: now he says growth
+in podcasting is flat as a
+
+1902
+01:58:47,700 --> 01:58:51,090
+pancake. And based on calls.
+I've been having podcasting
+
+1903
+01:58:51,090 --> 01:58:54,150
+companies are in trouble. That
+said best time ever to be a
+
+1904
+01:58:54,150 --> 01:58:56,970
+podcaster as audience numbers
+are growing amongst fewer shows,
+
+1905
+01:58:56,970 --> 01:58:58,020
+but go podcasting?
+
+1906
+01:58:58,049 --> 01:59:03,209
+Adam Curry: Yeah, I'm with you
+on that. Okay, when he says mean
+
+1907
+01:59:03,209 --> 01:59:05,309
+when he says flat? I mean,
+that's the growth of the
+
+1908
+01:59:05,309 --> 01:59:06,479
+companies I guess.
+
+1909
+01:59:07,049 --> 01:59:11,489
+Dave Jones: I guess. I don't
+know. Maybe he just means the
+
+1910
+01:59:11,489 --> 01:59:15,089
+number of the number of new
+shows outside of the free.
+
+1911
+01:59:16,110 --> 01:59:19,470
+Adam Curry: Yeah, yeah, that's a
+bit yeah. New customers for
+
+1912
+01:59:19,470 --> 01:59:23,610
+podcast hosts. Yeah, yeah. I
+mean, you're gonna have churn.
+
+1913
+01:59:23,610 --> 01:59:26,700
+You're gonna have people leaving
+you need to get new people in. I
+
+1914
+01:59:26,700 --> 01:59:28,920
+don't know. I always hear
+Buzzsprout always has another
+
+1915
+01:59:28,920 --> 01:59:30,420
+5000 people every week.
+
+1916
+01:59:31,560 --> 01:59:38,340
+Dave Jones: Yeah, it must. It
+must be. If it's like yeah, I
+
+1917
+01:59:38,340 --> 01:59:41,190
+guess they're tied together. I
+mean, you're it's a beautiful
+
+1918
+01:59:41,190 --> 01:59:43,920
+thing. Because you're, there's
+that direct your customer,
+
+1919
+01:59:43,920 --> 01:59:45,540
+you're the growth of your
+company is the growth of your
+
+1920
+01:59:45,540 --> 01:59:49,230
+customer. There's funny money in
+between. Exactly. It's a very
+
+1921
+01:59:49,230 --> 01:59:52,620
+natural thing. Thank you, Todd.
+Appreciate it. I don't even
+
+1922
+01:59:52,620 --> 01:59:54,720
+remember what we said at the
+beginning of this show, much
+
+1923
+01:59:54,720 --> 01:59:55,380
+less last year.
+
+1924
+01:59:56,039 --> 01:59:59,009
+Adam Curry: We talked about our
+own lives of ourselves as usual
+
+1925
+01:59:59,039 --> 02:00:00,989
+as you do on a podcast. Let's
+talk about herself.
+
+1926
+02:00:01,950 --> 02:00:05,430
+Dave Jones: lyceum. 1776 He says
+Adam and Dave, I listened to
+
+1927
+02:00:05,430 --> 02:00:09,870
+Sophie Tucker singing 50 million
+Frenchmen can't be wrong. After
+
+1928
+02:00:09,870 --> 02:00:11,760
+reading Benjamin Bellamy's blog,
+yeah,
+
+1929
+02:00:11,790 --> 02:00:13,950
+Adam Curry: like I just read
+that one. I think a religious
+
+1930
+02:00:13,950 --> 02:00:15,810
+one we had Yeah, we had that
+one.
+
+1931
+02:00:17,910 --> 02:00:19,770
+Dave Jones: Okay, yep. All
+right, we got it. Well,
+
+1932
+02:00:20,340 --> 02:00:21,210
+chemistry bloggers.
+
+1933
+02:00:22,710 --> 02:00:24,810
+Adam Curry: I was gonna say I
+was waiting for him. Where is
+
+1934
+02:00:24,810 --> 02:00:25,020
+he?
+
+1935
+02:00:26,490 --> 02:00:30,720
+Dave Jones: Dignified, Dave and
+abiding Adam. Building a medium
+
+1936
+02:00:30,720 --> 02:00:33,780
+that provides the environment
+for humanity to coalesce around
+
+1937
+02:00:33,780 --> 02:00:37,920
+since making broadcasters is no
+easy feat if you ever want to
+
+1938
+02:00:37,920 --> 02:00:41,790
+take a load off, after all that
+digital heavy lifting, kick back
+
+1939
+02:00:41,910 --> 02:00:45,270
+with the AI doc cooking podcast,
+inspired by the best
+
+1940
+02:00:45,600 --> 02:00:49,800
+infotainment purveyors in the
+realm and hosted by Kentish rock
+
+1941
+02:00:49,800 --> 02:00:53,880
+and Rolla, Gregory Forman, who
+always keeps it three by four,
+
+1942
+02:00:53,970 --> 02:00:55,950
+yo CSB whoosh
+
+1943
+02:00:55,980 --> 02:00:59,490
+Adam Curry: moves. Thank you
+CSB. He's always there, man. You
+
+1944
+02:00:59,490 --> 02:01:01,200
+can count on him. He's very
+consistent.
+
+1945
+02:01:01,770 --> 02:01:03,630
+Dave Jones: They're getting more
+and more complex every time
+
+1946
+02:01:03,660 --> 02:01:05,940
+Adam Curry: now. It's okay.
+We'll take it we appreciate we
+
+1947
+02:01:06,090 --> 02:01:08,970
+we appreciate everyone who has
+been boosting us now you have
+
+1948
+02:01:08,970 --> 02:01:11,910
+some monthlies before we close
+out the segment. Yeah.
+
+1949
+02:01:12,780 --> 02:01:16,380
+Dave Jones: I've got I've got a
+Michael Kimmerer and $5.33 I've
+
+1950
+02:01:16,380 --> 02:01:21,510
+got a drip Scott at $15 The
+Unstoppable drip Scott Lesley
+
+1951
+02:01:21,510 --> 02:01:26,970
+Martin it $2 Christopher Raymer
+$10 Aaron Renaud $5 Pedro gun
+
+1952
+02:01:26,970 --> 02:01:35,220
+calvess $5 Scott Jalbert $12
+Chad Pharoah 12 $20.22 Martin
+
+1953
+02:01:35,220 --> 02:01:39,180
+Linda scope $1 and Mark Graham
+$1. And that's our group.
+
+1954
+02:01:39,240 --> 02:01:42,300
+Adam Curry: And thank you all so
+much for delivering the value.
+
+1955
+02:01:42,330 --> 02:01:46,530
+It is really appreciated,
+especially yesterday show but
+
+1956
+02:01:46,560 --> 02:01:49,590
+also everyone who showed up
+today and in the chat room that
+
+1957
+02:01:49,590 --> 02:01:53,910
+has been contributing if you
+want to support podcasting 2.0
+
+1958
+02:01:53,910 --> 02:01:57,990
+the podcast and of course, the
+index, go to podcast index.org.
+
+1959
+02:01:57,990 --> 02:02:00,840
+Scroll down to the bottom you'll
+see two red donate buttons. One
+
+1960
+02:02:00,840 --> 02:02:05,040
+is for your Fiat fund coupons
+via PayPal, and the other one is
+
+1961
+02:02:05,040 --> 02:02:08,910
+that tally coin that only Dred
+Scott uses. But of course we'd
+
+1962
+02:02:08,910 --> 02:02:12,750
+love for you to try a modern
+podcast app works with all your
+
+1963
+02:02:12,750 --> 02:02:16,230
+old podcast, no problem, you can
+export from Apple export from
+
+1964
+02:02:16,230 --> 02:02:19,950
+any podcast, including overcast
+whatever it is, even from one of
+
+1965
+02:02:19,950 --> 02:02:23,640
+the newer podcast apps, you can
+try them all. Export your OPML
+
+1966
+02:02:23,640 --> 02:02:26,490
+file or your podcasts, whatever
+it's called. It's different per
+
+1967
+02:02:26,490 --> 02:02:30,090
+app, and just import it into the
+new one. And you got Presto
+
+1968
+02:02:30,810 --> 02:02:34,770
+Wallah. You've got like a rabbit
+out of a hat. You've got all of
+
+1969
+02:02:34,770 --> 02:02:38,820
+your subscriptions right there.
+And you can now actually
+
+1970
+02:02:38,820 --> 02:02:44,160
+purchase little bits of Bitcoin
+Satoshis in think for apps we
+
+1971
+02:02:44,160 --> 02:02:50,010
+have breeze we have fountain we
+have pod verse. What am I
+
+1972
+02:02:50,010 --> 02:02:56,340
+forgetting here? I know I'm
+forgetting something. Dave
+
+1973
+02:02:56,340 --> 02:03:01,110
+helped me. What the Where you
+can you can buy SATs in Fountain
+
+1974
+02:03:01,140 --> 02:03:08,310
+pod verse. Anything with get
+Alby I guess? breeze to freeze?
+
+1975
+02:03:08,520 --> 02:03:12,570
+First one, I'm sure there's a
+fourth one you can buy by SATs
+
+1976
+02:03:12,570 --> 02:03:16,770
+right through Moon pay right in
+the app? I don't remember that.
+
+1977
+02:03:16,980 --> 02:03:19,650
+I you know, we need to we need
+to do Apps page. Yeah, I'm
+
+1978
+02:03:19,650 --> 02:03:22,740
+drawing a blank. I don't think
+there's a there's not a fourth.
+
+1979
+02:03:22,980 --> 02:03:25,140
+There's no. There's no step
+four.
+
+1980
+02:03:26,880 --> 02:03:30,510
+Dave Jones: I don't know what
+you may be. I think I know what
+
+1981
+02:03:30,510 --> 02:03:32,850
+you're talking about. Oh, no, I
+think I know what you're talking
+
+1982
+02:03:32,850 --> 02:03:35,610
+about. I don't? Yeah. It's not
+out yet.
+
+1983
+02:03:36,480 --> 02:03:38,880
+Adam Curry: What am I talking
+about? I mean, I'm not Todd
+
+1984
+02:03:38,880 --> 02:03:40,710
+Cochran. I don't have secrets.
+
+1985
+02:03:43,260 --> 02:03:45,360
+Dave Jones: Because I can't
+Well, I can't think of anything
+
+1986
+02:03:45,360 --> 02:03:45,990
+else that is
+
+1987
+02:03:47,790 --> 02:03:50,820
+Adam Curry: it doesn't matter.
+Just go ahead and figure it out.
+
+1988
+02:03:50,850 --> 02:03:55,350
+Go to new podcast apps.com and
+get some things you can boost us
+
+1989
+02:03:55,350 --> 02:03:58,020
+you can join in the fun clearly.
+It's a lot of fun, because you
+
+1990
+02:03:58,020 --> 02:04:00,930
+get your name mentioned a lot in
+your in your message read. And
+
+1991
+02:04:01,140 --> 02:04:05,370
+you get to have standing amongst
+everybody else in the listening
+
+1992
+02:04:05,370 --> 02:04:11,280
+audience. We appreciate that.
+Thank you for your thinking. I'm
+
+1993
+02:04:11,280 --> 02:04:14,640
+not thinking your desire. We've
+received exactly zero SATs from
+
+1994
+02:04:14,640 --> 02:04:18,960
+Zion ever. But he raised $6
+million. Yeah, there you go.
+
+1995
+02:04:19,470 --> 02:04:22,950
+There you go. That's how it
+goes. I wouldn't want that. That
+
+1996
+02:04:22,950 --> 02:04:27,150
+albatross around my neck. No
+way. No, not at all. Hi,
+
+1997
+02:04:27,150 --> 02:04:32,670
+brother. 8:14pm. It's been a
+late one. I'm going to finish
+
+1998
+02:04:32,670 --> 02:04:35,220
+this up. Get everything out. Get
+it going. Roll it out. So
+
+1999
+02:04:35,220 --> 02:04:37,980
+everyone can enjoy that this
+evening or tomorrow morning
+
+2000
+02:04:37,980 --> 02:04:40,950
+before no agenda. Just stick it
+in, stick it into your into your
+
+2001
+02:04:40,950 --> 02:04:46,050
+Sunday morning. And hopefully
+everything stays up where you
+
+2002
+02:04:46,050 --> 02:04:48,720
+are and you don't have to go
+back to the office. You're gonna
+
+2003
+02:04:48,720 --> 02:04:50,100
+have a nice day off tomorrow.
+
+2004
+02:04:50,940 --> 02:04:52,650
+Dave Jones: I hope everything
+stays up where you are.
+
+2005
+02:04:53,760 --> 02:04:55,110
+Adam Curry: I'm gonna see if
+we're gonna get back and keep it
+
+2006
+02:04:55,110 --> 02:04:59,610
+say enough. That's alright
+buddy. That'll do it. Thanks for
+
+2007
+02:04:59,610 --> 02:05:02,130
+joining. Is this late night
+boardroom meeting where we get a
+
+2008
+02:05:02,130 --> 02:05:04,800
+little punchy. We'll be back
+next Friday right here
+
+2009
+02:05:04,800 --> 02:05:06,390
+podcasting 2.0
+
+2010
+02:05:21,720 --> 02:05:26,250
+Unknown: You have been listening
+to podcasting 2.0 Visit podcast
+
+2011
+02:05:26,250 --> 02:05:29,760
+index.org For more information
+podcast.
+
+2012
+02:05:31,290 --> 02:05:33,930
+Dave Jones: Hey, James Sam's out
+of town give me a call.
+
