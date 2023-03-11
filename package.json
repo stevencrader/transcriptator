@@ -23,6 +23,7 @@
     },
     "homepage": "https://github.com/stevencrader/transcriptator#readme",
     "devDependencies": {
+        "fs": "^0.0.1-security",
         "jest": "^29.5.0",
         "prettier": "^2.8.4",
         "typescript": "^4.9.5"
