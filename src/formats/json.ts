@@ -98,7 +98,7 @@ export const parseJSON = (data: string): Array<Segment> => {
         throw new TypeError(`Data is not valid JSON format`)
     }
 
-    let parsed //: JSONTranscript
+    let parsed: Object | Array<any>
     try {
         parsed = JSON.parse(data)
     } catch (e) {

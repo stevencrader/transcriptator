@@ -1,4 +1,5 @@
-const PATTERN_TIMESTAMP = /^(?<hour>\d+):(?<minute>\d+):(?<second>\d+)[,.](?<ms>\d+)$/m
+const PATTERN_TIMESTAMP = /^(?<time>((?<hour>\d+):|)((?<minute>\d+):|)((?<second>\d+)|))([,.](?<ms>\d+|)|)$/m
+const PATTERN_DECIMAL = /[,.]/
 
 export const parseTimestamp = (value: string | number): number => {
     if (typeof value === "number") {
@@ -12,11 +13,31 @@ export const parseTimestamp = (value: string | number): number => {
         throw new TypeError(`Not enough separator fields in timestamp string`)
     }
 
-    const hour = parseInt(match.groups.hour) * 60 * 60
-    const minute = parseInt(match.groups.minute) * 60
-    const second = parseInt(match.groups.second)
-    let ms = parseInt(match.groups.ms)
-    if (ms != 0) ms = ms / 1000
+    const time = match.groups.time
+    const splits = time.split(":")
+    const splitLength = splits.length
+    let timestamp = 0
+    if (splitLength > 3) {
+        throw new TypeError(`Too many time fields in ${time}`)
+    } else if (splitLength == 3) {
+        timestamp = parseInt(splits[0]) * 60 * 60 + parseInt(splits[1]) * 60 + parseInt(splits[2])
+    } else if (splitLength == 2) {
+        timestamp = parseInt(splits[0]) * 60 + parseInt(splits[1])
+    } else if (splitLength == 1) {
+        timestamp = parseInt(splits[0])
+    }
 
-    return hour + minute + second + ms
+    let ms = parseInt(match.groups.ms)
+    if (isNaN(ms)) {
+        ms = 0
+    } else if (ms != 0) {
+        ms = ms / 1000
+    }
+    timestamp += ms
+
+    if (isNaN(timestamp)) {
+        throw new TypeError(`Sum for timestamp resulted in NaN (time = ${splits}, ms = ${ms})`)
+    }
+
+    return timestamp
 }
