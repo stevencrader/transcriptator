@@ -1,5 +1,4 @@
-const PATTERN_TIMESTAMP =
-    /^(?<hour>\d+):(?<minute>\d+):(?<second>\d+)[,.](?<ms>\d+)$/m
+const PATTERN_TIMESTAMP = /^(?<hour>\d+):(?<minute>\d+):(?<second>\d+)[,.](?<ms>\d+)$/m
 
 export const parseTimestamp = (value: string | number): number => {
     if (typeof value === "number") {

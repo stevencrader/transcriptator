@@ -1,15 +1,47 @@
 import { parseTimestamp } from "../timestamp"
-import { Segment } from "../types"
+import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
 
 const PATTERN_SPEAKER = /^(?<speaker>.+?): (?<body>.*)/
 
-export type SRTSegment = Segment & {
+export type SRTSegment = {
     index: number
+    startTime: number
+    endTime: number
+    speaker: string
+    bodyLines: Array<string>
 }
 
 export const parseSRT = (data: string): Array<Segment> => {
-    const outSegments = []
-    console.log("parseSRT")
+    const outSegments: Array<Segment> = []
+    let lastSpeaker = ""
+
+    let segmentLines = []
+    // parsing style inspired by https://github.com/byroot/pysrt
+    data.split(PATTERN_LINE_SEPARATOR).forEach((line, count) => {
+        if (line.trim() === "") {
+            // separator line found, handle previous data
+            try {
+                const segment = parseSRTSegment(segmentLines)
+                segment.bodyLines.forEach((line) => {
+                    outSegments.push({
+                        startTime: segment.startTime,
+                        endTime: segment.endTime,
+                        speaker: segment.speaker ? segment.speaker : lastSpeaker,
+                        body: line,
+                    })
+                })
+                lastSpeaker = segment.speaker
+            } catch (e) {
+                console.error(`Error parsing SRT segment lines: ${e}`)
+                console.error(segmentLines)
+            }
+
+            segmentLines = [] // clear buffer
+        } else {
+            segmentLines.push(line)
+        }
+    })
+
     return outSegments
 }
 
@@ -25,9 +57,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     } while (true)
 
     if (lines.length < 3) {
-        throw new Error(
-            `SRT requires at least 3 lines, ${lines.length} received`
-        )
+        throw new Error(`SRT requires at least 3 lines, ${lines.length} received`)
     }
 
     const index = parseInt(lines[0])
@@ -41,9 +71,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     }
     const timestampParts = timestampLine.split("-->")
     if (timestampParts.length != 2) {
-        throw new Error(
-            `SRT timestamp line contains more than 2 --> separators`
-        )
+        throw new Error(`SRT timestamp line contains more than 2 --> separators`)
     }
     const startTime = parseTimestamp(timestampParts[0].trim())
     const endTime = parseTimestamp(timestampParts[1].trim())
@@ -53,19 +81,20 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     if (emptyLineIndex > 0) {
         bodyLines = bodyLines.slice(0, emptyLineIndex)
     }
-    let body = bodyLines.join(" ")
     let speaker = ""
-    const speakerMatch = PATTERN_SPEAKER.exec(body)
+    let firstBodyLine = bodyLines.shift()
+    const speakerMatch = PATTERN_SPEAKER.exec(firstBodyLine)
     if (speakerMatch !== null) {
         speaker = speakerMatch.groups.speaker
-        body = speakerMatch.groups.body
+        firstBodyLine = speakerMatch.groups.body
     }
+    bodyLines = [firstBodyLine].concat(bodyLines)
 
     return {
         startTime: startTime,
         endTime: endTime,
         speaker: speaker,
-        body: body,
+        bodyLines: bodyLines,
         index: index,
     }
 }

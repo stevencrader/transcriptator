@@ -1,7 +1,8 @@
 import { parseHTML } from "./formats/html"
+import { parseJSON } from "./formats/json"
 import { parseSRT, parseSRTSegment } from "./formats/srt"
 import { parseVTT } from "./formats/vtt"
-import { TranscriptType } from "./types"
+import { PATTERN_LINE_SEPARATOR, Segment, TranscriptType } from "./types"
 
 const PATTERN_HTML_TAG = /^< *html *>"/
 
@@ -16,38 +17,37 @@ export const determineType = (data: string): TranscriptType => {
         return TranscriptType.HTML
     } else if (PATTERN_HTML_TAG.exec(data)) {
         return TranscriptType.HTML
-    } else if (
-        parseSRTSegment(data.split(/\r?\n/).slice(0, 20)) !== undefined
-    ) {
+    } else if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
         return TranscriptType.SRT
     }
 
     throw new TypeError(`Cannot determine type for data`)
 }
 
-export const convertFile = (
-    data: string,
-    transcriptType: TranscriptType = undefined
-) => {
+export const convertFile = (data: string, transcriptType: TranscriptType = undefined): Array<Segment> => {
     if (transcriptType === undefined) {
         transcriptType = determineType(data)
     }
 
+    let outSegments: Array<Segment> = []
     switch (transcriptType) {
         case TranscriptType.HTML:
-            parseHTML(data)
+            outSegments = parseHTML(data)
             break
         case TranscriptType.JSON:
+            outSegments = parseJSON(data)
             break
         case TranscriptType.SRT:
-            parseSRT(data)
+            outSegments = parseSRT(data)
             break
         case TranscriptType.VTT:
-            parseVTT(data)
+            outSegments = parseVTT(data)
             break
         default:
             throw new TypeError(`Unknown transcript type: ${transcriptType}`)
     }
+
+    return outSegments
 }
 
 // converter

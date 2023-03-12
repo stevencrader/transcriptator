@@ -853,6 +853,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.15.0":
+  version: 18.15.0
+  resolution: "@types/node@npm:18.15.0"
+  checksum: d81372276dd5053b1743338b61a2178ff9722dc609189d01fc7d1c2acd539414039e0e4780678730514390dad3f29c366a28c29e8dbd5b0025651181f6dd6669
+  languageName: node
+  linkType: hard
+
 "@types/prettier@npm:^2.1.5":
   version: 2.7.2
   resolution: "@types/prettier@npm:2.7.2"
@@ -3361,6 +3368,7 @@ __metadata:
   resolution: "transcriptator@workspace:."
   dependencies:
     "@jest/globals": ^29.5.0
+    "@types/node": ^18.15.0
     fs: ^0.0.1-security
     jest: ^29.5.0
     prettier: ^2.8.4

@@ -25,6 +25,7 @@
     "homepage": "https://transcriptator.com/",
     "devDependencies": {
         "@jest/globals": "^29.5.0",
+        "@types/node": "^18.15.0",
         "fs": "^0.0.1-security",
         "jest": "^29.5.0",
         "prettier": "^2.8.4",

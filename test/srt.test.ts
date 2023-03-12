@@ -1,5 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
-import { parseSRTSegment, SRTSegment } from "../src/formats/srt"
+import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
+import { readFile, saveSegmentsToFile, TRANSCRIPT_SRT_BUZZCAST, TRANSCRIPT_SRT_BUZZCAST_OUTPUT } from "./test_utils"
 
 describe("SRT segment data", () => {
     test.each<{
@@ -19,38 +20,29 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "Adam Curry",
-                body: "podcasting 2.0 March 4 2023 Episode 124 on D flat",
+                bodyLines: ["podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
             },
             id: "comma, 2 line",
         },
         {
-            data: [
-                "1",
-                "00:00:00.780 --> 00:00:06.210",
-                "Adam Curry: podcasting 2.0 March",
-            ],
+            data: ["1", "00:00:00.780 --> 00:00:06.210", "Adam Curry: podcasting 2.0 March"],
             expected: {
                 index: 1,
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "Adam Curry",
-                body: "podcasting 2.0 March",
+                bodyLines: ["podcasting 2.0 March"],
             },
             id: "period, 1 line",
         },
         {
-            data: [
-                "1",
-                "00:00:00,780 --> 00:00:06,210",
-                "podcasting 2.0 March",
-                "4 2023 Episode 124 on D flat",
-            ],
+            data: ["1", "00:00:00,780 --> 00:00:06,210", "podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
             expected: {
                 index: 1,
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "",
-                body: "podcasting 2.0 March 4 2023 Episode 124 on D flat",
+                bodyLines: ["podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
             },
             id: "no speaker",
         },
@@ -68,7 +60,7 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "Adam Curry",
-                body: "podcasting 2.0 March 4 2023 Episode 124 on D flat",
+                bodyLines: ["podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
             },
             id: "includes separator line",
         },
@@ -88,7 +80,14 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 17.07,
                 speaker: "Adam Curry",
-                body: "podcasting 2.0 March 4 2023 Episode 124 on D flat formable hello everybody welcome to a delayed board meeting of podcasting 2.0 preserving, protecting and extending the",
+                bodyLines: [
+                    "podcasting 2.0 March",
+                    "4 2023 Episode 124 on D flat",
+                    "formable hello everybody welcome",
+                    "to a delayed board meeting of",
+                    "podcasting 2.0 preserving,",
+                    "protecting and extending the",
+                ],
             },
             id: "large body",
         },
@@ -115,5 +114,26 @@ describe("Undefined SRT segment data", () => {
         },
     ])("SRT Segment Undefined ($id)", ({ data, id }) => {
         expect(() => parseSRTSegment(data)).toThrow(Error)
+    })
+})
+
+describe("Parse SRT file data", () => {
+    test.each<{
+        filePath: string
+        expectedFilePath: string
+        id: string
+    }>([
+        {
+            filePath: TRANSCRIPT_SRT_BUZZCAST,
+            expectedFilePath: TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
+            id: "buzzcast",
+        },
+    ])("Parse SRT File ($id)", ({ filePath, expectedFilePath, id }) => {
+        const data = readFile(filePath)
+        const expectedJSONData = JSON.parse(readFile(expectedFilePath))
+
+        const segments = parseSRT(data)
+        saveSegmentsToFile(segments, `${id}.json`)
+        expect(segments).toEqual(expectedJSONData.segments)
     })
 })

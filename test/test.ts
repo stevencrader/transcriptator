@@ -1,19 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
-// import * as fs from "fs";
 import { determineType } from "../src"
 import { TranscriptType } from "../src/types"
-
-// TRANSCRIPT_HTML_BUZZCAST = "test_files/buzzcast.html"
-// TRANSCRIPT_JSON_BUZZCAST = "test_files/buzzcast.json"
-// TRANSCRIPT_SRT_BUZZCAST = "test_files/buzzcast.srt"
-// TRANSCRIPT_SRT_PODCASTING_20 = "test_files/podcasting_20.srt"
-
-// const readFile = (filePath: string): string => {
-//     return fs.readFile(filePath, "utf8", (err, data) => {
-//         if (err) throw err
-//         console.error(err)
-//     })
-// }
 
 describe("Determine Transcript Type", () => {
     // noinspection HtmlRequiredLangAttribute
@@ -49,10 +36,7 @@ describe("Unknown transcript type data", () => {
     test.each<{
         data: string
         id: string
-    }>([{ data: "", id: "Empty" }])(
-        "Transcript Type Unknown ($id)",
-        ({ data, id }) => {
-            expect(() => determineType(data)).toThrow(Error)
-        }
-    )
+    }>([{ data: "", id: "Empty" }])("Transcript Type Unknown ($id)", ({ data, id }) => {
+        expect(() => determineType(data)).toThrow(Error)
+    })
 })
