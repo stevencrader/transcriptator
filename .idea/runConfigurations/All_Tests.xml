@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="All Tests" type="JavaScriptTestRunnerJest" folderName="project">
+    <node-interpreter value="project" />
+    <node-options value="" />
+    <jest-package value="yarn:package.json:jest" />
+    <working-dir value="$PROJECT_DIR$" />
+    <envs />
+    <scope-kind value="ALL" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,12 +1,7 @@
 import { describe, expect, test } from "@jest/globals"
 // import * as fs from "fs";
-import {
-    determineType,
-    parseSRTSegment,
-    parseTimestamp,
-    SRTSegment,
-    TranscriptType,
-} from "../src"
+import { determineType } from "../src"
+import { TranscriptType } from "../src/types"
 
 // TRANSCRIPT_HTML_BUZZCAST = "test_files/buzzcast.html"
 // TRANSCRIPT_JSON_BUZZCAST = "test_files/buzzcast.json"
@@ -19,99 +14,6 @@ import {
 //         console.error(err)
 //     })
 // }
-
-describe("Timestamp", () => {
-    test.each<{
-        data: string | number
-        expected: number
-        id: string
-    }>([
-        {
-            data: "00:00:00,780",
-            expected: 0.78,
-            id: "comma, ms",
-        },
-        {
-            data: "00:00:00.780",
-            expected: 0.78,
-            id: "decimal, ms",
-        },
-        {
-            data: "01:02:03,456",
-            expected: 3723.456,
-            id: "all fields",
-        },
-        {
-            data: 12.493,
-            expected: 12.493,
-            id: "number",
-        },
-    ])("Timestamp ($id)", ({ data, expected, id }) => {
-        expect(parseTimestamp(data)).toBe(expected)
-    })
-})
-
-describe("Undefined timestamp", () => {
-    test.each<{
-        data: any
-        id: string
-    }>([
-        { data: [], id: "Array" },
-        { data: "02:03,456", id: "No Hours" },
-        { data: "01;02:03,456", id: "Wrong separator" },
-        { data: "01:02:03/956", id: "Wrong decimal separator" },
-    ])("Undefined timestamp ($id)", ({ data, id }) => {
-        expect(() => parseTimestamp(data)).toThrow(TypeError)
-    })
-})
-
-describe("SRT segment data", () => {
-    test.each<{
-        data: Array<string>
-        expected: SRTSegment
-        id: string
-    }>([
-        {
-            data: [
-                "1",
-                "00:00:00,780 --> 00:00:06,210",
-                "Adam Curry: podcasting 2.0 March",
-                "4 2023 Episode 124 on D flat",
-            ],
-            expected: {
-                index: 1,
-                startTime: 0.78,
-                endTime: 6.21,
-                speaker: "",
-                body: "Adam Curry: podcasting 2.0 March 4 2023 Episode 124 on D flat",
-            },
-            id: "comma, 2 line",
-        },
-    ])("SRT Segment ($id)", ({ data, expected, id }) => {
-        expect(parseSRTSegment(data)).toEqual(expected)
-    })
-})
-
-describe("Undefined SRT segment data", () => {
-    test.each<{
-        data: Array<string>
-        id: string
-    }>([
-        { data: [], id: "Empty" },
-        { data: [""], id: "Single Empty" },
-        {
-            data: [
-                "",
-                "00:00:00,780 --> 00:00:06,210",
-                "Adam Curry: podcasting 2.0 March",
-                "4 2023 Episode 124 on D flat",
-            ],
-            id: "missing index",
-        },
-    ])("SRT Segment Undefined ($id)", ({ data, id }) => {
-        expect(() => parseSRTSegment(data)).toThrow(Error)
-    })
-})
 
 describe("Determine Transcript Type", () => {
     // noinspection HtmlRequiredLangAttribute

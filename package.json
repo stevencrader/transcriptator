@@ -22,7 +22,7 @@
     "bugs": {
         "url": "https://github.com/stevencrader/transcriptator/issues"
     },
-    "homepage": "https://github.com/stevencrader/transcriptator#readme",
+    "homepage": "https://transcriptator.com/",
     "devDependencies": {
         "@jest/globals": "^29.5.0",
         "fs": "^0.0.1-security",
