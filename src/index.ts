@@ -1,18 +1,18 @@
-import { parseHTML } from "./formats/html"
+import { parseHTML, PATTERN_HTML_TAG } from "./formats/html"
 import { parseJSON } from "./formats/json"
 import { parseSRT, parseSRTSegment } from "./formats/srt"
 import { parseVTT } from "./formats/vtt"
 import { PATTERN_LINE_SEPARATOR, Segment, TranscriptType } from "./types"
 
-const PATTERN_HTML_TAG = /^< *html *>/i
-
 export const determineType = (data: string): TranscriptType => {
-    data = data.trimStart()
+    data = data.trim()
 
     try {
         if (data.startsWith("WEBVTT")) {
             return TranscriptType.VTT
-        } else if (data.startsWith("{")) {
+        } else if (data.startsWith("{") && data.endsWith("}")) {
+            return TranscriptType.JSON
+        } else if (data.startsWith("[") && data.endsWith("]")) {
             return TranscriptType.JSON
         } else if (data.startsWith("<!--")) {
             return TranscriptType.HTML

@@ -1,7 +1,7 @@
 import { parseTimestamp } from "../timestamp"
 import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
-
-const PATTERN_SPEAKER = /^(?<speaker>.+?): (?<body>.*)/
+import { parseSpeaker } from "../utils"
+import { PATTERN_HTML_TAG } from "./html"
 
 export type SRTSegment = {
     index: number
@@ -12,6 +12,10 @@ export type SRTSegment = {
 }
 
 export const parseSRT = (data: string): Array<Segment> => {
+    if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) === undefined) {
+        throw new TypeError(`Data is not valid SRT format`)
+    }
+
     const outSegments: Array<Segment> = []
     let lastSpeaker = ""
 
@@ -83,14 +87,8 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     if (emptyLineIndex > 0) {
         bodyLines = bodyLines.slice(0, emptyLineIndex)
     }
-    let speaker = ""
-    let firstBodyLine = bodyLines.shift()
-    const speakerMatch = PATTERN_SPEAKER.exec(firstBodyLine)
-    if (speakerMatch !== null) {
-        speaker = speakerMatch.groups.speaker
-        firstBodyLine = speakerMatch.groups.body
-    }
-    bodyLines = [firstBodyLine].concat(bodyLines)
+    const { speaker, message } = parseSpeaker(bodyLines.shift())
+    bodyLines = [message].concat(bodyLines)
 
     return {
         startTime: startTime,
