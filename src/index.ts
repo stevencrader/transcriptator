@@ -3,6 +3,8 @@ import { parseSRT, parseSRTSegment } from "./formats/srt"
 import { parseVTT } from "./formats/vtt"
 import { TranscriptType } from "./types"
 
+const PATTERN_HTML_TAG = /^< *html *>"/
+
 export const determineType = (data: string): TranscriptType => {
     data = data.trimStart()
 
@@ -12,9 +14,11 @@ export const determineType = (data: string): TranscriptType => {
         return TranscriptType.JSON
     } else if (data.startsWith("<!--")) {
         return TranscriptType.HTML
-    } else if (RegExp("^< *html *>").exec(data)) {
+    } else if (PATTERN_HTML_TAG.exec(data)) {
         return TranscriptType.HTML
-    } else if (parseSRTSegment(data.split(/\r?\n/).slice(0, 5)) !== undefined) {
+    } else if (
+        parseSRTSegment(data.split(/\r?\n/).slice(0, 20)) !== undefined
+    ) {
         return TranscriptType.SRT
     }
 

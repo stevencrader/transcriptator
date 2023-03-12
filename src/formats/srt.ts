@@ -1,6 +1,8 @@
 import { parseTimestamp } from "../timestamp"
 import { Segment } from "../types"
 
+const PATTERN_SPEAKER = /^(?<speaker>.+?): (?<body>.*)/
+
 export type SRTSegment = Segment & {
     index: number
 }
@@ -46,12 +48,23 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     const startTime = parseTimestamp(timestampParts[0].trim())
     const endTime = parseTimestamp(timestampParts[1].trim())
 
-    const body = lines.slice(2).join(" ")
+    let bodyLines = lines.slice(2)
+    const emptyLineIndex = bodyLines.findIndex((v) => v.trim() === "")
+    if (emptyLineIndex > 0) {
+        bodyLines = bodyLines.slice(0, emptyLineIndex)
+    }
+    let body = bodyLines.join(" ")
+    let speaker = ""
+    const speakerMatch = PATTERN_SPEAKER.exec(body)
+    if (speakerMatch !== null) {
+        speaker = speakerMatch.groups.speaker
+        body = speakerMatch.groups.body
+    }
 
     return {
         startTime: startTime,
         endTime: endTime,
-        speaker: "",
+        speaker: speaker,
         body: body,
         index: index,
     }
