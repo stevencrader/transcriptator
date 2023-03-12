@@ -1,6 +1,13 @@
 import { describe, expect, test } from "@jest/globals"
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
-import { readFile, saveSegmentsToFile, TRANSCRIPT_SRT_BUZZCAST, TRANSCRIPT_SRT_BUZZCAST_OUTPUT } from "./test_utils"
+import {
+    readFile,
+    saveSegmentsToFile,
+    TRANSCRIPT_SRT_BUZZCAST,
+    TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
+    TRANSCRIPT_SRT_PODCASTING_20,
+    TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+} from "./test_utils"
 
 describe("SRT segment data", () => {
     test.each<{
@@ -126,14 +133,18 @@ describe("Parse SRT file data", () => {
         {
             filePath: TRANSCRIPT_SRT_BUZZCAST,
             expectedFilePath: TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
-            id: "buzzcast",
+            id: "Buzzcast",
+        },
+        {
+            filePath: TRANSCRIPT_SRT_PODCASTING_20,
+            expectedFilePath: TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+            id: "Podcasting 2.0",
         },
     ])("Parse SRT File ($id)", ({ filePath, expectedFilePath, id }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseSRT(data)
-        saveSegmentsToFile(segments, `${id}.json`)
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })

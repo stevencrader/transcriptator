@@ -4,21 +4,25 @@ import { parseSRT, parseSRTSegment } from "./formats/srt"
 import { parseVTT } from "./formats/vtt"
 import { PATTERN_LINE_SEPARATOR, Segment, TranscriptType } from "./types"
 
-const PATTERN_HTML_TAG = /^< *html *>"/
+const PATTERN_HTML_TAG = /^< *html *>/i
 
 export const determineType = (data: string): TranscriptType => {
     data = data.trimStart()
 
-    if (data.startsWith("WEBVTT")) {
-        return TranscriptType.VTT
-    } else if (data.startsWith("{")) {
-        return TranscriptType.JSON
-    } else if (data.startsWith("<!--")) {
-        return TranscriptType.HTML
-    } else if (PATTERN_HTML_TAG.exec(data)) {
-        return TranscriptType.HTML
-    } else if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
-        return TranscriptType.SRT
+    try {
+        if (data.startsWith("WEBVTT")) {
+            return TranscriptType.VTT
+        } else if (data.startsWith("{")) {
+            return TranscriptType.JSON
+        } else if (data.startsWith("<!--")) {
+            return TranscriptType.HTML
+        } else if (PATTERN_HTML_TAG.exec(data)) {
+            return TranscriptType.HTML
+        } else if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
+            return TranscriptType.SRT
+        }
+    } catch (e) {
+        throw new TypeError(`Cannot determine type for data. Encountered error: ${e}`)
     }
 
     throw new TypeError(`Cannot determine type for data`)

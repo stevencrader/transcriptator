@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "node:fs"
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs"
 import * as path from "path"
 import { Segment } from "../src/types"
 
@@ -7,6 +7,9 @@ export const TRANSCRIPT_JSON_BUZZCAST = "buzzcast.json"
 export const TRANSCRIPT_SRT_BUZZCAST = "buzzcast.srt"
 export const TRANSCRIPT_SRT_BUZZCAST_OUTPUT = "buzzcast_srt_parsed.json"
 export const TRANSCRIPT_SRT_PODCASTING_20 = "podcasting_20.srt"
+export const TRANSCRIPT_SRT_PODCASTING_20_OUTPUT = "podcasting_20_srt_parsed.json"
+
+const OUTPUT_DIR = path.join(__dirname, "/test_output")
 
 export const readFile = (filename: string): string => {
     const filePath = path.join(__dirname, `/test_files/${filename}`)
@@ -14,13 +17,20 @@ export const readFile = (filename: string): string => {
 }
 
 const saveFile = (filename: string, data: string) => {
-    const filePath = path.join(__dirname, `/test_output/${filename}}`)
+    if (!existsSync(OUTPUT_DIR)) {
+        mkdirSync(OUTPUT_DIR)
+    }
+    const filePath = path.join(OUTPUT_DIR, `/${filename}`)
     writeFileSync(filePath, data, "utf-8")
 }
 
 export const saveSegmentsToFile = (segments: Array<Segment>, filename: string) => {
-    const data = JSON.stringify({
-        segments: segments,
-    })
+    const data = JSON.stringify(
+        {
+            segments: segments,
+        },
+        null,
+        4
+    )
     saveFile(filename, data)
 }

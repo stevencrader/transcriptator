@@ -16,24 +16,26 @@ export const parseSRT = (data: string): Array<Segment> => {
     let lastSpeaker = ""
 
     let segmentLines = []
-    // parsing style inspired by https://github.com/byroot/pysrt
     data.split(PATTERN_LINE_SEPARATOR).forEach((line, count) => {
+        // separator line found, handle previous data
         if (line.trim() === "") {
-            // separator line found, handle previous data
-            try {
-                const segment = parseSRTSegment(segmentLines)
-                segment.bodyLines.forEach((line) => {
-                    outSegments.push({
-                        startTime: segment.startTime,
-                        endTime: segment.endTime,
-                        speaker: segment.speaker ? segment.speaker : lastSpeaker,
-                        body: line,
+            // handle consecutive multiple blank lines
+            if (segmentLines.length != 0) {
+                try {
+                    const segment = parseSRTSegment(segmentLines)
+                    segment.bodyLines.forEach((line) => {
+                        lastSpeaker = segment.speaker ? segment.speaker : lastSpeaker
+                        outSegments.push({
+                            startTime: segment.startTime,
+                            endTime: segment.endTime,
+                            speaker: lastSpeaker,
+                            body: line,
+                        })
                     })
-                })
-                lastSpeaker = segment.speaker
-            } catch (e) {
-                console.error(`Error parsing SRT segment lines: ${e}`)
-                console.error(segmentLines)
+                } catch (e) {
+                    console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
+                    console.error(segmentLines)
+                }
             }
 
             segmentLines = [] // clear buffer
