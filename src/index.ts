@@ -56,5 +56,3 @@ export const convertFile = (data: string, transcriptType: TranscriptType = undef
 
 // converter
 // Optional re-format length
-
-// detect format by looking at file contents

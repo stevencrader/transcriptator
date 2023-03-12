@@ -6,6 +6,8 @@ export type JSONTranscript = {
 }
 
 export const parseJSON = (data: string): Array<Segment> => {
+    throw new Error("JSON format not yet supported")
+
     const outSegments: Array<Segment> = []
     console.log("parseJSON")
     return outSegments
