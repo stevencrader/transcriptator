@@ -186,6 +186,7 @@ describe("Parse HTML file data", () => {
         const expectedHTMLData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseHTML(data)
+        saveSegmentsToFile(segments, `${id}_html.json`) // TODO: remove this
         expect(segments).toEqual(expectedHTMLData.segments)
     })
 })

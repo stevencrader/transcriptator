@@ -1,14 +1,13 @@
 import { parseTimestamp } from "../timestamp"
 import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
 import { parseSpeaker } from "../utils"
-import { PATTERN_HTML_TAG } from "./html"
 
 export type SRTSegment = {
     index: number
     startTime: number
     endTime: number
     speaker: string
-    bodyLines: Array<string>
+    body: string
 }
 
 export const parseSRT = (data: string): Array<Segment> => {
@@ -27,14 +26,12 @@ export const parseSRT = (data: string): Array<Segment> => {
             if (segmentLines.length != 0) {
                 try {
                     const segment = parseSRTSegment(segmentLines)
-                    segment.bodyLines.forEach((line) => {
-                        lastSpeaker = segment.speaker ? segment.speaker : lastSpeaker
-                        outSegments.push({
-                            startTime: segment.startTime,
-                            endTime: segment.endTime,
-                            speaker: lastSpeaker,
-                            body: line,
-                        })
+                    lastSpeaker = segment.speaker ? segment.speaker : lastSpeaker
+                    outSegments.push({
+                        startTime: segment.startTime,
+                        endTime: segment.endTime,
+                        speaker: lastSpeaker,
+                        body: segment.body
                     })
                 } catch (e) {
                     console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
@@ -94,7 +91,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
         startTime: startTime,
         endTime: endTime,
         speaker: speaker,
-        bodyLines: bodyLines,
-        index: index,
+        body: bodyLines.join("\n"),
+        index: index
     }
 }

@@ -33,6 +33,7 @@ export const convertFile = (data: string, transcriptType: TranscriptType = undef
         transcriptType = determineType(data)
     }
 
+    data = data.trimStart()
     let outSegments: Array<Segment> = []
     switch (transcriptType) {
         case TranscriptType.HTML:

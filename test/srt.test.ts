@@ -6,7 +6,7 @@ import {
     TRANSCRIPT_SRT_BUZZCAST,
     TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
     TRANSCRIPT_SRT_PODCASTING_20,
-    TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+    TRANSCRIPT_SRT_PODCASTING_20_OUTPUT
 } from "./test_utils"
 
 describe("SRT segment data", () => {
@@ -27,7 +27,7 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "Adam Curry",
-                bodyLines: ["podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
+                body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
             },
             id: "comma, 2 line",
         },
@@ -38,7 +38,7 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "Adam Curry",
-                bodyLines: ["podcasting 2.0 March"],
+                body: "podcasting 2.0 March",
             },
             id: "period, 1 line",
         },
@@ -49,7 +49,7 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "",
-                bodyLines: ["podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
+                body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
             },
             id: "no speaker",
         },
@@ -67,7 +67,7 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 6.21,
                 speaker: "Adam Curry",
-                bodyLines: ["podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
+                body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
             },
             id: "includes separator line",
         },
@@ -87,14 +87,7 @@ describe("SRT segment data", () => {
                 startTime: 0.78,
                 endTime: 17.07,
                 speaker: "Adam Curry",
-                bodyLines: [
-                    "podcasting 2.0 March",
-                    "4 2023 Episode 124 on D flat",
-                    "formable hello everybody welcome",
-                    "to a delayed board meeting of",
-                    "podcasting 2.0 preserving,",
-                    "protecting and extending the",
-                ],
+                body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat\nformable hello everybody welcome\nto a delayed board meeting of\npodcasting 2.0 preserving,\nprotecting and extending the",
             },
             id: "large body",
         },
@@ -145,6 +138,7 @@ describe("Parse SRT file data", () => {
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseSRT(data)
+        saveSegmentsToFile(segments, `${id}_srt.json`) // TODO: remove this
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })

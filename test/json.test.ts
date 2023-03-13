@@ -7,7 +7,7 @@ import {
     TRANSCRIPT_JSON_BUZZCAST,
     TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
     TRANSCRIPT_JSON_LALALAND,
-    TRANSCRIPT_JSON_LALALAND_OUTPUT,
+    TRANSCRIPT_JSON_LALALAND_OUTPUT
 } from "./test_utils"
 
 describe("JSON formats test", () => {
@@ -90,6 +90,7 @@ describe("Parse JSON file data", () => {
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseJSON(data)
+        saveSegmentsToFile(segments, `${id}_json.json`) // TODO: remove this
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })

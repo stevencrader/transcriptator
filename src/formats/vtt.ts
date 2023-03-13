@@ -1,13 +1,17 @@
 import { Segment } from "../types"
+import { parseSRT } from "./srt"
 
+const WEBVTT_HEADER = "WEBVTT"
 export const parseVTT = (data: string): Array<Segment> => {
-    if (!data.startsWith("WEBVTT")) {
-        throw new TypeError(`Data is not valid HTML format`)
+    const idx = data.indexOf(WEBVTT_HEADER)
+
+    if (idx != 0) {
+        throw new TypeError(`Data is not valid VTT format`)
     }
 
-    throw new Error("VTT format not yet supported")
+    // format is similar enough to SRT to be parsed by the same parser
+    // Remove WEBVTT header first
+    data = data.substring(idx + WEBVTT_HEADER.length).trimStart()
 
-    const outSegments: Array<Segment> = []
-    console.log("parseVTT")
-    return outSegments
+    return parseSRT(data)
 }
