@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
-import { combineSingleWordSegments, convertFile, determineType } from "../src"
-import { Segment, TranscriptType } from "../src/types"
+import { combineSingleWordSegments, convertFile, determineFormat } from "../src"
+import { Segment, TranscriptFormat } from "../src/types"
 import {
     ONE_WORD_SEGMENTS,
     ONE_WORD_SEGMENTS_OUTPUT_32,
@@ -25,46 +25,46 @@ describe("Determine Transcript Type", () => {
     // noinspection HtmlRequiredLangAttribute
     test.each<{
         data: string
-        expected: TranscriptType
+        expected: TranscriptFormat
     }>([
         {
             data: " <!-- html comment --><html></html>",
-            expected: TranscriptType.HTML,
+            expected: TranscriptFormat.HTML,
         },
-        { data: "<html></html>", expected: TranscriptType.HTML },
-        { data: "\nWEBVTT", expected: TranscriptType.VTT },
-        { data: "WEBVTT", expected: TranscriptType.VTT },
+        { data: "<html></html>", expected: TranscriptFormat.HTML },
+        { data: "\nWEBVTT", expected: TranscriptFormat.VTT },
+        { data: "WEBVTT", expected: TranscriptFormat.VTT },
         {
             data: '{"version":"1.0.0","segments":[{"speaker":"Alban","startTime":0.0,"endTime":4.8,"body":"It is so stinking nice to"}]}',
-            expected: TranscriptType.JSON,
+            expected: TranscriptFormat.JSON,
         },
         {
             data: "1\n00:00:00,780 --> 00:00:06,210\nAdam Curry: podcasting 2.0 March\n4 2023 Episode 124 on D flat",
-            expected: TranscriptType.SRT,
+            expected: TranscriptFormat.SRT,
         },
         {
             data: "2\n00:00:00,780 --> 00:00:06.210\nAdam Curry: podcasting 2.0 March\n",
-            expected: TranscriptType.SRT,
+            expected: TranscriptFormat.SRT,
         },
         {
             data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
-            expected: TranscriptType.JSON,
+            expected: TranscriptFormat.JSON,
         },
         {
             data: '{"version": "1.0.0","segments": [{"speaker": "Alban","startTime": 0.0,"endTime": 4.8,"body": "It is so stinking nice to"}]}',
-            expected: TranscriptType.JSON,
+            expected: TranscriptFormat.JSON,
         },
     ])("Transcript Type ($expected)", ({ data, expected }) => {
-        expect(determineType(data)).toEqual(expected)
+        expect(determineFormat(data)).toEqual(expected)
     })
 })
 
-describe("Unknown transcript type data", () => {
+describe("Unknown transcript format data", () => {
     test.each<{
         data: string
         id: string
     }>([{ data: "", id: "Empty" }])("Transcript Type Unknown ($id)", ({ data, id }) => {
-        expect(() => determineType(data)).toThrow(Error)
+        expect(() => determineFormat(data)).toThrow(Error)
     })
 })
 
@@ -72,62 +72,62 @@ describe("Convert File", () => {
     test.each<{
         filePath: string
         expectedFilePath: string
-        transcriptType: TranscriptType
+        transcriptFormat: TranscriptFormat
         id: string
     }>([
         {
             filePath: TRANSCRIPT_SRT_BUZZCAST,
-            transcriptType: undefined,
+            transcriptFormat: undefined,
             expectedFilePath: TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
             id: "SRT Detect",
         },
         {
             filePath: TRANSCRIPT_SRT_PODCASTING_20,
-            transcriptType: TranscriptType.SRT,
+            transcriptFormat: TranscriptFormat.SRT,
             expectedFilePath: TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
             id: "SRT",
         },
         {
             filePath: TRANSCRIPT_JSON_BUZZCAST,
-            transcriptType: undefined,
+            transcriptFormat: undefined,
             expectedFilePath: TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
             id: "JSON Detect",
         },
         {
             filePath: TRANSCRIPT_JSON_LALALAND,
-            transcriptType: TranscriptType.JSON,
+            transcriptFormat: TranscriptFormat.JSON,
             expectedFilePath: TRANSCRIPT_JSON_LALALAND_OUTPUT,
             id: "JSON",
         },
         {
             filePath: TRANSCRIPT_HTML_BUZZCAST,
-            transcriptType: undefined,
+            transcriptFormat: undefined,
             expectedFilePath: TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
             id: "HTML Detect",
         },
         {
             filePath: TRANSCRIPT_HTML_BUZZCAST,
-            transcriptType: TranscriptType.HTML,
+            transcriptFormat: TranscriptFormat.HTML,
             expectedFilePath: TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
             id: "HTML",
         },
         {
             filePath: TRANSCRIPT_VTT_LALALAND,
-            transcriptType: undefined,
+            transcriptFormat: undefined,
             expectedFilePath: TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "VTT Detect",
         },
         {
             filePath: TRANSCRIPT_VTT_LALALAND,
-            transcriptType: TranscriptType.VTT,
+            transcriptFormat: TranscriptFormat.VTT,
             expectedFilePath: TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "VTT",
         },
-    ])("Convert File ($id)", ({ filePath, transcriptType, expectedFilePath, id }) => {
+    ])("Convert File ($id)", ({ filePath, transcriptFormat, expectedFilePath, id }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
-        const segments = convertFile(data, transcriptType)
+        const segments = convertFile(data, transcriptFormat)
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })
@@ -135,13 +135,13 @@ describe("Convert File", () => {
 describe("Convert File Error", () => {
     test.each<{
         data: string
-        transcriptType: TranscriptType | string
+        transcriptFormat: TranscriptFormat | string
         id: string
     }>([
         {
             data: "",
-            transcriptType: "txt",
-            id: "Unknown type",
+            transcriptFormat: "txt",
+            id: "Unknown format",
         },
         {
             data:
@@ -149,13 +149,13 @@ describe("Convert File Error", () => {
                 "00:00:00,780 --> 00:00:06,210\n" +
                 "Adam Curry: podcasting 2.0 March\n" +
                 "4 2023 Episode 124 on D flat",
-            transcriptType: TranscriptType.VTT,
-            id: "SRT, wrong type",
+            transcriptFormat: TranscriptFormat.VTT,
+            id: "SRT, wrong format",
         },
         {
             data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
-            transcriptType: TranscriptType.SRT,
-            id: "JSON, wrong type",
+            transcriptFormat: TranscriptFormat.SRT,
+            id: "JSON, wrong format",
         },
         {
             data:
@@ -166,17 +166,17 @@ describe("Convert File Error", () => {
                 "  <cite>Kevin:</cite>\n" +
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>  </body></html>",
-            transcriptType: TranscriptType.JSON,
-            id: "HTML, wrong type",
+            transcriptFormat: TranscriptFormat.JSON,
+            id: "HTML, wrong format",
         },
         {
             data:
                 "WEBVTT\n" + "\n" + "1\n" + "00:00:00.001 --> 00:00:05.000\n" + "Subtitles: @marlonrock1986 (^^V^^)\n",
-            transcriptType: TranscriptType.JSON,
-            id: "VTT, wrong type",
+            transcriptFormat: TranscriptFormat.JSON,
+            id: "VTT, wrong format",
         },
-    ])("Convert File Error ($id)", ({ data, transcriptType, id }) => {
-        expect(() => convertFile(data, transcriptType as TranscriptType)).toThrow(Error)
+    ])("Convert File Error ($id)", ({ data, transcriptFormat, id }) => {
+        expect(() => convertFile(data, transcriptFormat as TranscriptFormat)).toThrow(Error)
     })
 })
 

@@ -2,61 +2,89 @@ import { parseHTML, PATTERN_HTML_TAG } from "./formats/html"
 import { parseJSON } from "./formats/json"
 import { parseSRT, parseSRTSegment } from "./formats/srt"
 import { parseVTT } from "./formats/vtt"
-import { PATTERN_LINE_SEPARATOR, Segment, TranscriptType } from "./types"
+import { PATTERN_LINE_SEPARATOR, Segment, TranscriptFormat } from "./types"
 
+/**
+ * Regular Expression for detecting punctuation that should not be prefixed with a space
+ */
 const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
 
-export const determineType = (data: string): TranscriptType => {
+/**
+ * Determines the format of transcript by inspecting the data
+ *
+ * @param data The transcript data
+ * @return The determined transcript format
+ * @throws {TypeError} Cannot determine format of data or error parsing data
+ */
+export const determineFormat = (data: string): TranscriptFormat => {
     data = data.trim()
 
     try {
         if (data.startsWith("WEBVTT")) {
-            return TranscriptType.VTT
+            return TranscriptFormat.VTT
         } else if (data.startsWith("{") && data.endsWith("}")) {
-            return TranscriptType.JSON
+            return TranscriptFormat.JSON
         } else if (data.startsWith("[") && data.endsWith("]")) {
-            return TranscriptType.JSON
+            return TranscriptFormat.JSON
         } else if (data.startsWith("<!--")) {
-            return TranscriptType.HTML
+            return TranscriptFormat.HTML
         } else if (PATTERN_HTML_TAG.exec(data)) {
-            return TranscriptType.HTML
+            return TranscriptFormat.HTML
         } else if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
-            return TranscriptType.SRT
+            return TranscriptFormat.SRT
         }
     } catch (e) {
-        throw new TypeError(`Cannot determine type for data. Encountered error: ${e}`)
+        throw new TypeError(`Cannot determine format for data. Encountered error: ${e}`)
     }
 
-    throw new TypeError(`Cannot determine type for data`)
+    throw new TypeError(`Cannot determine format for data`)
 }
 
-export const convertFile = (data: string, transcriptType: TranscriptType = undefined): Array<Segment> => {
-    if (transcriptType === undefined) {
-        transcriptType = determineType(data)
+/**
+ * Convert the data to an Array of Segment
+ *
+ * @param data The transcript data
+ * @param transcriptFormat The format of the data.
+ * If undefined, will attempt to determine format using {@link determineFormat}
+ * @return An Array of Segment objects from the parsed data
+ * @throws {TypeError} When `transcriptFormat` is unknown
+ */
+export const convertFile = (data: string, transcriptFormat: TranscriptFormat = undefined): Array<Segment> => {
+    if (transcriptFormat === undefined) {
+        transcriptFormat = determineFormat(data)
     }
 
     data = data.trimStart()
     let outSegments: Array<Segment> = []
-    switch (transcriptType) {
-        case TranscriptType.HTML:
+    switch (transcriptFormat) {
+        case TranscriptFormat.HTML:
             outSegments = parseHTML(data)
             break
-        case TranscriptType.JSON:
+        case TranscriptFormat.JSON:
             outSegments = parseJSON(data)
             break
-        case TranscriptType.SRT:
+        case TranscriptFormat.SRT:
             outSegments = parseSRT(data)
             break
-        case TranscriptType.VTT:
+        case TranscriptFormat.VTT:
             outSegments = parseVTT(data)
             break
         default:
-            throw new TypeError(`Unknown transcript type: ${transcriptType}`)
+            throw new TypeError(`Unknown transcript format: ${transcriptFormat}`)
     }
 
     return outSegments
 }
 
+/**
+ * Append `addition` to `body` with a space.
+ *
+ * If `addition` matches the {@link PATTERN_PUNCTUATIONS} pattern, no space is added before the additional data.
+ *
+ * @param body Current body text
+ * @param addition Additional text to add to `body`
+ * @return Combined data
+ */
 const combineBody = (body: string, addition: string): string => {
     if (body) {
         let separator = " "
@@ -70,6 +98,17 @@ const combineBody = (body: string, addition: string): string => {
     return body
 }
 
+/**
+ * Combine one or more {@link Segment}
+ *
+ * @param segments Array of Segment objects to combine
+ * @return Combined segment where:
+ *
+ *   - `startTime`: from first segment
+ *   - `endTime`: from last segment
+ *   - `speaker`: from first segment
+ *   - `body`: combination of all segments
+ */
 const combineSegments = (segments: Array<Segment>): Segment => {
     let newSegment = segments[0]
     segments.slice(1).forEach((segment) => {
@@ -79,6 +118,16 @@ const combineSegments = (segments: Array<Segment>): Segment => {
     return newSegment
 }
 
+/**
+ * Combine an Array of Segment objects where each Segment contains only 1 word.
+ *
+ * Does not combine segments if the speaker changes even if the body is shorter than `maxLength`.
+ *
+ * @param segments Array of Segment objects to combine
+ * @param maxLength Maximum length of body text for combined segment
+ * @return Array of combined segments
+ * @throws {TypeError} Body value is not a single word (looks in first 20 segments)
+ */
 export const combineSingleWordSegments = (segments: Array<Segment>, maxLength: number = 32): Array<Segment> => {
     // only supported if segments are already 1 word, check first 20 segments
     const singleWordCheck = segments.slice(0, 20).filter((segment) => segment.body.includes(" "))

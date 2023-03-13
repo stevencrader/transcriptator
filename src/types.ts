@@ -1,6 +1,6 @@
 export const PATTERN_LINE_SEPARATOR = /\r?\n/
 
-export enum TranscriptType {
+export enum TranscriptFormat {
     HTML = "html",
     JSON = "json",
     SRT = "srt",
