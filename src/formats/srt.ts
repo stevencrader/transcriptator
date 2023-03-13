@@ -31,7 +31,7 @@ export const parseSRT = (data: string): Array<Segment> => {
                         startTime: segment.startTime,
                         endTime: segment.endTime,
                         speaker: lastSpeaker,
-                        body: segment.body
+                        body: segment.body,
                     })
                 } catch (e) {
                     console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
@@ -92,6 +92,6 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
         endTime: endTime,
         speaker: speaker,
         body: bodyLines.join("\n"),
-        index: index
+        index: index,
     }
 }
