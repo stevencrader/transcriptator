@@ -6,6 +6,8 @@ import {
     saveSegmentsToFile,
     TRANSCRIPT_JSON_BUZZCAST,
     TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
+    TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
+    TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
     TRANSCRIPT_JSON_LALALAND,
     TRANSCRIPT_JSON_LALALAND_OUTPUT
 } from "./test_utils"
@@ -84,6 +86,11 @@ describe("Parse JSON file data", () => {
             filePath: TRANSCRIPT_JSON_LALALAND,
             expectedFilePath: TRANSCRIPT_JSON_LALALAND_OUTPUT,
             id: "LaLaLand",
+        },
+        {
+            filePath: TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
+            expectedFilePath: TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
+            id: "How to Start a Podcast",
         },
     ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, id }) => {
         const data = readFile(filePath)

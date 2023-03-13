@@ -5,12 +5,9 @@ Library for converting the various transcript file formats to a common format.
 Input formats supported:
 
 -   json
--   [SubRip/SRT](https://en.wikipedia.org/wiki/SubRip)
-
-Input formats to support:
-
 -   html
 -   [WebVTT/VTT](https://en.wikipedia.org/wiki/WebVTT)
+-   [SubRip/SRT](https://en.wikipedia.org/wiki/SubRip)
 
 Originally designed to help users of the [Podcast Namespace](https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#transcript) `podcast:transcript` tag.
 
