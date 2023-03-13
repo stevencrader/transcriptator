@@ -1,6 +1,8 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
 import { Segment } from "../src/types"
+
 import {
     readFile,
     saveSegmentsToFile,

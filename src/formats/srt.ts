@@ -15,14 +15,14 @@ const createSegmentFromSRTLines = (
     lastSpeaker: string
 ): { segment: Segment; lastSpeaker: string } => {
     const srtSegment = parseSRTSegment(segmentLines)
-    lastSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
+    const calculatedLastSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
     const segment: Segment = {
         startTime: srtSegment.startTime,
         endTime: srtSegment.endTime,
-        speaker: lastSpeaker,
+        speaker: calculatedLastSpeaker,
         body: srtSegment.body,
     }
-    return { segment: segment, lastSpeaker: lastSpeaker }
+    return { segment, lastSpeaker: calculatedLastSpeaker }
 }
 
 export const parseSRT = (data: string): Array<Segment> => {
@@ -38,9 +38,9 @@ export const parseSRT = (data: string): Array<Segment> => {
         // separator line found, handle previous data
         if (line.trim() === "") {
             // handle consecutive multiple blank lines
-            if (segmentLines.length != 0) {
+            if (segmentLines.length !== 0) {
                 try {
-                    let s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
+                    const s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
                     lastSpeaker = s.lastSpeaker
                     outSegments.push(s.segment)
                 } catch (e) {
@@ -56,9 +56,9 @@ export const parseSRT = (data: string): Array<Segment> => {
     })
 
     // handle data when trailing line not included
-    if (segmentLines.length != 0) {
+    if (segmentLines.length !== 0) {
         try {
-            let s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
+            const s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
             lastSpeaker = s.lastSpeaker
             outSegments.push(s.segment)
         } catch (e) {
@@ -71,7 +71,7 @@ export const parseSRT = (data: string): Array<Segment> => {
 
 export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     do {
-        if (lines.length == 0) {
+        if (lines.length === 0) {
             throw new Error("SRT segment lines empty")
         } else if (lines[0].trim() === "") {
             lines.shift()
@@ -84,7 +84,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
         throw new Error(`SRT requires at least 3 lines, ${lines.length} received`)
     }
 
-    const index = parseInt(lines[0])
+    const index = parseInt(lines[0], 10)
     if (!index) {
         throw new Error(`First line of SRT segment is not a number`)
     }
@@ -94,7 +94,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
         throw new Error(`SRT timestamp line does not include --> separator`)
     }
     const timestampParts = timestampLine.split("-->")
-    if (timestampParts.length != 2) {
+    if (timestampParts.length !== 2) {
         throw new Error(`SRT timestamp line contains more than 2 --> separators`)
     }
     const startTime = parseTimestamp(timestampParts[0].trim())
@@ -109,10 +109,10 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     bodyLines = [message].concat(bodyLines)
 
     return {
-        startTime: startTime,
-        endTime: endTime,
-        speaker: speaker,
+        startTime,
+        endTime,
+        speaker,
         body: bodyLines.join("\n"),
-        index: index,
+        index,
     }
 }

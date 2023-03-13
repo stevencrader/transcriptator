@@ -1,4 +1,5 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { parseSpeaker } from "../src/speaker"
 
 describe("Speaker", () => {

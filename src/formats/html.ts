@@ -1,11 +1,12 @@
+import { HTMLElement, parse } from "node-html-parser"
+
 import { parseTimestamp } from "../timestamp"
 import { Segment } from "../types"
-import { HTMLElement, parse } from "node-html-parser"
 
 export const PATTERN_HTML_TAG = /^< *html *>/i
 
 const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segment> => {
-    let outSegments: Array<Segment> = []
+    const outSegments: Array<Segment> = []
     let lastSpeaker = ""
 
     let segmentParts: {
@@ -17,6 +18,8 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
         time: "",
         text: "",
     }
+    // TODO: refactor this to remove this complexity line (or adjust the complexity rule)
+    // eslint-disable-next-line sonarjs/cognitive-complexity
     elements.forEach((element, count) => {
         if (element.tagName === "CITE") {
             if (segmentParts.cite !== "") {
@@ -60,7 +63,7 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
                 }
 
                 outSegments.push({
-                    startTime: startTime,
+                    startTime,
                     endTime: 0, // TODO: what to do with last element end time?
                     speaker: lastSpeaker.replace(":", "").trimEnd(),
                     body: segmentParts.text,

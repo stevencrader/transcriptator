@@ -17,20 +17,25 @@ const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
  * @throws {TypeError} Cannot determine format of data or error parsing data
  */
 export const determineFormat = (data: string): TranscriptFormat => {
-    data = data.trim()
+    const normalizedData = data.trim()
 
     try {
-        if (data.startsWith("WEBVTT")) {
+        if (normalizedData.startsWith("WEBVTT")) {
             return TranscriptFormat.VTT
-        } else if (data.startsWith("{") && data.endsWith("}")) {
+        }
+        if (normalizedData.startsWith("{") && normalizedData.endsWith("}")) {
             return TranscriptFormat.JSON
-        } else if (data.startsWith("[") && data.endsWith("]")) {
+        }
+        if (normalizedData.startsWith("[") && normalizedData.endsWith("]")) {
             return TranscriptFormat.JSON
-        } else if (data.startsWith("<!--")) {
+        }
+        if (normalizedData.startsWith("<!--")) {
             return TranscriptFormat.HTML
-        } else if (PATTERN_HTML_TAG.exec(data)) {
+        }
+        if (PATTERN_HTML_TAG.exec(normalizedData)) {
             return TranscriptFormat.HTML
-        } else if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
+        }
+        if (parseSRTSegment(normalizedData.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
             return TranscriptFormat.SRT
         }
     } catch (e) {
@@ -50,27 +55,25 @@ export const determineFormat = (data: string): TranscriptFormat => {
  * @throws {TypeError} When `transcriptFormat` is unknown
  */
 export const convertFile = (data: string, transcriptFormat: TranscriptFormat = undefined): Array<Segment> => {
-    if (transcriptFormat === undefined) {
-        transcriptFormat = determineFormat(data)
-    }
+    const format = transcriptFormat ?? determineFormat(data)
 
-    data = data.trimStart()
+    const normalizedData = data.trimStart()
     let outSegments: Array<Segment> = []
-    switch (transcriptFormat) {
+    switch (format) {
         case TranscriptFormat.HTML:
-            outSegments = parseHTML(data)
+            outSegments = parseHTML(normalizedData)
             break
         case TranscriptFormat.JSON:
-            outSegments = parseJSON(data)
+            outSegments = parseJSON(normalizedData)
             break
         case TranscriptFormat.SRT:
-            outSegments = parseSRT(data)
+            outSegments = parseSRT(normalizedData)
             break
         case TranscriptFormat.VTT:
-            outSegments = parseVTT(data)
+            outSegments = parseVTT(normalizedData)
             break
         default:
-            throw new TypeError(`Unknown transcript format: ${transcriptFormat}`)
+            throw new TypeError(`Unknown transcript format: ${format}`)
     }
 
     return outSegments
@@ -91,11 +94,9 @@ const combineBody = (body: string, addition: string): string => {
         if (PATTERN_PUNCTUATIONS.exec(addition)) {
             separator = ""
         }
-        body = `${body}${separator}${addition}`
-    } else {
-        body = addition
+        return `${body}${separator}${addition}`
     }
-    return body
+    return addition
 }
 
 /**
@@ -110,7 +111,7 @@ const combineBody = (body: string, addition: string): string => {
  *   - `body`: combination of all segments
  */
 const combineSegments = (segments: Array<Segment>): Segment => {
-    let newSegment = segments[0]
+    const newSegment = segments[0]
     segments.slice(1).forEach((segment) => {
         newSegment.endTime = segment.endTime
         newSegment.body = combineBody(newSegment.body, segment.body)
@@ -128,19 +129,19 @@ const combineSegments = (segments: Array<Segment>): Segment => {
  * @return Array of combined segments
  * @throws {TypeError} Body value is not a single word (looks in first 20 segments)
  */
-export const combineSingleWordSegments = (segments: Array<Segment>, maxLength: number = 32): Array<Segment> => {
+export const combineSingleWordSegments = (segments: Array<Segment>, maxLength = 32): Array<Segment> => {
     // only supported if segments are already 1 word, check first 20 segments
     const singleWordCheck = segments.slice(0, 20).filter((segment) => segment.body.includes(" "))
-    if (singleWordCheck.length != 0) {
+    if (singleWordCheck.length !== 0) {
         throw new TypeError(`Cannot combine segments with more than 1 word`)
     }
 
-    let outSegments: Array<Segment> = []
+    const outSegments: Array<Segment> = []
 
     let combinedSegments: Array<Segment> = []
     let newBody = ""
     let lastSpeaker = ""
-    segments.forEach((segment, count) => {
+    segments.forEach((segment) => {
         // next segment would make too long or speaker changed
         if (
             `${newBody} ${segment.body}`.length > maxLength ||

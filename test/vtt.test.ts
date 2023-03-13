@@ -1,5 +1,7 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { parseVTT } from "../src/formats/vtt"
+
 import { readFile, saveSegmentsToFile, TRANSCRIPT_VTT_LALALAND, TRANSCRIPT_VTT_LALALAND_OUTPUT } from "./test_utils"
 
 describe("Parse VTT file data", () => {

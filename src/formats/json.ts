@@ -16,7 +16,7 @@ const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
     return data.segments
 }
 
-const parseDictJSON = (data: Object): Array<Segment> => {
+const parseDictJSON = (data: object): Array<Segment> => {
     let outSegments: Array<Segment> = []
 
     if (Object.keys(data).length === 0) {
@@ -38,7 +38,7 @@ const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
         return {
             startTime: data.start / 1000,
             endTime: data.end / 1000,
-            speaker: speaker,
+            speaker,
             body: message,
         }
     }
@@ -98,7 +98,7 @@ export const parseJSON = (data: string): Array<Segment> => {
         throw new TypeError(`Data is not valid JSON format`)
     }
 
-    let parsed: Object | Array<any>
+    let parsed: object | Array<unknown>
     try {
         parsed = JSON.parse(data)
     } catch (e) {

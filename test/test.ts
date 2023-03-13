@@ -1,6 +1,8 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { combineSingleWordSegments, convertFile, determineFormat } from "../src"
 import { Segment, TranscriptFormat } from "../src/types"
+
 import {
     ONE_WORD_SEGMENTS,
     ONE_WORD_SEGMENTS_OUTPUT_32,
@@ -72,7 +74,7 @@ describe("Convert File", () => {
     test.each<{
         filePath: string
         expectedFilePath: string
-        transcriptFormat: TranscriptFormat
+        transcriptFormat: TranscriptFormat | undefined
         id: string
     }>([
         {
@@ -170,8 +172,12 @@ describe("Convert File Error", () => {
             id: "HTML, wrong format",
         },
         {
-            data:
-                "WEBVTT\n" + "\n" + "1\n" + "00:00:00.001 --> 00:00:05.000\n" + "Subtitles: @marlonrock1986 (^^V^^)\n",
+            data: `WEBVTT
+
+1
+00:00:00.001 --> 00:00:05.000
+Subtitles: @marlonrock1986 (^^V^^)
+`,
             transcriptFormat: TranscriptFormat.JSON,
             id: "VTT, wrong format",
         },
