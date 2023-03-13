@@ -73,7 +73,7 @@ describe("Timestamp", () => {
             id: "number",
         },
     ])("Timestamp ($id)", ({ data, expected, id }) => {
-        expect(parseTimestamp(data)).toBe(expected)
+        expect(parseTimestamp(data)).toEqual(expected)
     })
 })
 

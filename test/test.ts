@@ -1,8 +1,12 @@
 import { describe, expect, test } from "@jest/globals"
-import { convertFile, determineType } from "../src"
-import { TranscriptType } from "../src/types"
+import { combineSingleWordSegments, convertFile, determineType } from "../src"
+import { Segment, TranscriptType } from "../src/types"
 import {
+    ONE_WORD_SEGMENTS,
+    ONE_WORD_SEGMENTS_OUTPUT_32,
+    ONE_WORD_SEGMENTS_OUTPUT_50,
     readFile,
+    saveSegmentsToFile,
     TRANSCRIPT_HTML_BUZZCAST,
     TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
     TRANSCRIPT_JSON_BUZZCAST,
@@ -51,7 +55,7 @@ describe("Determine Transcript Type", () => {
             expected: TranscriptType.JSON,
         },
     ])("Transcript Type ($expected)", ({ data, expected }) => {
-        expect(determineType(data)).toBe(expected)
+        expect(determineType(data)).toEqual(expected)
     })
 })
 
@@ -173,5 +177,80 @@ describe("Convert File Error", () => {
         },
     ])("Convert File Error ($id)", ({ data, transcriptType, id }) => {
         expect(() => convertFile(data, transcriptType as TranscriptType)).toThrow(Error)
+    })
+})
+
+describe("Combine Single Word Segments", () => {
+    // noinspection HtmlRequiredLangAttribute
+    test.each<{
+        segments: Array<Segment> | string
+        maxLength: number
+        expected: Array<Segment> | string
+        id: string
+    }>([
+        {
+            segments: [],
+            maxLength: 32,
+            expected: [],
+            id: "Empty",
+        },
+        {
+            segments: ONE_WORD_SEGMENTS,
+            maxLength: 32,
+            expected: ONE_WORD_SEGMENTS_OUTPUT_32,
+            id: "length 32",
+        },
+        {
+            segments: ONE_WORD_SEGMENTS,
+            maxLength: 50,
+            expected: ONE_WORD_SEGMENTS_OUTPUT_50,
+            id: "length 50",
+        },
+    ])("Combine Single Word Segments ($id)", ({ segments, maxLength, expected, id }) => {
+        if (typeof segments === "string") {
+            segments = JSON.parse(readFile(segments))
+        }
+        if (typeof expected === "string") {
+            expected = JSON.parse(readFile(expected))
+        }
+
+        const outSegments = combineSingleWordSegments(segments as Array<Segment>, maxLength)
+        saveSegmentsToFile(outSegments, `${id}_word.json`) // TODO: remove this
+        expect(outSegments).toStrictEqual(expected)
+    })
+})
+
+describe("Unsupported segment data", () => {
+    test.each<{
+        segments: Array<Segment>
+        maxLength: number
+        id: string
+    }>([
+        {
+            segments: [
+                {
+                    speaker: "Travis",
+                    startTime: 0.3,
+                    endTime: 0.93,
+                    body: "Hey, Travis",
+                },
+                {
+                    speaker: "Travis",
+                    startTime: 0.931,
+                    endTime: 1.08,
+                    body: "Albritain",
+                },
+                {
+                    speaker: "Travis",
+                    startTime: 1.321,
+                    endTime: 1.65,
+                    body: "here.",
+                },
+            ],
+            maxLength: 32,
+            id: "Space 1",
+        },
+    ])("Unsupported segment data ($id)", ({ segments, maxLength, id }) => {
+        expect(() => combineSingleWordSegments(segments, maxLength)).toThrow(Error)
     })
 })

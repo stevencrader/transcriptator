@@ -1,5 +1,5 @@
+import { parseSpeaker } from "../speaker"
 import { Segment } from "../types"
-import { parseSpeaker } from "../utils"
 
 export type JSONTranscript = {
     version: string

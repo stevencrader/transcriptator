@@ -1,5 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
+import { Segment } from "../src/types"
 import {
     readFile,
     saveSegmentsToFile,
@@ -141,4 +142,34 @@ describe("Parse SRT file data", () => {
         saveSegmentsToFile(segments, `${id}_srt.json`) // TODO: remove this
         expect(segments).toEqual(expectedJSONData.segments)
     })
+})
+
+test("SRT missing trailing line", () => {
+    const data =
+        "1\n" +
+        "00:00:00,780 --> 00:00:06,210\n" +
+        "Adam Curry: podcasting 2.0 March\n" +
+        "4 2023 Episode 124 on D flat\n" +
+        "\n" +
+        "2\n" +
+        "00:00:06,210 --> 00:00:12,990\n" +
+        "formable hello everybody welcome\n" +
+        "to a delayed board meeting of"
+    const expected: Array<Segment> = [
+        {
+            startTime: 0.78,
+            endTime: 6.21,
+            speaker: "Adam Curry",
+            body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
+        },
+        {
+            startTime: 6.21,
+            endTime: 12.99,
+            speaker: "Adam Curry",
+            body: "formable hello everybody welcome\nto a delayed board meeting of",
+        },
+    ]
+    const segments = parseSRT(data)
+    saveSegmentsToFile(segments, `missing_trailing_srt.json`) // TODO: remove this
+    expect(segments).toEqual(expected)
 })

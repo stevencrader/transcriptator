@@ -16,6 +16,9 @@ export const TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST = "how_to_start_a_podcast.js
 export const TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT = "how_to_start_a_podcast_json_parsed.json"
 export const TRANSCRIPT_VTT_LALALAND = "LaLaLand.vtt"
 export const TRANSCRIPT_VTT_LALALAND_OUTPUT = "LaLaLand_vtt_parsed.json"
+export const ONE_WORD_SEGMENTS = "one_word_segments.json"
+export const ONE_WORD_SEGMENTS_OUTPUT_32 = "one_word_segments_parsed_32.json"
+export const ONE_WORD_SEGMENTS_OUTPUT_50 = "one_word_segments_parsed_50.json"
 
 const OUTPUT_DIR = path.join(__dirname, "/test_output")
 

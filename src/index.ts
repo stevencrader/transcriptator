@@ -4,6 +4,8 @@ import { parseSRT, parseSRTSegment } from "./formats/srt"
 import { parseVTT } from "./formats/vtt"
 import { PATTERN_LINE_SEPARATOR, Segment, TranscriptType } from "./types"
 
+const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
+
 export const determineType = (data: string): TranscriptType => {
     data = data.trim()
 
@@ -55,5 +57,63 @@ export const convertFile = (data: string, transcriptType: TranscriptType = undef
     return outSegments
 }
 
-// converter
-// Optional re-format length
+const combineBody = (body: string, addition: string): string => {
+    if (body) {
+        let separator = " "
+        if (PATTERN_PUNCTUATIONS.exec(addition)) {
+            separator = ""
+        }
+        body = `${body}${separator}${addition}`
+    } else {
+        body = addition
+    }
+    return body
+}
+
+const combineSegments = (segments: Array<Segment>): Segment => {
+    let newSegment = segments[0]
+    segments.slice(1).forEach((segment) => {
+        newSegment.endTime = segment.endTime
+        newSegment.body = combineBody(newSegment.body, segment.body)
+    })
+    return newSegment
+}
+
+export const combineSingleWordSegments = (segments: Array<Segment>, maxLength: number = 32): Array<Segment> => {
+    // only supported if segments are already 1 word, check first 20 segments
+    const singleWordCheck = segments.slice(0, 20).filter((segment) => segment.body.includes(" "))
+    if (singleWordCheck.length != 0) {
+        throw new TypeError(`Cannot combine segments with more than 1 word`)
+    }
+
+    let outSegments: Array<Segment> = []
+
+    let combinedSegments: Array<Segment> = []
+    let newBody = ""
+    let lastSpeaker = ""
+    segments.forEach((segment, count) => {
+        // next segment would make too long or speaker changed
+        if (
+            `${newBody} ${segment.body}`.length > maxLength ||
+            (lastSpeaker !== "" && lastSpeaker !== segment.speaker)
+        ) {
+            outSegments.push(combineSegments(combinedSegments))
+
+            // reset
+            combinedSegments = []
+            newBody = ""
+        }
+
+        // buffer segment
+        combinedSegments.push(segment)
+        newBody = combineBody(newBody, segment.body)
+        lastSpeaker = segment.speaker
+    })
+
+    // handle trailing data
+    if (combinedSegments.length > 0) {
+        outSegments.push(combineSegments(combinedSegments))
+    }
+
+    return outSegments
+}

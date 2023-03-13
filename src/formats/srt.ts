@@ -1,6 +1,6 @@
+import { parseSpeaker } from "../speaker"
 import { parseTimestamp } from "../timestamp"
 import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
-import { parseSpeaker } from "../utils"
 
 export type SRTSegment = {
     index: number
@@ -8,6 +8,21 @@ export type SRTSegment = {
     endTime: number
     speaker: string
     body: string
+}
+
+const createSegmentFromSRTLines = (
+    segmentLines: Array<string>,
+    lastSpeaker: string
+): { segment: Segment; lastSpeaker: string } => {
+    const srtSegment = parseSRTSegment(segmentLines)
+    lastSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
+    const segment: Segment = {
+        startTime: srtSegment.startTime,
+        endTime: srtSegment.endTime,
+        speaker: lastSpeaker,
+        body: srtSegment.body,
+    }
+    return { segment: segment, lastSpeaker: lastSpeaker }
 }
 
 export const parseSRT = (data: string): Array<Segment> => {
@@ -25,14 +40,9 @@ export const parseSRT = (data: string): Array<Segment> => {
             // handle consecutive multiple blank lines
             if (segmentLines.length != 0) {
                 try {
-                    const segment = parseSRTSegment(segmentLines)
-                    lastSpeaker = segment.speaker ? segment.speaker : lastSpeaker
-                    outSegments.push({
-                        startTime: segment.startTime,
-                        endTime: segment.endTime,
-                        speaker: lastSpeaker,
-                        body: segment.body,
-                    })
+                    let s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
+                    lastSpeaker = s.lastSpeaker
+                    outSegments.push(s.segment)
                 } catch (e) {
                     console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
                     console.error(segmentLines)
@@ -45,6 +55,17 @@ export const parseSRT = (data: string): Array<Segment> => {
         }
     })
 
+    // handle data when trailing line not included
+    if (segmentLines.length != 0) {
+        try {
+            let s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
+            lastSpeaker = s.lastSpeaker
+            outSegments.push(s.segment)
+        } catch (e) {
+            console.error(`Error parsing final SRT segment lines: ${e}`)
+            console.error(segmentLines)
+        }
+    }
     return outSegments
 }
 
