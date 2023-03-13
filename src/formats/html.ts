@@ -19,11 +19,33 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
     }
     elements.forEach((element, count) => {
         if (element.tagName === "CITE") {
-            segmentParts.cite = element.innerHTML
-        } else if (element.tagName === "TIME") {
-            segmentParts.time = element.innerHTML
-        } else if (element.tagName === "P") {
-            segmentParts.text = element.innerHTML
+            if (segmentParts.cite !== "") {
+                console.warn(
+                    `Second cite element found before completing segment, discarding previous segment (element ${count}: ${element.innerHTML})`
+                )
+            }
+            // new segment found
+            segmentParts = {
+                cite: element.innerHTML,
+                time: "",
+                text: "",
+            }
+        } else if (element.tagName === "TIME" && segmentParts.cite !== "") {
+            if (segmentParts.time !== "") {
+                console.warn(
+                    `Second time element found before completing segment (element ${count}: ${element.innerHTML})`
+                )
+            } else {
+                segmentParts.time = element.innerHTML
+            }
+        } else if (element.tagName === "P" && segmentParts.cite !== "" && segmentParts.time !== "") {
+            if (segmentParts.text !== "") {
+                console.warn(
+                    `Second p element found before completing segment (element ${count}: ${element.innerHTML})`
+                )
+            } else {
+                segmentParts.text = element.innerHTML
+            }
         }
 
         if (Object.keys(segmentParts).filter((x) => segmentParts[x] !== "").length === 3) {
@@ -39,7 +61,7 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
 
                 outSegments.push({
                     startTime: startTime,
-                    endTime: 0,
+                    endTime: 0, // TODO: what to do with last element end time?
                     speaker: lastSpeaker.replace(":", "").trimEnd(),
                     body: segmentParts.text,
                 })

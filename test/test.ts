@@ -3,6 +3,8 @@ import { convertFile, determineType } from "../src"
 import { TranscriptType } from "../src/types"
 import {
     readFile,
+    TRANSCRIPT_HTML_BUZZCAST,
+    TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
     TRANSCRIPT_JSON_BUZZCAST,
     TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
     TRANSCRIPT_JSON_LALALAND,
@@ -91,6 +93,18 @@ describe("Convert File", () => {
             expectedFilePath: TRANSCRIPT_JSON_LALALAND_OUTPUT,
             id: "JSON",
         },
+        {
+            filePath: TRANSCRIPT_HTML_BUZZCAST,
+            transcriptType: undefined,
+            expectedFilePath: TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
+            id: "HTML Detect",
+        },
+        {
+            filePath: TRANSCRIPT_HTML_BUZZCAST,
+            transcriptType: TranscriptType.HTML,
+            expectedFilePath: TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
+            id: "HTML",
+        },
     ])("Convert File ($id)", ({ filePath, transcriptType, expectedFilePath, id }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
@@ -120,6 +134,18 @@ describe("Convert File Error", () => {
             data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
             transcriptType: TranscriptType.SRT,
             id: "JSON, wrong type",
+        },
+        {
+            data:
+                "<!-- a comment -->\n" +
+                "<html><body><cite>Alban:</cite>\n" +
+                "  <time>0:00</time>\n" +
+                "  <p>It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.</p>\n" +
+                "  <cite>Kevin:</cite>\n" +
+                "  <time>0:30</time>\n" +
+                "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>  </body></html>",
+            transcriptType: TranscriptType.JSON,
+            id: "HTML, wrong type",
         },
         // TODO: add more after additional types supported
     ])("Convert File Error ($id)", ({ data, transcriptType, id }) => {

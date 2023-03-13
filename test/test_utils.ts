@@ -3,6 +3,7 @@ import * as path from "path"
 import { Segment } from "../src/types"
 
 export const TRANSCRIPT_HTML_BUZZCAST = "buzzcast.html"
+export const TRANSCRIPT_HTML_BUZZCAST_OUTPUT = "buzzcast_html_parsed.json"
 export const TRANSCRIPT_JSON_BUZZCAST = "buzzcast.json"
 export const TRANSCRIPT_JSON_BUZZCAST_OUTPUT = "buzzcast_json_parsed.json"
 export const TRANSCRIPT_SRT_BUZZCAST = "buzzcast.srt"

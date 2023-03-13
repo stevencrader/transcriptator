@@ -7,3 +7,4 @@ coverage
 .pnp.loader.mjs
 .pnp.cjs
 test/test_files
+test/test_output
