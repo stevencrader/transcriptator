@@ -1,6 +1,8 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { parseJSON } from "../src/formats/json"
 import { Segment } from "../src/types"
+
 import {
     readFile,
     saveSegmentsToFile,

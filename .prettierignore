@@ -8,3 +8,8 @@ coverage
 .pnp.cjs
 test/test_files
 test/test_output
+.idea
+.vscode
+.eslintrc
+tsconfig.json
+tsconfig-eslint.json

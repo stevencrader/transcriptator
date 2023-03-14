@@ -1,5 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
-import * as path from "path"
+import * as path from "node:path"
+
 import { Segment } from "../src/types"
 
 export const TRANSCRIPT_HTML_BUZZCAST = "buzzcast.html"
@@ -38,7 +39,7 @@ const saveFile = (filename: string, data: string) => {
 export const saveSegmentsToFile = (segments: Array<Segment>, filename: string) => {
     const data = JSON.stringify(
         {
-            segments: segments,
+            segments,
         },
         null,
         4

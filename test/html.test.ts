@@ -1,6 +1,8 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { parseHTML } from "../src/formats/html"
 import { Segment } from "../src/types"
+
 import { readFile, saveSegmentsToFile, TRANSCRIPT_HTML_BUZZCAST, TRANSCRIPT_HTML_BUZZCAST_OUTPUT } from "./test_utils"
 
 const _HTML_SEGMENTS_BOTH: Array<Segment> = [

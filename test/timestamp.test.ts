@@ -1,4 +1,5 @@
 import { describe, expect, test } from "@jest/globals"
+
 import { parseTimestamp } from "../src/timestamp"
 
 describe("Timestamp", () => {
