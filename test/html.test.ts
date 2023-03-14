@@ -5,7 +5,7 @@ import { Segment } from "../src/types"
 
 import { readFile, saveSegmentsToFile, TRANSCRIPT_HTML_BUZZCAST, TRANSCRIPT_HTML_BUZZCAST_OUTPUT } from "./test_utils"
 
-const _HTML_SEGMENTS_BOTH: Array<Segment> = [
+const HTML_SEGMENTS_BOTH: Array<Segment> = [
     {
         startTime: 0,
         endTime: 30,
@@ -20,7 +20,7 @@ const _HTML_SEGMENTS_BOTH: Array<Segment> = [
     },
 ]
 
-const _HTML_SEGMENTS_2_ONLY: Array<Segment> = [_HTML_SEGMENTS_BOTH[1]]
+const HTML_SEGMENTS_2_ONLY: Array<Segment> = [HTML_SEGMENTS_BOTH[1]]
 
 describe("HTML formats test", () => {
     test.each<{
@@ -40,7 +40,7 @@ describe("HTML formats test", () => {
                 "  <cite>Kevin:</cite>\n" +
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>  </body></html>",
-            expected: _HTML_SEGMENTS_BOTH,
+            expected: HTML_SEGMENTS_BOTH,
             id: "has body html",
         },
         {
@@ -80,7 +80,7 @@ describe("Bad HTML data", () => {
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>" +
                 "  </body></html>",
-            expected: _HTML_SEGMENTS_2_ONLY,
+            expected: HTML_SEGMENTS_2_ONLY,
             id: "No cite",
         },
         {
@@ -91,7 +91,7 @@ describe("Bad HTML data", () => {
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>" +
                 "  </body></html>",
-            expected: _HTML_SEGMENTS_2_ONLY,
+            expected: HTML_SEGMENTS_2_ONLY,
             id: "No time",
         },
         {
@@ -102,7 +102,7 @@ describe("Bad HTML data", () => {
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>" +
                 "  </body></html>",
-            expected: _HTML_SEGMENTS_2_ONLY,
+            expected: HTML_SEGMENTS_2_ONLY,
             id: "No p",
         },
         {
@@ -141,7 +141,7 @@ describe("Bad HTML data", () => {
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>" +
                 "  </body></html>",
-            expected: _HTML_SEGMENTS_BOTH,
+            expected: HTML_SEGMENTS_BOTH,
             id: "duplicate time",
         },
         {
@@ -155,7 +155,7 @@ describe("Bad HTML data", () => {
                 "  <time>0:30</time>\n" +
                 "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>" +
                 "  </body></html>",
-            expected: _HTML_SEGMENTS_BOTH,
+            expected: HTML_SEGMENTS_BOTH,
             id: "duplicate p",
         },
     ])("Bad HTML data ($id)", ({ data, expected }) => {

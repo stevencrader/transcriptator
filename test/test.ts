@@ -213,16 +213,12 @@ describe("Combine Single Word Segments", () => {
             id: "length 50",
         },
     ])("Combine Single Word Segments ($id)", ({ segments, maxLength, expected, id }) => {
-        if (typeof segments === "string") {
-            segments = JSON.parse(readFile(segments))
-        }
-        if (typeof expected === "string") {
-            expected = JSON.parse(readFile(expected))
-        }
+        const segmentsJSON = typeof segments === "string" ? JSON.parse(readFile(segments)) : segments
+        const expectedJSON = typeof expected === "string" ? JSON.parse(readFile(expected)) : expected
 
-        const outSegments = combineSingleWordSegments(segments as Array<Segment>, maxLength)
+        const outSegments = combineSingleWordSegments(segmentsJSON as Array<Segment>, maxLength)
         saveSegmentsToFile(outSegments, `${id}_word.json`) // TODO: remove this
-        expect(outSegments).toStrictEqual(expected)
+        expect(outSegments).toStrictEqual(expectedJSON)
     })
 })
 
