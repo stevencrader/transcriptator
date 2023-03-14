@@ -5,10 +5,12 @@
     "main": "src/index.ts",
     "scripts": {
         "build": "tsc",
-        "lint": "run-p 'lint:*'",
-        "lint:prettier": "prettier --check .",
+        "lint": "run-p -cln 'lint:*'",
         "lint:eslint": "eslint src/ test/",
-        "lint-fix": "yarn lint:eslint --fix",
+        "lint:prettier": "prettier --check .",
+        "lint-fix": "run-p -cln 'lint-fix:*'",
+        "lint-fix:md": "prettier --write *.md",
+        "lint-fix:eslint": "yarn lint:eslint --fix",
         "test": "jest"
     },
     "repository": {
