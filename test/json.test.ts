@@ -46,7 +46,7 @@ describe("JSON formats test", () => {
             ],
             id: "List",
         },
-    ])("JSON Format ($id)", ({ data, expected, id }) => {
+    ])("JSON Format ($id)", ({ data, expected }) => {
         expect(parseJSON(data)).toStrictEqual(expected)
     })
 })
@@ -68,7 +68,7 @@ describe("JSON invalid formats", () => {
             data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
             id: "Wrong list format",
         },
-    ])("JSON invalid formats ($id)", ({ data, id }) => {
+    ])("JSON invalid formats ($id)", ({ data }) => {
         expect(() => parseJSON(data)).toThrow(Error)
     })
 })

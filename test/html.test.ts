@@ -60,7 +60,7 @@ describe("HTML formats test", () => {
             ],
             id: "no body html",
         },
-    ])("HTML Format ($id)", ({ data, expected, id }) => {
+    ])("HTML Format ($id)", ({ data, expected }) => {
         expect(parseHTML(data)).toStrictEqual(expected)
     })
 })
@@ -158,7 +158,7 @@ describe("Bad HTML data", () => {
             expected: _HTML_SEGMENTS_BOTH,
             id: "duplicate p",
         },
-    ])("Bad HTML data ($id)", ({ data, expected, id }) => {
+    ])("Bad HTML data ($id)", ({ data, expected }) => {
         expect(parseHTML(data)).toStrictEqual(expected)
     })
 })
@@ -167,7 +167,7 @@ describe("HTML formats error test", () => {
     test.each<{
         data: string
         id: string
-    }>([{ data: "<body></body>", id: "No HTML" }])("HTML Error Format ($id)", ({ data, id }) => {
+    }>([{ data: "<body></body>", id: "No HTML" }])("HTML Error Format ($id)", ({ data }) => {
         expect(() => parseHTML(data)).toThrow(Error)
     })
 })

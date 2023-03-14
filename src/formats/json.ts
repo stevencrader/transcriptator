@@ -68,16 +68,16 @@ const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => 
     return outSegments
 }
 
-const parseListJSON = (data: Array<any>): Array<Segment> => {
+const parseListJSON = (data: Array<unknown>): Array<Segment> => {
     let outSegments: Array<Segment> = []
 
     if (data.length === 0) {
         return outSegments
     }
 
-    const subtitleSegment = getSegmentFromSubtitle(data[0])
+    const subtitleSegment = getSegmentFromSubtitle(data[0] as SubtitleSegment)
     if (subtitleSegment !== undefined) {
-        outSegments = parseListJSONSubtitle(data)
+        outSegments = parseListJSONSubtitle(data as Array<SubtitleSegment>)
     } else {
         throw new TypeError(`Unknown JSON list transcript format`)
     }

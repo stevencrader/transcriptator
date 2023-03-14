@@ -65,7 +65,7 @@ describe("Unknown transcript format data", () => {
     test.each<{
         data: string
         id: string
-    }>([{ data: "", id: "Empty" }])("Transcript Type Unknown ($id)", ({ data, id }) => {
+    }>([{ data: "", id: "Empty" }])("Transcript Type Unknown ($id)", ({ data }) => {
         expect(() => determineFormat(data)).toThrow(Error)
     })
 })
@@ -125,7 +125,7 @@ describe("Convert File", () => {
             expectedFilePath: TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "VTT",
         },
-    ])("Convert File ($id)", ({ filePath, transcriptFormat, expectedFilePath, id }) => {
+    ])("Convert File ($id)", ({ filePath, transcriptFormat, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
@@ -181,7 +181,7 @@ Subtitles: @marlonrock1986 (^^V^^)
             transcriptFormat: TranscriptFormat.JSON,
             id: "VTT, wrong format",
         },
-    ])("Convert File Error ($id)", ({ data, transcriptFormat, id }) => {
+    ])("Convert File Error ($id)", ({ data, transcriptFormat }) => {
         expect(() => convertFile(data, transcriptFormat as TranscriptFormat)).toThrow(Error)
     })
 })
@@ -256,7 +256,7 @@ describe("Unsupported segment data", () => {
             maxLength: 32,
             id: "Space 1",
         },
-    ])("Unsupported segment data ($id)", ({ segments, maxLength, id }) => {
+    ])("Unsupported segment data ($id)", ({ segments, maxLength }) => {
         expect(() => combineSingleWordSegments(segments, maxLength)).toThrow(Error)
     })
 })

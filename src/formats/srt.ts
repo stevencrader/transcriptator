@@ -78,7 +78,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
         } else {
             break
         }
-    } while (true)
+    } while (lines.length > 0)
 
     if (lines.length < 3) {
         throw new Error(`SRT requires at least 3 lines, ${lines.length} received`)

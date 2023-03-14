@@ -73,14 +73,14 @@ describe("Timestamp", () => {
             expected: 12.493,
             id: "number",
         },
-    ])("Timestamp ($id)", ({ data, expected, id }) => {
+    ])("Timestamp ($id)", ({ data, expected }) => {
         expect(parseTimestamp(data)).toEqual(expected)
     })
 })
 
 describe("Undefined timestamp", () => {
     test.each<{
-        data: any
+        data: unknown
         id: string
     }>([
         { data: [], id: "Array" },
@@ -88,7 +88,7 @@ describe("Undefined timestamp", () => {
         { data: "01:02:03/956", id: "Wrong decimal separator" },
         { data: "03:01:02:03,456", id: "Too many fields" },
         { data: "01: :03,456", id: "Space field" },
-    ])("Undefined timestamp ($id)", ({ data, id }) => {
-        expect(() => parseTimestamp(data)).toThrow(TypeError)
+    ])("Undefined timestamp ($id)", ({ data }) => {
+        expect(() => parseTimestamp(data as string)).toThrow(TypeError)
     })
 })

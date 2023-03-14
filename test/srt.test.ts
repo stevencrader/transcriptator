@@ -94,7 +94,7 @@ describe("SRT segment data", () => {
             },
             id: "large body",
         },
-    ])("SRT Segment ($id)", ({ data, expected, id }) => {
+    ])("SRT Segment ($id)", ({ data, expected }) => {
         expect(parseSRTSegment(data)).toEqual(expected)
     })
 })
@@ -115,7 +115,7 @@ describe("Undefined SRT segment data", () => {
             ],
             id: "missing index",
         },
-    ])("SRT Segment Undefined ($id)", ({ data, id }) => {
+    ])("SRT Segment Undefined ($id)", ({ data }) => {
         expect(() => parseSRTSegment(data)).toThrow(Error)
     })
 })
