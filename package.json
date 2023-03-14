@@ -5,9 +5,7 @@
     "main": "src/index.ts",
     "scripts": {
         "build": "tsc",
-        "format": "prettier --write .",
-        "format-check": "prettier --check .",
-        "lint": "run-p lint:*",
+        "lint": "run-p 'lint:*'",
         "lint:prettier": "prettier --check .",
         "lint:eslint": "eslint src/ test/",
         "lint-fix": "yarn lint:eslint --fix",
