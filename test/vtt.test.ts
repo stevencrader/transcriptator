@@ -2,7 +2,7 @@ import { describe, expect, test } from "@jest/globals"
 
 import { parseVTT } from "../src/formats/vtt"
 
-import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
+import { readFile, TestFiles } from "./test_utils"
 
 describe("Parse VTT file data", () => {
     test.each<{
@@ -15,12 +15,11 @@ describe("Parse VTT file data", () => {
             expectedFilePath: TestFiles.TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "LaLaLand",
         },
-    ])("Parse VTT File ($id)", ({ filePath, expectedFilePath, id }) => {
+    ])("Parse VTT File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseVTT(data)
-        saveSegmentsToFile(segments, `${id}_vtt.json`) // TODO: remove this
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })

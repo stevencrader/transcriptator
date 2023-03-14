@@ -3,7 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { combineSingleWordSegments, convertFile, determineFormat } from "../src"
 import { Segment, TranscriptFormat } from "../src/types"
 
-import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
+import { readFile, TestFiles } from "./test_utils"
 
 describe("Determine Transcript Type", () => {
     // noinspection HtmlRequiredLangAttribute
@@ -203,12 +203,11 @@ describe("Combine Single Word Segments", () => {
             expected: TestFiles.ONE_WORD_SEGMENTS_OUTPUT_50,
             id: "length 50",
         },
-    ])("Combine Single Word Segments ($id)", ({ segments, maxLength, expected, id }) => {
+    ])("Combine Single Word Segments ($id)", ({ segments, maxLength, expected }) => {
         const segmentsJSON = typeof segments === "string" ? JSON.parse(readFile(segments)) : segments
         const expectedJSON = typeof expected === "string" ? JSON.parse(readFile(expected)) : expected
 
         const outSegments = combineSingleWordSegments(segmentsJSON as Array<Segment>, maxLength)
-        saveSegmentsToFile(outSegments, `${id}_word.json`) // TODO: remove this
         expect(outSegments).toStrictEqual(expectedJSON)
     })
 })

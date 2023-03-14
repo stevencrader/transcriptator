@@ -3,7 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { parseHTML } from "../src/formats/html"
 import { Segment } from "../src/types"
 
-import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
+import { readFile, TestFiles } from "./test_utils"
 
 const HTML_SEGMENTS_BOTH: Array<Segment> = [
     {
@@ -173,12 +173,11 @@ describe("Parse HTML file data", () => {
             expectedFilePath: TestFiles.TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
             id: "Buzzcast",
         },
-    ])("Parse HTML File ($id)", ({ filePath, expectedFilePath, id }) => {
+    ])("Parse HTML File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedHTMLData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseHTML(data)
-        saveSegmentsToFile(segments, `${id}_html.json`) // TODO: remove this
         expect(segments).toEqual(expectedHTMLData.segments)
     })
 })

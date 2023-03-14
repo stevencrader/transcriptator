@@ -3,7 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
 import { Segment } from "../src/types"
 
-import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
+import { readFile, TestFiles } from "./test_utils"
 
 describe("SRT segment data", () => {
     test.each<{
@@ -129,12 +129,11 @@ describe("Parse SRT file data", () => {
             expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
             id: "Podcasting 2.0",
         },
-    ])("Parse SRT File ($id)", ({ filePath, expectedFilePath, id }) => {
+    ])("Parse SRT File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseSRT(data)
-        saveSegmentsToFile(segments, `${id}_srt.json`) // TODO: remove this
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })
@@ -164,6 +163,5 @@ to a delayed board meeting of`
         },
     ]
     const segments = parseSRT(data)
-    saveSegmentsToFile(segments, `missing_trailing_srt.json`) // TODO: remove this
     expect(segments).toEqual(expected)
 })

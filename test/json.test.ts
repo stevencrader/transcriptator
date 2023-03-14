@@ -3,7 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { parseJSON } from "../src/formats/json"
 import { Segment } from "../src/types"
 
-import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
+import { readFile, TestFiles } from "./test_utils"
 
 describe("JSON formats test", () => {
     test.each<{
@@ -85,12 +85,11 @@ describe("Parse JSON file data", () => {
             expectedFilePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
             id: "How to Start a Podcast",
         },
-    ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, id }) => {
+    ])("Parse JSON File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
         const segments = parseJSON(data)
-        saveSegmentsToFile(segments, `${id}_json.json`) // TODO: remove this
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })

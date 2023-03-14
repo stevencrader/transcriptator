@@ -8,6 +8,78 @@ import { Segment } from "../types"
  */
 export const PATTERN_HTML_TAG = /^< *html.*?>/i
 
+type HTMLSegmentPart = {
+    cite: string
+    time: string
+    text: string
+}
+
+/**
+ * Updates HTML Segment parts if expected HTML segment
+ *
+ * @param element HTML segment to check
+ * @param segmentPart Current segment parts
+ * @param count Element count in parent HTML element
+ * @returns Updated HTML Segment parts
+ */
+const updateSegmentPartFromElement = (
+    element: HTMLElement,
+    segmentPart: HTMLSegmentPart,
+    count: number
+): HTMLSegmentPart => {
+    let updatedSegmentPart = segmentPart
+    if (element.tagName === "CITE") {
+        if (segmentPart.cite !== "") {
+            console.warn(
+                `Second cite element found before completing segment, discarding previous segment (element ${count}: ${element.innerHTML})`
+            )
+        }
+        // new segment found
+        updatedSegmentPart = {
+            cite: element.innerHTML,
+            time: "",
+            text: "",
+        }
+    } else if (element.tagName === "TIME" && segmentPart.cite !== "") {
+        if (segmentPart.time !== "") {
+            console.warn(`Second time element found before completing segment (element ${count}: ${element.innerHTML})`)
+        } else {
+            updatedSegmentPart.time = element.innerHTML
+        }
+    } else if (element.tagName === "P" && segmentPart.cite !== "" && segmentPart.time !== "") {
+        if (segmentPart.text !== "") {
+            console.warn(`Second p element found before completing segment (element ${count}: ${element.innerHTML})`)
+        } else {
+            updatedSegmentPart.text = element.innerHTML
+        }
+    }
+    return updatedSegmentPart
+}
+
+/**
+ * Create Segment from HTML segment parts
+ *
+ * @param segmentPart HTML segment data
+ * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
+ * @returns Created {@link Segment} and updated speaker
+ */
+const createSegmentFromSegmentPart = (
+    segmentPart: HTMLSegmentPart,
+    lastSpeaker: string
+): { segment: Segment; speaker: string } => {
+    const calculatedSpeaker = segmentPart.cite ? segmentPart.cite : lastSpeaker
+    const startTime = parseTimestamp(segmentPart.time)
+
+    const segment: Segment = {
+        startTime,
+        endTime: 0, // TODO: what to do with last element end time?
+        speaker: calculatedSpeaker.replace(":", "").trimEnd(),
+        body: segmentPart.text,
+    }
+
+    return { segment, speaker: calculatedSpeaker }
+}
+
 /**
  * Parse HTML data and create {@link Segment} for each segment data found in data
  *
@@ -18,71 +90,34 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
     const outSegments: Array<Segment> = []
     let lastSpeaker = ""
 
-    let segmentParts: {
-        cite: string
-        time: string
-        text: string
-    } = {
+    let segmentPart: HTMLSegmentPart = {
         cite: "",
         time: "",
         text: "",
     }
-    // TODO: refactor this to remove this complexity line (or adjust the complexity rule)
-    // eslint-disable-next-line sonarjs/cognitive-complexity
     elements.forEach((element, count) => {
-        if (element.tagName === "CITE") {
-            if (segmentParts.cite !== "") {
-                console.warn(
-                    `Second cite element found before completing segment, discarding previous segment (element ${count}: ${element.innerHTML})`
-                )
-            }
-            // new segment found
-            segmentParts = {
-                cite: element.innerHTML,
-                time: "",
-                text: "",
-            }
-        } else if (element.tagName === "TIME" && segmentParts.cite !== "") {
-            if (segmentParts.time !== "") {
-                console.warn(
-                    `Second time element found before completing segment (element ${count}: ${element.innerHTML})`
-                )
-            } else {
-                segmentParts.time = element.innerHTML
-            }
-        } else if (element.tagName === "P" && segmentParts.cite !== "" && segmentParts.time !== "") {
-            if (segmentParts.text !== "") {
-                console.warn(
-                    `Second p element found before completing segment (element ${count}: ${element.innerHTML})`
-                )
-            } else {
-                segmentParts.text = element.innerHTML
-            }
-        }
+        segmentPart = updateSegmentPartFromElement(element, segmentPart, count)
 
-        if (Object.keys(segmentParts).filter((x) => segmentParts[x] !== "").length === 3) {
+        if (Object.keys(segmentPart).filter((x) => segmentPart[x] !== "").length === 3) {
             try {
-                lastSpeaker = segmentParts.cite ? segmentParts.cite : lastSpeaker
-                const startTime = parseTimestamp(segmentParts.time)
+                const s = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
+                lastSpeaker = s.speaker
 
                 // update endTime of previous Segment
                 const totalSegments = outSegments.length
                 if (totalSegments > 0) {
-                    outSegments[totalSegments - 1].endTime = outSegments[totalSegments - 1].startTime + startTime
+                    outSegments[totalSegments - 1].endTime =
+                        outSegments[totalSegments - 1].startTime + s.segment.startTime
                 }
 
-                outSegments.push({
-                    startTime,
-                    endTime: 0, // TODO: what to do with last element end time?
-                    speaker: lastSpeaker.replace(":", "").trimEnd(),
-                    body: segmentParts.text,
-                })
+                outSegments.push(s.segment)
             } catch (e) {
                 console.error(`Error parsing HTML elements (source line ${count}): ${e}`)
-                console.error(segmentParts)
+                console.error(segmentPart)
             }
 
-            segmentParts = {
+            // clear
+            segmentPart = {
                 cite: "",
                 time: "",
                 text: "",

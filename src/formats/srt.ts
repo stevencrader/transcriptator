@@ -98,14 +98,14 @@ const createSegmentFromSRTLines = (
     lastSpeaker: string
 ): { segment: Segment; speaker: string } => {
     const srtSegment = parseSRTSegment(segmentLines)
-    const calculatedLastSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
+    const calculatedSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
     const segment: Segment = {
         startTime: srtSegment.startTime,
         endTime: srtSegment.endTime,
-        speaker: calculatedLastSpeaker,
+        speaker: calculatedSpeaker,
         body: srtSegment.body,
     }
-    return { segment, speaker: calculatedLastSpeaker }
+    return { segment, speaker: calculatedSpeaker }
 }
 
 /**
