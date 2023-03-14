@@ -2,14 +2,42 @@ import { parseSpeaker } from "../speaker"
 import { parseTimestamp } from "../timestamp"
 import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
 
+/**
+ * Define a segment/cue parsed from SRT file
+ */
 export type SRTSegment = {
+    /**
+     * Cue number
+     */
     index: number
+    /**
+     * Time (in seconds) when segment starts
+     */
     startTime: number
+    /**
+     * Time (in seconds) when segment ends
+     */
     endTime: number
+    /**
+     * Name of speaker for `body`
+     */
     speaker: string
+    /**
+     * Text of transcript for segment
+     */
     body: string
 }
 
+/**
+ * Parse lines looking for data to be SRT format
+ *
+ * @param lines Lines containing SRT data
+ * @returns Parsed segment
+ * @throws {Error} When no non-empty strings in `lines`
+ * @throws {Error} When the minimum required number of lines is not received
+ * @throws {Error} When segment lines does not start with a number
+ * @throws {Error} When second segment line does not follow the timestamp format
+ */
 export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     do {
         if (lines.length === 0) {
@@ -58,10 +86,17 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     }
 }
 
+/**
+ * Create Segment from lines containing an SRT segment/cue
+ *
+ * @param segmentLines Lines containing SRT data
+ * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
+ * @returns Created {@link Segment} and updated speaker
+ */
 const createSegmentFromSRTLines = (
     segmentLines: Array<string>,
     lastSpeaker: string
-): { segment: Segment; lastSpeaker: string } => {
+): { segment: Segment; speaker: string } => {
     const srtSegment = parseSRTSegment(segmentLines)
     const calculatedLastSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
     const segment: Segment = {
@@ -70,9 +105,16 @@ const createSegmentFromSRTLines = (
         speaker: calculatedLastSpeaker,
         body: srtSegment.body,
     }
-    return { segment, lastSpeaker: calculatedLastSpeaker }
+    return { segment, speaker: calculatedLastSpeaker }
 }
 
+/**
+ * Parse SRT data to an Array of {@link Segment}
+ *
+ * @param data The transcript data
+ * @returns An array of Segments from the parsed data
+ * @throws {TypeError} When `data` is not valid SRT format
+ */
 export const parseSRT = (data: string): Array<Segment> => {
     if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) === undefined) {
         throw new TypeError(`Data is not valid SRT format`)
@@ -89,7 +131,7 @@ export const parseSRT = (data: string): Array<Segment> => {
             if (segmentLines.length !== 0) {
                 try {
                     const s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
-                    lastSpeaker = s.lastSpeaker
+                    lastSpeaker = s.speaker
                     outSegments.push(s.segment)
                 } catch (e) {
                     console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
@@ -107,7 +149,7 @@ export const parseSRT = (data: string): Array<Segment> => {
     if (segmentLines.length !== 0) {
         try {
             const s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
-            lastSpeaker = s.lastSpeaker
+            lastSpeaker = s.speaker
             outSegments.push(s.segment)
         } catch (e) {
             console.error(`Error parsing final SRT segment lines: ${e}`)

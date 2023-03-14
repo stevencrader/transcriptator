@@ -3,14 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
 import { Segment } from "../src/types"
 
-import {
-    readFile,
-    saveSegmentsToFile,
-    TRANSCRIPT_SRT_BUZZCAST,
-    TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
-    TRANSCRIPT_SRT_PODCASTING_20,
-    TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
-} from "./test_utils"
+import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
 
 describe("SRT segment data", () => {
     test.each<{
@@ -127,13 +120,13 @@ describe("Parse SRT file data", () => {
         id: string
     }>([
         {
-            filePath: TRANSCRIPT_SRT_BUZZCAST,
-            expectedFilePath: TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
             id: "Buzzcast",
         },
         {
-            filePath: TRANSCRIPT_SRT_PODCASTING_20,
-            expectedFilePath: TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
             id: "Podcasting 2.0",
         },
     ])("Parse SRT File ($id)", ({ filePath, expectedFilePath, id }) => {
@@ -147,16 +140,15 @@ describe("Parse SRT file data", () => {
 })
 
 test("SRT missing trailing line", () => {
-    const data =
-        "1\n" +
-        "00:00:00,780 --> 00:00:06,210\n" +
-        "Adam Curry: podcasting 2.0 March\n" +
-        "4 2023 Episode 124 on D flat\n" +
-        "\n" +
-        "2\n" +
-        "00:00:06,210 --> 00:00:12,990\n" +
-        "formable hello everybody welcome\n" +
-        "to a delayed board meeting of"
+    const data = `1
+00:00:00,780 --> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat
+
+2
+00:00:06,210 --> 00:00:12,990
+formable hello everybody welcome
+to a delayed board meeting of`
     const expected: Array<Segment> = [
         {
             startTime: 0.78,

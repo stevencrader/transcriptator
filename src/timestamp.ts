@@ -1,5 +1,19 @@
+/**
+ * Regular expression for detecting all valid timestamps
+ */
 const PATTERN_TIMESTAMP = /^(?<time>((?<hour>\d+):|)((?<minute>\d+):|)((?<second>\d+)|))([,.](?<ms>\d+|)|)$/m
 
+/**
+ * Parse timestamp from value
+ *
+ * Supported formats must match {@link PATTERN_TIMESTAMP}
+ *
+ * @param value Value to parse timestamp from. If number, assumes already a timestamp in seconds.
+ * @returns Parsed timestamp in seconds
+ * @throws {TypeError} When value is not a string
+ * @throws {TypeError} When value does not match {@link PATTERN_TIMESTAMP}
+ * @throws {TypeError} When computed timestamp is {@link NaN}
+ */
 export const parseTimestamp = (value: string | number): number => {
     if (typeof value === "number") {
         return value

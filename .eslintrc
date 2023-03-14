@@ -10,7 +10,8 @@
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "plugin:prettier/recommended",
-        "plugin:sonarjs/recommended"
+        "plugin:sonarjs/recommended",
+        "plugin:jsdoc/recommended"
     ],
     "parserOptions": {
         "project": "./tsconfig-eslint.json"
@@ -29,6 +30,7 @@
         }
     },
     "plugins": [
+        "jsdoc",
         "prettier"
     ],
     "rules": {
@@ -45,6 +47,7 @@
                 "argsIgnorePattern": "^_"
             }
         ],
+        "@typescript-eslint/explicit-function-return-type": "error",
         "no-plusplus": "off",
         "import/prefer-default-export": "off",
         "import/newline-after-import": "error",
@@ -70,6 +73,21 @@
         "@typescript-eslint/return-await": [
             "error",
             "in-try-catch"
+        ],
+        "jsdoc/require-param-type": 0,
+        "jsdoc/require-returns-type": 0,
+        "jsdoc/require-jsdoc": [
+            "error",
+            {
+                "require": {
+                  "ArrowFunctionExpression": true,
+                  "ClassDeclaration": true,
+                  "ClassExpression": true,
+                  "FunctionDeclaration": true,
+                  "FunctionExpression": true,
+                  "MethodDefinition": true
+                }
+            }
         ]
     },
     "overrides": [
@@ -80,9 +98,7 @@
                 "test/**/*.ts"
             ],
             "rules": {
-                "@typescript-eslint/no-var-requires": "off",
                 "sonarjs/no-duplicate-string": "off",
-                "sonarjs/no-identical-functions": "off"
             }
         }
     ]

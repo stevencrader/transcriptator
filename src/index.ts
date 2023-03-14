@@ -13,7 +13,7 @@ const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
  * Determines the format of transcript by inspecting the data
  *
  * @param data The transcript data
- * @return The determined transcript format
+ * @returns The determined transcript format
  * @throws {TypeError} Cannot determine format of data or error parsing data
  */
 export const determineFormat = (data: string): TranscriptFormat => {
@@ -46,12 +46,12 @@ export const determineFormat = (data: string): TranscriptFormat => {
 }
 
 /**
- * Convert the data to an Array of Segment
+ * Convert the data to an Array of {@link Segment}
  *
  * @param data The transcript data
  * @param transcriptFormat The format of the data.
  * If undefined, will attempt to determine format using {@link determineFormat}
- * @return An Array of Segment objects from the parsed data
+ * @returns An Array of Segment objects from the parsed data
  * @throws {TypeError} When `transcriptFormat` is unknown
  */
 export const convertFile = (data: string, transcriptFormat: TranscriptFormat = undefined): Array<Segment> => {
@@ -86,7 +86,7 @@ export const convertFile = (data: string, transcriptFormat: TranscriptFormat = u
  *
  * @param body Current body text
  * @param addition Additional text to add to `body`
- * @return Combined data
+ * @returns Combined data
  */
 const combineBody = (body: string, addition: string): string => {
     if (body) {
@@ -103,7 +103,7 @@ const combineBody = (body: string, addition: string): string => {
  * Combine one or more {@link Segment}
  *
  * @param segments Array of Segment objects to combine
- * @return Combined segment where:
+ * @returns Combined segment where:
  *
  *   - `startTime`: from first segment
  *   - `endTime`: from last segment
@@ -126,7 +126,7 @@ const combineSegments = (segments: Array<Segment>): Segment => {
  *
  * @param segments Array of Segment objects to combine
  * @param maxLength Maximum length of body text for combined segment
- * @return Array of combined segments
+ * @returns Array of combined segments
  * @throws {TypeError} Body value is not a single word (looks in first 20 segments)
  */
 export const combineSingleWordSegments = (segments: Array<Segment>, maxLength = 32): Array<Segment> => {

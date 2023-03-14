@@ -2,7 +2,7 @@ import { describe, expect, test } from "@jest/globals"
 
 import { parseVTT } from "../src/formats/vtt"
 
-import { readFile, saveSegmentsToFile, TRANSCRIPT_VTT_LALALAND, TRANSCRIPT_VTT_LALALAND_OUTPUT } from "./test_utils"
+import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
 
 describe("Parse VTT file data", () => {
     test.each<{
@@ -11,8 +11,8 @@ describe("Parse VTT file data", () => {
         id: string
     }>([
         {
-            filePath: TRANSCRIPT_VTT_LALALAND,
-            expectedFilePath: TRANSCRIPT_VTT_LALALAND_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_VTT_LALALAND,
+            expectedFilePath: TestFiles.TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "LaLaLand",
         },
     ])("Parse VTT File ($id)", ({ filePath, expectedFilePath, id }) => {

@@ -1,21 +1,56 @@
 import { parseSpeaker } from "../speaker"
 import { Segment } from "../types"
 
+/**
+ * Define the JSON transcript format
+ */
 export type JSONTranscript = {
+    /**
+     * Version of file format
+     */
     version: string
+    /**
+     * Segment data
+     */
     segments: Array<Segment>
 }
 
+/**
+ * Define the JSON transcript Segment format
+ */
 export type SubtitleSegment = {
+    /**
+     * Time (in milliseconds) when segment starts
+     */
     start: number
+    /**
+     * Time (in milliseconds) when segment ends
+     */
     end: number
+    /**
+     * Text of transcript for segment
+     */
     text: string
 }
 
+/**
+ * Parse JSON data where segments are in the `segments` Array and in the {@link Segment} format
+ *
+ * @param data Parsed JSON data
+ * @returns An array of Segments from the parsed data
+ */
 const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
+    // since this format matches the format used here, return directly
     return data.segments
 }
 
+/**
+ * Parse JSON data where top level item is a dict/object
+ *
+ * @param data The transcript data
+ * @returns An array of Segments from the parsed data
+ * @throws {TypeError} When JSON data does not match one of the valid formats
+ */
 const parseDictJSON = (data: object): Array<Segment> => {
     let outSegments: Array<Segment> = []
 
@@ -32,6 +67,13 @@ const parseDictJSON = (data: object): Array<Segment> => {
     return outSegments
 }
 
+/**
+ * Convert {@link SubtitleSegment} to the {@link Segment} format used here
+ *
+ * @param data Segment parsed from JSON data
+ * @returns Segment representing `data`.
+ * Returns {@link undefined} when data does not match {@link SubtitleSegment} format.
+ */
 const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
     if ("start" in data && "end" in data && "text" in data) {
         const { speaker, message } = parseSpeaker(data.text)
@@ -45,6 +87,13 @@ const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
     return undefined
 }
 
+/**
+ * Parse JSON data where items in data are in the {@link SubtitleSegment} format
+ *
+ * @param data Parsed JSON data
+ * @returns An array of Segments from the parsed data
+ * @throws {TypeError} When item in `data` does not match the {@link SubtitleSegment} format
+ */
 const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => {
     const outSegments: Array<Segment> = []
 
@@ -68,6 +117,13 @@ const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => 
     return outSegments
 }
 
+/**
+ * Parse JSON data where top level item is an Array
+ *
+ * @param data The transcript data
+ * @returns An array of Segments from the parsed data
+ * @throws {TypeError} When JSON data does not match one of the valid formats
+ */
 const parseListJSON = (data: Array<unknown>): Array<Segment> => {
     let outSegments: Array<Segment> = []
 
@@ -85,6 +141,13 @@ const parseListJSON = (data: Array<unknown>): Array<Segment> => {
     return outSegments
 }
 
+/**
+ * Parse JSON data to an Array of {@link Segment}
+ *
+ * @param data The transcript data
+ * @returns An array of Segments from the parsed data
+ * @throws {TypeError} When `data` is not valid JSON format
+ */
 export const parseJSON = (data: string): Array<Segment> => {
     const dataTrimmed = data.trim()
     let outSegments: Array<Segment> = []

@@ -3,16 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { parseJSON } from "../src/formats/json"
 import { Segment } from "../src/types"
 
-import {
-    readFile,
-    saveSegmentsToFile,
-    TRANSCRIPT_JSON_BUZZCAST,
-    TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
-    TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
-    TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
-    TRANSCRIPT_JSON_LALALAND,
-    TRANSCRIPT_JSON_LALALAND_OUTPUT,
-} from "./test_utils"
+import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
 
 describe("JSON formats test", () => {
     test.each<{
@@ -80,18 +71,18 @@ describe("Parse JSON file data", () => {
         id: string
     }>([
         {
-            filePath: TRANSCRIPT_JSON_BUZZCAST,
-            expectedFilePath: TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
             id: "Buzzcast",
         },
         {
-            filePath: TRANSCRIPT_JSON_LALALAND,
-            expectedFilePath: TRANSCRIPT_JSON_LALALAND_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_JSON_LALALAND,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_LALALAND_OUTPUT,
             id: "LaLaLand",
         },
         {
-            filePath: TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
-            expectedFilePath: TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
             id: "How to Start a Podcast",
         },
     ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, id }) => {

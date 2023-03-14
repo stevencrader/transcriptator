@@ -3,25 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { combineSingleWordSegments, convertFile, determineFormat } from "../src"
 import { Segment, TranscriptFormat } from "../src/types"
 
-import {
-    ONE_WORD_SEGMENTS,
-    ONE_WORD_SEGMENTS_OUTPUT_32,
-    ONE_WORD_SEGMENTS_OUTPUT_50,
-    readFile,
-    saveSegmentsToFile,
-    TRANSCRIPT_HTML_BUZZCAST,
-    TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
-    TRANSCRIPT_JSON_BUZZCAST,
-    TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
-    TRANSCRIPT_JSON_LALALAND,
-    TRANSCRIPT_JSON_LALALAND_OUTPUT,
-    TRANSCRIPT_SRT_BUZZCAST,
-    TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
-    TRANSCRIPT_SRT_PODCASTING_20,
-    TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
-    TRANSCRIPT_VTT_LALALAND,
-    TRANSCRIPT_VTT_LALALAND_OUTPUT,
-} from "./test_utils"
+import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
 
 describe("Determine Transcript Type", () => {
     // noinspection HtmlRequiredLangAttribute
@@ -37,22 +19,31 @@ describe("Determine Transcript Type", () => {
         { data: "\nWEBVTT", expected: TranscriptFormat.VTT },
         { data: "WEBVTT", expected: TranscriptFormat.VTT },
         {
+            // language=JSON
             data: '{"version":"1.0.0","segments":[{"speaker":"Alban","startTime":0.0,"endTime":4.8,"body":"It is so stinking nice to"}]}',
             expected: TranscriptFormat.JSON,
         },
         {
-            data: "1\n00:00:00,780 --> 00:00:06,210\nAdam Curry: podcasting 2.0 March\n4 2023 Episode 124 on D flat",
+            data: `1
+00:00:00,780 --> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat`,
             expected: TranscriptFormat.SRT,
         },
         {
-            data: "2\n00:00:00,780 --> 00:00:06.210\nAdam Curry: podcasting 2.0 March\n",
+            data: `2
+00:00:00,780 --> 00:00:06.210
+Adam Curry: podcasting 2.0 March
+`,
             expected: TranscriptFormat.SRT,
         },
         {
+            // language=JSON
             data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
             expected: TranscriptFormat.JSON,
         },
         {
+            // language=JSON
             data: '{"version": "1.0.0","segments": [{"speaker": "Alban","startTime": 0.0,"endTime": 4.8,"body": "It is so stinking nice to"}]}',
             expected: TranscriptFormat.JSON,
         },
@@ -78,51 +69,51 @@ describe("Convert File", () => {
         id: string
     }>([
         {
-            filePath: TRANSCRIPT_SRT_BUZZCAST,
+            filePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST,
             transcriptFormat: undefined,
-            expectedFilePath: TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
             id: "SRT Detect",
         },
         {
-            filePath: TRANSCRIPT_SRT_PODCASTING_20,
+            filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20,
             transcriptFormat: TranscriptFormat.SRT,
-            expectedFilePath: TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
             id: "SRT",
         },
         {
-            filePath: TRANSCRIPT_JSON_BUZZCAST,
+            filePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST,
             transcriptFormat: undefined,
-            expectedFilePath: TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
             id: "JSON Detect",
         },
         {
-            filePath: TRANSCRIPT_JSON_LALALAND,
+            filePath: TestFiles.TRANSCRIPT_JSON_LALALAND,
             transcriptFormat: TranscriptFormat.JSON,
-            expectedFilePath: TRANSCRIPT_JSON_LALALAND_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_LALALAND_OUTPUT,
             id: "JSON",
         },
         {
-            filePath: TRANSCRIPT_HTML_BUZZCAST,
+            filePath: TestFiles.TRANSCRIPT_HTML_BUZZCAST,
             transcriptFormat: undefined,
-            expectedFilePath: TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
             id: "HTML Detect",
         },
         {
-            filePath: TRANSCRIPT_HTML_BUZZCAST,
+            filePath: TestFiles.TRANSCRIPT_HTML_BUZZCAST,
             transcriptFormat: TranscriptFormat.HTML,
-            expectedFilePath: TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_HTML_BUZZCAST_OUTPUT,
             id: "HTML",
         },
         {
-            filePath: TRANSCRIPT_VTT_LALALAND,
+            filePath: TestFiles.TRANSCRIPT_VTT_LALALAND,
             transcriptFormat: undefined,
-            expectedFilePath: TRANSCRIPT_VTT_LALALAND_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "VTT Detect",
         },
         {
-            filePath: TRANSCRIPT_VTT_LALALAND,
+            filePath: TestFiles.TRANSCRIPT_VTT_LALALAND,
             transcriptFormat: TranscriptFormat.VTT,
-            expectedFilePath: TRANSCRIPT_VTT_LALALAND_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "VTT",
         },
     ])("Convert File ($id)", ({ filePath, transcriptFormat, expectedFilePath }) => {
@@ -146,28 +137,28 @@ describe("Convert File Error", () => {
             id: "Unknown format",
         },
         {
-            data:
-                "1\n" +
-                "00:00:00,780 --> 00:00:06,210\n" +
-                "Adam Curry: podcasting 2.0 March\n" +
-                "4 2023 Episode 124 on D flat",
+            data: `1
+00:00:00,780 --> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat`,
             transcriptFormat: TranscriptFormat.VTT,
             id: "SRT, wrong format",
         },
         {
-            data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
+            // language=JSON
+            data: `[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]`,
             transcriptFormat: TranscriptFormat.SRT,
             id: "JSON, wrong format",
         },
         {
-            data:
-                "<!-- a comment -->\n" +
-                "<html><body><cite>Alban:</cite>\n" +
-                "  <time>0:00</time>\n" +
-                "  <p>It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.</p>\n" +
-                "  <cite>Kevin:</cite>\n" +
-                "  <time>0:30</time>\n" +
-                "  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>  </body></html>",
+            data: `<!-- a comment -->
+<html><body><cite>Alban:</cite>
+  <time>0:00</time>
+  <p>It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.</p>
+  <cite>Kevin:</cite>
+  <time>0:30</time>
+  <p>You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.</p>
+</body></html>`,
             transcriptFormat: TranscriptFormat.JSON,
             id: "HTML, wrong format",
         },
@@ -201,15 +192,15 @@ describe("Combine Single Word Segments", () => {
             id: "Empty",
         },
         {
-            segments: ONE_WORD_SEGMENTS,
+            segments: TestFiles.ONE_WORD_SEGMENTS,
             maxLength: 32,
-            expected: ONE_WORD_SEGMENTS_OUTPUT_32,
+            expected: TestFiles.ONE_WORD_SEGMENTS_OUTPUT_32,
             id: "length 32",
         },
         {
-            segments: ONE_WORD_SEGMENTS,
+            segments: TestFiles.ONE_WORD_SEGMENTS,
             maxLength: 50,
-            expected: ONE_WORD_SEGMENTS_OUTPUT_50,
+            expected: TestFiles.ONE_WORD_SEGMENTS_OUTPUT_50,
             id: "length 50",
         },
     ])("Combine Single Word Segments ($id)", ({ segments, maxLength, expected, id }) => {
