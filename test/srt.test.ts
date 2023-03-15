@@ -1,4 +1,4 @@
-import { describe, expect, test } from "@jest/globals"
+import { describe, expect, jest, test } from "@jest/globals"
 
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
 import { Segment } from "../src/types"
@@ -108,6 +108,24 @@ describe("Undefined SRT segment data", () => {
             ],
             id: "missing index",
         },
+        {
+            data: [
+                "1",
+                "00:00:00,780 -> 00:00:06,210",
+                "Adam Curry: podcasting 2.0 March",
+                "4 2023 Episode 124 on D flat",
+            ],
+            id: "wrong arrow",
+        },
+        {
+            data: [
+                "1",
+                "00:00:00,780 --> 00:00:06,210 --> 00:00:07,030",
+                "Adam Curry: podcasting 2.0 March",
+                "4 2023 Episode 124 on D flat",
+            ],
+            id: "duplicate arrow",
+        },
     ])("SRT Segment Undefined ($id)", ({ data }) => {
         expect(() => parseSRTSegment(data)).toThrow(Error)
     })
@@ -138,8 +156,14 @@ describe("Parse SRT file data", () => {
     })
 })
 
-test("SRT missing trailing line", () => {
-    const data = `1
+describe("Parse SRT data (strings)", () => {
+    test.each<{
+        data: string
+        expected: Array<Segment>
+        id: string
+    }>([
+        {
+            data: `1
 00:00:00,780 --> 00:00:06,210
 Adam Curry: podcasting 2.0 March
 4 2023 Episode 124 on D flat
@@ -147,21 +171,93 @@ Adam Curry: podcasting 2.0 March
 2
 00:00:06,210 --> 00:00:12,990
 formable hello everybody welcome
-to a delayed board meeting of`
-    const expected: Array<Segment> = [
+to a delayed board meeting of`,
+            expected: [
+                {
+                    startTime: 0.78,
+                    endTime: 6.21,
+                    speaker: "Adam Curry",
+                    body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
+                },
+                {
+                    startTime: 6.21,
+                    endTime: 12.99,
+                    speaker: "Adam Curry",
+                    body: "formable hello everybody welcome\nto a delayed board meeting of",
+                },
+            ],
+            id: "Missing trailing blank line",
+        },
+    ])("Parse SRT File Data ($id)", ({ data, expected }) => {
+        expect(parseSRT(data)).toEqual(expected)
+    })
+})
+
+describe("Parse Invalid SRT data (strings)", () => {
+    test.each<{
+        data: string
+        consoleMessage: string | undefined
+        id: string
+    }>([
         {
-            startTime: 0.78,
-            endTime: 6.21,
-            speaker: "Adam Curry",
-            body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
+            data: `1
+00:00:00,780 -> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat
+
+
+00:00:06,210 --> 00:00:12,990
+formable hello everybody welcome
+to a delayed board meeting of
+
+3
+00:00:12990 --> 00:00:17,070
+podcasting 2.0 preserving,
+protecting and extending the
+
+4
+00:00:17,100 --> 00:00:20;220
+open independent podcasting
+ecosystem that's what we're all
+
+`,
+            consoleMessage: undefined,
+            id: "No valid SRT segment in first 20 lines",
         },
         {
-            startTime: 6.21,
-            endTime: 12.99,
-            speaker: "Adam Curry",
-            body: "formable hello everybody welcome\nto a delayed board meeting of",
+            data: `1
+00:00:00,780 --> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat
+
+
+00:00:06,210 --> 00:00:12,990
+formable hello everybody welcome
+to a delayed board meeting of
+`,
+            consoleMessage: "Error parsing SRT segment lines (source line 9)",
+            id: "Invalid segment logged",
         },
-    ]
-    const segments = parseSRT(data)
-    expect(segments).toEqual(expected)
+        {
+            data: `1
+00:00:00,780 --> 00:00:06,210
+Adam Curry: podcasting 2.0 March
+4 2023 Episode 124 on D flat
+
+
+00:00:06,210 --> 00:00:12,990
+formable hello everybody welcome
+to a delayed board meeting of`,
+            consoleMessage: "Error parsing final SRT segment lines",
+            id: "Invalid final segment logged",
+        },
+    ])("Parse Invalid SRT File Data ($id)", ({ data, consoleMessage }) => {
+        if (consoleMessage === undefined) {
+            expect(() => parseSRT(data)).toThrow(TypeError)
+        } else {
+            const logSpy = jest.spyOn(global.console, "error")
+            parseSRT(data)
+            expect(logSpy).toHaveBeenCalledWith(expect.stringContaining(consoleMessage))
+        }
+    })
 })

@@ -116,8 +116,10 @@ const createSegmentFromSRTLines = (
  * @throws {TypeError} When `data` is not valid SRT format
  */
 export const parseSRT = (data: string): Array<Segment> => {
-    if (parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) === undefined) {
-        throw new TypeError(`Data is not valid SRT format`)
+    try {
+        parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20))
+    } catch (e) {
+        throw new TypeError(`Data is not valid SRT format: ${e}`)
     }
 
     const outSegments: Array<Segment> = []

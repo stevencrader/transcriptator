@@ -47,11 +47,7 @@ const updateSegmentPartFromElement = (
             updatedSegmentPart.time = element.innerHTML
         }
     } else if (element.tagName === "P" && segmentPart.cite !== "" && segmentPart.time !== "") {
-        if (segmentPart.text !== "") {
-            console.warn(`Second p element found before completing segment (element ${count}: ${element.innerHTML})`)
-        } else {
-            updatedSegmentPart.text = element.innerHTML
-        }
+        updatedSegmentPart.text = element.innerHTML
     }
     return updatedSegmentPart
 }
@@ -99,22 +95,16 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
         segmentPart = updateSegmentPartFromElement(element, segmentPart, count)
 
         if (Object.keys(segmentPart).filter((x) => segmentPart[x] !== "").length === 3) {
-            try {
-                const s = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
-                lastSpeaker = s.speaker
+            const s = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
+            lastSpeaker = s.speaker
 
-                // update endTime of previous Segment
-                const totalSegments = outSegments.length
-                if (totalSegments > 0) {
-                    outSegments[totalSegments - 1].endTime =
-                        outSegments[totalSegments - 1].startTime + s.segment.startTime
-                }
-
-                outSegments.push(s.segment)
-            } catch (e) {
-                console.error(`Error parsing HTML elements (source line ${count}): ${e}`)
-                console.error(segmentPart)
+            // update endTime of previous Segment
+            const totalSegments = outSegments.length
+            if (totalSegments > 0) {
+                outSegments[totalSegments - 1].endTime = outSegments[totalSegments - 1].startTime + s.segment.startTime
             }
+
+            outSegments.push(s.segment)
 
             // clear
             segmentPart = {
@@ -146,17 +136,13 @@ export const parseHTML = (data: string): Array<Segment> => {
     const html = parse(data)
 
     const htmlElements = html.getElementsByTagName("html")
-    if (htmlElements.length > 0) {
-        const htmlElement = htmlElements[0]
-        const bodyElements = htmlElement.getElementsByTagName("body")
-        if (bodyElements.length > 0) {
-            const bodyElement = bodyElements[0]
-            outSegments = getSegmentsFromHTMLElements(bodyElement.childNodes as Array<HTMLElement>)
-        } else {
-            outSegments = getSegmentsFromHTMLElements(htmlElement.childNodes as Array<HTMLElement>)
-        }
+    const htmlElement = htmlElements[0]
+    const bodyElements = htmlElement.getElementsByTagName("body")
+    if (bodyElements.length > 0) {
+        const bodyElement = bodyElements[0]
+        outSegments = getSegmentsFromHTMLElements(bodyElement.childNodes as Array<HTMLElement>)
     } else {
-        throw new Error(`Cannot find required parent html field`)
+        outSegments = getSegmentsFromHTMLElements(htmlElement.childNodes as Array<HTMLElement>)
     }
 
     return outSegments

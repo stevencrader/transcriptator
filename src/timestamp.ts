@@ -12,7 +12,6 @@ const PATTERN_TIMESTAMP = /^(?<time>((?<hour>\d+):|)((?<minute>\d+):|)((?<second
  * @returns Parsed timestamp in seconds
  * @throws {TypeError} When value is not a string
  * @throws {TypeError} When value does not match {@link PATTERN_TIMESTAMP}
- * @throws {TypeError} When computed timestamp is {@link NaN}
  */
 export const parseTimestamp = (value: string | number): number => {
     if (typeof value === "number") {
@@ -31,9 +30,7 @@ export const parseTimestamp = (value: string | number): number => {
     const splits = time.split(":")
     const splitLength = splits.length
     let timestamp = 0
-    if (splitLength > 3) {
-        throw new TypeError(`Too many time fields in ${time}`)
-    } else if (splitLength === 3) {
+    if (splitLength === 3) {
         timestamp = parseInt(splits[0], 10) * 60 * 60 + parseInt(splits[1], 10) * 60 + parseInt(splits[2], 10)
     } else if (splitLength === 2) {
         timestamp = parseInt(splits[0], 10) * 60 + parseInt(splits[1], 10)
@@ -48,10 +45,6 @@ export const parseTimestamp = (value: string | number): number => {
         ms /= 1000
     }
     timestamp += ms
-
-    if (Number.isNaN(timestamp)) {
-        throw new TypeError(`Sum for timestamp resulted in NaN (time = ${splits}, ms = ${ms})`)
-    }
 
     return timestamp
 }

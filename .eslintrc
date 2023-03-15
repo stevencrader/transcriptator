@@ -18,9 +18,7 @@
     },
     "settings": {
         "import/parsers": {
-            "@typescript-eslint/parser": [
-                ".ts"
-            ]
+            "@typescript-eslint/parser": [".ts"]
         },
         "import/resolver": {
             "typescript": {
@@ -29,10 +27,7 @@
             }
         }
     },
-    "plugins": [
-        "jsdoc",
-        "prettier"
-    ],
+    "plugins": ["jsdoc", "prettier"],
     "rules": {
         "import/no-extraneous-dependencies": [
             "error",
@@ -62,43 +57,32 @@
         "no-console": [
             "error",
             {
-                "allow": [
-                    "debug",
-                    "warn",
-                    "error"
-                ]
+                "allow": ["debug", "warn", "error"]
             }
         ],
         "@typescript-eslint/no-use-before-define": "warn",
-        "@typescript-eslint/return-await": [
-            "error",
-            "in-try-catch"
-        ],
+        "@typescript-eslint/return-await": ["error", "in-try-catch"],
         "jsdoc/require-param-type": 0,
         "jsdoc/require-returns-type": 0,
         "jsdoc/require-jsdoc": [
             "error",
             {
                 "require": {
-                  "ArrowFunctionExpression": true,
-                  "ClassDeclaration": true,
-                  "ClassExpression": true,
-                  "FunctionDeclaration": true,
-                  "FunctionExpression": true,
-                  "MethodDefinition": true
+                    "ArrowFunctionExpression": true,
+                    "ClassDeclaration": true,
+                    "ClassExpression": true,
+                    "FunctionDeclaration": true,
+                    "FunctionExpression": true,
+                    "MethodDefinition": true
                 }
             }
         ]
     },
     "overrides": [
         {
-            "files": [
-                "**/*.test.ts",
-                "test/*.ts",
-                "test/**/*.ts"
-            ],
+            "files": ["**/*.test.ts", "test/*.ts", "test/**/*.ts"],
             "rules": {
-                "sonarjs/no-duplicate-string": "off",
+                "sonarjs/no-duplicate-string": "off"
             }
         }
     ]

@@ -14,6 +14,7 @@ describe("JSON formats test", () => {
         { data: "[]", expected: [], id: "Empty List" },
         { data: "{}", expected: [], id: "Empty Dict" },
         {
+            // language=JSON
             data: '{"version": "1.0.0","segments": [{"speaker": "Alban","startTime": 0.0,"endTime": 4.8,"body": "It is so stinking nice to"}]}',
             expected: [
                 {
@@ -26,6 +27,7 @@ describe("JSON formats test", () => {
             id: "Dict segments",
         },
         {
+            // language=JSON
             data: '[{"start": 1,"end": 5000,"text": "Subtitles: @marlonrock1986 (^^V^^)"}]',
             expected: [
                 {
@@ -52,12 +54,32 @@ describe("JSON invalid formats", () => {
             id: "Empty",
         },
         {
+            // language=JSON
             data: '{"version": "1.0.0"}',
             id: "invalid format",
         },
         {
+            // language=JSON
             data: '[{"startTime": 1,"endTime": 5000,"body": "Subtitles: @marlonrock1986 (^^V^^)"}]',
             id: "Wrong list format",
+        },
+        {
+            data: '{"segments": [],}',
+            id: "Invalid JSON",
+        },
+        {
+            // language=JSON
+            data: '[{"start": "A","end": 5000,"text": "Subtitles: @marlonrock1986 (^^V^^)"}]',
+            id: "start is NaN",
+        },
+        {
+            // language=JSON
+            data: '[{"start": 0,"end": "Z","text": "Subtitles: @marlonrock1986 (^^V^^)"}]',
+            id: "end is NaN",
+        },
+        {
+            data: '[{"end":5000,"start":1,"text":"Subtitles: @marlonrock1986 (^^V^^)"},{"end":"A","start":25801,"text":"It\'s another hot, sunny day today\\nhere in Southern California."}]',
+            id: "Error in later segment",
         },
     ])("JSON invalid formats ($id)", ({ data }) => {
         expect(() => parseJSON(data)).toThrow(Error)

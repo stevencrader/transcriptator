@@ -19,27 +19,27 @@ const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
 export const determineFormat = (data: string): TranscriptFormat => {
     const normalizedData = data.trim()
 
+    if (normalizedData.startsWith("WEBVTT")) {
+        return TranscriptFormat.VTT
+    }
+
+    if (
+        (normalizedData.startsWith("{") && normalizedData.endsWith("}")) ||
+        (normalizedData.startsWith("[") && normalizedData.endsWith("]"))
+    ) {
+        return TranscriptFormat.JSON
+    }
+
+    if (normalizedData.startsWith("<!--") || PATTERN_HTML_TAG.exec(normalizedData)) {
+        return TranscriptFormat.HTML
+    }
+
     try {
-        if (normalizedData.startsWith("WEBVTT")) {
-            return TranscriptFormat.VTT
-        }
-        if (normalizedData.startsWith("{") && normalizedData.endsWith("}")) {
-            return TranscriptFormat.JSON
-        }
-        if (normalizedData.startsWith("[") && normalizedData.endsWith("]")) {
-            return TranscriptFormat.JSON
-        }
-        if (normalizedData.startsWith("<!--")) {
-            return TranscriptFormat.HTML
-        }
-        if (PATTERN_HTML_TAG.exec(normalizedData)) {
-            return TranscriptFormat.HTML
-        }
         if (parseSRTSegment(normalizedData.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
             return TranscriptFormat.SRT
         }
     } catch (e) {
-        throw new TypeError(`Cannot determine format for data. Encountered error: ${e}`)
+        // ignore error and throw own below
     }
 
     throw new TypeError(`Cannot determine format for data`)

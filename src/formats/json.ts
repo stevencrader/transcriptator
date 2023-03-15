@@ -77,12 +77,21 @@ const parseDictJSON = (data: object): Array<Segment> => {
 const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
     if ("start" in data && "end" in data && "text" in data) {
         const { speaker, message } = parseSpeaker(data.text)
-        return {
+        const segment: Segment = {
             startTime: data.start / 1000,
             endTime: data.end / 1000,
             speaker,
             body: message,
         }
+        if (Number.isNaN(segment.startTime)) {
+            console.warn(`Computed start time is NaN: ${segment.startTime}`)
+            return undefined
+        }
+        if (Number.isNaN(segment.endTime)) {
+            console.warn(`Computed end time is NaN: ${segment.endTime}`)
+            return undefined
+        }
+        return segment
     }
     return undefined
 }
@@ -96,10 +105,6 @@ const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
  */
 const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => {
     const outSegments: Array<Segment> = []
-
-    if (data.length === 0) {
-        return outSegments
-    }
 
     let lastSpeaker = ""
 
@@ -168,13 +173,10 @@ export const parseJSON = (data: string): Array<Segment> => {
         throw new TypeError(`Data is not valid JSON: ${e}`)
     }
 
-    // check for empty
     if (parsed.constructor === Object) {
         outSegments = parseDictJSON(parsed)
     } else if (parsed.constructor === Array) {
         outSegments = parseListJSON(parsed)
-    } else {
-        throw new TypeError(`Unknown JSON transcript format`)
     }
 
     return outSegments

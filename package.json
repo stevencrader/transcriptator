@@ -3,15 +3,17 @@
     "version": "1.0.0",
     "description": "Library for converting the various transcript file formats to a common format.",
     "main": "src/index.ts",
+    "packageManager": "yarn@3.4.1",
     "scripts": {
         "build": "tsc",
         "lint": "run-p -cln 'lint:*'",
         "lint:eslint": "eslint src/ test/",
         "lint:prettier": "prettier --check .",
         "lint-fix": "run-p -cln 'lint-fix:*'",
-        "lint-fix:md": "prettier --write *.md",
+        "lint-fix:other": "prettier --write '**/*.{md,json,yml,eslintrc,config.js}'",
         "lint-fix:eslint": "yarn lint:eslint --fix",
-        "test": "jest"
+        "test": "jest",
+        "test:coverage": "yarn test --coverage"
     },
     "repository": {
         "type": "git",
