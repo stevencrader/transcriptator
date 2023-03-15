@@ -4,6 +4,26 @@ Library for converting the various transcript file formats to a common format.
 
 Originally designed to help users of the [Podcast Namespace](https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#transcript) `podcast:transcript` tag.
 
+## Usage
+
+There are three primary methods and two types. See the jsdoc for additional information.
+
+The `convertFile` function accepts the transcript file data and parses it in to an array of `Segment`. If `transcriptFormat` is not defined, will use `determineFormat` to attempt to identify the type.
+
+    convertFile(data: string, transcriptFormat: TranscriptFormat = undefined): Array<Segment>
+
+The `determineFormat` function accepts the transcript file data and attempts to identify the `TranscriptFormat`.
+
+    determineFormat(data: string): TranscriptFormat
+
+The `combineSingleWordSegments` function is a helper function for combining the previously parsed `Segment` objects together. The only allowable use case is when the existing `Segment` only contain a single word in the `body`.
+
+    combineSingleWordSegments(segments: Array<Segment>, maxLength = 32): Array<Segment>
+
+The `TranscriptFormat` enum defines the allowable transcript types supported by Transcriptator.
+
+The `Segment` type defines the segment/cue of the transcript.
+
 ## Supported File Formats
 
 ### SRT
@@ -35,7 +55,7 @@ References:
 
 HTML data in format below are considered to be transcripts.
 
-A set of `cite`, `time`, and `p` elements are used to define a segment.
+A set of elements in the order `cite`, `time`, `p` are used to define a segment.
 
 The elements must either be a direct child of the `html` or `body` element.
 
@@ -161,3 +181,7 @@ Transcripts used for testing are excerpts from the following shows.
 -   [subtitle.js](https://github.com/gsantiago/subtitle.js)
     -   LaLaLand.vtt
     -   LaLaLand.json
+
+## Contributing
+
+Please see the [Contribution Guide](Contributing.md)
