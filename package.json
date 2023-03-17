@@ -16,7 +16,7 @@
         "test": "jest",
         "test:coverage": "yarn test --coverage",
         "tag": "npm version patch",
-        "publish": "yarn build && yarn npm lint"
+        "publish": "yarn build && yarn npm publish"
     },
     "repository": {
         "type": "git",
