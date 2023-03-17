@@ -1,0 +1,2932 @@
+{
+    "segments": [
+        {
+            "startTime": 0,
+            "endTime": 4.799,
+            "speaker": "Alban",
+            "body": "It is so stinking nice to\nlike, show up and record this"
+        },
+        {
+            "startTime": 4.799,
+            "endTime": 8.25,
+            "speaker": "Alban",
+            "body": "show. And Travis has already put\ntogether an outline. Kevin's got"
+        },
+        {
+            "startTime": 8.25,
+            "endTime": 13.169,
+            "speaker": "Alban",
+            "body": "suggestions, I throw my thoughts\ninto the mix. And then Travis"
+        },
+        {
+            "startTime": 13.169,
+            "endTime": 16.739,
+            "speaker": "Alban",
+            "body": "goes and does all the work from\nthere, too. It's out into the"
+        },
+        {
+            "startTime": 16.739,
+            "endTime": 21.269,
+            "speaker": "Alban",
+            "body": "wild. And I don't see anything.\nThat's an absolute joy for at"
+        },
+        {
+            "startTime": 21.269,
+            "endTime": 23.73,
+            "speaker": "Alban",
+            "body": "least two thirds of the team.\nYeah, I mean, exactly."
+        },
+        {
+            "startTime": 30.48,
+            "endTime": 32.85,
+            "speaker": "Kevin",
+            "body": "You guys remember, like\ntwo months ago, when you were"
+        },
+        {
+            "startTime": 32.85,
+            "endTime": 35.46,
+            "speaker": "Kevin",
+            "body": "like, We're going all in on\nvideo Buzzcast. I was like,"
+        },
+        {
+            "startTime": 35.49,
+            "endTime": 39.119,
+            "speaker": "Kevin",
+            "body": "that's, I mean, I will agree and\ncommit and disagree, disagree"
+        },
+        {
+            "startTime": 39.119,
+            "endTime": 41.369,
+            "speaker": "Kevin",
+            "body": "and commit, I'll do something.\nBut I don't want to do this."
+        },
+        {
+            "startTime": 42.03,
+            "endTime": 48.24,
+            "speaker": "Alban",
+            "body": "I never said that. The\nonly reason we ever did video"
+        },
+        {
+            "startTime": 48.27,
+            "endTime": 49.619,
+            "speaker": "Alban",
+            "body": "was because of you."
+        },
+        {
+            "startTime": 50.308,
+            "endTime": 53.249,
+            "speaker": "Kevin",
+            "body": "That is true. I will take\nthat. Because when we first got"
+        },
+        {
+            "startTime": 53.249,
+            "endTime": 55.978,
+            "speaker": "Kevin",
+            "body": "locked down, and we weren't\nallowed to see anybody in"
+        },
+        {
+            "startTime": 55.978,
+            "endTime": 58.259,
+            "speaker": "Kevin",
+            "body": "person, I was like, well, it\nwould be nice to be able to see"
+        },
+        {
+            "startTime": 58.259,
+            "endTime": 60.598,
+            "speaker": "Kevin",
+            "body": "you guys when we record. And if\nwe're going to be doing video"
+        },
+        {
+            "startTime": 60.598,
+            "endTime": 64.049,
+            "speaker": "Kevin",
+            "body": "chats Anyway, why don't we go\nahead and publish those. So I do"
+        },
+        {
+            "startTime": 64.049,
+            "endTime": 66.748,
+            "speaker": "Kevin",
+            "body": "take the full blame for moving\nus to video in the first place."
+        },
+        {
+            "startTime": 67.948,
+            "endTime": 70.049,
+            "speaker": "Kevin",
+            "body": "But how's that working out for\nus?"
+        },
+        {
+            "startTime": 71.519,
+            "endTime": 76.079,
+            "speaker": "Alban",
+            "body": "Not good. The first one\nwe did was like a year ago, we"
+        },
+        {
+            "startTime": 76.079,
+            "endTime": 81.299,
+            "speaker": "Alban",
+            "body": "did that live stream to our\nYouTube channel. And that just"
+        },
+        {
+            "startTime": 81.299,
+            "endTime": 85.14,
+            "speaker": "Alban",
+            "body": "kind of grew into then we wanted\nto play around with Riverside,"
+        },
+        {
+            "startTime": 85.14,
+            "endTime": 88.829,
+            "speaker": "Alban",
+            "body": "which was doing video remote\nvideo recording, and then squad"
+        },
+        {
+            "startTime": 88.829,
+            "endTime": 93.06,
+            "speaker": "Alban",
+            "body": "cast launched video, remote\nvideo recording. And I think,"
+        },
+        {
+            "startTime": 93.87,
+            "endTime": 96.75,
+            "speaker": "Alban",
+            "body": "you know, we've you kind of had\nthe tools, the tools were there."
+        },
+        {
+            "startTime": 96.75,
+            "endTime": 100.319,
+            "speaker": "Alban",
+            "body": "So we started playing with the\ntools and experimenting. And now"
+        },
+        {
+            "startTime": 100.319,
+            "endTime": 104.459,
+            "speaker": "Alban",
+            "body": "the experiment is coming to an\nend, at least for now, at least"
+        },
+        {
+            "startTime": 104.459,
+            "endTime": 109.379,
+            "speaker": "Alban",
+            "body": "for now. So do we want to give\nlike the whole story of it, kind"
+        },
+        {
+            "startTime": 109.379,
+            "endTime": 113.04,
+            "speaker": "Alban",
+            "body": "of walk through why we made each\ndecision along the way? And"
+        },
+        {
+            "startTime": 113.04,
+            "endTime": 115.859,
+            "speaker": "Alban",
+            "body": "let's give the sparknotes what\nwe learned the highlights"
+        },
+        {
+            "startTime": 116.01,
+            "endTime": 118.859,
+            "speaker": "Alban",
+            "body": "sparknotes? Yeah, start at the\nbeginning. Kevin, why did you"
+        },
+        {
+            "startTime": 118.859,
+            "endTime": 121.079,
+            "speaker": "Alban",
+            "body": "want to start doing some video\nBuzzcast."
+        },
+        {
+            "startTime": 121.439,
+            "endTime": 123.359,
+            "speaker": "Kevin",
+            "body": "When we first started\nrecording Buzzcast, we would do"
+        },
+        {
+            "startTime": 123.359,
+            "endTime": 127.26,
+            "speaker": "Kevin",
+            "body": "it together in the office in our\nlittle studio space. And we"
+        },
+        {
+            "startTime": 127.26,
+            "endTime": 131.879,
+            "speaker": "Kevin",
+            "body": "could play off of each other's\nenergy, right? I think, Listen,"
+        },
+        {
+            "startTime": 132.09,
+            "endTime": 135.09,
+            "speaker": "Kevin",
+            "body": "I'll speak for myself, I'm not a\nsuper high energy person. So it"
+        },
+        {
+            "startTime": 135.09,
+            "endTime": 138.33,
+            "speaker": "Kevin",
+            "body": "helps for me to be sitting\nacross the table for somebody or"
+        },
+        {
+            "startTime": 138.33,
+            "endTime": 141,
+            "speaker": "Kevin",
+            "body": "to see somebody else's reactions\nto what I'm saying or when"
+        },
+        {
+            "startTime": 141,
+            "endTime": 144.27,
+            "speaker": "Kevin",
+            "body": "they're speaking themselves to\nbe able to keep myself amped up"
+        },
+        {
+            "startTime": 144.27,
+            "endTime": 146.789,
+            "speaker": "Kevin",
+            "body": "and engaged in the conversation\nwhen we went audio only and"
+        },
+        {
+            "startTime": 146.789,
+            "endTime": 149.729,
+            "speaker": "Kevin",
+            "body": "there was no video component, it\nwas hard for me to continue to"
+        },
+        {
+            "startTime": 149.729,
+            "endTime": 152.669,
+            "speaker": "Kevin",
+            "body": "keep my energy high. And to stay\nengaged. I've also got a little"
+        },
+        {
+            "startTime": 152.669,
+            "endTime": 154.919,
+            "speaker": "Kevin",
+            "body": "bit of add that I'm I'm fighting\nand dealing with at the same"
+        },
+        {
+            "startTime": 154.919,
+            "endTime": 159.9,
+            "speaker": "Kevin",
+            "body": "time. So that part was was\nnecessary in order to be able to"
+        },
+        {
+            "startTime": 160.349,
+            "endTime": 163.439,
+            "speaker": "Kevin",
+            "body": "just produce good content. What\nI was interested in is that"
+        },
+        {
+            "startTime": 163.439,
+            "endTime": 165.599,
+            "speaker": "Kevin",
+            "body": "since we're doing this video\ncomponent Anyway, why don't we"
+        },
+        {
+            "startTime": 165.599,
+            "endTime": 168.21,
+            "speaker": "Kevin",
+            "body": "record this, we've always said\nthat YouTube is an interesting"
+        },
+        {
+            "startTime": 168.21,
+            "endTime": 170.37,
+            "speaker": "Kevin",
+            "body": "opportunity for people to\npromote their podcasts because"
+        },
+        {
+            "startTime": 170.37,
+            "endTime": 172.139,
+            "speaker": "Kevin",
+            "body": "they do have the algorithm, they\ndo have the recommendation"
+        },
+        {
+            "startTime": 172.139,
+            "endTime": 176.009,
+            "speaker": "Kevin",
+            "body": "engine. But you shouldn't just\npublish your audio only there."
+        },
+        {
+            "startTime": 176.069,
+            "endTime": 178.409,
+            "speaker": "Kevin",
+            "body": "Because that doesn't feed into\nthe strengths of the algorithm."
+        },
+        {
+            "startTime": 178.409,
+            "endTime": 180.84,
+            "speaker": "Kevin",
+            "body": "So you're not even getting the\nbenefit. And you're taking all"
+        },
+        {
+            "startTime": 180.84,
+            "endTime": 184.05,
+            "speaker": "Kevin",
+            "body": "this extra time to do that. In\nfact, you could be you know,"
+        },
+        {
+            "startTime": 184.05,
+            "endTime": 185.759,
+            "speaker": "Kevin",
+            "body": "putting yourself at a\ndisadvantage if you do that,"
+        },
+        {
+            "startTime": 185.759,
+            "endTime": 188.189,
+            "speaker": "Kevin",
+            "body": "because then you get a bad\nreputation with the algorithm."
+        },
+        {
+            "startTime": 188.49,
+            "endTime": 192.36,
+            "speaker": "Kevin",
+            "body": "So anyway, we were doing video,\nwhy not go ahead. And while we"
+        },
+        {
+            "startTime": 192.36,
+            "endTime": 194.699,
+            "speaker": "Kevin",
+            "body": "edit the podcast, the audio\nversion, why not edit the video"
+        },
+        {
+            "startTime": 194.699,
+            "endTime": 196.62,
+            "speaker": "Kevin",
+            "body": "version and just stick it on\nYouTube and see if we get a bump"
+        },
+        {
+            "startTime": 196.62,
+            "endTime": 200.729,
+            "speaker": "Kevin",
+            "body": "from it. That is where you guys\ncome in on the analytical side"
+        },
+        {
+            "startTime": 200.939,
+            "endTime": 204.87,
+            "speaker": "Kevin",
+            "body": "and say, Is this working is this\nnot I will say that the"
+        },
+        {
+            "startTime": 204.87,
+            "endTime": 209.639,
+            "speaker": "Kevin",
+            "body": "constraints from just somebody\nwho's on the podcast are much"
+        },
+        {
+            "startTime": 209.639,
+            "endTime": 212.34,
+            "speaker": "Kevin",
+            "body": "higher than I anticipated. It's\none thing when you're out of the"
+        },
+        {
+            "startTime": 212.34,
+            "endTime": 215.25,
+            "speaker": "Kevin",
+            "body": "office, or if you're traveling\nor you can't be here there to be"
+        },
+        {
+            "startTime": 215.25,
+            "endTime": 218.43,
+            "speaker": "Kevin",
+            "body": "able to quickly grab a USB mic,\nthrow it in your bag go with"
+        },
+        {
+            "startTime": 218.43,
+            "endTime": 220.409,
+            "speaker": "Kevin",
+            "body": "you. And you can record audio\nfrom anywhere in the world, it's"
+        },
+        {
+            "startTime": 220.409,
+            "endTime": 223.199,
+            "speaker": "Kevin",
+            "body": "not too hard to find a quiet\nspace, most hotel rooms are"
+        },
+        {
+            "startTime": 223.199,
+            "endTime": 225.24,
+            "speaker": "Kevin",
+            "body": "pretty quiet. Or if you're\nstaying on Airbnb or something"
+        },
+        {
+            "startTime": 225.24,
+            "endTime": 227.4,
+            "speaker": "Kevin",
+            "body": "that you can find a closet, you\ncan find a quiet space to record"
+        },
+        {
+            "startTime": 227.4,
+            "endTime": 232.979,
+            "speaker": "Kevin",
+            "body": "audio, being able to travel with\na decent camera setup. Or if you"
+        },
+        {
+            "startTime": 232.979,
+            "endTime": 234.479,
+            "speaker": "Kevin",
+            "body": "don't have a decent camera\nsetup, then you're using"
+        },
+        {
+            "startTime": 234.479,
+            "endTime": 237.539,
+            "speaker": "Kevin",
+            "body": "whatever on your laptop, you're\nconstantly worried about your"
+        },
+        {
+            "startTime": 237.539,
+            "endTime": 239.52,
+            "speaker": "Kevin",
+            "body": "background, like all this stuff\nis going on. It's just a"
+        },
+        {
+            "startTime": 239.52,
+            "endTime": 242.879,
+            "speaker": "Kevin",
+            "body": "different level of commitment\nand what's required in terms of"
+        },
+        {
+            "startTime": 243.12,
+            "endTime": 245.4,
+            "speaker": "Kevin",
+            "body": "being able to put a show out\nevery week or every other week."
+        },
+        {
+            "startTime": 245.61,
+            "endTime": 252,
+            "speaker": "Kevin",
+            "body": "So that has been added an extra\nlevel of commitment to the show,"
+        },
+        {
+            "startTime": 252.03,
+            "endTime": 254.069,
+            "speaker": "Kevin",
+            "body": "which again, not something that\nwe weren't willing to do, but"
+        },
+        {
+            "startTime": 254.069,
+            "endTime": 256.529,
+            "speaker": "Kevin",
+            "body": "something that was a little bit\nunexpected. Didn't know going"
+        },
+        {
+            "startTime": 256.529,
+            "endTime": 259.56,
+            "speaker": "Kevin",
+            "body": "into it. And then from an\nanalytical side, like how"
+        },
+        {
+            "startTime": 259.62,
+            "endTime": 263.069,
+            "speaker": "Kevin",
+            "body": "helpful was it actually, for us\ngrowing the show? That's what"
+        },
+        {
+            "startTime": 263.069,
+            "endTime": 264.24,
+            "speaker": "Kevin",
+            "body": "you guys have dug into. Right?"
+        },
+        {
+            "startTime": 264.449,
+            "endTime": 267.839,
+            "speaker": "Alban",
+            "body": "Yeah, I mean, we can talk\na bit about the analytics buzz"
+        },
+        {
+            "startTime": 268.05,
+            "endTime": 273.689,
+            "speaker": "Alban",
+            "body": "cast itself was getting more\nattention, let's call it"
+        },
+        {
+            "startTime": 273.689,
+            "endTime": 277.529,
+            "speaker": "Alban",
+            "body": "attention than it ever had\nbefore. We were getting between"
+        },
+        {
+            "startTime": 277.529,
+            "endTime": 285.029,
+            "speaker": "Alban",
+            "body": "the downloads that continued to\ngrow on the RSS side. And on the"
+        },
+        {
+            "startTime": 285.029,
+            "endTime": 288.209,
+            "speaker": "Alban",
+            "body": "YouTube channel being added to\nthat it was huge. And then we"
+        },
+        {
+            "startTime": 288.209,
+            "endTime": 292.92,
+            "speaker": "Alban",
+            "body": "started doing clips of Buzzcast\nepisodes. And those were doing"
+        },
+        {
+            "startTime": 292.92,
+            "endTime": 296.49,
+            "speaker": "Alban",
+            "body": "really well. And so if you\nwanted to add all that up, it"
+        },
+        {
+            "startTime": 296.49,
+            "endTime": 301.259,
+            "speaker": "Alban",
+            "body": "was like wow, this show is\ndoubled in sighs This is great."
+        },
+        {
+            "startTime": 302.399,
+            "endTime": 308.339,
+            "speaker": "Alban",
+            "body": "But we on the other side, were\nkind of frustrated with the"
+        },
+        {
+            "startTime": 308.339,
+            "endTime": 313.259,
+            "speaker": "Alban",
+            "body": "growth of the YouTube channel.\nWe grew a ton the first year."
+        },
+        {
+            "startTime": 313.769,
+            "endTime": 317.61,
+            "speaker": "Alban",
+            "body": "And we just kind of seen a lot\nof slowing down of our growth."
+        },
+        {
+            "startTime": 317.61,
+            "endTime": 322.05,
+            "speaker": "Alban",
+            "body": "We didn't know exactly why. And\nwe kept kind of digging into the"
+        },
+        {
+            "startTime": 322.05,
+            "endTime": 327.839,
+            "speaker": "Alban",
+            "body": "data. And I think it might have\nbeen Jonathan first, or maybe it"
+        },
+        {
+            "startTime": 327.839,
+            "endTime": 330.959,
+            "speaker": "Alban",
+            "body": "was Travis, who said, I just\nclicked through all of the last"
+        },
+        {
+            "startTime": 330.959,
+            "endTime": 335.189,
+            "speaker": "Alban",
+            "body": "videos. And I noticed most of\nthe Buzzcast ones lose"
+        },
+        {
+            "startTime": 335.189,
+            "endTime": 339.779,
+            "speaker": "Alban",
+            "body": "subscribers. And I was like,\nThat's not true. And then I"
+        },
+        {
+            "startTime": 339.779,
+            "endTime": 343.709,
+            "speaker": "Alban",
+            "body": "click through and went, Oh,\nthat's definitely true. I was"
+        },
+        {
+            "startTime": 343.709,
+            "endTime": 348.089,
+            "speaker": "Alban",
+            "body": "very skeptical by nature. And so\nand then we started digging in"
+        },
+        {
+            "startTime": 348.089,
+            "endTime": 354.779,
+            "speaker": "Alban",
+            "body": "deeper. And I took, I think it\nwas like six different stats"
+        },
+        {
+            "startTime": 354.779,
+            "endTime": 358.5,
+            "speaker": "Alban",
+            "body": "that we use to kind of quantify\nhow valuable each individual"
+        },
+        {
+            "startTime": 358.5,
+            "endTime": 363.3,
+            "speaker": "Alban",
+            "body": "video is. And I just went back\nand looked at, like the last 90"
+        },
+        {
+            "startTime": 363.3,
+            "endTime": 365.519,
+            "speaker": "Alban",
+            "body": "days, all the videos that were\ncreated during that 90 day"
+        },
+        {
+            "startTime": 365.519,
+            "endTime": 372.48,
+            "speaker": "Alban",
+            "body": "period, I think we had 22\nvideos, or 26 videos, all of the"
+        },
+        {
+            "startTime": 372.48,
+            "endTime": 375.54,
+            "speaker": "Alban",
+            "body": "Buzzcast ones were in the worst\ncategory, they were they"
+        },
+        {
+            "startTime": 375.54,
+            "endTime": 380.49,
+            "speaker": "Alban",
+            "body": "represented, like the very\nbottom five episodes, or videos."
+        },
+        {
+            "startTime": 380.97,
+            "endTime": 385.17,
+            "speaker": "Alban",
+            "body": "And, you know, we, I think\nTravis, you had some good ideas"
+        },
+        {
+            "startTime": 385.17,
+            "endTime": 389.55,
+            "speaker": "Alban",
+            "body": "of why the Buzzcast ones were\nperforming near the bottom. But"
+        },
+        {
+            "startTime": 389.67,
+            "endTime": 392.699,
+            "speaker": "Alban",
+            "body": "in the end, we were kind of\ndoing the thing that we've"
+        },
+        {
+            "startTime": 392.699,
+            "endTime": 394.62,
+            "speaker": "Alban",
+            "body": "always criticized, we've always\ncriticized people who were"
+        },
+        {
+            "startTime": 394.62,
+            "endTime": 399.99,
+            "speaker": "Alban",
+            "body": "putting a static image on a\nYouTube video on a YouTube"
+        },
+        {
+            "startTime": 399.99,
+            "endTime": 404.79,
+            "speaker": "Alban",
+            "body": "video, just having audio, you\nknow, we said that can crush an"
+        },
+        {
+            "startTime": 404.79,
+            "endTime": 409.74,
+            "speaker": "Alban",
+            "body": "existing valuable YouTube\nchannel. And we were crushing"
+        },
+        {
+            "startTime": 409.769,
+            "endTime": 415.5,
+            "speaker": "Alban",
+            "body": "our existing value bowl YouTube\nchannel, by adding this, you"
+        },
+        {
+            "startTime": 415.5,
+            "endTime": 419.55,
+            "speaker": "Alban",
+            "body": "know, some of this, basically\npodcast content in video format."
+        },
+        {
+            "startTime": 419.61,
+            "endTime": 421.8,
+            "speaker": "Kevin",
+            "body": "To clarify, we weren't\ncrushing it because we weren't"
+        },
+        {
+            "startTime": 421.8,
+            "endTime": 425.16,
+            "speaker": "Kevin",
+            "body": "putting the static image when we\nwere putting real video up. But"
+        },
+        {
+            "startTime": 425.16,
+            "endTime": 429.269,
+            "speaker": "Kevin",
+            "body": "we weren't playing in line with\nthe the rules of YouTube or to"
+        },
+        {
+            "startTime": 429.269,
+            "endTime": 431.519,
+            "speaker": "Kevin",
+            "body": "use the algorithm in the\nsmartest and best way we were"
+        },
+        {
+            "startTime": 431.519,
+            "endTime": 434.1,
+            "speaker": "Kevin",
+            "body": "confusing the algorithm. We were\npublishing different lengths of"
+        },
+        {
+            "startTime": 434.1,
+            "endTime": 437.55,
+            "speaker": "Kevin",
+            "body": "content, different formats of\ncontent. And so we ended up is a"
+        },
+        {
+            "startTime": 437.55,
+            "endTime": 440.459,
+            "speaker": "Kevin",
+            "body": "very important and valuable\nchannel for us for marketing our"
+        },
+        {
+            "startTime": 440.459,
+            "endTime": 442.769,
+            "speaker": "Kevin",
+            "body": "software and telling the world\nabout what Buzzsprout can do for"
+        },
+        {
+            "startTime": 442.769,
+            "endTime": 446.22,
+            "speaker": "Kevin",
+            "body": "you as a podcaster. We were\nhurting that marketing channel"
+        },
+        {
+            "startTime": 446.22,
+            "endTime": 446.79,
+            "speaker": "Kevin",
+            "body": "for us, right?"
+        },
+        {
+            "startTime": 447.089,
+            "endTime": 450.75,
+            "speaker": "Alban",
+            "body": "Yeah, I guess what I was\nsaying is, we were not being"
+        },
+        {
+            "startTime": 450.75,
+            "endTime": 454.92,
+            "speaker": "Alban",
+            "body": "hypocritical in the way that we\ncreated the video, the content,"
+        },
+        {
+            "startTime": 454.98,
+            "endTime": 458.25,
+            "speaker": "Alban",
+            "body": "because we weren't publishing\nthe static image with the audio."
+        },
+        {
+            "startTime": 458.79,
+            "endTime": 461.97,
+            "speaker": "Alban",
+            "body": "But the reason we say we\nrecommend everybody else not to"
+        },
+        {
+            "startTime": 461.97,
+            "endTime": 465.66,
+            "speaker": "Alban",
+            "body": "do that, is because what it's\ndoing is it's showing YouTube"
+        },
+        {
+            "startTime": 465.66,
+            "endTime": 468.48,
+            "speaker": "Alban",
+            "body": "that your content is low\nquality, and it's a specific"
+        },
+        {
+            "startTime": 468.48,
+            "endTime": 473.67,
+            "speaker": "Alban",
+            "body": "type of content. It's audio plus\nan image. Well, when we were"
+        },
+        {
+            "startTime": 473.67,
+            "endTime": 477.389,
+            "speaker": "Alban",
+            "body": "looking at it, YouTube was used\nto a much higher production"
+        },
+        {
+            "startTime": 477.389,
+            "endTime": 482.639,
+            "speaker": "Alban",
+            "body": "quality, a very different type\nof content for our channel. And"
+        },
+        {
+            "startTime": 482.639,
+            "endTime": 485.79,
+            "speaker": "Alban",
+            "body": "so I think people were\nconstantly confused. They're"
+        },
+        {
+            "startTime": 485.79,
+            "endTime": 490.709,
+            "speaker": "Alban",
+            "body": "running into videos that they\nthought were going to be Travis"
+        },
+        {
+            "startTime": 490.709,
+            "endTime": 494.49,
+            "speaker": "Alban",
+            "body": "or Sarah jalon, doing an in\ndepth tutorial. And they were"
+        },
+        {
+            "startTime": 494.49,
+            "endTime": 498.36,
+            "speaker": "Alban",
+            "body": "clicking, and they were finding\nme pontificating about Facebook"
+        },
+        {
+            "startTime": 498.36,
+            "endTime": 502.199,
+            "speaker": "Alban",
+            "body": "podcasts for 20 minutes. So\nTravis, give us some more"
+        },
+        {
+            "startTime": 502.199,
+            "endTime": 506.009,
+            "speaker": "Alban",
+            "body": "insight, what's what are the\ndifferentiators between our day"
+        },
+        {
+            "startTime": 506.009,
+            "endTime": 509.639,
+            "speaker": "Alban",
+            "body": "to day content are the bread and\nbutter that we do very well, and"
+        },
+        {
+            "startTime": 509.639,
+            "endTime": 511.35,
+            "speaker": "Alban",
+            "body": "what Buzzcast was doing on our\nchannel?"
+        },
+        {
+            "startTime": 511.56,
+            "endTime": 514.379,
+            "speaker": "Travis",
+            "body": "One thing to keep in\nmind is when we create content"
+        },
+        {
+            "startTime": 514.379,
+            "endTime": 518.49,
+            "speaker": "Travis",
+            "body": "for Podcasting, Q&A, when we\ncreate tutorials, things like"
+        },
+        {
+            "startTime": 518.49,
+            "endTime": 522.09,
+            "speaker": "Travis",
+            "body": "that, we have a very specific\naim for those videos. Right? So"
+        },
+        {
+            "startTime": 522.09,
+            "endTime": 525.21,
+            "speaker": "Travis",
+            "body": "we're trying to answer questions\nreally well, we're trying to"
+        },
+        {
+            "startTime": 525.419,
+            "endTime": 529.44,
+            "speaker": "Travis",
+            "body": "take all the knowledge and best\npractices for how to be a"
+        },
+        {
+            "startTime": 529.44,
+            "endTime": 534.269,
+            "speaker": "Travis",
+            "body": "podcaster. And consolidating\nthat into a form factor. That is"
+        },
+        {
+            "startTime": 534.299,
+            "endTime": 536.519,
+            "speaker": "Travis",
+            "body": "something you could easily watch\nin just a few minutes and get"
+        },
+        {
+            "startTime": 536.549,
+            "endTime": 540.69,
+            "speaker": "Travis",
+            "body": "all the information that you\nneed. And because we're able to"
+        },
+        {
+            "startTime": 540.809,
+            "endTime": 543.6,
+            "speaker": "Travis",
+            "body": "put that level of focus on it,\nlike Alan mentioned, the"
+        },
+        {
+            "startTime": 543.6,
+            "endTime": 546.96,
+            "speaker": "Travis",
+            "body": "production quality is better. We\nhave custom animations, and B"
+        },
+        {
+            "startTime": 546.96,
+            "endTime": 549.419,
+            "speaker": "Travis",
+            "body": "roll, which is just a fancy way\nof saying we cut away to"
+        },
+        {
+            "startTime": 549.419,
+            "endTime": 552.72,
+            "speaker": "Travis",
+            "body": "different videos of models doing\nthings that match what we're"
+        },
+        {
+            "startTime": 552.72,
+            "endTime": 558.96,
+            "speaker": "Travis",
+            "body": "talking about on screen. And so\nwe're able to create a type of"
+        },
+        {
+            "startTime": 558.96,
+            "endTime": 563.73,
+            "speaker": "Travis",
+            "body": "content that works really well\nin a YouTube ecosystem. And so"
+        },
+        {
+            "startTime": 563.73,
+            "endTime": 566.909,
+            "speaker": "Travis",
+            "body": "if your whole channel is that\nkind of content, then YouTube"
+        },
+        {
+            "startTime": 566.909,
+            "endTime": 571.379,
+            "speaker": "Travis",
+            "body": "starts knowing Okay, if someone\nwe've kind of identified them as"
+        },
+        {
+            "startTime": 571.379,
+            "endTime": 573.87,
+            "speaker": "Travis",
+            "body": "a potential podcaster, and\nthey're asking a podcast related"
+        },
+        {
+            "startTime": 573.87,
+            "endTime": 576.69,
+            "speaker": "Travis",
+            "body": "question, Buzzsprout is going to\nbe the channel we recommend"
+        },
+        {
+            "startTime": 576.69,
+            "endTime": 579.96,
+            "speaker": "Travis",
+            "body": "because we know they have this\nkind of content. The reason that"
+        },
+        {
+            "startTime": 579.96,
+            "endTime": 584.22,
+            "speaker": "Travis",
+            "body": "we split off Buzzcast the full\nepisodes into a separate channel"
+        },
+        {
+            "startTime": 584.34,
+            "endTime": 589.59,
+            "speaker": "Travis",
+            "body": "a couple of months ago, is\nbecause we noticed that those"
+        },
+        {
+            "startTime": 589.59,
+            "endTime": 594.21,
+            "speaker": "Travis",
+            "body": "videos were not performing at\nall at the same level as the"
+        },
+        {
+            "startTime": 594.539,
+            "endTime": 597.75,
+            "speaker": "Travis",
+            "body": "Podcasting, Q&A and other\ntutorial videos were doing. And"
+        },
+        {
+            "startTime": 597.75,
+            "endTime": 600.509,
+            "speaker": "Travis",
+            "body": "that was a common practice we'd\nseen with other youtubers That"
+        },
+        {
+            "startTime": 600.509,
+            "endTime": 603.69,
+            "speaker": "Travis",
+            "body": "created video podcasts, they\nwould create new channels for"
+        },
+        {
+            "startTime": 603.69,
+            "endTime": 606.029,
+            "speaker": "Travis",
+            "body": "them. And then if they had\nclips, that would be a third"
+        },
+        {
+            "startTime": 606.029,
+            "endTime": 607.679,
+            "speaker": "Travis",
+            "body": "channel. So they would actually\nhave three channels, they'd have"
+        },
+        {
+            "startTime": 607.679,
+            "endTime": 610.44,
+            "speaker": "Travis",
+            "body": "their main YouTube channel, a\nfull podcast channel and a clips"
+        },
+        {
+            "startTime": 610.44,
+            "endTime": 614.129,
+            "speaker": "Travis",
+            "body": "channel, in order to make sure\nthat they were kind of playing"
+        },
+        {
+            "startTime": 614.129,
+            "endTime": 616.679,
+            "speaker": "Travis",
+            "body": "by the rules, the best practice\nof YouTube. So these were all"
+        },
+        {
+            "startTime": 616.679,
+            "endTime": 619.889,
+            "speaker": "Travis",
+            "body": "things that we, you know, as we\nwere experimenting, we weren't"
+        },
+        {
+            "startTime": 619.889,
+            "endTime": 623.009,
+            "speaker": "Travis",
+            "body": "sure like, how far are we really\ngoing to carry this book? Like,"
+        },
+        {
+            "startTime": 623.009,
+            "endTime": 627.69,
+            "speaker": "Travis",
+            "body": "how invested Are we going to get\ninto video Buzzcast. And so it"
+        },
+        {
+            "startTime": 627.69,
+            "endTime": 630.149,
+            "speaker": "Travis",
+            "body": "didn't make sense to spin up a\nwhole YouTube channel, we're"
+        },
+        {
+            "startTime": 630.149,
+            "endTime": 632.549,
+            "speaker": "Travis",
+            "body": "just going to do a couple\nepisodes and then retire it"
+        },
+        {
+            "startTime": 632.549,
+            "endTime": 635.97,
+            "speaker": "Travis",
+            "body": "right. So we tested in our on\nour main channel first and said,"
+        },
+        {
+            "startTime": 635.97,
+            "endTime": 639.179,
+            "speaker": "Travis",
+            "body": "Okay, that's working. So then\nwhat if we took the next step,"
+        },
+        {
+            "startTime": 639.179,
+            "endTime": 641.669,
+            "speaker": "Travis",
+            "body": "and we made it consistent? And\nthen what if we took the next"
+        },
+        {
+            "startTime": 641.669,
+            "endTime": 644.1,
+            "speaker": "Travis",
+            "body": "step and made a separate, and so\nit's kind of like evolved over"
+        },
+        {
+            "startTime": 644.1,
+            "endTime": 648.72,
+            "speaker": "Travis",
+            "body": "time. And now to Kevin's point,\nit's at the place where we just"
+        },
+        {
+            "startTime": 648.72,
+            "endTime": 652.44,
+            "speaker": "Travis",
+            "body": "wanted to make sure, if we keep\ngoing on this trajectory, it's"
+        },
+        {
+            "startTime": 652.44,
+            "endTime": 655.919,
+            "speaker": "Travis",
+            "body": "going to serve you guys, it's\ngonna make Buzzcast better for"
+        },
+        {
+            "startTime": 655.919,
+            "endTime": 659.279,
+            "speaker": "Travis",
+            "body": "you. And it's also going to make\nsense in the grand scheme of the"
+        },
+        {
+            "startTime": 659.279,
+            "endTime": 662.94,
+            "speaker": "Travis",
+            "body": "other things that we're doing to\nproduce and create content. And"
+        },
+        {
+            "startTime": 662.94,
+            "endTime": 666.48,
+            "speaker": "Travis",
+            "body": "so we're now at this nexus point\nwhere if we're going to be able"
+        },
+        {
+            "startTime": 666.48,
+            "endTime": 670.289,
+            "speaker": "Travis",
+            "body": "to go back and record in the\nstudio, you know, that has a"
+        },
+        {
+            "startTime": 670.289,
+            "endTime": 672.75,
+            "speaker": "Travis",
+            "body": "level of production that even\nexceeds what we're currently"
+        },
+        {
+            "startTime": 672.87,
+            "endTime": 677.37,
+            "speaker": "Travis",
+            "body": "what we were doing before. And,\nand so at this point in time, it"
+        },
+        {
+            "startTime": 677.37,
+            "endTime": 681.029,
+            "speaker": "Travis",
+            "body": "makes more sense for us to pause\nit, knowing we can always turn"
+        },
+        {
+            "startTime": 681.029,
+            "endTime": 684.269,
+            "speaker": "Travis",
+            "body": "it back on later. But just to\ndouble down and refocus our"
+        },
+        {
+            "startTime": 684.269,
+            "endTime": 686.94,
+            "speaker": "Travis",
+            "body": "efforts on the audio only\nversion of Buzzcast."
+        },
+        {
+            "startTime": 687.299,
+            "endTime": 690.629,
+            "speaker": "Alban",
+            "body": "So if I can kind of tie\nthis together with what are the"
+        },
+        {
+            "startTime": 690.629,
+            "endTime": 695.429,
+            "speaker": "Alban",
+            "body": "best practices we have learned\nfor YouTube, and podcasting, in"
+        },
+        {
+            "startTime": 695.429,
+            "endTime": 700.47,
+            "speaker": "Alban",
+            "body": "particular, because podcasting\nis really growing on YouTube,"
+        },
+        {
+            "startTime": 701.129,
+            "endTime": 704.85,
+            "speaker": "Alban",
+            "body": "one out of five people now who\nsay they listened to podcasts,"
+        },
+        {
+            "startTime": 704.85,
+            "endTime": 708.419,
+            "speaker": "Alban",
+            "body": "they listened to most of their\npodcasts on YouTube, one out of"
+        },
+        {
+            "startTime": 708.419,
+            "endTime": 713.639,
+            "speaker": "Alban",
+            "body": "five, that's pretty remarkably\nhigh numbers. That comes from"
+        },
+        {
+            "startTime": 713.7,
+            "endTime": 717.659,
+            "speaker": "Alban",
+            "body": "Edison research. I actually\ninterviewed Tom Webster this"
+        },
+        {
+            "startTime": 717.659,
+            "endTime": 721.289,
+            "speaker": "Alban",
+            "body": "morning, and he told me that so\nit's definitely working there."
+        },
+        {
+            "startTime": 721.769,
+            "endTime": 726.059,
+            "speaker": "Alban",
+            "body": "But it takes a lot to make it\nwork. And it was not stuff that"
+        },
+        {
+            "startTime": 726.059,
+            "endTime": 730.019,
+            "speaker": "Alban",
+            "body": "was going to make sense for us\nto do. So. I think to do"
+        },
+        {
+            "startTime": 730.08,
+            "endTime": 734.129,
+            "speaker": "Alban",
+            "body": "podcasts, well on YouTube, you\nprobably need to be recording a"
+        },
+        {
+            "startTime": 734.129,
+            "endTime": 739.62,
+            "speaker": "Alban",
+            "body": "person so that you have that\nlive engaging element. Because I"
+        },
+        {
+            "startTime": 739.62,
+            "endTime": 743.49,
+            "speaker": "Alban",
+            "body": "don't know how to say this\nexactly. But like, the level of"
+        },
+        {
+            "startTime": 743.49,
+            "endTime": 748.62,
+            "speaker": "Alban",
+            "body": "engagement you want to see\nbetween the hosts during a audio"
+        },
+        {
+            "startTime": 748.71,
+            "endTime": 753.029,
+            "speaker": "Alban",
+            "body": "and a video medium is very\ndifferent. Right now, like I can"
+        },
+        {
+            "startTime": 753.029,
+            "endTime": 756.24,
+            "speaker": "Alban",
+            "body": "see Kevin and Travis and like\nKevin looks kind of"
+        },
+        {
+            "startTime": 756.24,
+            "endTime": 759.33,
+            "speaker": "Alban",
+            "body": "disinterested. That doesn't\nbother anybody who's just"
+        },
+        {
+            "startTime": 759.33,
+            "endTime": 761.34,
+            "speaker": "Alban",
+            "body": "listening to this because they\ngo, Oh, Kevin's probably"
+        },
+        {
+            "startTime": 761.34,
+            "endTime": 768.059,
+            "speaker": "Alban",
+            "body": "listening attentively. But you\nknow what? But if we're on"
+        },
+        {
+            "startTime": 768.059,
+            "endTime": 771.059,
+            "speaker": "Alban",
+            "body": "video, I'd be the first comment\nwe ever got on one of our"
+        },
+        {
+            "startTime": 771.059,
+            "endTime": 774.57,
+            "speaker": "Alban",
+            "body": "Buzzcast episodes was why does\nalbot look so mad. And I was"
+        },
+        {
+            "startTime": 774.57,
+            "endTime": 779.19,
+            "speaker": "Alban",
+            "body": "like, Oh, that's just my face\nlooks. That's just me. Like,"
+        },
+        {
+            "startTime": 779.19,
+            "endTime": 783.629,
+            "speaker": "Alban",
+            "body": "that's just me not smiling. And\nso that works perfectly fine."
+        },
+        {
+            "startTime": 783.659,
+            "endTime": 787.23,
+            "speaker": "Alban",
+            "body": "When you're recording long\ndistance recordings. When it's"
+        },
+        {
+            "startTime": 787.23,
+            "endTime": 791.549,
+            "speaker": "Alban",
+            "body": "on video, it starts to look a\nlittle weird. And you can either"
+        },
+        {
+            "startTime": 791.58,
+            "endTime": 795.509,
+            "speaker": "Alban",
+            "body": "kind of over fake enthusiasm, or\nyou can get together in an audio"
+        },
+        {
+            "startTime": 795.509,
+            "endTime": 799.379,
+            "speaker": "Alban",
+            "body": "studio get together in a studio\nin person. So like, get together"
+        },
+        {
+            "startTime": 799.379,
+            "endTime": 803.37,
+            "speaker": "Alban",
+            "body": "in person, I think is a very\nhigh recommendation, they should"
+        },
+        {
+            "startTime": 803.37,
+            "endTime": 808.2,
+            "speaker": "Alban",
+            "body": "try to get that number, you\nknow, if at all possible, then"
+        },
+        {
+            "startTime": 808.23,
+            "endTime": 811.379,
+            "speaker": "Alban",
+            "body": "you've also got to have like\nmultiple shots to be able to"
+        },
+        {
+            "startTime": 811.379,
+            "endTime": 814.47,
+            "speaker": "Alban",
+            "body": "keep it interesting. So that's\nprobably a camera on each host."
+        },
+        {
+            "startTime": 815.009,
+            "endTime": 818.7,
+            "speaker": "Alban",
+            "body": "Maybe an additional wide angle\ncamera, you can see that we've"
+        },
+        {
+            "startTime": 818.7,
+            "endTime": 822.09,
+            "speaker": "Alban",
+            "body": "experimented this in some of our\nPodcasting Q&A videos is"
+        },
+        {
+            "startTime": 822.09,
+            "endTime": 825.929,
+            "speaker": "Alban",
+            "body": "rolling, I think three different\ncameras now all at once, and"
+        },
+        {
+            "startTime": 825.929,
+            "endTime": 830.7,
+            "speaker": "Alban",
+            "body": "then we flipped between them.\nFor us to do the three of us in"
+        },
+        {
+            "startTime": 830.7,
+            "endTime": 835.11,
+            "speaker": "Alban",
+            "body": "the studio would require us\nprobably to be shooting like"
+        },
+        {
+            "startTime": 835.11,
+            "endTime": 839.909,
+            "speaker": "Alban",
+            "body": "four or five cameras at a time.\nAnd then the, you know, that"
+        },
+        {
+            "startTime": 839.909,
+            "endTime": 843.33,
+            "speaker": "Alban",
+            "body": "really ramps up the amount of\nvideo editing that we're doing."
+        },
+        {
+            "startTime": 843.509,
+            "endTime": 846.509,
+            "speaker": "Alban",
+            "body": "Okay, so we're buying a bunch of\ncameras. We're buying, we're"
+        },
+        {
+            "startTime": 846.509,
+            "endTime": 849.96,
+            "speaker": "Alban",
+            "body": "doing more in video editing.\nWe're getting us all together in"
+        },
+        {
+            "startTime": 849.96,
+            "endTime": 853.259,
+            "speaker": "Alban",
+            "body": "the studio in the most\ndangerous, dangerous COVID"
+        },
+        {
+            "startTime": 853.259,
+            "endTime": 857.789,
+            "speaker": "Alban",
+            "body": "hotspot United States right now.\nSo three negatives, and all for"
+        },
+        {
+            "startTime": 857.789,
+            "endTime": 861.09,
+            "speaker": "Alban",
+            "body": "the benefit of starting a new\nYouTube channel that isn't"
+        },
+        {
+            "startTime": 861.12,
+            "endTime": 864.929,
+            "speaker": "Alban",
+            "body": "exactly in alignment with what\nwe want. So that's to kind of"
+        },
+        {
+            "startTime": 864.929,
+            "endTime": 868.289,
+            "speaker": "Alban",
+            "body": "wrap it up quickly. What how\nwe're thinking about this. Maybe"
+        },
+        {
+            "startTime": 868.289,
+            "endTime": 872.34,
+            "speaker": "Alban",
+            "body": "we come back, maybe not. But\nuntil next time, listen to us on"
+        },
+        {
+            "startTime": 872.34,
+            "endTime": 874.71,
+            "speaker": "Alban",
+            "body": "our RSS backed podcast."
+        },
+        {
+            "startTime": 875.099,
+            "endTime": 878.668,
+            "speaker": "Travis",
+            "body": "Yes, we are definitely\nnot going anywhere. You'll just"
+        },
+        {
+            "startTime": 878.668,
+            "endTime": 881.399,
+            "speaker": "Travis",
+            "body": "need to listen to us anywhere\nexcept for Spotify will be."
+        },
+        {
+            "startTime": 882.419,
+            "endTime": 885.269,
+            "speaker": "Alban",
+            "body": "This is basically Apple\npodcasts and indie apps"
+        },
+        {
+            "startTime": 885.269,
+            "endTime": 888.269,
+            "speaker": "Alban",
+            "body": "exclusive now. Yeah, I would say\nso. I would say so."
+        },
+        {
+            "startTime": 888.568,
+            "endTime": 890.849,
+            "speaker": "Kevin",
+            "body": "Yeah. I think it's an\ninteresting point that you"
+        },
+        {
+            "startTime": 890.849,
+            "endTime": 893.339,
+            "speaker": "Kevin",
+            "body": "talked about when you talk about\nyour interview with Tom Webster"
+        },
+        {
+            "startTime": 893.339,
+            "endTime": 896.219,
+            "speaker": "Kevin",
+            "body": "and he's saying that one in five\npodcasts are roughly 20% of"
+        },
+        {
+            "startTime": 896.249,
+            "endTime": 899.969,
+            "speaker": "Kevin",
+            "body": "people listening the podcast in\nYouTube, and I can't help it"
+        },
+        {
+            "startTime": 899.999,
+            "endTime": 905.399,
+            "speaker": "Kevin",
+            "body": "think that that is it just don't\nthink that there's a stat that"
+        },
+        {
+            "startTime": 905.399,
+            "endTime": 910.259,
+            "speaker": "Kevin",
+            "body": "we should just take without some\nadditional thought, right? Like"
+        },
+        {
+            "startTime": 910.619,
+            "endTime": 912.538,
+            "speaker": "Kevin",
+            "body": "listening to a podcast and\nYouTube is a different"
+        },
+        {
+            "startTime": 912.538,
+            "endTime": 915.989,
+            "speaker": "Kevin",
+            "body": "experience than what a lot of us\nwho produce podcasts are in the"
+        },
+        {
+            "startTime": 915.989,
+            "endTime": 918.089,
+            "speaker": "Kevin",
+            "body": "podcasting space probably think\nabout when we think about"
+        },
+        {
+            "startTime": 918.119,
+            "endTime": 921.328,
+            "speaker": "Kevin",
+            "body": "podcasting, like the benefits in\nthe beauty of podcasting is it's"
+        },
+        {
+            "startTime": 921.328,
+            "endTime": 923.908,
+            "speaker": "Kevin",
+            "body": "it's passive, it's something\nthat you can do not only on"
+        },
+        {
+            "startTime": 923.908,
+            "endTime": 926.068,
+            "speaker": "Kevin",
+            "body": "demand, but at your convenience\nwhile you're doing other things"
+        },
+        {
+            "startTime": 926.068,
+            "endTime": 927.899,
+            "speaker": "Kevin",
+            "body": "while you're doing housework\nwhile you're exercising, while"
+        },
+        {
+            "startTime": 927.899,
+            "endTime": 930.328,
+            "speaker": "Kevin",
+            "body": "you're at work while you're\ndriving a car, you the YouTube"
+        },
+        {
+            "startTime": 930.328,
+            "endTime": 934.229,
+            "speaker": "Kevin",
+            "body": "experience is different than\nthat. And so while the YouTube"
+        },
+        {
+            "startTime": 934.229,
+            "endTime": 937.198,
+            "speaker": "Kevin",
+            "body": "ecosystem is huge, and it might\nbe a lot more mainstream in"
+        },
+        {
+            "startTime": 937.198,
+            "endTime": 939.239,
+            "speaker": "Kevin",
+            "body": "terms of the number of people\nwho engage in that space, and"
+        },
+        {
+            "startTime": 939.239,
+            "endTime": 941.818,
+            "speaker": "Kevin",
+            "body": "then at some point, click on\nsomething that is calling itself"
+        },
+        {
+            "startTime": 941.818,
+            "endTime": 945.928,
+            "speaker": "Kevin",
+            "body": "a podcast, it's, it might just\nbe an exposure thing, it might"
+        },
+        {
+            "startTime": 945.928,
+            "endTime": 947.849,
+            "speaker": "Kevin",
+            "body": "just be the size of the\necosystem thing, it might not"
+        },
+        {
+            "startTime": 947.849,
+            "endTime": 952.048,
+            "speaker": "Kevin",
+            "body": "necessarily be what we would\nconsider a podcast and all the"
+        },
+        {
+            "startTime": 952.048,
+            "endTime": 953.938,
+            "speaker": "Kevin",
+            "body": "great benefits that go along\nwith podcasting. And I don't"
+        },
+        {
+            "startTime": 953.938,
+            "endTime": 956.788,
+            "speaker": "Kevin",
+            "body": "want to get into the details of\nis it does it really have an RSS"
+        },
+        {
+            "startTime": 956.788,
+            "endTime": 958.438,
+            "speaker": "Kevin",
+            "body": "feed and all that stuff, that's\nnot really what I'm talking"
+        },
+        {
+            "startTime": 958.438,
+            "endTime": 960.658,
+            "speaker": "Kevin",
+            "body": "about. I'm just kind of talking\nabout the size of the medium and"
+        },
+        {
+            "startTime": 960.658,
+            "endTime": 962.999,
+            "speaker": "Kevin",
+            "body": "the number of people who at some\npoint during their normal day,"
+        },
+        {
+            "startTime": 963.208,
+            "endTime": 965.788,
+            "speaker": "Kevin",
+            "body": "flip open YouTube, and might\nclick on something that is"
+        },
+        {
+            "startTime": 965.788,
+            "endTime": 971.129,
+            "speaker": "Kevin",
+            "body": "calling itself a podcast. So\nthat being said, YouTube is a"
+        },
+        {
+            "startTime": 971.158,
+            "endTime": 973.769,
+            "speaker": "Kevin",
+            "body": "fine place for you to distribute\ncontent and being creator. But"
+        },
+        {
+            "startTime": 973.769,
+            "endTime": 976.288,
+            "speaker": "Kevin",
+            "body": "hopefully, there's some\ntakeaways from what we've"
+        },
+        {
+            "startTime": 976.288,
+            "endTime": 978.719,
+            "speaker": "Kevin",
+            "body": "experienced over the past year,\npressing into the YouTube Space"
+        },
+        {
+            "startTime": 978.719,
+            "endTime": 982.438,
+            "speaker": "Kevin",
+            "body": "a little bit in terms of putting\na podcast onto YouTube, there's"
+        },
+        {
+            "startTime": 982.438,
+            "endTime": 985.828,
+            "speaker": "Kevin",
+            "body": "a lot more that goes into it\nthan just recording a zoom call,"
+        },
+        {
+            "startTime": 985.948,
+            "endTime": 988.109,
+            "speaker": "Kevin",
+            "body": "and then throwing it up there.\nIf you really want to succeed,"
+        },
+        {
+            "startTime": 988.469,
+            "endTime": 990.058,
+            "speaker": "Kevin",
+            "body": "you have to understand the\nalgorithm, you have to"
+        },
+        {
+            "startTime": 990.058,
+            "endTime": 992.188,
+            "speaker": "Kevin",
+            "body": "understand how the medium works,\nyou have to understand what type"
+        },
+        {
+            "startTime": 992.188,
+            "endTime": 995.249,
+            "speaker": "Kevin",
+            "body": "of content works there is, this\nis a larger level of commitment."
+        },
+        {
+            "startTime": 995.399,
+            "endTime": 998.188,
+            "speaker": "Kevin",
+            "body": "And you might find a huge\naudience and huge following"
+        },
+        {
+            "startTime": 998.188,
+            "endTime": 1003.259,
+            "speaker": "Kevin",
+            "body": "there. But it's probably not\ngoing to be it's not an"
+        },
+        {
+            "startTime": 1003.259,
+            "endTime": 1005.269,
+            "speaker": "Kevin",
+            "body": "overnight success. It is a lot\nof work. And it is very"
+        },
+        {
+            "startTime": 1005.269,
+            "endTime": 1007.849,
+            "speaker": "Kevin",
+            "body": "different than audio only\npodcasting. So as we continue to"
+        },
+        {
+            "startTime": 1007.849,
+            "endTime": 1012.558,
+            "speaker": "Kevin",
+            "body": "unpack, and learn things about\nhow to use YouTube, or other"
+        },
+        {
+            "startTime": 1012.558,
+            "endTime": 1015.649,
+            "speaker": "Kevin",
+            "body": "channels to grow your main\npodcast, your audio only"
+        },
+        {
+            "startTime": 1015.649,
+            "endTime": 1018.379,
+            "speaker": "Kevin",
+            "body": "podcast, it's distributed\nthrough RSS, we will continue to"
+        },
+        {
+            "startTime": 1018.379,
+            "endTime": 1020.178,
+            "speaker": "Kevin",
+            "body": "share those learnings with you\nand hopefully make you a better"
+        },
+        {
+            "startTime": 1020.178,
+            "endTime": 1023.719,
+            "speaker": "Kevin",
+            "body": "podcaster. But this is where we\nare today. And the decisions"
+        },
+        {
+            "startTime": 1023.719,
+            "endTime": 1027.648,
+            "speaker": "Kevin",
+            "body": "we've made. So this podcast will\nnot be on YouTube, and not in"
+        },
+        {
+            "startTime": 1027.648,
+            "endTime": 1031.638,
+            "speaker": "Kevin",
+            "body": "video form. And as we learn more\nand grow more, we'll share all"
+        },
+        {
+            "startTime": 1031.638,
+            "endTime": 1032.179,
+            "speaker": "Kevin",
+            "body": "our learnings with"
+        },
+        {
+            "startTime": 1035.42,
+            "endTime": 1037.609,
+            "speaker": "Travis",
+            "body": "so if you've been a\nBuzzcast listener for any length"
+        },
+        {
+            "startTime": 1037.609,
+            "endTime": 1041.9,
+            "speaker": "Travis",
+            "body": "of time, you know, we're big\nfans of the podcast index and"
+        },
+        {
+            "startTime": 1041.9,
+            "endTime": 1045.079,
+            "speaker": "Travis",
+            "body": "podcasting 2.0, that entire\ngroup, that entire working group"
+        },
+        {
+            "startTime": 1045.38,
+            "endTime": 1049.279,
+            "speaker": "Travis",
+            "body": "of people dedicating themselves\nto improving the open podcast"
+        },
+        {
+            "startTime": 1049.279,
+            "endTime": 1053,
+            "speaker": "Travis",
+            "body": "ecosystem, and creating really\nfun new features that allow you"
+        },
+        {
+            "startTime": 1053,
+            "endTime": 1056.42,
+            "speaker": "Travis",
+            "body": "as a creator, to make awesome\ncontent and help your listeners"
+        },
+        {
+            "startTime": 1056.69,
+            "endTime": 1060.349,
+            "speaker": "Travis",
+            "body": "really engage with your show in\nsome really unique ways. Kevin"
+        },
+        {
+            "startTime": 1060.349,
+            "endTime": 1064.069,
+            "speaker": "Travis",
+            "body": "and Tom had an opportunity to\nsit down with Dave Jones, who is"
+        },
+        {
+            "startTime": 1064.069,
+            "endTime": 1067.309,
+            "speaker": "Travis",
+            "body": "working on the podcast index and\npodcasting 2.0 to talk about a"
+        },
+        {
+            "startTime": 1067.309,
+            "endTime": 1072.17,
+            "speaker": "Travis",
+            "body": "new feature that Buzzsprout is\nnow supporting, and also tease"
+        },
+        {
+            "startTime": 1072.17,
+            "endTime": 1074.839,
+            "speaker": "Travis",
+            "body": "out some fun new things that\nthey have coming down the"
+        },
+        {
+            "startTime": 1074.839,
+            "endTime": 1077.96,
+            "speaker": "Travis",
+            "body": "pipeline. So here's that\nconversation between Kevin Tom"
+        },
+        {
+            "startTime": 1078.17,
+            "endTime": 1079.009,
+            "speaker": "Travis",
+            "body": "and Dave Jones."
+        },
+        {
+            "startTime": 1079.309,
+            "endTime": 1081.589,
+            "speaker": "Tom",
+            "body": "This is Tom Rossi,\ntechnical co founder of"
+        },
+        {
+            "startTime": 1081.589,
+            "endTime": 1086.99,
+            "speaker": "Tom",
+            "body": "Buzzsprout. And I am glad to be\njoined by Dave Jones, one of the"
+        },
+        {
+            "startTime": 1086.99,
+            "endTime": 1090.109,
+            "speaker": "Tom",
+            "body": "two guys running the podcast\nindex, Dave Jones and Adam curry"
+        },
+        {
+            "startTime": 1090.109,
+            "endTime": 1093.859,
+            "speaker": "Tom",
+            "body": "have been doing amazing work\nwith the podcast index. Dave,"
+        },
+        {
+            "startTime": 1093.89,
+            "endTime": 1097.91,
+            "speaker": "Tom",
+            "body": "welcome to the show. Thanks for\nall that you're doing. Tell us a"
+        },
+        {
+            "startTime": 1097.91,
+            "endTime": 1100.64,
+            "speaker": "Tom",
+            "body": "little bit about the podcast\nindex and what you guys are"
+        },
+        {
+            "startTime": 1100.64,
+            "endTime": 1101.269,
+            "speaker": "Tom",
+            "body": "doing over there."
+        },
+        {
+            "startTime": 1101.66,
+            "endTime": 1103.64,
+            "speaker": "Dave",
+            "body": "Let's see, what are we\ndoing at the podcast? And what"
+        },
+        {
+            "startTime": 1103.64,
+            "endTime": 1104.839,
+            "speaker": "Dave",
+            "body": "are we not doing at podcast?"
+        },
+        {
+            "startTime": 1105.44,
+            "endTime": 1109.819,
+            "speaker": "Kevin",
+            "body": "So Dave, the podcasting\nto auto project is like it"
+        },
+        {
+            "startTime": 1109.819,
+            "endTime": 1112.7,
+            "speaker": "Kevin",
+            "body": "incorporates the podcast index\nand the podcasting namespace"
+        },
+        {
+            "startTime": 1112.7,
+            "endTime": 1114.65,
+            "speaker": "Kevin",
+            "body": "right and a whole bunch of\nthings. Can you tell us like"
+        },
+        {
+            "startTime": 1114.65,
+            "endTime": 1116.69,
+            "speaker": "Kevin",
+            "body": "what's the difference? What are\nthe two functions that those"
+        },
+        {
+            "startTime": 1116.72,
+            "endTime": 1118.88,
+            "speaker": "Kevin",
+            "body": "those two things sort of where\nthey come together? How does it"
+        },
+        {
+            "startTime": 1118.88,
+            "endTime": 1119.299,
+            "speaker": "Kevin",
+            "body": "all work?"
+        },
+        {
+            "startTime": 1119.45,
+            "endTime": 1122.48,
+            "speaker": "Dave",
+            "body": "Yeah, we get this question\na lot. What the heck are y'all"
+        },
+        {
+            "startTime": 1122.539,
+            "endTime": 1125.63,
+            "speaker": "Dave",
+            "body": "doing with all these various\nprojects? And then what did they"
+        },
+        {
+            "startTime": 1125.63,
+            "endTime": 1131.509,
+            "speaker": "Dave",
+            "body": "even mean? And so podcasting 2.0\nis the name of our podcast, but"
+        },
+        {
+            "startTime": 1131.509,
+            "endTime": 1134.359,
+            "speaker": "Dave",
+            "body": "it's also the name of the\nbroader movement of trying to"
+        },
+        {
+            "startTime": 1134.359,
+            "endTime": 1137.269,
+            "speaker": "Dave",
+            "body": "preserve, protect and extend the\nopen RSS ecosystem,"
+        },
+        {
+            "startTime": 1137.299,
+            "endTime": 1139.009,
+            "speaker": "Kevin",
+            "body": "right. When we say this,\nthis is a little bit different"
+        },
+        {
+            "startTime": 1139.009,
+            "endTime": 1141.68,
+            "speaker": "Kevin",
+            "body": "than what like fireside chat\nintroduced it podcast movement,"
+        },
+        {
+            "startTime": 1141.68,
+            "endTime": 1144.109,
+            "speaker": "Kevin",
+            "body": "is podcasting to Dotto, right.\nYeah,"
+        },
+        {
+            "startTime": 1144.259,
+            "endTime": 1147.68,
+            "speaker": "Dave",
+            "body": "I gotta hope it is\ncompletely different. Yeah, but"
+        },
+        {
+            "startTime": 1147.68,
+            "endTime": 1153.289,
+            "speaker": "Dave",
+            "body": "podcasting. 2.0 is just an open\nsource, volunteer movement of"
+        },
+        {
+            "startTime": 1153.289,
+            "endTime": 1157.13,
+            "speaker": "Dave",
+            "body": "people coming up with ideas and\nlaunching projects to help"
+        },
+        {
+            "startTime": 1157.369,
+            "endTime": 1161.75,
+            "speaker": "Dave",
+            "body": "preserve the open RSS ecosystem\nof podcasting, and podcasting"
+        },
+        {
+            "startTime": 1161.779,
+            "endTime": 1164.539,
+            "speaker": "Dave",
+            "body": "inside the app. So pod inside\npodcasting 2.0. But that would"
+        },
+        {
+            "startTime": 1164.539,
+            "endTime": 1166.97,
+            "speaker": "Dave",
+            "body": "be the podcast namespace where\nall these new features and tags"
+        },
+        {
+            "startTime": 1166.97,
+            "endTime": 1170.029,
+            "speaker": "Dave",
+            "body": "are coming from. Also within\npodcasting, 2.0 would be"
+        },
+        {
+            "startTime": 1170.029,
+            "endTime": 1173.72,
+            "speaker": "Dave",
+            "body": "something like pod ping, which\nallows hosts to rapidly notified"
+        },
+        {
+            "startTime": 1173.839,
+            "endTime": 1176.93,
+            "speaker": "Dave",
+            "body": "apps and aggregators of new\nepisodes, things like that."
+        },
+        {
+            "startTime": 1176.96,
+            "endTime": 1180.23,
+            "speaker": "Dave",
+            "body": "That's all in the podcasting 2.0\nside of things. The podcast"
+        },
+        {
+            "startTime": 1180.259,
+            "endTime": 1184.849,
+            "speaker": "Dave",
+            "body": "index is the thing that we\ncreated at the very beginning in"
+        },
+        {
+            "startTime": 1184.849,
+            "endTime": 1188.15,
+            "speaker": "Dave",
+            "body": "order to facilitate all these\nother things. So the podcast"
+        },
+        {
+            "startTime": 1188.15,
+            "endTime": 1191.39,
+            "speaker": "Dave",
+            "body": "index is the largest directory\nof podcasts on the internet."
+        },
+        {
+            "startTime": 1191.39,
+            "endTime": 1195.829,
+            "speaker": "Dave",
+            "body": "It's were like 4.1 million\npodcasts right now feeds. We are"
+        },
+        {
+            "startTime": 1195.829,
+            "endTime": 1201.71,
+            "speaker": "Dave",
+            "body": "a directory and also an API for\npodcast app. to hook in to get"
+        },
+        {
+            "startTime": 1201.71,
+            "endTime": 1204.289,
+            "speaker": "Dave",
+            "body": "their podcast data from,\nbasically, they just start"
+        },
+        {
+            "startTime": 1204.289,
+            "endTime": 1208.22,
+            "speaker": "Dave",
+            "body": "coding an app, they plug into us\nand they get all their data in,"
+        },
+        {
+            "startTime": 1208.339,
+            "endTime": 1212.21,
+            "speaker": "Dave",
+            "body": "it saves them a world of hurt on\nthat side of things. So those,"
+        },
+        {
+            "startTime": 1212.45,
+            "endTime": 1216.47,
+            "speaker": "Dave",
+            "body": "the podcasts index is the APN\ndirectory, but geisen 2.0 is all"
+        },
+        {
+            "startTime": 1216.47,
+            "endTime": 1218.599,
+            "speaker": "Dave",
+            "body": "the features and community\nmovement."
+        },
+        {
+            "startTime": 1219.23,
+            "endTime": 1222.349,
+            "speaker": "Kevin",
+            "body": "Right, and then huge\nopportunity with the index is"
+        },
+        {
+            "startTime": 1222.349,
+            "endTime": 1224.93,
+            "speaker": "Kevin",
+            "body": "that we're not tied in or\nreliant on Apple anymore. So"
+        },
+        {
+            "startTime": 1224.93,
+            "endTime": 1226.91,
+            "speaker": "Kevin",
+            "body": "like over the past two or three\nmonths, Apple's directory has"
+        },
+        {
+            "startTime": 1226.91,
+            "endTime": 1229.609,
+            "speaker": "Kevin",
+            "body": "been having a ton of problems.\nNot to mention even before that,"
+        },
+        {
+            "startTime": 1229.609,
+            "endTime": 1231.769,
+            "speaker": "Kevin",
+            "body": "when it was working, well, it\nwould take you probably a"
+        },
+        {
+            "startTime": 1231.769,
+            "endTime": 1234.769,
+            "speaker": "Kevin",
+            "body": "minimum of two or three days up\nto a couple weeks to even get in"
+        },
+        {
+            "startTime": 1234.98,
+            "endTime": 1237.71,
+            "speaker": "Kevin",
+            "body": "Apple podcast directory, then\nwhen you publish a new episode,"
+        },
+        {
+            "startTime": 1237.71,
+            "endTime": 1240.95,
+            "speaker": "Kevin",
+            "body": "it might be 24 hours or more\nbefore that new episode gets"
+        },
+        {
+            "startTime": 1240.95,
+            "endTime": 1243.74,
+            "speaker": "Kevin",
+            "body": "released in search showing up on\nany of the apps that rely on"
+        },
+        {
+            "startTime": 1243.74,
+            "endTime": 1246.95,
+            "speaker": "Kevin",
+            "body": "that directory. And the index\nsolves all that along with other"
+        },
+        {
+            "startTime": 1246.95,
+            "endTime": 1249.44,
+            "speaker": "Kevin",
+            "body": "technologies that you're\ndeveloping as well like the pod"
+        },
+        {
+            "startTime": 1249.44,
+            "endTime": 1250.46,
+            "speaker": "Kevin",
+            "body": "paying and everything else.\nRight."
+        },
+        {
+            "startTime": 1250.519,
+            "endTime": 1253.519,
+            "speaker": "Dave",
+            "body": "Yeah, we started this\nwhole project with with the"
+        },
+        {
+            "startTime": 1253.519,
+            "endTime": 1256.7,
+            "speaker": "Dave",
+            "body": "directory and the API with the\nidea that we wanted to take"
+        },
+        {
+            "startTime": 1257.21,
+            "endTime": 1262.25,
+            "speaker": "Dave",
+            "body": "Apple Apple's directory away\nfrom being the center of the"
+        },
+        {
+            "startTime": 1262.25,
+            "endTime": 1265.43,
+            "speaker": "Dave",
+            "body": "podcasting universe, which has\nbeen for, you know, 15 years at"
+        },
+        {
+            "startTime": 1265.43,
+            "endTime": 1270.71,
+            "speaker": "Dave",
+            "body": "least. And the idea there was\nthat, you know, no, no knock on"
+        },
+        {
+            "startTime": 1270.71,
+            "endTime": 1273.319,
+            "speaker": "Dave",
+            "body": "Apple, I mean, they've been good\nstewards of podcasting, it's"
+        },
+        {
+            "startTime": 1273.319,
+            "endTime": 1277.819,
+            "speaker": "Dave",
+            "body": "just that it doesn't make a lot\nof sense for an open"
+        },
+        {
+            "startTime": 1278.599,
+            "endTime": 1283.549,
+            "speaker": "Dave",
+            "body": "specification, like podcasting,\nan open system that anybody can"
+        },
+        {
+            "startTime": 1283.549,
+            "endTime": 1289.069,
+            "speaker": "Dave",
+            "body": "participate in, it does not make\na lot of sense for that. To be"
+        },
+        {
+            "startTime": 1289.069,
+            "endTime": 1293.18,
+            "speaker": "Dave",
+            "body": "controlled by a single humongous\nentity like apple, I mean,"
+        },
+        {
+            "startTime": 1293.18,
+            "endTime": 1295.67,
+            "speaker": "Dave",
+            "body": "they're literally the biggest\ncompany in the world. And so"
+        },
+        {
+            "startTime": 1295.67,
+            "endTime": 1297.89,
+            "speaker": "Dave",
+            "body": "it's sort of like you have this\nweird spectrum where you got"
+        },
+        {
+            "startTime": 1297.89,
+            "endTime": 1301.819,
+            "speaker": "Dave",
+            "body": "podcasting, which is completely\nopen, I can hand write an RSS"
+        },
+        {
+            "startTime": 1301.819,
+            "endTime": 1305.15,
+            "speaker": "Dave",
+            "body": "feed today, and get into the\ninbox and create a podcast. And"
+        },
+        {
+            "startTime": 1305.18,
+            "endTime": 1308.779,
+            "speaker": "Dave",
+            "body": "I can do it from my computer in\nfive minutes. But then you have"
+        },
+        {
+            "startTime": 1309.049,
+            "endTime": 1312.559,
+            "speaker": "Dave",
+            "body": "the directory where all the\npodcasts are found, his career"
+        },
+        {
+            "startTime": 1312.589,
+            "endTime": 1316.22,
+            "speaker": "Dave",
+            "body": "is controlled by this huge\ncorporation. So it really just"
+        },
+        {
+            "startTime": 1316.22,
+            "endTime": 1320.059,
+            "speaker": "Dave",
+            "body": "didn't didn't make a lot of\nsense, the goal there was create"
+        },
+        {
+            "startTime": 1320.059,
+            "endTime": 1323.93,
+            "speaker": "Dave",
+            "body": "a directory that is completely\nopen, anybody can join it,"
+        },
+        {
+            "startTime": 1323.93,
+            "endTime": 1327.23,
+            "speaker": "Dave",
+            "body": "anybody can add to it, anybody\ncan put their podcast into it in"
+        },
+        {
+            "startTime": 1327.41,
+            "endTime": 1332.059,
+            "speaker": "Dave",
+            "body": "15 seconds. And then the next\nstep, which is the which is the"
+        },
+        {
+            "startTime": 1332.059,
+            "endTime": 1335.509,
+            "speaker": "Dave",
+            "body": "part that has to happen, make it\navailable for free, and"
+        },
+        {
+            "startTime": 1335.509,
+            "endTime": 1338.69,
+            "speaker": "Dave",
+            "body": "everybody can download it, you\ncan download it our entire"
+        },
+        {
+            "startTime": 1338.69,
+            "endTime": 1343.22,
+            "speaker": "Dave",
+            "body": "database right now from our From\nthe homepage of our website, and"
+        },
+        {
+            "startTime": 1343.369,
+            "endTime": 1345.47,
+            "speaker": "Dave",
+            "body": "do whatever you want with it,\nyou can go create your own"
+        },
+        {
+            "startTime": 1345.47,
+            "endTime": 1348.71,
+            "speaker": "Dave",
+            "body": "directory or your own API or\nyour own apps. So if it's not"
+        },
+        {
+            "startTime": 1348.71,
+            "endTime": 1352.069,
+            "speaker": "Dave",
+            "body": "free, then it doesn't solve any\nof the problem. And if you have"
+        },
+        {
+            "startTime": 1352.069,
+            "endTime": 1354.349,
+            "speaker": "Dave",
+            "body": "to have us, it still doesn't\nsolve the problem. You need to"
+        },
+        {
+            "startTime": 1354.349,
+            "endTime": 1357.109,
+            "speaker": "Dave",
+            "body": "be we need to redistribute it.\nAnd so that's what we that was"
+        },
+        {
+            "startTime": 1357.109,
+            "endTime": 1358.039,
+            "speaker": "Dave",
+            "body": "the Gulf in the beginning."
+        },
+        {
+            "startTime": 1358.46,
+            "endTime": 1360.89,
+            "speaker": "Tom",
+            "body": "One of the features that\nI'm most excited about out of"
+        },
+        {
+            "startTime": 1360.89,
+            "endTime": 1364.19,
+            "speaker": "Tom",
+            "body": "podcasting 2.0 is pod ping, can\nyou tell us a little bit about"
+        },
+        {
+            "startTime": 1364.19,
+            "endTime": 1364.46,
+            "speaker": "Tom",
+            "body": "that?"
+        },
+        {
+            "startTime": 1364.519,
+            "endTime": 1367.43,
+            "speaker": "Dave",
+            "body": "Yeah, sure. podcasting\nsuffers from the same thing that"
+        },
+        {
+            "startTime": 1367.43,
+            "endTime": 1372.769,
+            "speaker": "Dave",
+            "body": "all RSS based infrastructure\ndoes it, what you have is a"
+        },
+        {
+            "startTime": 1372.769,
+            "endTime": 1375.89,
+            "speaker": "Dave",
+            "body": "system where you publish an\nepisode of whatever this is, or"
+        },
+        {
+            "startTime": 1375.89,
+            "endTime": 1380.329,
+            "speaker": "Dave",
+            "body": "a blog post or anything, any bit\nof information, you publish that"
+        },
+        {
+            "startTime": 1380.329,
+            "endTime": 1384.289,
+            "speaker": "Dave",
+            "body": "to an RSS feed, think of it like\na WordPress blog. So then the"
+        },
+        {
+            "startTime": 1384.289,
+            "endTime": 1387.349,
+            "speaker": "Dave",
+            "body": "RSS feed, which is just a file\non a web server somewhere, it"
+        },
+        {
+            "startTime": 1387.349,
+            "endTime": 1390.44,
+            "speaker": "Dave",
+            "body": "gets updated. How does the rest\nof the world know that you've"
+        },
+        {
+            "startTime": 1390.44,
+            "endTime": 1393.65,
+            "speaker": "Dave",
+            "body": "just put a blog post up on your\nwebsite, they have to be"
+        },
+        {
+            "startTime": 1393.65,
+            "endTime": 1397.579,
+            "speaker": "Dave",
+            "body": "notified, or they have to go and\ncheck in there's, there's the"
+        },
+        {
+            "startTime": 1397.579,
+            "endTime": 1400.94,
+            "speaker": "Dave",
+            "body": "only two ways to get that\ninformation. So just think of it"
+        },
+        {
+            "startTime": 1400.94,
+            "endTime": 1404.329,
+            "speaker": "Dave",
+            "body": "like, you know, clicking on a\nwebsite refresh button over and"
+        },
+        {
+            "startTime": 1404.329,
+            "endTime": 1407.779,
+            "speaker": "Dave",
+            "body": "over and over just to see if\nsomething new pops up. That's"
+        },
+        {
+            "startTime": 1407.779,
+            "endTime": 1411.44,
+            "speaker": "Dave",
+            "body": "essentially what all of these\ninfrastructures have to do,"
+        },
+        {
+            "startTime": 1411.44,
+            "endTime": 1414.019,
+            "speaker": "Dave",
+            "body": "whether it's podcasting or\nblogosphere, or any of these"
+        },
+        {
+            "startTime": 1414.019,
+            "endTime": 1417.079,
+            "speaker": "Dave",
+            "body": "things. It's just what you\nresort to is just checking the"
+        },
+        {
+            "startTime": 1417.079,
+            "endTime": 1418.279,
+            "speaker": "Dave",
+            "body": "website over and over and over."
+        },
+        {
+            "startTime": 1418.549,
+            "endTime": 1420.619,
+            "speaker": "Tom",
+            "body": "And this is this is one of\nthe things that we see all the"
+        },
+        {
+            "startTime": 1420.619,
+            "endTime": 1423.259,
+            "speaker": "Tom",
+            "body": "time, right, where we have\npodcasters, who will publish an"
+        },
+        {
+            "startTime": 1423.259,
+            "endTime": 1426.95,
+            "speaker": "Tom",
+            "body": "episode. And then they're\nwondering, Well, where is it? I"
+        },
+        {
+            "startTime": 1426.95,
+            "endTime": 1429.71,
+            "speaker": "Tom",
+            "body": "published it an hour ago? Why\ndon't I see it anywhere? Why"
+        },
+        {
+            "startTime": 1429.71,
+            "endTime": 1432.44,
+            "speaker": "Tom",
+            "body": "don't I see it on Apple? Why\ndon't I see it on Spotify? And I"
+        },
+        {
+            "startTime": 1432.44,
+            "endTime": 1436.19,
+            "speaker": "Tom",
+            "body": "think what what's exciting about\npod pain is this is a solution"
+        },
+        {
+            "startTime": 1436.19,
+            "endTime": 1440.539,
+            "speaker": "Tom",
+            "body": "to that problem, which is if you\nsubscribe to a feed with with"
+        },
+        {
+            "startTime": 1440.539,
+            "endTime": 1443.779,
+            "speaker": "Tom",
+            "body": "pod pain, you'll know whenever\nit gets updated. You'll know"
+        },
+        {
+            "startTime": 1443.779,
+            "endTime": 1444.769,
+            "speaker": "Tom",
+            "body": "about it immediately."
+        },
+        {
+            "startTime": 1445.13,
+            "endTime": 1448.849,
+            "speaker": "Dave",
+            "body": "Yeah, and that's a just a\nreversal of that whole thing of"
+        },
+        {
+            "startTime": 1448.88,
+            "endTime": 1451.4,
+            "speaker": "Dave",
+            "body": "instead of checking over and\nover and over for new content."
+        },
+        {
+            "startTime": 1451.91,
+            "endTime": 1455.119,
+            "speaker": "Dave",
+            "body": "We tell you, you know, the\npublisher tells you when there's"
+        },
+        {
+            "startTime": 1455.119,
+            "endTime": 1455.66,
+            "speaker": "Dave",
+            "body": "content,"
+        },
+        {
+            "startTime": 1455.93,
+            "endTime": 1458.63,
+            "speaker": "Tom",
+            "body": "pod ping solves two\nproblems. One is the polling"
+        },
+        {
+            "startTime": 1458.869,
+            "endTime": 1462.47,
+            "speaker": "Tom",
+            "body": "with RSS feeds. And then you\nalso have the problem of much of"
+        },
+        {
+            "startTime": 1462.47,
+            "endTime": 1467.45,
+            "speaker": "Tom",
+            "body": "the web sub pub pub is built on\nGoogle, which isn't reliable. So"
+        },
+        {
+            "startTime": 1467.45,
+            "endTime": 1470.089,
+            "speaker": "Tom",
+            "body": "pod ping does it in a reliable\nway. And so as I've talked to"
+        },
+        {
+            "startTime": 1470.089,
+            "endTime": 1472.009,
+            "speaker": "Tom",
+            "body": "people about pod paying, and\nthey said, Well, don't we"
+        },
+        {
+            "startTime": 1472.009,
+            "endTime": 1473.93,
+            "speaker": "Tom",
+            "body": "already have a solution for\nthis? Well, we don't have a"
+        },
+        {
+            "startTime": 1473.93,
+            "endTime": 1477.259,
+            "speaker": "Tom",
+            "body": "reliable solution for this. And\nso that's why a lot of people"
+        },
+        {
+            "startTime": 1477.259,
+            "endTime": 1480.92,
+            "speaker": "Tom",
+            "body": "just continue to pull RSS feeds.\nSo really excited about the work"
+        },
+        {
+            "startTime": 1480.92,
+            "endTime": 1484.73,
+            "speaker": "Tom",
+            "body": "that you did with with pod Ping.\nOne of the features of the"
+        },
+        {
+            "startTime": 1484.759,
+            "endTime": 1487.49,
+            "speaker": "Tom",
+            "body": "podcast namespace that we've\njust implemented at Buzzsprout."
+        },
+        {
+            "startTime": 1487.519,
+            "endTime": 1491.39,
+            "speaker": "Tom",
+            "body": "That I'm sure everyone would\nlove to hear why we did it. Is"
+        },
+        {
+            "startTime": 1491.39,
+            "endTime": 1496.009,
+            "speaker": "Tom",
+            "body": "the gu ID, or the gu ID. How do\nyou say Dave gwit? Yeah, let's"
+        },
+        {
+            "startTime": 1496.009,
+            "endTime": 1499.25,
+            "speaker": "Tom",
+            "body": "Duguid. Goo it sounds gross.\nLet's do good. There's no way"
+        },
+        {
+            "startTime": 1499.25,
+            "endTime": 1502.22,
+            "speaker": "Tom",
+            "body": "around it that it's He's gonna\nsound gross. So but tell us"
+        },
+        {
+            "startTime": 1502.64,
+            "endTime": 1506.599,
+            "speaker": "Tom",
+            "body": "what, what's the grid? And why\ndo you want podcasting companies"
+        },
+        {
+            "startTime": 1506.599,
+            "endTime": 1509.569,
+            "speaker": "Tom",
+            "body": "like Buzzsprout and podcasters.\nto include this in their RSS"
+        },
+        {
+            "startTime": 1509.569,
+            "endTime": 1509.869,
+            "speaker": "Tom",
+            "body": "feed,"
+        },
+        {
+            "startTime": 1510.259,
+            "endTime": 1515.329,
+            "speaker": "Dave",
+            "body": "a grid is a globally\nunique identifier, geo ID. It is"
+        },
+        {
+            "startTime": 1515.359,
+            "endTime": 1520.279,
+            "speaker": "Dave",
+            "body": "a long number that uniquely\nidentifies a thing and object"
+        },
+        {
+            "startTime": 1520.73,
+            "endTime": 1525.95,
+            "speaker": "Dave",
+            "body": "globally in the world. It's this\nthing is this number. And so"
+        },
+        {
+            "startTime": 1526.009,
+            "endTime": 1529.97,
+            "speaker": "Dave",
+            "body": "that is a thing that Apple's\ndirectory has always had."
+        },
+        {
+            "startTime": 1530.599,
+            "endTime": 1535.069,
+            "speaker": "Dave",
+            "body": "Everybody's podcast has an\niTunes ID, or an apple podcast"
+        },
+        {
+            "startTime": 1535.099,
+            "endTime": 1540.41,
+            "speaker": "Dave",
+            "body": "ID. And if you go and look for\nyour podcast on Apple's podcast"
+        },
+        {
+            "startTime": 1540.41,
+            "endTime": 1542.99,
+            "speaker": "Dave",
+            "body": "directory, you can see at the\nend of the little URL in the"
+        },
+        {
+            "startTime": 1542.99,
+            "endTime": 1546.619,
+            "speaker": "Dave",
+            "body": "address bar up there, you can\nsee your Apple ID, because Apple"
+        },
+        {
+            "startTime": 1546.619,
+            "endTime": 1549.17,
+            "speaker": "Dave",
+            "body": "has been the center of the\npodcasting universe for so long,"
+        },
+        {
+            "startTime": 1549.65,
+            "endTime": 1554.42,
+            "speaker": "Dave",
+            "body": "that iTunes ID has become the\nway that many apps identify a"
+        },
+        {
+            "startTime": 1554.42,
+            "endTime": 1559.22,
+            "speaker": "Dave",
+            "body": "podcast in there's problems with\nthat. We solve those problems"
+        },
+        {
+            "startTime": 1559.25,
+            "endTime": 1564.559,
+            "speaker": "Dave",
+            "body": "earlier this year, when Apple's\nAPI stopped returning the"
+        },
+        {
+            "startTime": 1564.559,
+            "endTime": 1569,
+            "speaker": "Dave",
+            "body": "location of where podcast live\nat. So they stopped returning in"
+        },
+        {
+            "startTime": 1569,
+            "endTime": 1573.2,
+            "speaker": "Dave",
+            "body": "their API for many, many feeds,\nthey stopped returning the"
+        },
+        {
+            "startTime": 1573.2,
+            "endTime": 1576.89,
+            "speaker": "Dave",
+            "body": "actual URL, which is would be\nlike, you know, buzzsprout.com"
+        },
+        {
+            "startTime": 1576.89,
+            "endTime": 1580.19,
+            "speaker": "Dave",
+            "body": "slash such and such. That's a\nhuge problem because it broke"
+        },
+        {
+            "startTime": 1580.19,
+            "endTime": 1584.18,
+            "speaker": "Dave",
+            "body": "tons of apps. And we were on the\nfront lines of that, because a"
+        },
+        {
+            "startTime": 1584.18,
+            "endTime": 1586.789,
+            "speaker": "Dave",
+            "body": "lot of people started using our\nAPI when that happened, because"
+        },
+        {
+            "startTime": 1586.789,
+            "endTime": 1588.41,
+            "speaker": "Dave",
+            "body": "it broke and broke their app."
+        },
+        {
+            "startTime": 1588.559,
+            "endTime": 1591.65,
+            "speaker": "Kevin",
+            "body": "Is this stuff going to\nhelp us move in the direction of"
+        },
+        {
+            "startTime": 1591.95,
+            "endTime": 1595.039,
+            "speaker": "Kevin",
+            "body": "like global comments, global\nratings and reviews? Are you"
+        },
+        {
+            "startTime": 1595.039,
+            "endTime": 1598.97,
+            "speaker": "Kevin",
+            "body": "guys working on infrastructure\nto be able to allow podcasters"
+        },
+        {
+            "startTime": 1598.97,
+            "endTime": 1602.539,
+            "speaker": "Kevin",
+            "body": "to leave a five star rating in\none app that then translates"
+        },
+        {
+            "startTime": 1602.539,
+            "endTime": 1605.96,
+            "speaker": "Kevin",
+            "body": "over to another app or a comment\nover here on pod friend that"
+        },
+        {
+            "startTime": 1605.96,
+            "endTime": 1608.39,
+            "speaker": "Kevin",
+            "body": "could get posted in pod chaser?"
+        },
+        {
+            "startTime": 1608.779,
+            "endTime": 1611.539,
+            "speaker": "Dave",
+            "body": "Yeah, I hope so. I mean,\nthat's the idea. That's, that's"
+        },
+        {
+            "startTime": 1611.539,
+            "endTime": 1612.98,
+            "speaker": "Dave",
+            "body": "absolutely the goal with this."
+        },
+        {
+            "startTime": 1613.16,
+            "endTime": 1616.64,
+            "speaker": "Tom",
+            "body": "Just a quick note for our\nBuzzsprout listeners, don't you"
+        },
+        {
+            "startTime": 1616.64,
+            "endTime": 1619.73,
+            "speaker": "Tom",
+            "body": "don't have to write into the\nport and ask us to put a grid on"
+        },
+        {
+            "startTime": 1619.73,
+            "endTime": 1623.029,
+            "speaker": "Tom",
+            "body": "your RSS feed, they're already\nthere. So all these features"
+        },
+        {
+            "startTime": 1623.029,
+            "endTime": 1626.089,
+            "speaker": "Tom",
+            "body": "whenever we can we want to\nimplement them without having to"
+        },
+        {
+            "startTime": 1626.089,
+            "endTime": 1629.42,
+            "speaker": "Tom",
+            "body": "require, you know, any, any kind\nof, you know, technical"
+        },
+        {
+            "startTime": 1629.42,
+            "endTime": 1632.42,
+            "speaker": "Tom",
+            "body": "knowledge on our podcasters. And\nso, yes, the goods are already"
+        },
+        {
+            "startTime": 1632.42,
+            "endTime": 1634.97,
+            "speaker": "Tom",
+            "body": "there. And we continue to follow\nall the work that Dave and Adam"
+        },
+        {
+            "startTime": 1634.97,
+            "endTime": 1637.4,
+            "speaker": "Tom",
+            "body": "are doing, and we will implement\nthose features as they come up."
+        },
+        {
+            "startTime": 1637.579,
+            "endTime": 1641.059,
+            "speaker": "Tom",
+            "body": "Dave, thank you for being on the\nshow. Thank you for all the work"
+        },
+        {
+            "startTime": 1641.059,
+            "endTime": 1644.96,
+            "speaker": "Tom",
+            "body": "that you're doing to help make\npodcasting. Awesome. We"
+        },
+        {
+            "startTime": 1644.96,
+            "endTime": 1646.43,
+            "speaker": "Tom",
+            "body": "appreciate it. And thanks for\nbeing here."
+        },
+        {
+            "startTime": 1646.519,
+            "endTime": 1649.039,
+            "speaker": "Kevin",
+            "body": "Yeah, thanks, guys.\nAppreciate it. listeners, please"
+        },
+        {
+            "startTime": 1649.069,
+            "endTime": 1652.13,
+            "speaker": "Kevin",
+            "body": "check out podcast index.org\nclick on apps, download a new"
+        },
+        {
+            "startTime": 1652.13,
+            "endTime": 1655.7,
+            "speaker": "Kevin",
+            "body": "podcast app, recommend it to\nyour listening audience. And"
+        },
+        {
+            "startTime": 1656.15,
+            "endTime": 1658.789,
+            "speaker": "Kevin",
+            "body": "yeah, support the movement. It's\nreally good stuff for podcasting."
+        },
+        {
+            "startTime": 1661.93,
+            "endTime": 1665.17,
+            "speaker": "Travis",
+            "body": "So we asked the good\npeople of the internet, namely"
+        },
+        {
+            "startTime": 1665.2,
+            "endTime": 1668.049,
+            "speaker": "Travis",
+            "body": "on our YouTube community chats\nif you subscribe to the YouTube,"
+        },
+        {
+            "startTime": 1668.079,
+            "endTime": 1670.269,
+            "speaker": "Travis",
+            "body": "the main Buzzsprout YouTube\nchannel, you may have seen this"
+        },
+        {
+            "startTime": 1670.269,
+            "endTime": 1674.38,
+            "speaker": "Travis",
+            "body": "in your subscriber feed. Alban\nasked on Twitter, we also posted"
+        },
+        {
+            "startTime": 1674.38,
+            "endTime": 1676.63,
+            "speaker": "Travis",
+            "body": "in the Facebook group, the\nBuzzsprout podcast, Facebook"
+        },
+        {
+            "startTime": 1676.66,
+            "endTime": 1680.049,
+            "speaker": "Travis",
+            "body": "group, just your questions. So\nwe're going to run through a"
+        },
+        {
+            "startTime": 1680.049,
+            "endTime": 1684.46,
+            "speaker": "Travis",
+            "body": "lightning round, have a bunch of\nquestions and hopefully will"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "node": true,
+        "commonjs": true
+    },
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:sonarjs/recommended",
+        "plugin:jsdoc/recommended"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig-eslint.json"
+    },
+    "settings": {
+        "import/parsers": {
+            "@typescript-eslint/parser": [".ts"]
+        },
+        "import/resolver": {
+            "typescript": {
+                "alwaysTryTypes": true,
+                "project": "./"
+            }
+        }
+    },
+    "plugins": ["jsdoc", "prettier"],
+    "rules": {
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "no-underscore-dangle": "off",
+        "@typescript-eslint/no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_"
+            }
+        ],
+        "@typescript-eslint/explicit-function-return-type": "error",
+        "no-plusplus": "off",
+        "import/prefer-default-export": "off",
+        "import/newline-after-import": "error",
+        "import/order": [
+            "error",
+            {
+                "newlines-between": "always"
+            }
+        ],
+        "no-return-await": "off",
+        "no-await-in-loop": "off",
+        "no-console": [
+            "error",
+            {
+                "allow": ["debug", "warn", "error"]
+            }
+        ],
+        "@typescript-eslint/no-use-before-define": "warn",
+        "@typescript-eslint/return-await": ["error", "in-try-catch"],
+        "jsdoc/require-param-type": 0,
+        "jsdoc/require-returns-type": 0,
+        "jsdoc/require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "ArrowFunctionExpression": true,
+                    "ClassDeclaration": true,
+                    "ClassExpression": true,
+                    "FunctionDeclaration": true,
+                    "FunctionExpression": true,
+                    "MethodDefinition": true
+                }
+            }
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["**/*.test.ts", "test/*.ts", "test/**/*.ts"],
+            "rules": {
+                "sonarjs/no-duplicate-string": "off"
+            }
+        }
+    ]
+}

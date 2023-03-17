@@ -1,0 +1,12 @@
+.gitlab-ci.yml
+.yarn
+yarn.lock
+dist
+node_modules
+coverage
+.pnp.loader.mjs
+.pnp.cjs
+test/test_files
+test/test_output
+.idea
+.vscode
