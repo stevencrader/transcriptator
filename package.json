@@ -1,6 +1,6 @@
 {
     "name": "transcriptator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Library for converting the various transcript file formats to a common format.",
     "main": "dist/index.ts",
     "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
         "test": "jest",
         "test:coverage": "yarn test --coverage",
         "tag": "npm version patch",
-        "publish": "yarn npm publish"
+        "publish": "yarn build && yarn npm lint"
     },
     "repository": {
         "type": "git",
