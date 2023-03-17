@@ -1,8 +1,9 @@
 {
     "name": "transcriptator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Library for converting the various transcript file formats to a common format.",
-    "main": "src/index.ts",
+    "main": "dist/index.ts",
+    "types": "dist/index.d.ts",
     "packageManager": "yarn@3.4.1",
     "scripts": {
         "build": "tsc",
@@ -13,7 +14,9 @@
         "lint-fix:other": "prettier --write '**/*.{md,json,yml,eslintrc,config.js}'",
         "lint-fix:eslint": "yarn lint:eslint --fix",
         "test": "jest",
-        "test:coverage": "yarn test --coverage"
+        "test:coverage": "yarn test --coverage",
+        "tag": "npm version patch",
+        "publish": "yarn build && yarn npm lint"
     },
     "repository": {
         "type": "git",
@@ -29,6 +32,9 @@
         "url": "https://github.com/stevencrader/transcriptator/issues"
     },
     "homepage": "https://transcriptator.com/",
+    "files": [
+        "dist"
+    ],
     "devDependencies": {
         "@jest/globals": "^29.5.0",
         "@types/node": "^18.15.2",
