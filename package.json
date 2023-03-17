@@ -14,7 +14,9 @@
         "lint-fix:other": "prettier --write '**/*.{md,json,yml,eslintrc,config.js}'",
         "lint-fix:eslint": "yarn lint:eslint --fix",
         "test": "jest",
-        "test:coverage": "yarn test --coverage"
+        "test:coverage": "yarn test --coverage",
+        "tag": "npm version patch",
+        "publish": "yarn npm publish"
     },
     "repository": {
         "type": "git",

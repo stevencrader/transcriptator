@@ -1,8 +1,44 @@
 # Transcriptator
 
+<div align="center">
+
+[![GitHub forks](https://img.shields.io/github/forks/stevencrader/transcriptator.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/stevencrader/transcriptator/network/)
+[![GitHub stars](https://img.shields.io/github/stars/stevencrader/transcriptator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/stevencrader/transcriptator/stargazers/)
+<br>
+
+[![npm](https://img.shields.io/npm/v/transcriptator)](https://www.npmjs.com/package/transcriptator)
+[![npm](https://img.shields.io/npm/v/transcriptator?label=yarn)](https://yarnpkg.com/package/transcriptator)
+[![install size](https://packagephobia.com/badge?p=transcriptator)](https://packagephobia.com/result?p=transcriptator)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Number of Contributors](https://img.shields.io/github/contributors/stevencrader/transcriptator?style=flat&label=Contributors)](https://github.com/stevencrader/transcriptator/graphs/contributors)
+<br/>
+
+[![Issues opened](https://img.shields.io/github/issues/stevencrader/transcriptator?label=Issues)](https://github.com/stevencrader/transcriptator)
+[![PRs open](https://img.shields.io/github/issues-pr/stevencrader/transcriptator?label=Pull%20Requests)](https://github.com/stevencrader/transcriptator/pulls)
+[![PRs closed](https://img.shields.io/github/issues-pr-closed/stevencrader/transcriptator?label=Pull%20Requests)](https://github.com/stevencrader/transcriptator/pulls?q=is%3Apr+is%3Aclosed)
+<br/>
+
+</div>
+
 Library for converting the various transcript file formats to a common format.
 
 Originally designed to help users of the [Podcast Namespace](https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md#transcript) `podcast:transcript` tag.
+
+## Installation
+
+This is a Node.js module available through npm or yarn.
+
+### Using npm:
+
+```bash
+npm install transcriptator
+```
+
+### Using yarn:
+
+```bash
+yarn add transcriptator
+```
 
 ## Usage
 
