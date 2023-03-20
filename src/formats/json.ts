@@ -34,6 +34,16 @@ export type SubtitleSegment = {
 }
 
 /**
+ * Determines if the value of data is a valid JSON transcript format
+ *
+ * @param data The transcript data
+ * @returns True: data is valid JSON transcript format
+ */
+export const isJSON = (data: string): boolean => {
+    return (data.startsWith("{") && data.endsWith("}")) || (data.startsWith("[") && data.endsWith("]"))
+}
+
+/**
  * Parse JSON data where segments are in the `segments` Array and in the {@link Segment} format
  *
  * @param data Parsed JSON data
@@ -157,12 +167,7 @@ export const parseJSON = (data: string): Array<Segment> => {
     const dataTrimmed = data.trim()
     let outSegments: Array<Segment> = []
 
-    if (
-        !(
-            (dataTrimmed.startsWith("{") && dataTrimmed.endsWith("}")) ||
-            (dataTrimmed.startsWith("[") && dataTrimmed.endsWith("]"))
-        )
-    ) {
+    if (!isJSON(dataTrimmed)) {
         throw new TypeError(`Data is not valid JSON format`)
     }
 

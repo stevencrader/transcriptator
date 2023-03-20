@@ -109,6 +109,20 @@ const createSegmentFromSRTLines = (
 }
 
 /**
+ * Determines if the value of data is a valid SRT transcript format
+ *
+ * @param data The transcript data
+ * @returns True: data is valid SRT transcript format
+ */
+export const isSRT = (data: string): boolean => {
+    try {
+        return parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined
+    } catch (e) {
+        return false
+    }
+}
+
+/**
  * Parse SRT data to an Array of {@link Segment}
  *
  * @param data The transcript data
@@ -116,10 +130,8 @@ const createSegmentFromSRTLines = (
  * @throws {TypeError} When `data` is not valid SRT format
  */
 export const parseSRT = (data: string): Array<Segment> => {
-    try {
-        parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20))
-    } catch (e) {
-        throw new TypeError(`Data is not valid SRT format: ${e}`)
+    if (!isSRT(data)) {
+        throw new TypeError(`Data is not valid SRT format`)
     }
 
     const outSegments: Array<Segment> = []

@@ -15,6 +15,16 @@ type HTMLSegmentPart = {
 }
 
 /**
+ * Determines if the value of data is a valid HTML transcript format
+ *
+ * @param data The transcript data
+ * @returns True: data is valid HTML transcript format
+ */
+export const isHTML = (data: string): boolean => {
+    return data.startsWith("<!--") || PATTERN_HTML_TAG.exec(data) != null
+}
+
+/**
  * Updates HTML Segment parts if expected HTML segment
  *
  * @param element HTML segment to check
@@ -129,7 +139,7 @@ export const parseHTML = (data: string): Array<Segment> => {
     const dataTrimmed = data.trim()
     let outSegments: Array<Segment> = []
 
-    if (!(dataTrimmed.startsWith("<!--") || PATTERN_HTML_TAG.exec(dataTrimmed))) {
+    if (!isHTML(dataTrimmed)) {
         throw new TypeError(`Data is not valid HTML format`)
     }
 
