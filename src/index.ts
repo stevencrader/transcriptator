@@ -1,8 +1,8 @@
-import { parseHTML, PATTERN_HTML_TAG } from "./formats/html"
-import { parseJSON } from "./formats/json"
-import { parseSRT, parseSRTSegment } from "./formats/srt"
-import { parseVTT } from "./formats/vtt"
-import { PATTERN_LINE_SEPARATOR, Segment, TranscriptFormat } from "./types"
+import { isHTML, parseHTML } from "./formats/html"
+import { isJSON, parseJSON } from "./formats/json"
+import { isSRT, parseSRT } from "./formats/srt"
+import { isVTT, parseVTT } from "./formats/vtt"
+import { Segment, TranscriptFormat } from "./types"
 
 /**
  * Regular Expression for detecting punctuation that should not be prefixed with a space
@@ -19,27 +19,20 @@ const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
 export const determineFormat = (data: string): TranscriptFormat => {
     const normalizedData = data.trim()
 
-    if (normalizedData.startsWith("WEBVTT")) {
+    if (isVTT(normalizedData)) {
         return TranscriptFormat.VTT
     }
 
-    if (
-        (normalizedData.startsWith("{") && normalizedData.endsWith("}")) ||
-        (normalizedData.startsWith("[") && normalizedData.endsWith("]"))
-    ) {
+    if (isJSON(normalizedData)) {
         return TranscriptFormat.JSON
     }
 
-    if (normalizedData.startsWith("<!--") || PATTERN_HTML_TAG.exec(normalizedData)) {
+    if (isHTML(normalizedData)) {
         return TranscriptFormat.HTML
     }
 
-    try {
-        if (parseSRTSegment(normalizedData.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined) {
-            return TranscriptFormat.SRT
-        }
-    } catch (e) {
-        // ignore error and throw own below
+    if (isSRT(normalizedData)) {
+        return TranscriptFormat.SRT
     }
 
     throw new TypeError(`Cannot determine format for data`)
