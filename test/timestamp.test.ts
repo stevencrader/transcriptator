@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
 
-import { parseTimestamp } from "../src/timestamp"
+import { formatTimestamp, parseTimestamp } from "../src/timestamp"
 
 describe("Timestamp", () => {
     test.each<{
@@ -90,5 +90,31 @@ describe("Undefined timestamp", () => {
         { data: "01: :03,456", id: "Space field" },
     ])("Undefined timestamp ($id)", ({ data }) => {
         expect(() => parseTimestamp(data as string)).toThrow(TypeError)
+    })
+})
+
+describe("Format timestamp", () => {
+    test.each<{
+        data: number
+        expected: string
+    }>([
+        {
+            data: 0.78,
+            expected: "00:00:00.780",
+        },
+        {
+            data: 0.7248,
+            expected: "00:00:00.725",
+        },
+        {
+            data: 3723.456,
+            expected: "01:02:03.456",
+        },
+        {
+            data: 365567.12,
+            expected: "101:32:47.120",
+        },
+    ])("Format timestamp ($data)", ({ data, expected }) => {
+        expect(formatTimestamp(data)).toEqual(expected)
     })
 })

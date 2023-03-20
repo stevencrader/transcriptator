@@ -99,7 +99,9 @@ const combineBody = (body: string, addition: string): string => {
  * @returns Combined segment where:
  *
  *   - `startTime`: from first segment
+ *   - `startTimeFormatted`: from first segment
  *   - `endTime`: from last segment
+ *   - `endTimeFormatted`: from last segment
  *   - `speaker`: from first segment
  *   - `body`: combination of all segments
  */

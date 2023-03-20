@@ -48,3 +48,19 @@ export const parseTimestamp = (value: string | number): number => {
 
     return timestamp
 }
+
+/**
+ * Format the timestamp number to a human readable string in the format HH:mm:SS.fff
+ *
+ * @param timestamp Time in seconds to format
+ * @returns formatted timestamp string
+ */
+export const formatTimestamp = (timestamp: number): string => {
+    const hours = String(Math.floor(timestamp / 3600)).padStart(2, "0")
+    const remaining = timestamp % 3600
+    const minutes = String(Math.floor(remaining / 60)).padStart(2, "0")
+    const seconds = String(Math.floor(remaining % 60)).padStart(2, "0")
+    const ms = String(Math.round((timestamp - Math.floor(timestamp)) * 1000)).padStart(3, "0")
+
+    return `${hours}:${minutes}:${seconds}.${ms}`
+}

@@ -40,6 +40,10 @@ npm install transcriptator
 yarn add transcriptator
 ```
 
+### Using CDN:
+
+[transcriptator jsDelivr CDN](https://www.jsdelivr.com/package/npm/transcriptator)
+
 ## Usage
 
 There are three primary methods and two types. See the jsdoc for additional information.

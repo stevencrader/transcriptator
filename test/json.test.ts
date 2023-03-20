@@ -19,7 +19,9 @@ describe("JSON formats test", () => {
             expected: [
                 {
                     startTime: 0.0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 4.8,
+                    endTimeFormatted: "00:00:04.800",
                     speaker: "Alban",
                     body: "It is so stinking nice to",
                 },
@@ -32,7 +34,9 @@ describe("JSON formats test", () => {
             expected: [
                 {
                     startTime: 0.001,
+                    startTimeFormatted: "00:00:00.001",
                     endTime: 5,
+                    endTimeFormatted: "00:00:05.000",
                     speaker: "Subtitles",
                     body: "@marlonrock1986 (^^V^^)",
                 },
