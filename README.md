@@ -91,11 +91,14 @@ References:
 
 HTML data in format below are considered to be transcripts.
 
-A set of elements in the order `cite`, `time`, `p` are used to define a segment.
+The elements `cite`, `time`, and `p` are used to define a segment.
+The `cite` element is not required. The order is also not required.
 
-The elements must either be a direct child of the `html` or `body` element.
+The elements may either be a child of the document directly or a direct child of the `html` or `body` element.
 
 Elements do not need to be on separate lines.
+
+**Example 1**
 
 ```html
 <html>
@@ -117,6 +120,24 @@ Elements do not need to be on separate lines.
         </p>
     </body>
 </html>
+```
+
+**Example 2**
+
+```html
+<p>
+    It is so stinking nice to like, show up and record this show. And Travis has already put together an outline.
+    Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there,
+    too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team.
+    Yeah, I mean, exactly.
+</p>
+<time>0:00</time>
+<p>
+    You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like,
+    that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do
+    this.
+</p>
+<time>0:30</time>
 ```
 
 ### JSON
@@ -207,13 +228,15 @@ Transcripts used for testing are excerpts from the following shows.
 
 -   [Podcasting 2.0](https://podcastindex.org/podcast/920666)
     -   podcasting_20.srt
--   [Buzzcast](https://buzzcast.buzzsprout.com/231452/12364929-podcasts-finally-added-to-youtube-music)
+-   [Buzzcast](https://buzzcast.buzzsprout.com/231452/9092843)
     -   buzzcast.html
     -   buzzcast.srt
     -   buzzcast.json
 -   [How to Start a Podcast](https://feeds.buzzsprout.com/1/2562823/)
     -   how_to_start_a_podcast.json
     -   how_to_start_a_podcast.html
+-   [Podnews Weekly Review](https://feeds.buzzsprout.com/1538779/12458004/)
+    -   podnews_weekly_review.html
 -   [subtitle.js](https://github.com/gsantiago/subtitle.js)
     -   LaLaLand.vtt
     -   LaLaLand.json

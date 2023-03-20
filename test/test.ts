@@ -16,6 +16,17 @@ describe("Determine Transcript Type", () => {
             expected: TranscriptFormat.HTML,
         },
         { data: "<html></html>", expected: TranscriptFormat.HTML },
+        {
+            data: `  <time>0:00</time>
+  <p>Paragraph content</p>
+  <cite>John</cite>`,
+            expected: TranscriptFormat.HTML,
+        },
+        {
+            data: `  <time>0:00</time>
+  <p>Paragraph content</p>`,
+            expected: TranscriptFormat.HTML,
+        },
         { data: "\nWEBVTT", expected: TranscriptFormat.VTT },
         { data: "WEBVTT", expected: TranscriptFormat.VTT },
         {
