@@ -6,7 +6,17 @@ import { Segment } from "../types"
 /**
  * Regular expression to detect `<html>` tag
  */
-export const PATTERN_HTML_TAG = /^< *html.*?>/i
+const PATTERN_HTML_TAG = /^< *html.*?>/i
+
+/**
+ * Regular expression to detect transcript data where `<time>` is followed by `<p>`
+ */
+const PATTERN_HTML_TIME_P = /(?<time><time>\d[\d:.,]*?<\/time>)[ \t\r\n]*?(?<body><p>.*?<\/p>)/i
+
+/**
+ * Regular expression to detect transcript data where `<p>` is followed by `<time>`
+ */
+const PATTERN_HTML_P_TIME = /(?<body><p>.*?<\/p>)[ \t\r\n]*?(?<time><time>\d[\d:.,]*?<\/time>)/i
 
 type HTMLSegmentPart = {
     cite: string
@@ -21,7 +31,12 @@ type HTMLSegmentPart = {
  * @returns True: data is valid HTML transcript format
  */
 export const isHTML = (data: string): boolean => {
-    return data.startsWith("<!--") || PATTERN_HTML_TAG.exec(data) != null
+    return (
+        data.startsWith("<!--") ||
+        PATTERN_HTML_TAG.test(data) ||
+        PATTERN_HTML_TIME_P.test(data) ||
+        PATTERN_HTML_P_TIME.test(data)
+    )
 }
 
 /**
@@ -29,37 +44,42 @@ export const isHTML = (data: string): boolean => {
  *
  * @param element HTML segment to check
  * @param segmentPart Current segment parts
- * @param count Element count in parent HTML element
- * @returns Updated HTML Segment parts
+ * @returns Updated HTML Segment part and segment data for next segment (if fields encountered)
  */
 const updateSegmentPartFromElement = (
     element: HTMLElement,
-    segmentPart: HTMLSegmentPart,
-    count: number
-): HTMLSegmentPart => {
-    let updatedSegmentPart = segmentPart
-    if (element.tagName === "CITE") {
-        if (segmentPart.cite !== "") {
-            console.warn(
-                `Second cite element found before completing segment, discarding previous segment (element ${count}: ${element.innerHTML})`
-            )
-        }
-        // new segment found
-        updatedSegmentPart = {
-            cite: element.innerHTML,
-            time: "",
-            text: "",
-        }
-    } else if (element.tagName === "TIME" && segmentPart.cite !== "") {
-        if (segmentPart.time !== "") {
-            console.warn(`Second time element found before completing segment (element ${count}: ${element.innerHTML})`)
-        } else {
-            updatedSegmentPart.time = element.innerHTML
-        }
-    } else if (element.tagName === "P" && segmentPart.cite !== "" && segmentPart.time !== "") {
-        updatedSegmentPart.text = element.innerHTML
+    segmentPart: HTMLSegmentPart
+): {
+    current: HTMLSegmentPart
+    next: HTMLSegmentPart
+} => {
+    const currentSegmentPart = segmentPart
+    const nextSegmentPart: HTMLSegmentPart = {
+        cite: "",
+        time: "",
+        text: "",
     }
-    return updatedSegmentPart
+
+    if (element.tagName === "CITE") {
+        if (currentSegmentPart.cite === "") {
+            currentSegmentPart.cite = element.innerHTML
+        } else {
+            nextSegmentPart.cite = element.innerHTML
+        }
+    } else if (element.tagName === "TIME") {
+        if (currentSegmentPart.time === "") {
+            currentSegmentPart.time = element.innerHTML
+        } else {
+            nextSegmentPart.time = element.innerHTML
+        }
+    } else if (element.tagName === "P") {
+        if (currentSegmentPart.text === "") {
+            currentSegmentPart.text = element.innerHTML
+        } else {
+            nextSegmentPart.text = element.innerHTML
+        }
+    }
+    return { current: currentSegmentPart, next: nextSegmentPart }
 }
 
 /**
@@ -101,23 +121,41 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
         time: "",
         text: "",
     }
+    let nextSegmentPart: HTMLSegmentPart = {
+        cite: "",
+        time: "",
+        text: "",
+    }
+
     elements.forEach((element, count) => {
-        segmentPart = updateSegmentPartFromElement(element, segmentPart, count)
+        const segmentParts = updateSegmentPartFromElement(element, segmentPart)
+        segmentPart = segmentParts.current
+        nextSegmentPart = segmentParts.next
 
-        if (Object.keys(segmentPart).filter((x) => segmentPart[x] !== "").length === 3) {
-            const s = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
-            lastSpeaker = s.speaker
+        if (
+            count === elements.length - 1 ||
+            Object.keys(nextSegmentPart).filter((x) => nextSegmentPart[x] === "").length !== 3
+        ) {
+            // time is required
+            if (segmentPart.time === "") {
+                console.warn(`Segment ${count} does not contain time information, ignoring`)
+            } else {
+                const s = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
+                lastSpeaker = s.speaker
 
-            // update endTime of previous Segment
-            const totalSegments = outSegments.length
-            if (totalSegments > 0) {
-                outSegments[totalSegments - 1].endTime = outSegments[totalSegments - 1].startTime + s.segment.startTime
+                // update endTime of previous Segment
+                const totalSegments = outSegments.length
+                if (totalSegments > 0) {
+                    outSegments[totalSegments - 1].endTime =
+                        outSegments[totalSegments - 1].startTime + s.segment.startTime
+                }
+
+                outSegments.push(s.segment)
             }
 
-            outSegments.push(s.segment)
-
             // clear
-            segmentPart = {
+            segmentPart = nextSegmentPart
+            nextSegmentPart = {
                 cite: "",
                 time: "",
                 text: "",
@@ -137,7 +175,6 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
  */
 export const parseHTML = (data: string): Array<Segment> => {
     const dataTrimmed = data.trim()
-    let outSegments: Array<Segment> = []
 
     if (!isHTML(dataTrimmed)) {
         throw new TypeError(`Data is not valid HTML format`)
@@ -145,15 +182,20 @@ export const parseHTML = (data: string): Array<Segment> => {
 
     const html = parse(data)
 
+    let root: HTMLElement
     const htmlElements = html.getElementsByTagName("html")
-    const htmlElement = htmlElements[0]
-    const bodyElements = htmlElement.getElementsByTagName("body")
-    if (bodyElements.length > 0) {
-        const bodyElement = bodyElements[0]
-        outSegments = getSegmentsFromHTMLElements(bodyElement.childNodes as Array<HTMLElement>)
+    if (htmlElements.length === 0) {
+        root = html
     } else {
-        outSegments = getSegmentsFromHTMLElements(htmlElement.childNodes as Array<HTMLElement>)
+        const htmlElement = htmlElements[0]
+        const bodyElements = htmlElement.getElementsByTagName("body")
+        if (bodyElements.length > 0) {
+            // eslint-disable-next-line prefer-destructuring
+            root = bodyElements[0]
+        } else {
+            root = htmlElement
+        }
     }
 
-    return outSegments
+    return getSegmentsFromHTMLElements(root.childNodes as Array<HTMLElement>)
 }
