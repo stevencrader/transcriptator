@@ -231,7 +231,7 @@ References:
 Transcripts used for testing are excerpts from the following shows.
 
 -   [Podcasting 2.0](https://podcastindex.org/podcast/920666)
-    -   podcasting_20.srt
+    -   podcasting_20.srt (from Episode 124)
 -   [Buzzcast](https://buzzcast.buzzsprout.com/231452/9092843)
     -   buzzcast.html
     -   buzzcast.srt

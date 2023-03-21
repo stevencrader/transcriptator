@@ -1,6 +1,6 @@
 {
     "name": "transcriptator",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "packageManager": "yarn@3.4.1",
     "description": "Library for converting the various transcript file formats to a common format.",
     "main": "index.ts",
