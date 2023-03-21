@@ -1,6 +1,6 @@
 import { HTMLElement, parse } from "node-html-parser"
 
-import { parseTimestamp } from "../timestamp"
+import { formatTimestamp, parseTimestamp } from "../timestamp"
 import { Segment } from "../types"
 
 /**
@@ -98,7 +98,9 @@ const createSegmentFromSegmentPart = (
 
     const segment: Segment = {
         startTime,
-        endTime: 0, // TODO: what to do with last element end time?
+        startTimeFormatted: formatTimestamp(startTime),
+        endTime: 0,
+        endTimeFormatted: formatTimestamp(0),
         speaker: calculatedSpeaker.replace(":", "").trimEnd(),
         body: segmentPart.text,
     }
@@ -148,6 +150,9 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
                 if (totalSegments > 0) {
                     outSegments[totalSegments - 1].endTime =
                         outSegments[totalSegments - 1].startTime + s.segment.startTime
+                    outSegments[totalSegments - 1].endTimeFormatted = formatTimestamp(
+                        outSegments[totalSegments - 1].endTime
+                    )
                 }
 
                 outSegments.push(s.segment)

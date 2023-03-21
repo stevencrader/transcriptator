@@ -1,5 +1,28 @@
 import { parseSpeaker } from "../speaker"
+import { formatTimestamp } from "../timestamp"
 import { Segment } from "../types"
+
+/**
+ * Define a segment/cue used in the JSONTranscript format
+ */
+export type JSONSegment = {
+    /**
+     * Time (in seconds) when segment starts
+     */
+    startTime: number
+    /**
+     * Time (in seconds) when segment ends
+     */
+    endTime: number
+    /**
+     * Name of speaker for `body`
+     */
+    speaker: string
+    /**
+     * Text of transcript for segment
+     */
+    body: string
+}
 
 /**
  * Define the JSON transcript format
@@ -12,7 +35,7 @@ export type JSONTranscript = {
     /**
      * Segment data
      */
-    segments: Array<Segment>
+    segments: Array<JSONSegment>
 }
 
 /**
@@ -44,14 +67,26 @@ export const isJSON = (data: string): boolean => {
 }
 
 /**
- * Parse JSON data where segments are in the `segments` Array and in the {@link Segment} format
+ * Parse JSON data where segments are in the `segments` Array and in the {@link JSONSegment} format
  *
  * @param data Parsed JSON data
  * @returns An array of Segments from the parsed data
  */
 const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
-    // since this format matches the format used here, return directly
-    return data.segments
+    const outSegments: Array<Segment> = []
+
+    data.segments.forEach((segment) => {
+        outSegments.push({
+            startTime: segment.startTime,
+            startTimeFormatted: formatTimestamp(segment.startTime),
+            endTime: segment.endTime,
+            endTimeFormatted: formatTimestamp(segment.endTime),
+            speaker: segment.speaker,
+            body: segment.body,
+        })
+    })
+
+    return outSegments
 }
 
 /**
@@ -87,9 +122,13 @@ const parseDictJSON = (data: object): Array<Segment> => {
 const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
     if ("start" in data && "end" in data && "text" in data) {
         const { speaker, message } = parseSpeaker(data.text)
+        const startTime = data.start / 1000
+        const endTime = data.end / 1000
         const segment: Segment = {
-            startTime: data.start / 1000,
-            endTime: data.end / 1000,
+            startTime,
+            startTimeFormatted: formatTimestamp(startTime),
+            endTime,
+            endTimeFormatted: formatTimestamp(endTime),
             speaker,
             body: message,
         }

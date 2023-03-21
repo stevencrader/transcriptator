@@ -34,9 +34,17 @@ export type Segment = {
      */
     startTime: number
     /**
+     * Time when segment starts formatted as a string in the format HH:mm:SS.fff
+     */
+    startTimeFormatted: string
+    /**
      * Time (in seconds) when segment ends
      */
     endTime: number
+    /**
+     * Time when segment ends formatted as a string in the format HH:mm:SS.fff
+     */
+    endTimeFormatted: string
     /**
      * Name of speaker for `body`
      */

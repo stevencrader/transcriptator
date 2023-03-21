@@ -26,13 +26,17 @@ describe("HTML formats test", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 30,
+                    endTimeFormatted: "00:00:30.000",
                     speaker: "Alban",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.",
                 },
@@ -48,7 +52,9 @@ describe("HTML formats test", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Alban",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
@@ -62,7 +68,9 @@ describe("HTML formats test", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Norma-Jean Belenky",
                     body: "Hello. And just before we start, I'm gonna sound a little bit different in this episode because I discovered that I had magically recorded myself using my inbuilt microphone on my MacBook Air. Brilliant. So you can imagine how rubbish that was. However, thanks to the tools at Adobe Podcast, I no longer sound like this. It's Friday the 17th of March, 2023, but now I sound like this. It's Friday, the 17th of March, 2023. The last word in podcasting news. This is the Pod News Weekly review with James Cridlin and Sam Sethy. I'm James Cridlin, the editor of Pod News. And I'm Courtney Kosack from the podcast, besties Newsletter, and now podcast. Yes, uh, Sam is away skiing Las Vegas last week. Kits Bull in Switzerland this week. It's, uh, it's a difficult life, isn't it, for some people  in the chapters today. Apple and Spotify are both number one. It just depends what you look at. Uh, the winners of the ihearts Podcast Awards and who didn't win there or at the MBEs. And also, hello, I'm",
                 },
@@ -75,7 +83,9 @@ describe("HTML formats test", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "",
                     body: "Hello. And just before we start, I'm gonna sound a little bit different in this episode because I discovered that I had magically recorded myself using my inbuilt microphone on my MacBook Air. Brilliant. So you can imagine how rubbish that was. However, thanks to the tools at Adobe Podcast, I no longer sound like this. It's Friday the 17th of March, 2023, but now I sound like this. It's Friday, the 17th of March, 2023. The last word in podcasting news. This is the Pod News Weekly review with James Cridlin and Sam Sethy. I'm James Cridlin, the editor of Pod News. And I'm Courtney Kosack from the podcast, besties Newsletter, and now podcast. Yes, uh, Sam is away skiing Las Vegas last week. Kits Bull in Switzerland this week. It's, uh, it's a difficult life, isn't it, for some people  in the chapters today. Apple and Spotify are both number one. It just depends what you look at. Uh, the winners of the ihearts Podcast Awards and who didn't win there or at the MBEs. And also, hello, I'm",
                 },
@@ -104,13 +114,17 @@ describe("Bad HTML data", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 30,
+                    endTimeFormatted: "00:00:30.000",
                     speaker: "Kevin",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.",
                 },
@@ -127,7 +141,9 @@ describe("Bad HTML data", () => {
             expected: [
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.",
                 },
@@ -144,13 +160,17 @@ describe("Bad HTML data", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 30,
+                    endTimeFormatted: "00:00:30.000",
                     speaker: "Alban",
                     body: "",
                 },
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.",
                 },
@@ -168,13 +188,17 @@ describe("Bad HTML data", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 30,
+                    endTimeFormatted: "00:00:30.000",
                     speaker: "Joe",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.",
                 },
@@ -192,19 +216,25 @@ describe("Bad HTML data", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 1,
+                    endTimeFormatted: "00:00:01.000",
                     speaker: "Alban",
                     body: "",
                 },
                 {
                     startTime: 1,
+                    startTimeFormatted: "00:00:01.000",
                     endTime: 31,
+                    endTimeFormatted: "00:00:31.000",
                     speaker: "Kevin",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this.",
                 },
@@ -223,13 +253,17 @@ describe("Bad HTML data", () => {
             expected: [
                 {
                     startTime: 0,
+                    startTimeFormatted: "00:00:00.000",
                     endTime: 30,
+                    endTimeFormatted: "00:00:30.000",
                     speaker: "Alban",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
                 {
                     startTime: 30,
+                    startTimeFormatted: "00:00:30.000",
                     endTime: 0,
+                    endTimeFormatted: "00:00:00.000",
                     speaker: "Kevin",
                     body: "Second paragraph",
                 },

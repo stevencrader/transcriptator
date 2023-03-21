@@ -175,13 +175,17 @@ to a delayed board meeting of`,
             expected: [
                 {
                     startTime: 0.78,
+                    startTimeFormatted: "00:00:00.780",
                     endTime: 6.21,
+                    endTimeFormatted: "00:00:06.210",
                     speaker: "Adam Curry",
                     body: "podcasting 2.0 March\n4 2023 Episode 124 on D flat",
                 },
                 {
                     startTime: 6.21,
+                    startTimeFormatted: "00:00:06.210",
                     endTime: 12.99,
+                    endTimeFormatted: "00:00:12.990",
                     speaker: "Adam Curry",
                     body: "formable hello everybody welcome\nto a delayed board meeting of",
                 },
