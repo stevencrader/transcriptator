@@ -64,6 +64,21 @@ The `TranscriptFormat` enum defines the allowable transcript types supported by 
 
 The `Segment` type defines the segment/cue of the transcript.
 
+### Custom timestamp formatter
+
+To change the way the `startTime` and `endTime` are formatted in `startTimeFormatted` and `endTimeFormatted`, register a custom formatter to be used instead.
+The formatter function shall accept a single argument as a number and return the value formatted as a string.
+
+```javascript
+import { timestampFormatter } from "transcriptator/timestamp"
+
+function customFormatter(timestamp) {
+    return timestamp.toString()
+}
+
+timestampFormatter.registerCustomFormatter(customFormatter)
+```
+
 ## Supported File Formats
 
 ### SRT

@@ -19,7 +19,7 @@
         "test": "jest",
         "test:coverage": "yarn test --coverage",
         "tag": "npm version patch",
-        "publish": "yarn lint && yarn build && cd dist && npm publish"
+        "build-publish": "yarn lint && yarn build && cd dist && npm publish"
     },
     "repository": {
         "type": "git",
