@@ -50,17 +50,81 @@ export const parseTimestamp = (value: string | number): number => {
 }
 
 /**
- * Format the timestamp number to a human readable string in the format HH:mm:SS.fff
- *
- * @param timestamp Time in seconds to format
- * @returns formatted timestamp string
+ * Timestamp formatter
  */
-export const formatTimestamp = (timestamp: number): string => {
-    const hours = String(Math.floor(timestamp / 3600)).padStart(2, "0")
-    const remaining = timestamp % 3600
-    const minutes = String(Math.floor(remaining / 60)).padStart(2, "0")
-    const seconds = String(Math.floor(remaining % 60)).padStart(2, "0")
-    const ms = String(Math.round((timestamp - Math.floor(timestamp)) * 1000)).padStart(3, "0")
-
-    return `${hours}:${minutes}:${seconds}.${ms}`
+export interface FormatterCallback {
+    (timestamp: number): string
 }
+
+/**
+ * Provides a way to convert numeric timestamp to a formatted string.
+ *
+ * A custom formatter may be registered.
+ * If one isn't registered, the default formatter will be used and the data will be formatted as HH:mm:SS.fff
+ */
+export class TimestampFormatter {
+    static _instance: TimestampFormatter
+
+    private customFormatter: FormatterCallback = undefined
+
+    /**
+     * Create the formatter
+     */
+    constructor() {
+        if (!TimestampFormatter._instance) {
+            TimestampFormatter._instance = this
+        }
+        // eslint-disable-next-line no-constructor-return
+        return TimestampFormatter._instance
+    }
+
+    /**
+     * Default formatter where the timestamp number is formatted to a human readable string in the format HH:mm:SS.fff
+     *
+     * @param timestamp Time in seconds to format
+     * @returns formatted timestamp string
+     */
+    private static defaultFormatter = (timestamp: number): string => {
+        const hours = String(Math.floor(timestamp / 3600)).padStart(2, "0")
+        const remaining = timestamp % 3600
+        const minutes = String(Math.floor(remaining / 60)).padStart(2, "0")
+        const seconds = String(Math.floor(remaining % 60)).padStart(2, "0")
+        const ms = String(Math.round((timestamp - Math.floor(timestamp)) * 1000)).padStart(3, "0")
+
+        return `${hours}:${minutes}:${seconds}.${ms}`
+    }
+
+    /**
+     * Format the timestamp to a human readable string.
+     *
+     * If a custom formatter has been registered, it will be used.
+     * If not, the default formatter is used and the data will be returned in the format HH:mm:SS.fff
+     *
+     * @param timestamp Time in seconds to format
+     * @returns formatted timestamp string
+     */
+    public format = (timestamp: number): string => {
+        if (this.customFormatter === undefined) {
+            return TimestampFormatter.defaultFormatter(timestamp)
+        }
+        return this.customFormatter(timestamp)
+    }
+
+    /**
+     * Register a custom timestamp formatter
+     *
+     * @param formatter function to call to format timestamp to string
+     */
+    public registerCustomFormatter = (formatter: FormatterCallback): void => {
+        this.customFormatter = formatter
+    }
+
+    /**
+     * Remove the custom formatter (if one registered)
+     */
+    public unregisterCustomFormatter = (): void => {
+        this.customFormatter = undefined
+    }
+}
+
+export const timestampFormatter = new TimestampFormatter()

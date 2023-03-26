@@ -1,5 +1,5 @@
 import { parseSpeaker } from "../speaker"
-import { formatTimestamp } from "../timestamp"
+import { timestampFormatter } from "../timestamp"
 import { Segment } from "../types"
 
 /**
@@ -78,9 +78,9 @@ const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
     data.segments.forEach((segment) => {
         outSegments.push({
             startTime: segment.startTime,
-            startTimeFormatted: formatTimestamp(segment.startTime),
+            startTimeFormatted: timestampFormatter.format(segment.startTime),
             endTime: segment.endTime,
-            endTimeFormatted: formatTimestamp(segment.endTime),
+            endTimeFormatted: timestampFormatter.format(segment.endTime),
             speaker: segment.speaker,
             body: segment.body,
         })
@@ -126,9 +126,9 @@ const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
         const endTime = data.end / 1000
         const segment: Segment = {
             startTime,
-            startTimeFormatted: formatTimestamp(startTime),
+            startTimeFormatted: timestampFormatter.format(startTime),
             endTime,
-            endTimeFormatted: formatTimestamp(endTime),
+            endTimeFormatted: timestampFormatter.format(endTime),
             speaker,
             body: message,
         }

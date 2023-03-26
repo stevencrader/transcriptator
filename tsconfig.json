@@ -5,7 +5,7 @@
         "esModuleInterop": true,
         "target": "es2020",
         "moduleResolution": "node",
-        "sourceMap": true,
+        "sourceMap": false,
         "outDir": "dist"
     },
     "include": ["src"],

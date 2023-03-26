@@ -1,5 +1,5 @@
 import { parseSpeaker } from "../speaker"
-import { formatTimestamp, parseTimestamp } from "../timestamp"
+import { parseTimestamp, timestampFormatter } from "../timestamp"
 import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
 
 /**
@@ -101,9 +101,9 @@ const createSegmentFromSRTLines = (
     const calculatedSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
     const segment: Segment = {
         startTime: srtSegment.startTime,
-        startTimeFormatted: formatTimestamp(srtSegment.startTime),
+        startTimeFormatted: timestampFormatter.format(srtSegment.startTime),
         endTime: srtSegment.endTime,
-        endTimeFormatted: formatTimestamp(srtSegment.endTime),
+        endTimeFormatted: timestampFormatter.format(srtSegment.endTime),
         speaker: calculatedSpeaker,
         body: srtSegment.body,
     }
