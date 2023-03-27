@@ -4,6 +4,9 @@ import { isSRT, parseSRT } from "./formats/srt"
 import { isVTT, parseVTT } from "./formats/vtt"
 import { Segment, TranscriptFormat } from "./types"
 
+export { Segment, TranscriptFormat } from "./types"
+export { timestampFormatter, FormatterCallback } from "./timestamp"
+
 /**
  * Regular Expression for detecting punctuation that should not be prefixed with a space
  */
