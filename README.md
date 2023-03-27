@@ -70,7 +70,7 @@ To change the way the `startTime` and `endTime` are formatted in `startTimeForma
 The formatter function shall accept a single argument as a number and return the value formatted as a string.
 
 ```javascript
-import { timestampFormatter } from "transcriptator/timestamp"
+import { timestampFormatter } from "transcriptator"
 
 function customFormatter(timestamp) {
     return timestamp.toString()
