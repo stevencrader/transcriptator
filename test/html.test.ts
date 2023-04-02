@@ -1,7 +1,7 @@
 import { describe, expect, test } from "@jest/globals"
 
+import { Segment } from "../src"
 import { parseHTML } from "../src/formats/html"
-import { Segment } from "../src/types"
 
 import { readFile, TestFiles } from "./test_utils"
 
@@ -225,8 +225,8 @@ describe("Bad HTML data", () => {
                 {
                     startTime: 1,
                     startTimeFormatted: "00:00:01.000",
-                    endTime: 31,
-                    endTimeFormatted: "00:00:31.000",
+                    endTime: 30,
+                    endTimeFormatted: "00:00:30.000",
                     speaker: "Kevin",
                     body: "It is so stinking nice to like, show up and record this show. And Travis has already put together an outline. Kevin's got suggestions, I throw my thoughts into the mix. And then Travis goes and does all the work from there, too. It's out into the wild. And I don't see anything. That's an absolute joy for at least two thirds of the team. Yeah, I mean, exactly.",
                 },
