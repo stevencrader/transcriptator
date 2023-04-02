@@ -1,7 +1,7 @@
 import { describe, expect, jest, test } from "@jest/globals"
 
+import { Segment } from "../src"
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
-import { Segment } from "../src/types"
 
 import { readFile, TestFiles } from "./test_utils"
 

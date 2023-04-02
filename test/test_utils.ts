@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
 import * as path from "node:path"
 
-import { Segment } from "../src/types"
+import { Segment } from "../src"
 
 export enum TestFiles {
     TRANSCRIPT_HTML_BUZZCAST = "buzzcast.html",

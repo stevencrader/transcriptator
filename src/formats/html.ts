@@ -148,8 +148,7 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
                 // update endTime of previous Segment
                 const totalSegments = outSegments.length
                 if (totalSegments > 0) {
-                    outSegments[totalSegments - 1].endTime =
-                        outSegments[totalSegments - 1].startTime + s.segment.startTime
+                    outSegments[totalSegments - 1].endTime = s.segment.startTime
                     outSegments[totalSegments - 1].endTimeFormatted = timestampFormatter.format(
                         outSegments[totalSegments - 1].endTime
                     )

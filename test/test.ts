@@ -1,7 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
 
-import { combineSingleWordSegments, convertFile, determineFormat } from "../src"
-import { Segment, TranscriptFormat } from "../src/types"
+import { combineSingleWordSegments, convertFile, determineFormat, Segment, TranscriptFormat } from "../src"
 
 import { readFile, TestFiles } from "./test_utils"
 

@@ -11,256 +11,256 @@
         {
             "startTime": 30,
             "startTimeFormatted": "00:00:30.000",
-            "endTime": 72,
-            "endTimeFormatted": "00:01:12.000",
+            "endTime": 42,
+            "endTimeFormatted": "00:00:42.000",
             "speaker": "Kevin",
             "body": "You guys remember, like two months ago, when you were like, We're going all in on video Buzzcast. I was like, that's, I mean, I will agree and commit and disagree, disagree and commit, I'll do something. But I don't want to do this."
         },
         {
             "startTime": 42,
             "startTimeFormatted": "00:00:42.000",
-            "endTime": 92,
-            "endTimeFormatted": "00:01:32.000",
+            "endTime": 50,
+            "endTimeFormatted": "00:00:50.000",
             "speaker": "Alban",
             "body": "I never said that. The only reason we ever did video was because of you."
         },
         {
             "startTime": 50,
             "startTimeFormatted": "00:00:50.000",
-            "endTime": 121,
-            "endTimeFormatted": "00:02:01.000",
+            "endTime": 71,
+            "endTimeFormatted": "00:01:11.000",
             "speaker": "Kevin",
             "body": "That is true. I will take that. Because when we first got locked down, and we weren't allowed to see anybody in person, I was like, well, it would be nice to be able to see you guys when we record. And if we're going to be doing video chats Anyway, why don't we go ahead and publish those. So I do take the full blame for moving us to video in the first place. But how's that working out for us?"
         },
         {
             "startTime": 71,
             "startTimeFormatted": "00:01:11.000",
-            "endTime": 192,
-            "endTimeFormatted": "00:03:12.000",
+            "endTime": 121,
+            "endTimeFormatted": "00:02:01.000",
             "speaker": "Alban",
             "body": "Not good. The first one we did was like a year ago, we did that live stream to our YouTube channel. And that just kind of grew into then we wanted to play around with Riverside, which was doing video remote video recording, and then squad cast launched video, remote video recording. And I think, you know, we've you kind of had the tools, the tools were there. So we started playing with the tools and experimenting. And now the experiment is coming to an end, at least for now, at least for now. So do we want to give like the whole story of it, kind of walk through why we made each decision along the way? And let's give the sparknotes what we learned the highlights sparknotes? Yeah, start at the beginning. Kevin, why did you want to start doing some video Buzzcast."
         },
         {
             "startTime": 121,
             "startTimeFormatted": "00:02:01.000",
-            "endTime": 385,
-            "endTimeFormatted": "00:06:25.000",
+            "endTime": 264,
+            "endTimeFormatted": "00:04:24.000",
             "speaker": "Kevin",
             "body": "When we first started recording Buzzcast, we would do it together in the office in our little studio space. And we could play off of each other's energy, right? I think, Listen, I'll speak for myself, I'm not a super high energy person. So it helps for me to be sitting across the table for somebody or to see somebody else's reactions to what I'm saying or when they're speaking themselves to be able to keep myself amped up and engaged in the conversation when we went audio only and there was no video component, it was hard for me to continue to keep my energy high. And to stay engaged. I've also got a little bit of add that I'm I'm fighting and dealing with at the same time. So that part was was necessary in order to be able to just produce good content. What I was interested in is that since we're doing this video component Anyway, why don't we record this, we've always said that YouTube is an interesting opportunity for people to promote their podcasts because they do have the algorithm, they do have the recommendation engine. But you shouldn't just publish your audio only there. Because that doesn't feed into the strengths of the algorithm. So you're not even getting the benefit. And you're taking all this extra time to do that. In fact, you could be you know, putting yourself at a disadvantage if you do that, because then you get a bad reputation with the algorithm. So anyway, we were doing video, why not go ahead. And while we edit the podcast, the audio version, why not edit the video version and just stick it on YouTube and see if we get a bump from it. That is where you guys come in on the analytical side and say, Is this working is this not I will say that the constraints from just somebody who's on the podcast are much higher than I anticipated. It's one thing when you're out of the office, or if you're traveling or you can't be here there to be able to quickly grab a USB mic, throw it in your bag go with you. And you can record audio from anywhere in the world, it's not too hard to find a quiet space, most hotel rooms are pretty quiet. Or if you're staying on Airbnb or something that you can find a closet, you can find a quiet space to record audio, being able to travel with a decent camera setup. Or if you don't have a decent camera setup, then you're using whatever on your laptop, you're constantly worried about your background, like all this stuff is going on. It's just a different level of commitment and what's required in terms of being able to put a show out every week or every other week. So that has been added an extra level of commitment to the show, which again, not something that we weren't willing to do, but something that was a little bit unexpected. Didn't know going into it. And then from an analytical side, like how helpful was it actually, for us growing the show? That's what you guys have dug into. Right?"
         },
         {
             "startTime": 264,
             "startTimeFormatted": "00:04:24.000",
-            "endTime": 683,
-            "endTimeFormatted": "00:11:23.000",
+            "endTime": 419,
+            "endTimeFormatted": "00:06:59.000",
             "speaker": "Alban",
             "body": "Yeah, I mean, we can talk a bit about the analytics buzz cast itself was getting more attention, let's call it attention than it ever had before. We were getting between the downloads that continued to grow on the RSS side. And on the YouTube channel being added to that it was huge. And then we started doing clips of Buzzcast episodes. And those were doing really well. And so if you wanted to add all that up, it was like wow, this show is doubled in sighs This is great. But we on the other side, were kind of frustrated with the growth of the YouTube channel. We grew a ton the first year. And we just kind of seen a lot of slowing down of our growth. We didn't know exactly why. And we kept kind of digging into the data. And I think it might have been Jonathan first, or maybe it was Travis, who said, I just clicked through all of the last videos. And I noticed most of the Buzzcast ones lose subscribers. And I was like, That's not true. And then I click through and went, Oh, that's definitely true. I was very skeptical by nature. And so and then we started digging in deeper. And I took, I think it was like six different stats that we use to kind of quantify how valuable each individual video is. And I just went back and looked at, like the last 90 days, all the videos that were created during that 90 day period, I think we had 22 videos, or 26 videos, all of the Buzzcast ones were in the worst category, they were they represented, like the very bottom five episodes, or videos. And, you know, we, I think Travis, you had some good ideas of why the Buzzcast ones were performing near the bottom. But in the end, we were kind of doing the thing that we've always criticized, we've always criticized people who were putting a static image on a YouTube video on a YouTube video, just having audio, you know, we said that can crush an existing valuable YouTube channel. And we were crushing our existing value bowl YouTube channel, by adding this, you know, some of this, basically podcast content in video format."
         },
         {
             "startTime": 419,
             "startTimeFormatted": "00:06:59.000",
-            "endTime": 866,
-            "endTimeFormatted": "00:14:26.000",
+            "endTime": 447,
+            "endTimeFormatted": "00:07:27.000",
             "speaker": "Kevin",
             "body": "To clarify, we weren't crushing it because we weren't putting the static image when we were putting real video up. But we weren't playing in line with the the rules of YouTube or to use the algorithm in the smartest and best way we were confusing the algorithm. We were publishing different lengths of content, different formats of content. And so we ended up is a very important and valuable channel for us for marketing our software and telling the world about what Buzzsprout can do for you as a podcaster. We were hurting that marketing channel for us, right?"
         },
         {
             "startTime": 447,
             "startTimeFormatted": "00:07:27.000",
-            "endTime": 958,
-            "endTimeFormatted": "00:15:58.000",
+            "endTime": 511,
+            "endTimeFormatted": "00:08:31.000",
             "speaker": "Alban",
             "body": "Yeah, I guess what I was saying is, we were not being hypocritical in the way that we created the video, the content, because we weren't publishing the static image with the audio. But the reason we say we recommend everybody else not to do that, is because what it's doing is it's showing YouTube that your content is low quality, and it's a specific type of content. It's audio plus an image. Well, when we were looking at it, YouTube was used to a much higher production quality, a very different type of content for our channel. And so I think people were constantly confused. They're running into videos that they thought were going to be Travis or Sarah jalon, doing an in depth tutorial. And they were clicking, and they were finding me pontificating about Facebook podcasts for 20 minutes. So Travis, give us some more insight, what's what are the differentiators between our day to day content are the bread and butter that we do very well, and what Buzzcast was doing on our channel?"
         },
         {
             "startTime": 511,
             "startTimeFormatted": "00:08:31.000",
-            "endTime": 1198,
-            "endTimeFormatted": "00:19:58.000",
+            "endTime": 687,
+            "endTimeFormatted": "00:11:27.000",
             "speaker": "Travis",
             "body": "One thing to keep in mind is when we create content for Podcasting, Q&amp;A, when we create tutorials, things like that, we have a very specific aim for those videos. Right? So we're trying to answer questions really well, we're trying to take all the knowledge and best practices for how to be a podcaster. And consolidating that into a form factor. That is something you could easily watch in just a few minutes and get all the information that you need. And because we're able to put that level of focus on it, like Alan mentioned, the production quality is better. We have custom animations, and B roll, which is just a fancy way of saying we cut away to different videos of models doing things that match what we're talking about on screen. And so we're able to create a type of content that works really well in a YouTube ecosystem. And so if your whole channel is that kind of content, then YouTube starts knowing Okay, if someone we've kind of identified them as a potential podcaster, and they're asking a podcast related question, Buzzsprout is going to be the channel we recommend because we know they have this kind of content. The reason that we split off Buzzcast the full episodes into a separate channel a couple of months ago, is because we noticed that those videos were not performing at all at the same level as the Podcasting, Q&amp;A and other tutorial videos were doing. And that was a common practice we'd seen with other youtubers That created video podcasts, they would create new channels for them. And then if they had clips, that would be a third channel. So they would actually have three channels, they'd have their main YouTube channel, a full podcast channel and a clips channel, in order to make sure that they were kind of playing by the rules, the best practice of YouTube. So these were all things that we, you know, as we were experimenting, we weren't sure like, how far are we really going to carry this book? Like, how invested Are we going to get into video Buzzcast. And so it didn't make sense to spin up a whole YouTube channel, we're just going to do a couple episodes and then retire it right. So we tested in our on our main channel first and said, Okay, that's working. So then what if we took the next step, and we made it consistent? And then what if we took the next step and made a separate, and so it's kind of like evolved over time. And now to Kevin's point, it's at the place where we just wanted to make sure, if we keep going on this trajectory, it's going to serve you guys, it's gonna make Buzzcast better for you. And it's also going to make sense in the grand scheme of the other things that we're doing to produce and create content. And so we're now at this nexus point where if we're going to be able to go back and record in the studio, you know, that has a level of production that even exceeds what we're currently what we were doing before. And, and so at this point in time, it makes more sense for us to pause it, knowing we can always turn it back on later. But just to double down and refocus our efforts on the audio only version of Buzzcast."
         },
         {
             "startTime": 687,
             "startTimeFormatted": "00:11:27.000",
-            "endTime": 1562,
-            "endTimeFormatted": "00:26:02.000",
+            "endTime": 875,
+            "endTimeFormatted": "00:14:35.000",
             "speaker": "Alban",
             "body": "So if I can kind of tie this together with what are the best practices we have learned for YouTube, and podcasting, in particular, because podcasting is really growing on YouTube, one out of five people now who say they listened to podcasts, they listened to most of their podcasts on YouTube, one out of five, that's pretty remarkably high numbers. That comes from Edison research. I actually interviewed Tom Webster this morning, and he told me that so it's definitely working there. But it takes a lot to make it work. And it was not stuff that was going to make sense for us to do. So. I think to do podcasts, well on YouTube, you probably need to be recording a person so that you have that live engaging element. Because I don't know how to say this exactly. But like, the level of engagement you want to see between the hosts during a audio and a video medium is very different. Right now, like I can see Kevin and Travis and like Kevin looks kind of disinterested. That doesn't bother anybody who's just listening to this because they go, Oh, Kevin's probably listening attentively. But you know what? But if we're on video, I'd be the first comment we ever got on one of our Buzzcast episodes was why does albot look so mad. And I was like, Oh, that's just my face looks. That's just me. Like, that's just me not smiling. And so that works perfectly fine. When you're recording long distance recordings. When it's on video, it starts to look a little weird. And you can either kind of over fake enthusiasm, or you can get together in an audio studio get together in a studio in person. So like, get together in person, I think is a very high recommendation, they should try to get that number, you know, if at all possible, then you've also got to have like multiple shots to be able to keep it interesting. So that's probably a camera on each host. Maybe an additional wide angle camera, you can see that we've experimented this in some of our Podcasting Q&amp;A videos is rolling, I think three different cameras now all at once, and then we flipped between them. For us to do the three of us in the studio would require us probably to be shooting like four or five cameras at a time. And then the, you know, that really ramps up the amount of video editing that we're doing. Okay, so we're buying a bunch of cameras. We're buying, we're doing more in video editing. We're getting us all together in the studio in the most dangerous, dangerous COVID hotspot United States right now. So three negatives, and all for the benefit of starting a new YouTube channel that isn't exactly in alignment with what we want. So that's to kind of wrap it up quickly. What how we're thinking about this. Maybe we come back, maybe not. But until next time, listen to us on our RSS backed podcast."
         },
         {
             "startTime": 875,
             "startTimeFormatted": "00:14:35.000",
-            "endTime": 1757,
-            "endTimeFormatted": "00:29:17.000",
+            "endTime": 882,
+            "endTimeFormatted": "00:14:42.000",
             "speaker": "Travis",
             "body": "Yes, we are definitely not going anywhere. You'll just need to listen to us anywhere except for Spotify will be."
         },
         {
             "startTime": 882,
             "startTimeFormatted": "00:14:42.000",
-            "endTime": 1770,
-            "endTimeFormatted": "00:29:30.000",
+            "endTime": 888,
+            "endTimeFormatted": "00:14:48.000",
             "speaker": "Alban",
             "body": "This is basically Apple podcasts and indie apps exclusive now. Yeah, I would say so. I would say so."
         },
         {
             "startTime": 888,
             "startTimeFormatted": "00:14:48.000",
-            "endTime": 1923,
-            "endTimeFormatted": "00:32:03.000",
+            "endTime": 1035,
+            "endTimeFormatted": "00:17:15.000",
             "speaker": "Kevin",
             "body": "Yeah. I think it's an interesting point that you talked about when you talk about your interview with Tom Webster and he's saying that one in five podcasts are roughly 20% of people listening the podcast in YouTube, and I can't help it think that that is it just don't think that there's a stat that we should just take without some additional thought, right? Like listening to a podcast and YouTube is a different experience than what a lot of us who produce podcasts are in the podcasting space probably think about when we think about podcasting, like the benefits in the beauty of podcasting is it's it's passive, it's something that you can do not only on demand, but at your convenience while you're doing other things while you're doing housework while you're exercising, while you're at work while you're driving a car, you the YouTube experience is different than that. And so while the YouTube ecosystem is huge, and it might be a lot more mainstream in terms of the number of people who engage in that space, and then at some point, click on something that is calling itself a podcast, it's, it might just be an exposure thing, it might just be the size of the ecosystem thing, it might not necessarily be what we would consider a podcast and all the great benefits that go along with podcasting. And I don't want to get into the details of is it does it really have an RSS feed and all that stuff, that's not really what I'm talking about. I'm just kind of talking about the size of the medium and the number of people who at some point during their normal day, flip open YouTube, and might click on something that is calling itself a podcast. So that being said, YouTube is a fine place for you to distribute content and being creator. But hopefully, there's some takeaways from what we've experienced over the past year, pressing into the YouTube Space a little bit in terms of putting a podcast onto YouTube, there's a lot more that goes into it than just recording a zoom call, and then throwing it up there. If you really want to succeed, you have to understand the algorithm, you have to understand how the medium works, you have to understand what type of content works there is, this is a larger level of commitment. And you might find a huge audience and huge following there. But it's probably not going to be it's not an overnight success. It is a lot of work. And it is very different than audio only podcasting. So as we continue to unpack, and learn things about how to use YouTube, or other channels to grow your main podcast, your audio only podcast, it's distributed through RSS, we will continue to share those learnings with you and hopefully make you a better podcaster. But this is where we are today. And the decisions we've made. So this podcast will not be on YouTube, and not in video form. And as we learn more and grow more, we'll share all our learnings with"
         },
         {
             "startTime": 1035,
             "startTimeFormatted": "00:17:15.000",
-            "endTime": 2114,
-            "endTimeFormatted": "00:35:14.000",
+            "endTime": 1079,
+            "endTimeFormatted": "00:17:59.000",
             "speaker": "Travis",
             "body": "so if you've been a Buzzcast listener for any length of time, you know, we're big fans of the podcast index and podcasting 2.0, that entire group, that entire working group of people dedicating themselves to improving the open podcast ecosystem, and creating really fun new features that allow you as a creator, to make awesome content and help your listeners really engage with your show in some really unique ways. Kevin and Tom had an opportunity to sit down with Dave Jones, who is working on the podcast index and podcasting 2.0 to talk about a new feature that Buzzsprout is now supporting, and also tease out some fun new things that they have coming down the pipeline. So here's that conversation between Kevin Tom and Dave Jones."
         },
         {
             "startTime": 1079,
             "startTimeFormatted": "00:17:59.000",
-            "endTime": 2180,
-            "endTimeFormatted": "00:36:20.000",
+            "endTime": 1101,
+            "endTimeFormatted": "00:18:21.000",
             "speaker": "Tom",
             "body": "This is Tom Rossi, technical co founder of Buzzsprout. And I am glad to be joined by Dave Jones, one of the two guys running the podcast index, Dave Jones and Adam curry have been doing amazing work with the podcast index. Dave, welcome to the show. Thanks for all that you're doing. Tell us a little bit about the podcast index and what you guys are doing over there."
         },
         {
             "startTime": 1101,
             "startTimeFormatted": "00:18:21.000",
-            "endTime": 2206,
-            "endTimeFormatted": "00:36:46.000",
+            "endTime": 1105,
+            "endTimeFormatted": "00:18:25.000",
             "speaker": "Dave",
             "body": "Let's see, what are we doing at the podcast? And what are we not doing at podcast?"
         },
         {
             "startTime": 1105,
             "startTimeFormatted": "00:18:25.000",
-            "endTime": 2224,
-            "endTimeFormatted": "00:37:04.000",
+            "endTime": 1119,
+            "endTimeFormatted": "00:18:39.000",
             "speaker": "Kevin",
             "body": "So Dave, the podcasting to auto project is like it incorporates the podcast index and the podcasting namespace right and a whole bunch of things. Can you tell us like what's the difference? What are the two functions that those those two things sort of where they come together? How does it all work?"
         },
         {
             "startTime": 1119,
             "startTimeFormatted": "00:18:39.000",
-            "endTime": 2256,
-            "endTimeFormatted": "00:37:36.000",
+            "endTime": 1137,
+            "endTimeFormatted": "00:18:57.000",
             "speaker": "Dave",
             "body": "Yeah, we get this question a lot. What the heck are y'all doing with all these various projects? And then what did they even mean? And so podcasting 2.0 is the name of our podcast, but it's also the name of the broader movement of trying to preserve, protect and extend the open RSS ecosystem,"
         },
         {
             "startTime": 1137,
             "startTimeFormatted": "00:18:57.000",
-            "endTime": 2281,
-            "endTimeFormatted": "00:38:01.000",
+            "endTime": 1144,
+            "endTimeFormatted": "00:19:04.000",
             "speaker": "Kevin",
             "body": "right. When we say this, this is a little bit different than what like fireside chat introduced it podcast movement, is podcasting to Dotto, right. Yeah,"
         },
         {
             "startTime": 1144,
             "startTimeFormatted": "00:19:04.000",
-            "endTime": 2363,
-            "endTimeFormatted": "00:39:23.000",
+            "endTime": 1219,
+            "endTimeFormatted": "00:20:19.000",
             "speaker": "Dave",
             "body": "I gotta hope it is completely different. Yeah, but podcasting. 2.0 is just an open source, volunteer movement of people coming up with ideas and launching projects to help preserve the open RSS ecosystem of podcasting, and podcasting inside the app. So pod inside podcasting 2.0. But that would be the podcast namespace where all these new features and tags are coming from. Also within podcasting, 2.0 would be something like pod ping, which allows hosts to rapidly notified apps and aggregators of new episodes, things like that. That's all in the podcasting 2.0 side of things. The podcast index is the thing that we created at the very beginning in order to facilitate all these other things. So the podcast index is the largest directory of podcasts on the internet. It's were like 4.1 million podcasts right now feeds. We are a directory and also an API for podcast app. to hook in to get their podcast data from, basically, they just start coding an app, they plug into us and they get all their data in, it saves them a world of hurt on that side of things. So those, the podcasts index is the APN directory, but geisen 2.0 is all the features and community movement."
         },
         {
             "startTime": 1219,
             "startTimeFormatted": "00:20:19.000",
-            "endTime": 2469,
-            "endTimeFormatted": "00:41:09.000",
+            "endTime": 1250,
+            "endTimeFormatted": "00:20:50.000",
             "speaker": "Kevin",
             "body": "Right, and then huge opportunity with the index is that we're not tied in or reliant on Apple anymore. So like over the past two or three months, Apple's directory has been having a ton of problems. Not to mention even before that, when it was working, well, it would take you probably a minimum of two or three days up to a couple weeks to even get in Apple podcast directory, then when you publish a new episode, it might be 24 hours or more before that new episode gets released in search showing up on any of the apps that rely on that directory. And the index solves all that along with other technologies that you're developing as well like the pod paying and everything else. Right."
         },
         {
             "startTime": 1250,
             "startTimeFormatted": "00:20:50.000",
-            "endTime": 2608,
-            "endTimeFormatted": "00:43:28.000",
+            "endTime": 1358,
+            "endTimeFormatted": "00:22:38.000",
             "speaker": "Dave",
             "body": "Yeah, we started this whole project with with the directory and the API with the idea that we wanted to take Apple Apple's directory away from being the center of the podcasting universe, which has been for, you know, 15 years at least. And the idea there was that, you know, no, no knock on Apple, I mean, they've been good stewards of podcasting, it's just that it doesn't make a lot of sense for an open specification, like podcasting, an open system that anybody can participate in, it does not make a lot of sense for that. To be controlled by a single humongous entity like apple, I mean, they're literally the biggest company in the world. And so it's sort of like you have this weird spectrum where you got podcasting, which is completely open, I can hand write an RSS feed today, and get into the inbox and create a podcast. And I can do it from my computer in five minutes. But then you have the directory where all the podcasts are found, his career is controlled by this huge corporation. So it really just didn't didn't make a lot of sense, the goal there was create a directory that is completely open, anybody can join it, anybody can add to it, anybody can put their podcast into it in 15 seconds. And then the next step, which is the which is the part that has to happen, make it available for free, and everybody can download it, you can download it our entire database right now from our From the homepage of our website, and do whatever you want with it, you can go create your own directory or your own API or your own apps. So if it's not free, then it doesn't solve any of the problem. And if you have to have us, it still doesn't solve the problem. You need to be we need to redistribute it. And so that's what we that was the Gulf in the beginning."
         },
         {
             "startTime": 1358,
             "startTimeFormatted": "00:22:38.000",
-            "endTime": 2722,
-            "endTimeFormatted": "00:45:22.000",
+            "endTime": 1364,
+            "endTimeFormatted": "00:22:44.000",
             "speaker": "Tom",
             "body": "One of the features that I'm most excited about out of podcasting 2.0 is pod ping, can you tell us a little bit about that?"
         },
         {
             "startTime": 1364,
             "startTimeFormatted": "00:22:44.000",
-            "endTime": 2782,
-            "endTimeFormatted": "00:46:22.000",
+            "endTime": 1418,
+            "endTimeFormatted": "00:23:38.000",
             "speaker": "Dave",
             "body": "Yeah, sure. podcasting suffers from the same thing that all RSS based infrastructure does it, what you have is a system where you publish an episode of whatever this is, or a blog post or anything, any bit of information, you publish that to an RSS feed, think of it like a WordPress blog. So then the RSS feed, which is just a file on a web server somewhere, it gets updated. How does the rest of the world know that you've just put a blog post up on your website, they have to be notified, or they have to go and check in there's, there's the only two ways to get that information. So just think of it like, you know, clicking on a website refresh button over and over and over just to see if something new pops up. That's essentially what all of these infrastructures have to do, whether it's podcasting or blogosphere, or any of these things. It's just what you resort to is just checking the website over and over and over."
         },
         {
             "startTime": 1418,
             "startTimeFormatted": "00:23:38.000",
-            "endTime": 2863,
-            "endTimeFormatted": "00:47:43.000",
+            "endTime": 1445,
+            "endTimeFormatted": "00:24:05.000",
             "speaker": "Tom",
             "body": "And this is this is one of the things that we see all the time, right, where we have podcasters, who will publish an episode. And then they're wondering, Well, where is it? I published it an hour ago? Why don't I see it anywhere? Why don't I see it on Apple? Why don't I see it on Spotify? And I think what what's exciting about pod pain is this is a solution to that problem, which is if you subscribe to a feed with with pod pain, you'll know whenever it gets updated. You'll know about it immediately."
         },
         {
             "startTime": 1445,
             "startTimeFormatted": "00:24:05.000",
-            "endTime": 2900,
-            "endTimeFormatted": "00:48:20.000",
+            "endTime": 1455,
+            "endTimeFormatted": "00:24:15.000",
             "speaker": "Dave",
             "body": "Yeah, and that's a just a reversal of that whole thing of instead of checking over and over and over for new content. We tell you, you know, the publisher tells you when there's content,"
         },
         {
             "startTime": 1455,
             "startTimeFormatted": "00:24:15.000",
-            "endTime": 2965,
-            "endTimeFormatted": "00:49:25.000",
+            "endTime": 1510,
+            "endTimeFormatted": "00:25:10.000",
             "speaker": "Tom",
             "body": "pod ping solves two problems. One is the polling with RSS feeds. And then you also have the problem of much of the web sub pub pub is built on Google, which isn't reliable. So pod ping does it in a reliable way. And so as I've talked to people about pod paying, and they said, Well, don't we already have a solution for this? Well, we don't have a reliable solution for this. And so that's why a lot of people just continue to pull RSS feeds. So really excited about the work that you did with with pod Ping. One of the features of the podcast namespace that we've just implemented at Buzzsprout. That I'm sure everyone would love to hear why we did it. Is the gu ID, or the gu ID. How do you say Dave gwit? Yeah, let's Duguid. Goo it sounds gross. Let's do good. There's no way around it that it's He's gonna sound gross. So but tell us what, what's the grid? And why do you want podcasting companies like Buzzsprout and podcasters. to include this in their RSS feed,"
         },
         {
             "startTime": 1510,
             "startTimeFormatted": "00:25:10.000",
-            "endTime": 3098,
-            "endTimeFormatted": "00:51:38.000",
+            "endTime": 1588,
+            "endTimeFormatted": "00:26:28.000",
             "speaker": "Dave",
             "body": "a grid is a globally unique identifier, geo ID. It is a long number that uniquely identifies a thing and object globally in the world. It's this thing is this number. And so that is a thing that Apple's directory has always had. Everybody's podcast has an iTunes ID, or an apple podcast ID. And if you go and look for your podcast on Apple's podcast directory, you can see at the end of the little URL in the address bar up there, you can see your Apple ID, because Apple has been the center of the podcasting universe for so long, that iTunes ID has become the way that many apps identify a podcast in there's problems with that. We solve those problems earlier this year, when Apple's API stopped returning the location of where podcast live at. So they stopped returning in their API for many, many feeds, they stopped returning the actual URL, which is would be like, you know, buzzsprout.com slash such and such. That's a huge problem because it broke tons of apps. And we were on the front lines of that, because a lot of people started using our API when that happened, because it broke and broke their app."
         },
         {
             "startTime": 1588,
             "startTimeFormatted": "00:26:28.000",
-            "endTime": 3196,
-            "endTimeFormatted": "00:53:16.000",
+            "endTime": 1608,
+            "endTimeFormatted": "00:26:48.000",
             "speaker": "Kevin",
             "body": "Is this stuff going to help us move in the direction of like global comments, global ratings and reviews? Are you guys working on infrastructure to be able to allow podcasters to leave a five star rating in one app that then translates over to another app or a comment over here on pod friend that could get posted in pod chaser?"
         },
         {
             "startTime": 1608,
             "startTimeFormatted": "00:26:48.000",
-            "endTime": 3221,
-            "endTimeFormatted": "00:53:41.000",
+            "endTime": 1613,
+            "endTimeFormatted": "00:26:53.000",
             "speaker": "Dave",
             "body": "Yeah, I hope so. I mean, that's the idea. That's, that's absolutely the goal with this."
         },
         {
             "startTime": 1613,
             "startTimeFormatted": "00:26:53.000",
-            "endTime": 3259,
-            "endTimeFormatted": "00:54:19.000",
+            "endTime": 1646,
+            "endTimeFormatted": "00:27:26.000",
             "speaker": "Tom",
             "body": "Just a quick note for our Buzzsprout listeners, don't you don't have to write into the port and ask us to put a grid on your RSS feed, they're already there. So all these features whenever we can we want to implement them without having to require, you know, any, any kind of, you know, technical knowledge on our podcasters. And so, yes, the goods are already there. And we continue to follow all the work that Dave and Adam are doing, and we will implement those features as they come up. Dave, thank you for being on the show. Thank you for all the work that you're doing to help make podcasting. Awesome. We appreciate it. And thanks for being here."
         },
         {
             "startTime": 1646,
             "startTimeFormatted": "00:27:26.000",
-            "endTime": 3307,
-            "endTimeFormatted": "00:55:07.000",
+            "endTime": 1661,
+            "endTimeFormatted": "00:27:41.000",
             "speaker": "Kevin",
             "body": "Yeah, thanks, guys. Appreciate it. listeners, please check out podcast index.org click on apps, download a new podcast app, recommend it to your listening audience. And yeah, support the movement. It's really good stuff for podcasting."
         },
