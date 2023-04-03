@@ -16,6 +16,7 @@
 [![Issues opened](https://img.shields.io/github/issues/stevencrader/transcriptator?label=Issues)](https://github.com/stevencrader/transcriptator)
 [![PRs open](https://img.shields.io/github/issues-pr/stevencrader/transcriptator?label=Pull%20Requests)](https://github.com/stevencrader/transcriptator/pulls)
 [![PRs closed](https://img.shields.io/github/issues-pr-closed/stevencrader/transcriptator?label=Pull%20Requests)](https://github.com/stevencrader/transcriptator/pulls?q=is%3Apr+is%3Aclosed)
+[![codecov](https://codecov.io/gh/stevencrader/transcriptator/branch/master/graph/badge.svg?token=KZMGXY8LIH)](https://codecov.io/gh/stevencrader/transcriptator)
 <br/>
 
 </div>
