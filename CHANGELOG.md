@@ -1,3 +1,7 @@
+# transcriptator 1.0.5
+
+-   For HTML transcripts, just use the next segment's startTime for the endTime instead of adding the startTime to it. ([Resolves #14](https://github.com/stevencrader/transcriptator/issues/14))
+
 # transcriptator 1.0.4
 
 -   Add support for specifying custom timestamp formatter ([Resolves #11](https://github.com/stevencrader/transcriptator/issues/11))
