@@ -10,6 +10,7 @@
         "build:clean": "shx rm -rf dist",
         "build:tsc": "tsc",
         "build:cp": "shx cp package.json dist && shx cp README.md dist && shx cp LICENSE.md dist",
+        "build:replace": "shx sed -i 's/\"main\": \"index.ts\"/\"main\": \"index.js\"/g' dist/package.json > /dev/null",
         "lint": "run-p -cln 'lint:*'",
         "lint:eslint": "eslint src/ test/",
         "lint:prettier": "prettier --check .",
