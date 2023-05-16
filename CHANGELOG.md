@@ -11,7 +11,7 @@
 
 -   Add support for specifying custom timestamp
     formatter ([Resolves #11](https://github.com/stevencrader/transcriptator/issues/11))
--   Make `Segment`, `TranscriptFormat`, `timestampFormatter`, `FormatterCallback` available from the root
+-   Make `Segment`, `TranscriptFormat`, `TimestampFormatter`, `FormatterCallback` available from the root
 
 # transcriptator 1.0.3
 

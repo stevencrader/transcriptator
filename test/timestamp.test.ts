@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
 
-import { parseTimestamp, TimestampFormatter, timestampFormatter } from "../src/timestamp"
+import { parseTimestamp, TimestampFormatter, TimestampFormatterManager } from "../src/timestamp"
 
 describe("Timestamp", () => {
     test.each<{
@@ -104,10 +104,10 @@ const customFormatter = (timestamp: number): string => {
 }
 
 test("Timestamp Formatter instances", () => {
-    timestampFormatter.registerCustomFormatter(customFormatter)
-    const second = new TimestampFormatter()
-    expect(timestampFormatter === second).toBe(true)
-    timestampFormatter.unregisterCustomFormatter()
+    TimestampFormatter.registerCustomFormatter(customFormatter)
+    const second = new TimestampFormatterManager()
+    expect(TimestampFormatter === second).toBe(true)
+    TimestampFormatter.unregisterCustomFormatter()
 })
 
 describe("Format timestamp", () => {
@@ -132,7 +132,7 @@ describe("Format timestamp", () => {
             expected: "101:32:47.120",
         },
     ])("Format timestamp ($data)", ({ data, expected }) => {
-        expect(timestampFormatter.format(data)).toEqual(expected)
+        expect(TimestampFormatter.format(data)).toEqual(expected)
     })
 })
 
@@ -158,8 +158,8 @@ describe("Custom formatter", () => {
             expected: "365567.12",
         },
     ])("Custom timestamp formatter ($data)", ({ data, expected }) => {
-        timestampFormatter.registerCustomFormatter(customFormatter)
-        expect(timestampFormatter.format(data)).toEqual(expected)
-        timestampFormatter.unregisterCustomFormatter()
+        TimestampFormatter.registerCustomFormatter(customFormatter)
+        expect(TimestampFormatter.format(data)).toEqual(expected)
+        TimestampFormatter.unregisterCustomFormatter()
     })
 })

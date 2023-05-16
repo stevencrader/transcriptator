@@ -70,13 +70,13 @@ register a custom formatter to be used instead.
 The formatter function shall accept a single argument as a number and return the value formatted as a string.
 
 ```javascript
-import { timestampFormatter } from "transcriptator"
+import { TimestampFormatter } from "transcriptator"
 
 function customFormatter(timestamp) {
     return timestamp.toString()
 }
 
-timestampFormatter.registerCustomFormatter(customFormatter)
+TimestampFormatter.registerCustomFormatter(customFormatter)
 ```
 
 ### Options for segments
