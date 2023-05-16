@@ -1,3 +1,17 @@
+# transcriptator 1.1.0-beta.0
+
+New `Options`:
+
+-   `combineEqualTimes` and `combineEqualTimesSeparator`: Combine segments if the `startTime`, `endTime`, and `speaker` match between the current and prior segments. ([Resolves #19](https://github.com/stevencrader/transcriptator/issues/19))
+-   `speakerChange`: Only include `speaker` when speaker changes. ([Resolves #20](https://github.com/stevencrader/transcriptator/issues/20))
+-   `combineSegments` and `combineSegmentsLength`: Replaces `combineSingleWordSegments` function. Combine segments where speaker is the same and concatenated `body` fits in the `combineSegmentsLength`
+-   Change `timestampFormatter` to `TimestampFormatter`
+
+**Breaking Changes:**
+
+-   `combineSingleWordSegments` function is now handled by the `combineSegments` and `combineSegmentsLength` options
+-   `timestampFormatter` is now `TimestampFormatter`
+
 # transcriptator 1.0.6
 
 -   Add step to replace main entry in distributed package.json
