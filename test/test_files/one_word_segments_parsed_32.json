@@ -1,398 +1,530 @@
 [
     {
-        "speaker": "Travis",
         "startTime": 0.3,
+        "startTimeFormatted": "00:00:00.300",
         "endTime": 2.16,
+        "endTimeFormatted": "00:00:02.160",
+        "speaker": "Travis",
         "body": "Hey, Travis Albritain here. Uh,"
     },
     {
-        "speaker": "Travis",
         "startTime": 2.19,
+        "startTimeFormatted": "00:00:02.190",
         "endTime": 4.14,
+        "endTimeFormatted": "00:00:04.140",
+        "speaker": "Travis",
         "body": "so I hope the, these episodes"
     },
     {
-        "speaker": "Travis",
         "startTime": 4.141,
+        "startTimeFormatted": "00:00:04.141",
         "endTime": 5.22,
+        "endTimeFormatted": "00:00:05.220",
+        "speaker": "Travis",
         "body": "have been super helpful for you"
     },
     {
-        "speaker": "Travis",
         "startTime": 5.52,
+        "startTimeFormatted": "00:00:05.520",
         "endTime": 6.75,
+        "endTimeFormatted": "00:00:06.750",
+        "speaker": "Travis",
         "body": "getting your show off the ground"
     },
     {
-        "speaker": "Travis",
         "startTime": 6.751,
+        "startTimeFormatted": "00:00:06.751",
         "endTime": 7.89,
+        "endTimeFormatted": "00:00:07.890",
+        "speaker": "Travis",
         "body": "and having the confidence that"
     },
     {
-        "speaker": "Travis",
         "startTime": 7.891,
+        "startTimeFormatted": "00:00:07.891",
         "endTime": 9.72,
+        "endTimeFormatted": "00:00:09.720",
+        "speaker": "Travis",
         "body": "you need to really launch a"
     },
     {
-        "speaker": "Travis",
         "startTime": 9.721,
+        "startTimeFormatted": "00:00:09.721",
         "endTime": 10.86,
+        "endTimeFormatted": "00:00:10.860",
+        "speaker": "Travis",
         "body": "podcast, which is such an"
     },
     {
-        "speaker": "Travis",
         "startTime": 10.861,
+        "startTimeFormatted": "00:00:10.861",
         "endTime": 12.48,
+        "endTimeFormatted": "00:00:12.480",
+        "speaker": "Travis",
         "body": "incredible thing. Now, I"
     },
     {
-        "speaker": "Travis",
         "startTime": 12.481,
+        "startTimeFormatted": "00:00:12.481",
         "endTime": 14.64,
+        "endTimeFormatted": "00:00:14.640",
+        "speaker": "Travis",
         "body": "recently had the opportunity to"
     },
     {
-        "speaker": "Travis",
         "startTime": 14.91,
+        "startTimeFormatted": "00:00:14.910",
         "endTime": 16.2,
+        "endTimeFormatted": "00:00:16.200",
+        "speaker": "Travis",
         "body": "sit down for a conversation with"
     },
     {
-        "speaker": "Travis",
         "startTime": 16.23,
+        "startTimeFormatted": "00:00:16.230",
         "endTime": 18.12,
+        "endTimeFormatted": "00:00:18.120",
+        "speaker": "Travis",
         "body": "Eric Nuzum, who is been an"
     },
     {
-        "speaker": "Travis",
         "startTime": 18.121,
+        "startTimeFormatted": "00:00:18.121",
         "endTime": 19.29,
+        "endTimeFormatted": "00:00:19.290",
+        "speaker": "Travis",
         "body": "executive producer on some of"
     },
     {
-        "speaker": "Travis",
         "startTime": 19.291,
+        "startTimeFormatted": "00:00:19.291",
         "endTime": 21.24,
+        "endTimeFormatted": "00:00:21.240",
+        "speaker": "Travis",
         "body": "the biggest podcasts in the"
     },
     {
-        "speaker": "Travis",
         "startTime": 21.241,
+        "startTimeFormatted": "00:00:21.241",
         "endTime": 23.25,
+        "endTimeFormatted": "00:00:23.250",
+        "speaker": "Travis",
         "body": "world, many of NPRs podcast,"
     },
     {
-        "speaker": "Travis",
         "startTime": 23.31,
+        "startTimeFormatted": "00:00:23.310",
         "endTime": 26.31,
+        "endTimeFormatted": "00:00:26.310",
+        "speaker": "Travis",
         "body": "Ted's podcasts, um, and just"
     },
     {
-        "speaker": "Travis",
         "startTime": 26.311,
+        "startTimeFormatted": "00:00:26.311",
         "endTime": 28.44,
+        "endTimeFormatted": "00:00:28.440",
+        "speaker": "Travis",
         "body": "brings a lot of insight and"
     },
     {
-        "speaker": "Travis",
         "startTime": 28.47,
+        "startTimeFormatted": "00:00:28.470",
         "endTime": 30.9,
+        "endTimeFormatted": "00:00:30.900",
+        "speaker": "Travis",
         "body": "depth of wisdom to podcasting."
     },
     {
-        "speaker": "Travis",
         "startTime": 30.901,
+        "startTimeFormatted": "00:00:30.901",
         "endTime": 31.8,
+        "endTimeFormatted": "00:00:31.800",
+        "speaker": "Travis",
         "body": "And so I wanted to share this"
     },
     {
-        "speaker": "Travis",
         "startTime": 31.801,
+        "startTimeFormatted": "00:00:31.801",
         "endTime": 33.35,
+        "endTimeFormatted": "00:00:33.350",
+        "speaker": "Travis",
         "body": "with you as kind of like a"
     },
     {
-        "speaker": "Travis",
         "startTime": 34.08,
+        "startTimeFormatted": "00:00:34.080",
         "endTime": 36.6,
+        "endTimeFormatted": "00:00:36.600",
+        "speaker": "Travis",
         "body": "podcasting 201. This interview"
     },
     {
-        "speaker": "Travis",
         "startTime": 36.84,
+        "startTimeFormatted": "00:00:36.840",
         "endTime": 38.49,
+        "endTimeFormatted": "00:00:38.490",
+        "speaker": "Travis",
         "body": "is what to do once you have your"
     },
     {
-        "speaker": "Travis",
         "startTime": 38.491,
+        "startTimeFormatted": "00:00:38.491",
         "endTime": 40.11,
+        "endTimeFormatted": "00:00:40.110",
+        "speaker": "Travis",
         "body": "show going and you really want"
     },
     {
-        "speaker": "Travis",
         "startTime": 40.111,
+        "startTimeFormatted": "00:00:40.111",
         "endTime": 41.28,
+        "endTimeFormatted": "00:00:41.280",
+        "speaker": "Travis",
         "body": "to see what's the next step."
     },
     {
-        "speaker": "Travis",
         "startTime": 41.31,
+        "startTimeFormatted": "00:00:41.310",
         "endTime": 43.14,
+        "endTimeFormatted": "00:00:43.140",
+        "speaker": "Travis",
         "body": "What's the next level that I can"
     },
     {
-        "speaker": "Travis",
         "startTime": 43.141,
+        "startTimeFormatted": "00:00:43.141",
         "endTime": 46.32,
+        "endTimeFormatted": "00:00:46.320",
+        "speaker": "Travis",
         "body": "get to with my podcast. Uh, he"
     },
     {
-        "speaker": "Travis",
         "startTime": 46.321,
+        "startTimeFormatted": "00:00:46.321",
         "endTime": 48.27,
+        "endTimeFormatted": "00:00:48.270",
+        "speaker": "Travis",
         "body": "just wrote a brand new book on"
     },
     {
-        "speaker": "Travis",
         "startTime": 48.271,
+        "startTimeFormatted": "00:00:48.271",
         "endTime": 50.28,
+        "endTimeFormatted": "00:00:50.280",
+        "speaker": "Travis",
         "body": "podcasting called Make Noise. I"
     },
     {
-        "speaker": "Travis",
         "startTime": 50.281,
+        "startTimeFormatted": "00:00:50.281",
         "endTime": 51.69,
+        "endTimeFormatted": "00:00:51.690",
+        "speaker": "Travis",
         "body": "will leave a link to the book in"
     },
     {
-        "speaker": "Travis",
         "startTime": 51.691,
+        "startTimeFormatted": "00:00:51.691",
         "endTime": 52.95,
+        "endTimeFormatted": "00:00:52.950",
+        "speaker": "Travis",
         "body": "the episode description. It's a"
     },
     {
-        "speaker": "Travis",
         "startTime": 52.951,
+        "startTimeFormatted": "00:00:52.951",
         "endTime": 54.63,
+        "endTimeFormatted": "00:00:54.630",
+        "speaker": "Travis",
         "body": "fantastic book. So I hope that"
     },
     {
-        "speaker": "Travis",
         "startTime": 54.631,
+        "startTimeFormatted": "00:00:54.631",
         "endTime": 56.4,
+        "endTimeFormatted": "00:00:56.400",
+        "speaker": "Travis",
         "body": "this conversation is helpful for"
     },
     {
-        "speaker": "Travis",
         "startTime": 56.401,
+        "startTimeFormatted": "00:00:56.401",
         "endTime": 57.96,
+        "endTimeFormatted": "00:00:57.960",
+        "speaker": "Travis",
         "body": "you and that you get a lot out"
     },
     {
-        "speaker": "Travis",
         "startTime": 57.961,
+        "startTimeFormatted": "00:00:57.961",
         "endTime": 59.58,
+        "endTimeFormatted": "00:00:59.580",
+        "speaker": "Travis",
         "body": "of it. And without further ado,"
     },
     {
-        "speaker": "Travis",
         "startTime": 59.64,
+        "startTimeFormatted": "00:00:59.640",
         "endTime": 61.29,
+        "endTimeFormatted": "00:01:01.290",
+        "speaker": "Travis",
         "body": "here's my conversation with Eric"
     },
     {
-        "speaker": "Travis",
         "startTime": 61.291,
+        "startTimeFormatted": "00:01:01.291",
         "endTime": 61.62,
+        "endTimeFormatted": "00:01:01.620",
+        "speaker": "Travis",
         "body": "Nuzum."
     },
     {
-        "speaker": "Eric",
         "startTime": 65.52,
+        "startTimeFormatted": "00:01:05.520",
         "endTime": 67.73,
+        "endTimeFormatted": "00:01:07.730",
+        "speaker": "Eric",
         "body": "So my name is Eric Nuzum and,"
     },
     {
-        "speaker": "Eric",
         "startTime": 68.09,
+        "startTimeFormatted": "00:01:08.090",
         "endTime": 70.73,
+        "endTimeFormatted": "00:01:10.730",
+        "speaker": "Eric",
         "body": "uh, I, um, spent most of the"
     },
     {
-        "speaker": "Eric",
         "startTime": 70.731,
+        "startTimeFormatted": "00:01:10.731",
         "endTime": 71.69,
+        "endTimeFormatted": "00:01:11.690",
+        "speaker": "Eric",
         "body": "early part of my career in"
     },
     {
-        "speaker": "Eric",
         "startTime": 71.691,
+        "startTimeFormatted": "00:01:11.691",
         "endTime": 73.43,
+        "endTimeFormatted": "00:01:13.430",
+        "speaker": "Eric",
         "body": "broadcast and eventually worked"
     },
     {
-        "speaker": "Eric",
         "startTime": 73.431,
+        "startTimeFormatted": "00:01:13.431",
         "endTime": 75.68,
+        "endTimeFormatted": "00:01:15.680",
+        "speaker": "Eric",
         "body": "my way up to working at NPR. And"
     },
     {
-        "speaker": "Eric",
         "startTime": 75.681,
+        "startTimeFormatted": "00:01:15.681",
         "endTime": 77.57,
+        "endTimeFormatted": "00:01:17.570",
+        "speaker": "Eric",
         "body": "I started there in 2004 and"
     },
     {
-        "speaker": "Eric",
         "startTime": 77.99,
+        "startTimeFormatted": "00:01:17.990",
         "endTime": 78.95,
+        "endTimeFormatted": "00:01:18.950",
+        "speaker": "Eric",
         "body": "listening less than a year"
     },
     {
-        "speaker": "Eric",
         "startTime": 78.951,
+        "startTimeFormatted": "00:01:18.951",
         "endTime": 82.13,
+        "endTimeFormatted": "00:01:22.130",
+        "speaker": "Eric",
         "body": "later, I was in the, um, the"
     },
     {
-        "speaker": "Eric",
         "startTime": 82.131,
+        "startTimeFormatted": "00:01:22.131",
         "endTime": 83.75,
+        "endTimeFormatted": "00:01:23.750",
+        "speaker": "Eric",
         "body": "cafeteria line at NPR and the"
     },
     {
-        "speaker": "Eric",
         "startTime": 83.751,
+        "startTimeFormatted": "00:01:23.751",
         "endTime": 85.46,
+        "endTimeFormatted": "00:01:25.460",
+        "speaker": "Eric",
         "body": "guy who was our COO at the time"
     },
     {
-        "speaker": "Eric",
         "startTime": 85.85,
+        "startTimeFormatted": "00:01:25.850",
         "endTime": 87.14,
+        "endTimeFormatted": "00:01:27.140",
+        "speaker": "Eric",
         "body": "was behind me trying to make"
     },
     {
-        "speaker": "Eric",
         "startTime": 87.141,
+        "startTimeFormatted": "00:01:27.141",
         "endTime": 88.85,
+        "endTimeFormatted": "00:01:28.850",
+        "speaker": "Eric",
         "body": "some kind of awkward chit-chat."
     },
     {
-        "speaker": "Eric",
         "startTime": 89.45,
+        "startTimeFormatted": "00:01:29.450",
         "endTime": 90.08,
+        "endTimeFormatted": "00:01:30.080",
+        "speaker": "Eric",
         "body": "He says, well, what's"
     },
     {
-        "speaker": "Eric",
         "startTime": 90.081,
+        "startTimeFormatted": "00:01:30.081",
         "endTime": 90.98,
+        "endTimeFormatted": "00:01:30.980",
+        "speaker": "Eric",
         "body": "interesting that you've seen"
     },
     {
-        "speaker": "Eric",
         "startTime": 90.981,
+        "startTimeFormatted": "00:01:30.981",
         "endTime": 91.88,
+        "endTimeFormatted": "00:01:31.880",
+        "speaker": "Eric",
         "body": "lately. And I said, well,"
     },
     {
-        "speaker": "Eric",
         "startTime": 91.881,
+        "startTimeFormatted": "00:01:31.881",
         "endTime": 93.32,
+        "endTimeFormatted": "00:01:33.320",
+        "speaker": "Eric",
         "body": "there's this podcasting thing."
     },
     {
-        "speaker": "Eric",
         "startTime": 93.321,
+        "startTimeFormatted": "00:01:33.321",
         "endTime": 94.64,
+        "endTimeFormatted": "00:01:34.640",
+        "speaker": "Eric",
         "body": "And I started explaining to him"
     },
     {
-        "speaker": "Eric",
         "startTime": 94.641,
+        "startTimeFormatted": "00:01:34.641",
         "endTime": 95.9,
+        "endTimeFormatted": "00:01:35.900",
+        "speaker": "Eric",
         "body": "in the lunch line, just gotta"
     },
     {
-        "speaker": "Eric",
         "startTime": 95.901,
+        "startTimeFormatted": "00:01:35.901",
         "endTime": 97.88,
+        "endTimeFormatted": "00:01:37.880",
+        "speaker": "Eric",
         "body": "make conversation. He's like,"
     },
     {
-        "speaker": "Eric",
         "startTime": 97.91,
+        "startTimeFormatted": "00:01:37.910",
         "endTime": 100.34,
+        "endTimeFormatted": "00:01:40.340",
+        "speaker": "Eric",
         "body": "Oh, come by and give me a little"
     },
     {
-        "speaker": "Eric",
         "startTime": 100.341,
+        "startTimeFormatted": "00:01:40.341",
         "endTime": 102.14,
+        "endTimeFormatted": "00:01:42.140",
+        "speaker": "Eric",
         "body": "spiel on it. And so I came, I"
     },
     {
-        "speaker": "Eric",
         "startTime": 102.141,
+        "startTimeFormatted": "00:01:42.141",
         "endTime": 103.16,
+        "endTimeFormatted": "00:01:43.160",
+        "speaker": "Eric",
         "body": "made an appointment, went and"
     },
     {
-        "speaker": "Eric",
         "startTime": 103.161,
+        "startTimeFormatted": "00:01:43.161",
         "endTime": 105.83,
+        "endTimeFormatted": "00:01:45.830",
+        "speaker": "Eric",
         "body": "gave a spiel a couple of weeks"
     },
     {
-        "speaker": "Eric",
         "startTime": 105.831,
+        "startTimeFormatted": "00:01:45.831",
         "endTime": 107.09,
+        "endTimeFormatted": "00:01:47.090",
+        "speaker": "Eric",
         "body": "later, he shows back up at my"
     },
     {
-        "speaker": "Eric",
         "startTime": 107.091,
+        "startTimeFormatted": "00:01:47.091",
         "endTime": 109.04,
+        "endTimeFormatted": "00:01:49.040",
+        "speaker": "Eric",
         "body": "door and says, you have a team"
     },
     {
-        "speaker": "Eric",
         "startTime": 109.041,
+        "startTimeFormatted": "00:01:49.041",
         "endTime": 111.08,
+        "endTimeFormatted": "00:01:51.080",
+        "speaker": "Eric",
         "body": "of eight and you have 12 weeks."
     },
     {
-        "speaker": "Eric",
         "startTime": 111.53,
+        "startTimeFormatted": "00:01:51.530",
         "endTime": 112.76,
+        "endTimeFormatted": "00:01:52.760",
+        "speaker": "Eric",
         "body": "And at the end of that 12 weeks,"
     },
     {
-        "speaker": "Eric",
         "startTime": 112.761,
+        "startTimeFormatted": "00:01:52.761",
         "endTime": 113.63,
+        "endTimeFormatted": "00:01:53.630",
+        "speaker": "Eric",
         "body": "we want there to be NPR"
     },
     {
-        "speaker": "Eric",
         "startTime": 113.631,
+        "startTimeFormatted": "00:01:53.631",
         "endTime": 116.18,
+        "endTimeFormatted": "00:01:56.180",
+        "speaker": "Eric",
         "body": "podcasts. I'm like, okay. And we"
     },
     {
-        "speaker": "Eric",
         "startTime": 116.37,
+        "startTimeFormatted": "00:01:56.370",
         "endTime": 117.26,
+        "endTimeFormatted": "00:01:57.260",
+        "speaker": "Eric",
         "body": "actually delivered it a month."
     },
     {
-        "speaker": "Eric",
         "startTime": 117.29,
+        "startTimeFormatted": "00:01:57.290",
         "endTime": 117.77,
+        "endTimeFormatted": "00:01:57.770",
+        "speaker": "Eric",
         "body": "We got an extra"
     }
 ]

@@ -1,0 +1,2881 @@
+{
+    "segments": [
+        {
+            "startTime": 0.3,
+            "startTimeFormatted": "00:00:00.300",
+            "endTime": 2.16,
+            "endTimeFormatted": "00:00:02.160",
+            "speaker": "Travis",
+            "body": "Hey, Travis Albritain here. Uh,"
+        },
+        {
+            "startTime": 2.19,
+            "startTimeFormatted": "00:00:02.190",
+            "endTime": 4.14,
+            "endTimeFormatted": "00:00:04.140",
+            "body": "so I hope the, these episodes"
+        },
+        {
+            "startTime": 4.141,
+            "startTimeFormatted": "00:00:04.141",
+            "endTime": 5.22,
+            "endTimeFormatted": "00:00:05.220",
+            "body": "have been super helpful for you"
+        },
+        {
+            "startTime": 5.52,
+            "startTimeFormatted": "00:00:05.520",
+            "endTime": 6.75,
+            "endTimeFormatted": "00:00:06.750",
+            "body": "getting your show off the ground"
+        },
+        {
+            "startTime": 6.751,
+            "startTimeFormatted": "00:00:06.751",
+            "endTime": 7.89,
+            "endTimeFormatted": "00:00:07.890",
+            "body": "and having the confidence that"
+        },
+        {
+            "startTime": 7.891,
+            "startTimeFormatted": "00:00:07.891",
+            "endTime": 9.72,
+            "endTimeFormatted": "00:00:09.720",
+            "body": "you need to really launch a"
+        },
+        {
+            "startTime": 9.721,
+            "startTimeFormatted": "00:00:09.721",
+            "endTime": 10.86,
+            "endTimeFormatted": "00:00:10.860",
+            "body": "podcast, which is such an"
+        },
+        {
+            "startTime": 10.861,
+            "startTimeFormatted": "00:00:10.861",
+            "endTime": 12.48,
+            "endTimeFormatted": "00:00:12.480",
+            "body": "incredible thing. Now, I"
+        },
+        {
+            "startTime": 12.481,
+            "startTimeFormatted": "00:00:12.481",
+            "endTime": 14.64,
+            "endTimeFormatted": "00:00:14.640",
+            "body": "recently had the opportunity to"
+        },
+        {
+            "startTime": 14.91,
+            "startTimeFormatted": "00:00:14.910",
+            "endTime": 16.2,
+            "endTimeFormatted": "00:00:16.200",
+            "body": "sit down for a conversation with"
+        },
+        {
+            "startTime": 16.23,
+            "startTimeFormatted": "00:00:16.230",
+            "endTime": 18.12,
+            "endTimeFormatted": "00:00:18.120",
+            "body": "Eric Nuzum, who is been an"
+        },
+        {
+            "startTime": 18.121,
+            "startTimeFormatted": "00:00:18.121",
+            "endTime": 19.29,
+            "endTimeFormatted": "00:00:19.290",
+            "body": "executive producer on some of"
+        },
+        {
+            "startTime": 19.291,
+            "startTimeFormatted": "00:00:19.291",
+            "endTime": 21.24,
+            "endTimeFormatted": "00:00:21.240",
+            "body": "the biggest podcasts in the"
+        },
+        {
+            "startTime": 21.241,
+            "startTimeFormatted": "00:00:21.241",
+            "endTime": 23.25,
+            "endTimeFormatted": "00:00:23.250",
+            "body": "world, many of NPRs podcast,"
+        },
+        {
+            "startTime": 23.31,
+            "startTimeFormatted": "00:00:23.310",
+            "endTime": 26.31,
+            "endTimeFormatted": "00:00:26.310",
+            "body": "Ted's podcasts, um, and just"
+        },
+        {
+            "startTime": 26.311,
+            "startTimeFormatted": "00:00:26.311",
+            "endTime": 28.44,
+            "endTimeFormatted": "00:00:28.440",
+            "body": "brings a lot of insight and"
+        },
+        {
+            "startTime": 28.47,
+            "startTimeFormatted": "00:00:28.470",
+            "endTime": 30.9,
+            "endTimeFormatted": "00:00:30.900",
+            "body": "depth of wisdom to podcasting."
+        },
+        {
+            "startTime": 30.901,
+            "startTimeFormatted": "00:00:30.901",
+            "endTime": 31.8,
+            "endTimeFormatted": "00:00:31.800",
+            "body": "And so I wanted to share this"
+        },
+        {
+            "startTime": 31.801,
+            "startTimeFormatted": "00:00:31.801",
+            "endTime": 33.35,
+            "endTimeFormatted": "00:00:33.350",
+            "body": "with you as kind of like a"
+        },
+        {
+            "startTime": 34.08,
+            "startTimeFormatted": "00:00:34.080",
+            "endTime": 36.6,
+            "endTimeFormatted": "00:00:36.600",
+            "body": "podcasting 201. This interview"
+        },
+        {
+            "startTime": 36.84,
+            "startTimeFormatted": "00:00:36.840",
+            "endTime": 38.49,
+            "endTimeFormatted": "00:00:38.490",
+            "body": "is what to do once you have your"
+        },
+        {
+            "startTime": 38.491,
+            "startTimeFormatted": "00:00:38.491",
+            "endTime": 40.11,
+            "endTimeFormatted": "00:00:40.110",
+            "body": "show going and you really want"
+        },
+        {
+            "startTime": 40.111,
+            "startTimeFormatted": "00:00:40.111",
+            "endTime": 41.28,
+            "endTimeFormatted": "00:00:41.280",
+            "body": "to see what's the next step."
+        },
+        {
+            "startTime": 41.31,
+            "startTimeFormatted": "00:00:41.310",
+            "endTime": 43.14,
+            "endTimeFormatted": "00:00:43.140",
+            "body": "What's the next level that I can"
+        },
+        {
+            "startTime": 43.141,
+            "startTimeFormatted": "00:00:43.141",
+            "endTime": 46.32,
+            "endTimeFormatted": "00:00:46.320",
+            "body": "get to with my podcast. Uh, he"
+        },
+        {
+            "startTime": 46.321,
+            "startTimeFormatted": "00:00:46.321",
+            "endTime": 48.27,
+            "endTimeFormatted": "00:00:48.270",
+            "body": "just wrote a brand new book on"
+        },
+        {
+            "startTime": 48.271,
+            "startTimeFormatted": "00:00:48.271",
+            "endTime": 50.28,
+            "endTimeFormatted": "00:00:50.280",
+            "body": "podcasting called Make Noise. I"
+        },
+        {
+            "startTime": 50.281,
+            "startTimeFormatted": "00:00:50.281",
+            "endTime": 51.69,
+            "endTimeFormatted": "00:00:51.690",
+            "body": "will leave a link to the book in"
+        },
+        {
+            "startTime": 51.691,
+            "startTimeFormatted": "00:00:51.691",
+            "endTime": 52.95,
+            "endTimeFormatted": "00:00:52.950",
+            "body": "the episode description. It's a"
+        },
+        {
+            "startTime": 52.951,
+            "startTimeFormatted": "00:00:52.951",
+            "endTime": 54.63,
+            "endTimeFormatted": "00:00:54.630",
+            "body": "fantastic book. So I hope that"
+        },
+        {
+            "startTime": 54.631,
+            "startTimeFormatted": "00:00:54.631",
+            "endTime": 56.4,
+            "endTimeFormatted": "00:00:56.400",
+            "body": "this conversation is helpful for"
+        },
+        {
+            "startTime": 56.401,
+            "startTimeFormatted": "00:00:56.401",
+            "endTime": 57.96,
+            "endTimeFormatted": "00:00:57.960",
+            "body": "you and that you get a lot out"
+        },
+        {
+            "startTime": 57.961,
+            "startTimeFormatted": "00:00:57.961",
+            "endTime": 59.58,
+            "endTimeFormatted": "00:00:59.580",
+            "body": "of it. And without further ado,"
+        },
+        {
+            "startTime": 59.64,
+            "startTimeFormatted": "00:00:59.640",
+            "endTime": 61.29,
+            "endTimeFormatted": "00:01:01.290",
+            "body": "here's my conversation with Eric"
+        },
+        {
+            "startTime": 61.291,
+            "startTimeFormatted": "00:01:01.291",
+            "endTime": 61.62,
+            "endTimeFormatted": "00:01:01.620",
+            "body": "Nuzum."
+        },
+        {
+            "startTime": 65.52,
+            "startTimeFormatted": "00:01:05.520",
+            "endTime": 67.73,
+            "endTimeFormatted": "00:01:07.730",
+            "speaker": "Eric",
+            "body": "So my name is Eric Nuzum and,"
+        },
+        {
+            "startTime": 68.09,
+            "startTimeFormatted": "00:01:08.090",
+            "endTime": 70.73,
+            "endTimeFormatted": "00:01:10.730",
+            "body": "uh, I, um, spent most of the"
+        },
+        {
+            "startTime": 70.731,
+            "startTimeFormatted": "00:01:10.731",
+            "endTime": 71.69,
+            "endTimeFormatted": "00:01:11.690",
+            "body": "early part of my career in"
+        },
+        {
+            "startTime": 71.691,
+            "startTimeFormatted": "00:01:11.691",
+            "endTime": 73.43,
+            "endTimeFormatted": "00:01:13.430",
+            "body": "broadcast and eventually worked"
+        },
+        {
+            "startTime": 73.431,
+            "startTimeFormatted": "00:01:13.431",
+            "endTime": 75.68,
+            "endTimeFormatted": "00:01:15.680",
+            "body": "my way up to working at NPR. And"
+        },
+        {
+            "startTime": 75.681,
+            "startTimeFormatted": "00:01:15.681",
+            "endTime": 77.57,
+            "endTimeFormatted": "00:01:17.570",
+            "body": "I started there in 2004 and"
+        },
+        {
+            "startTime": 77.99,
+            "startTimeFormatted": "00:01:17.990",
+            "endTime": 78.95,
+            "endTimeFormatted": "00:01:18.950",
+            "body": "listening less than a year"
+        },
+        {
+            "startTime": 78.951,
+            "startTimeFormatted": "00:01:18.951",
+            "endTime": 82.13,
+            "endTimeFormatted": "00:01:22.130",
+            "body": "later, I was in the, um, the"
+        },
+        {
+            "startTime": 82.131,
+            "startTimeFormatted": "00:01:22.131",
+            "endTime": 83.75,
+            "endTimeFormatted": "00:01:23.750",
+            "body": "cafeteria line at NPR and the"
+        },
+        {
+            "startTime": 83.751,
+            "startTimeFormatted": "00:01:23.751",
+            "endTime": 85.46,
+            "endTimeFormatted": "00:01:25.460",
+            "body": "guy who was our COO at the time"
+        },
+        {
+            "startTime": 85.85,
+            "startTimeFormatted": "00:01:25.850",
+            "endTime": 87.14,
+            "endTimeFormatted": "00:01:27.140",
+            "body": "was behind me trying to make"
+        },
+        {
+            "startTime": 87.141,
+            "startTimeFormatted": "00:01:27.141",
+            "endTime": 88.85,
+            "endTimeFormatted": "00:01:28.850",
+            "body": "some kind of awkward chit-chat."
+        },
+        {
+            "startTime": 89.45,
+            "startTimeFormatted": "00:01:29.450",
+            "endTime": 90.08,
+            "endTimeFormatted": "00:01:30.080",
+            "body": "He says, well, what's"
+        },
+        {
+            "startTime": 90.081,
+            "startTimeFormatted": "00:01:30.081",
+            "endTime": 90.98,
+            "endTimeFormatted": "00:01:30.980",
+            "body": "interesting that you've seen"
+        },
+        {
+            "startTime": 90.981,
+            "startTimeFormatted": "00:01:30.981",
+            "endTime": 91.88,
+            "endTimeFormatted": "00:01:31.880",
+            "body": "lately. And I said, well,"
+        },
+        {
+            "startTime": 91.881,
+            "startTimeFormatted": "00:01:31.881",
+            "endTime": 93.32,
+            "endTimeFormatted": "00:01:33.320",
+            "body": "there's this podcasting thing."
+        },
+        {
+            "startTime": 93.321,
+            "startTimeFormatted": "00:01:33.321",
+            "endTime": 94.64,
+            "endTimeFormatted": "00:01:34.640",
+            "body": "And I started explaining to him"
+        },
+        {
+            "startTime": 94.641,
+            "startTimeFormatted": "00:01:34.641",
+            "endTime": 95.9,
+            "endTimeFormatted": "00:01:35.900",
+            "body": "in the lunch line, just gotta"
+        },
+        {
+            "startTime": 95.901,
+            "startTimeFormatted": "00:01:35.901",
+            "endTime": 97.88,
+            "endTimeFormatted": "00:01:37.880",
+            "body": "make conversation. He's like,"
+        },
+        {
+            "startTime": 97.91,
+            "startTimeFormatted": "00:01:37.910",
+            "endTime": 100.34,
+            "endTimeFormatted": "00:01:40.340",
+            "body": "Oh, come by and give me a little"
+        },
+        {
+            "startTime": 100.341,
+            "startTimeFormatted": "00:01:40.341",
+            "endTime": 102.14,
+            "endTimeFormatted": "00:01:42.140",
+            "body": "spiel on it. And so I came, I"
+        },
+        {
+            "startTime": 102.141,
+            "startTimeFormatted": "00:01:42.141",
+            "endTime": 103.16,
+            "endTimeFormatted": "00:01:43.160",
+            "body": "made an appointment, went and"
+        },
+        {
+            "startTime": 103.161,
+            "startTimeFormatted": "00:01:43.161",
+            "endTime": 105.83,
+            "endTimeFormatted": "00:01:45.830",
+            "body": "gave a spiel a couple of weeks"
+        },
+        {
+            "startTime": 105.831,
+            "startTimeFormatted": "00:01:45.831",
+            "endTime": 107.09,
+            "endTimeFormatted": "00:01:47.090",
+            "body": "later, he shows back up at my"
+        },
+        {
+            "startTime": 107.091,
+            "startTimeFormatted": "00:01:47.091",
+            "endTime": 109.04,
+            "endTimeFormatted": "00:01:49.040",
+            "body": "door and says, you have a team"
+        },
+        {
+            "startTime": 109.041,
+            "startTimeFormatted": "00:01:49.041",
+            "endTime": 111.08,
+            "endTimeFormatted": "00:01:51.080",
+            "body": "of eight and you have 12 weeks."
+        },
+        {
+            "startTime": 111.53,
+            "startTimeFormatted": "00:01:51.530",
+            "endTime": 112.76,
+            "endTimeFormatted": "00:01:52.760",
+            "body": "And at the end of that 12 weeks,"
+        },
+        {
+            "startTime": 112.761,
+            "startTimeFormatted": "00:01:52.761",
+            "endTime": 113.63,
+            "endTimeFormatted": "00:01:53.630",
+            "body": "we want there to be NPR"
+        },
+        {
+            "startTime": 113.631,
+            "startTimeFormatted": "00:01:53.631",
+            "endTime": 116.18,
+            "endTimeFormatted": "00:01:56.180",
+            "body": "podcasts. I'm like, okay. And we"
+        },
+        {
+            "startTime": 116.37,
+            "startTimeFormatted": "00:01:56.370",
+            "endTime": 117.26,
+            "endTimeFormatted": "00:01:57.260",
+            "body": "actually delivered it a month."
+        },
+        {
+            "startTime": 117.29,
+            "startTimeFormatted": "00:01:57.290",
+            "endTime": 119,
+            "endTimeFormatted": "00:01:59.000",
+            "body": "We got an extra month. Uh, we"
+        },
+        {
+            "startTime": 119.001,
+            "startTimeFormatted": "00:01:59.001",
+            "endTime": 120.2,
+            "endTimeFormatted": "00:02:00.200",
+            "body": "delivered it. It was 32"
+        },
+        {
+            "startTime": 120.201,
+            "startTimeFormatted": "00:02:00.201",
+            "endTime": 122.06,
+            "endTimeFormatted": "00:02:02.060",
+            "body": "podcasts. And then for the"
+        },
+        {
+            "startTime": 122.061,
+            "startTimeFormatted": "00:02:02.061",
+            "endTime": 123.2,
+            "endTimeFormatted": "00:02:03.200",
+            "body": "following decade, I kind of"
+        },
+        {
+            "startTime": 123.201,
+            "startTimeFormatted": "00:02:03.201",
+            "endTime": 124.7,
+            "endTimeFormatted": "00:02:04.700",
+            "body": "remained kind of the editorial"
+        },
+        {
+            "startTime": 124.701,
+            "startTimeFormatted": "00:02:04.701",
+            "endTime": 126.62,
+            "endTimeFormatted": "00:02:06.620",
+            "body": "lead on NPR podcasts, both"
+        },
+        {
+            "startTime": 127.07,
+            "startTimeFormatted": "00:02:07.070",
+            "endTime": 128.33,
+            "endTimeFormatted": "00:02:08.330",
+            "body": "figuring out how to take in pair"
+        },
+        {
+            "startTime": 128.331,
+            "startTimeFormatted": "00:02:08.331",
+            "endTime": 129.62,
+            "endTimeFormatted": "00:02:09.620",
+            "body": "programming and have it thrive"
+        },
+        {
+            "startTime": 129.621,
+            "startTimeFormatted": "00:02:09.621",
+            "endTime": 130.94,
+            "endTimeFormatted": "00:02:10.940",
+            "body": "in the podcast world, sound"
+        },
+        {
+            "startTime": 131.21,
+            "startTimeFormatted": "00:02:11.210",
+            "endTime": 133.79,
+            "endTimeFormatted": "00:02:13.790",
+            "body": "authentic there and also making"
+        },
+        {
+            "startTime": 133.791,
+            "startTimeFormatted": "00:02:13.791",
+            "endTime": 134.96,
+            "endTimeFormatted": "00:02:14.960",
+            "body": "new things that were intended"
+        },
+        {
+            "startTime": 135.2,
+            "startTimeFormatted": "00:02:15.200",
+            "endTime": 136.55,
+            "endTimeFormatted": "00:02:16.550",
+            "body": "originally to be in that space"
+        },
+        {
+            "startTime": 136.97,
+            "startTimeFormatted": "00:02:16.970",
+            "endTime": 139,
+            "endTimeFormatted": "00:02:19.000",
+            "body": "and did that for a decade. And"
+        },
+        {
+            "startTime": 139.001,
+            "startTimeFormatted": "00:02:19.001",
+            "endTime": 140.75,
+            "endTimeFormatted": "00:02:20.750",
+            "body": "then a couple of years ago,"
+        },
+        {
+            "startTime": 140.78,
+            "startTimeFormatted": "00:02:20.780",
+            "endTime": 141.8,
+            "endTimeFormatted": "00:02:21.800",
+            "body": "probably four and a half years"
+        },
+        {
+            "startTime": 141.801,
+            "startTimeFormatted": "00:02:21.801",
+            "endTime": 143.57,
+            "endTimeFormatted": "00:02:23.570",
+            "body": "or so ago, I left NPR and went"
+        },
+        {
+            "startTime": 143.571,
+            "startTimeFormatted": "00:02:23.571",
+            "endTime": 144.83,
+            "endTimeFormatted": "00:02:24.830",
+            "body": "to Ottawa, which is part of the"
+        },
+        {
+            "startTime": 144.831,
+            "startTimeFormatted": "00:02:24.831",
+            "endTime": 147.68,
+            "endTimeFormatted": "00:02:27.680",
+            "body": "Amazon. Uh, you, you extended"
+        },
+        {
+            "startTime": 147.681,
+            "startTimeFormatted": "00:02:27.681",
+            "endTime": 150.38,
+            "endTimeFormatted": "00:02:30.380",
+            "body": "universe and, um, uh, created"
+        },
+        {
+            "startTime": 150.381,
+            "startTimeFormatted": "00:02:30.381",
+            "endTime": 151.67,
+            "endTimeFormatted": "00:02:31.670",
+            "body": "original the original content"
+        },
+        {
+            "startTime": 151.671,
+            "startTimeFormatted": "00:02:31.671",
+            "endTime": 154.82,
+            "endTimeFormatted": "00:02:34.820",
+            "body": "team there. Uh, and then about a"
+        },
+        {
+            "startTime": 154.821,
+            "startTimeFormatted": "00:02:34.821",
+            "endTime": 156.56,
+            "endTimeFormatted": "00:02:36.560",
+            "body": "year or so ago, uh, one of my"
+        },
+        {
+            "startTime": 156.561,
+            "startTimeFormatted": "00:02:36.561",
+            "endTime": 158.87,
+            "endTimeFormatted": "00:02:38.870",
+            "body": "friends and I left and started"
+        },
+        {
+            "startTime": 158.871,
+            "startTimeFormatted": "00:02:38.871",
+            "endTime": 160.52,
+            "endTimeFormatted": "00:02:40.520",
+            "body": "magnificent noise, which is a,"
+        },
+        {
+            "startTime": 160.79,
+            "startTimeFormatted": "00:02:40.790",
+            "endTime": 163.04,
+            "endTimeFormatted": "00:02:43.040",
+            "body": "uh, um, which is a podcast"
+        },
+        {
+            "startTime": 163.041,
+            "startTimeFormatted": "00:02:43.041",
+            "endTime": 164.06,
+            "endTimeFormatted": "00:02:44.060",
+            "body": "production and consultation"
+        },
+        {
+            "startTime": 164.061,
+            "startTimeFormatted": "00:02:44.061",
+            "endTime": 165.47,
+            "endTimeFormatted": "00:02:45.470",
+            "body": "company, uh, based in New York."
+        },
+        {
+            "startTime": 166.07,
+            "startTimeFormatted": "00:02:46.070",
+            "endTime": 166.07,
+            "endTimeFormatted": "00:02:46.070",
+            "body": "And,"
+        },
+        {
+            "startTime": 166.25,
+            "startTimeFormatted": "00:02:46.250",
+            "endTime": 167.81,
+            "endTimeFormatted": "00:02:47.810",
+            "speaker": "Travis",
+            "body": "And so now you have, uh, your"
+        },
+        {
+            "startTime": 167.811,
+            "startTimeFormatted": "00:02:47.811",
+            "endTime": 170.51,
+            "endTimeFormatted": "00:02:50.510",
+            "body": "first podcast related book, um,"
+        },
+        {
+            "startTime": 170.53,
+            "startTimeFormatted": "00:02:50.530",
+            "endTime": 172.88,
+            "endTimeFormatted": "00:02:52.880",
+            "body": "make noise. Yeah. And I love as"
+        },
+        {
+            "startTime": 172.881,
+            "startTimeFormatted": "00:02:52.881",
+            "endTime": 174.56,
+            "endTimeFormatted": "00:02:54.560",
+            "body": "I was going through and reading"
+        },
+        {
+            "startTime": 174.561,
+            "startTimeFormatted": "00:02:54.561",
+            "endTime": 176.63,
+            "endTimeFormatted": "00:02:56.630",
+            "body": "it. And, and specifically one of"
+        },
+        {
+            "startTime": 176.631,
+            "startTimeFormatted": "00:02:56.631",
+            "endTime": 178.25,
+            "endTimeFormatted": "00:02:58.250",
+            "body": "the things that you harp on, uh,"
+        },
+        {
+            "startTime": 178.251,
+            "startTimeFormatted": "00:02:58.251",
+            "endTime": 179.38,
+            "endTimeFormatted": "00:02:59.380",
+            "body": "which we'll dive into about the"
+        },
+        {
+            "startTime": 179.381,
+            "startTimeFormatted": "00:02:59.381",
+            "endTime": 181.24,
+            "endTimeFormatted": "00:03:01.240",
+            "body": "10 word description, I was like,"
+        },
+        {
+            "startTime": 181.241,
+            "startTimeFormatted": "00:03:01.241",
+            "endTime": 182.29,
+            "endTimeFormatted": "00:03:02.290",
+            "body": "let me go back to the front"
+        },
+        {
+            "startTime": 182.291,
+            "startTimeFormatted": "00:03:02.291",
+            "endTime": 184.63,
+            "endTimeFormatted": "00:03:04.630",
+            "body": "cover and see if he followed his"
+        },
+        {
+            "startTime": 184.631,
+            "startTimeFormatted": "00:03:04.631",
+            "endTime": 186.82,
+            "endTimeFormatted": "00:03:06.820",
+            "body": "own rules. He did even got an"
+        },
+        {
+            "startTime": 186.821,
+            "startTimeFormatted": "00:03:06.821",
+            "endTime": 188.53,
+            "endTimeFormatted": "00:03:08.530",
+            "body": "extra word, despair, a creative"
+        },
+        {
+            "startTime": 188.59,
+            "startTimeFormatted": "00:03:08.590",
+            "endTime": 189.79,
+            "endTimeFormatted": "00:03:09.790",
+            "body": "guide to podcasting and great"
+        },
+        {
+            "startTime": 189.791,
+            "startTimeFormatted": "00:03:09.791",
+            "endTime": 192.13,
+            "endTimeFormatted": "00:03:12.130",
+            "body": "audio storytelling. Um, so why"
+        },
+        {
+            "startTime": 192.131,
+            "startTimeFormatted": "00:03:12.131",
+            "endTime": 194.74,
+            "endTimeFormatted": "00:03:14.740",
+            "body": "did you feel like now was the"
+        },
+        {
+            "startTime": 194.741,
+            "startTimeFormatted": "00:03:14.741",
+            "endTime": 197.08,
+            "endTimeFormatted": "00:03:17.080",
+            "body": "time to publish this book that"
+        },
+        {
+            "startTime": 197.35,
+            "startTimeFormatted": "00:03:17.350",
+            "endTime": 198.55,
+            "endTimeFormatted": "00:03:18.550",
+            "body": "you've been in podcasting"
+        },
+        {
+            "startTime": 198.551,
+            "startTimeFormatted": "00:03:18.551",
+            "endTime": 200.56,
+            "endTimeFormatted": "00:03:20.560",
+            "body": "basically since the beginning"
+        },
+        {
+            "startTime": 200.77,
+            "startTimeFormatted": "00:03:20.770",
+            "endTime": 201.91,
+            "endTimeFormatted": "00:03:21.910",
+            "body": "longer than just about anyone"
+        },
+        {
+            "startTime": 201.911,
+            "startTimeFormatted": "00:03:21.911",
+            "endTime": 203.74,
+            "endTimeFormatted": "00:03:23.740",
+            "body": "listening to this episode? Uh,"
+        },
+        {
+            "startTime": 203.8,
+            "startTimeFormatted": "00:03:23.800",
+            "endTime": 205,
+            "endTimeFormatted": "00:03:25.000",
+            "body": "so why did you feel like now is"
+        },
+        {
+            "startTime": 205.001,
+            "startTimeFormatted": "00:03:25.001",
+            "endTime": 207.37,
+            "endTimeFormatted": "00:03:27.370",
+            "body": "a really good time to, to bring"
+        },
+        {
+            "startTime": 207.371,
+            "startTimeFormatted": "00:03:27.371",
+            "endTime": 208.63,
+            "endTimeFormatted": "00:03:28.630",
+            "body": "this book out into the world and"
+        },
+        {
+            "startTime": 208.631,
+            "startTimeFormatted": "00:03:28.631",
+            "endTime": 209.74,
+            "endTimeFormatted": "00:03:29.740",
+            "body": "step into, uh, promote it?"
+        },
+        {
+            "startTime": 210.63,
+            "startTimeFormatted": "00:03:30.630",
+            "endTime": 211.86,
+            "endTimeFormatted": "00:03:31.860",
+            "speaker": "Eric",
+            "body": "That's a really good question"
+        },
+        {
+            "startTime": 211.89,
+            "startTimeFormatted": "00:03:31.890",
+            "endTime": 213.21,
+            "endTimeFormatted": "00:03:33.210",
+            "body": "because I think there's two"
+        },
+        {
+            "startTime": 213.211,
+            "startTimeFormatted": "00:03:33.211",
+            "endTime": 214.89,
+            "endTimeFormatted": "00:03:34.890",
+            "body": "factors. One, I think we are now"
+        },
+        {
+            "startTime": 214.891,
+            "startTimeFormatted": "00:03:34.891",
+            "endTime": 216.48,
+            "endTimeFormatted": "00:03:36.480",
+            "body": "at the point where there's such"
+        },
+        {
+            "startTime": 216.51,
+            "startTimeFormatted": "00:03:36.510",
+            "endTime": 217.89,
+            "endTimeFormatted": "00:03:37.890",
+            "body": "a groundswell of interest in"
+        },
+        {
+            "startTime": 217.891,
+            "startTimeFormatted": "00:03:37.891",
+            "endTime": 220.02,
+            "endTimeFormatted": "00:03:40.020",
+            "body": "podcasting that, that having a"
+        },
+        {
+            "startTime": 220.021,
+            "startTimeFormatted": "00:03:40.021",
+            "endTime": 222.24,
+            "endTimeFormatted": "00:03:42.240",
+            "body": "book about podcast creation,"
+        },
+        {
+            "startTime": 222.241,
+            "startTimeFormatted": "00:03:42.241",
+            "endTime": 223.92,
+            "endTimeFormatted": "00:03:43.920",
+            "body": "that isn't like tips for"
+        },
+        {
+            "startTime": 223.921,
+            "startTimeFormatted": "00:03:43.921",
+            "endTime": 225.51,
+            "endTimeFormatted": "00:03:45.510",
+            "body": "equipment to buy or how to make"
+        },
+        {
+            "startTime": 225.511,
+            "startTimeFormatted": "00:03:45.511",
+            "endTime": 226.44,
+            "endTimeFormatted": "00:03:46.440",
+            "body": "money at it, but it's really"
+        },
+        {
+            "startTime": 226.441,
+            "startTimeFormatted": "00:03:46.441",
+            "endTime": 228,
+            "endTimeFormatted": "00:03:48.000",
+            "body": "focused on how to do something."
+        },
+        {
+            "startTime": 228.001,
+            "startTimeFormatted": "00:03:48.001",
+            "endTime": 230.28,
+            "endTimeFormatted": "00:03:50.280",
+            "body": "Well, that's a commercially"
+        },
+        {
+            "startTime": 230.281,
+            "startTimeFormatted": "00:03:50.281",
+            "endTime": 232.2,
+            "endTimeFormatted": "00:03:52.200",
+            "body": "viable product now. And I don't"
+        },
+        {
+            "startTime": 232.201,
+            "startTimeFormatted": "00:03:52.201",
+            "endTime": 233.19,
+            "endTimeFormatted": "00:03:53.190",
+            "body": "think even a couple of years"
+        },
+        {
+            "startTime": 233.191,
+            "startTimeFormatted": "00:03:53.191",
+            "endTime": 234.96,
+            "endTimeFormatted": "00:03:54.960",
+            "body": "ago, it was when I had been"
+        },
+        {
+            "startTime": 234.961,
+            "startTimeFormatted": "00:03:54.961",
+            "endTime": 235.92,
+            "endTimeFormatted": "00:03:55.920",
+            "body": "approached a couple of times"
+        },
+        {
+            "startTime": 235.921,
+            "startTimeFormatted": "00:03:55.921",
+            "endTime": 237.21,
+            "endTimeFormatted": "00:03:57.210",
+            "body": "about doing this over the years."
+        },
+        {
+            "startTime": 237.211,
+            "startTimeFormatted": "00:03:57.211",
+            "endTime": 238.59,
+            "endTimeFormatted": "00:03:58.590",
+            "body": "And I'm like, I just don't think"
+        },
+        {
+            "startTime": 238.68,
+            "startTimeFormatted": "00:03:58.680",
+            "endTime": 239.37,
+            "endTimeFormatted": "00:03:59.370",
+            "body": "it's, I think it's a niche"
+        },
+        {
+            "startTime": 239.371,
+            "startTimeFormatted": "00:03:59.371",
+            "endTime": 240.36,
+            "endTimeFormatted": "00:04:00.360",
+            "body": "product. I don't think it's"
+        },
+        {
+            "startTime": 240.87,
+            "startTimeFormatted": "00:04:00.870",
+            "endTime": 241.71,
+            "endTimeFormatted": "00:04:01.710",
+            "body": "going to be worth my time to"
+        },
+        {
+            "startTime": 241.711,
+            "startTimeFormatted": "00:04:01.711",
+            "endTime": 242.88,
+            "endTimeFormatted": "00:04:02.880",
+            "body": "spend time writing that book."
+        },
+        {
+            "startTime": 243.36,
+            "startTimeFormatted": "00:04:03.360",
+            "endTime": 246.18,
+            "endTimeFormatted": "00:04:06.180",
+            "body": "And, um, the last time I was"
+        },
+        {
+            "startTime": 246.181,
+            "startTimeFormatted": "00:04:06.181",
+            "endTime": 247.95,
+            "endTimeFormatted": "00:04:07.950",
+            "body": "asked about it, I said, yes, and"
+        },
+        {
+            "startTime": 247.951,
+            "startTimeFormatted": "00:04:07.951",
+            "endTime": 249.21,
+            "endTimeFormatted": "00:04:09.210",
+            "body": "was kind of shocked at the"
+        },
+        {
+            "startTime": 249.211,
+            "startTimeFormatted": "00:04:09.211",
+            "endTime": 250.71,
+            "endTimeFormatted": "00:04:10.710",
+            "body": "reaction. And you know, one of"
+        },
+        {
+            "startTime": 250.711,
+            "startTimeFormatted": "00:04:10.711",
+            "endTime": 251.94,
+            "endTimeFormatted": "00:04:11.940",
+            "body": "the great things about seeing"
+        },
+        {
+            "startTime": 251.941,
+            "startTimeFormatted": "00:04:11.941",
+            "endTime": 254.85,
+            "endTimeFormatted": "00:04:14.850",
+            "body": "podcasting evolve is watching at"
+        },
+        {
+            "startTime": 254.851,
+            "startTimeFormatted": "00:04:14.851",
+            "endTime": 258.24,
+            "endTimeFormatted": "00:04:18.240",
+            "body": "points like this, um, that this"
+        },
+        {
+            "startTime": 258.241,
+            "startTimeFormatted": "00:04:18.241",
+            "endTime": 260.88,
+            "endTimeFormatted": "00:04:20.880",
+            "body": "is, you know, a profession and a"
+        },
+        {
+            "startTime": 260.881,
+            "startTimeFormatted": "00:04:20.881",
+            "endTime": 263.49,
+            "endTimeFormatted": "00:04:23.490",
+            "body": "vocation and a hobby, and there"
+        },
+        {
+            "startTime": 263.491,
+            "startTimeFormatted": "00:04:23.491",
+            "endTime": 265.89,
+            "endTimeFormatted": "00:04:25.890",
+            "body": "are tools for it with a book or"
+        },
+        {
+            "startTime": 265.891,
+            "startTimeFormatted": "00:04:25.891",
+            "endTime": 268.11,
+            "endTimeFormatted": "00:04:28.110",
+            "body": "microphones or recording units"
+        },
+        {
+            "startTime": 268.111,
+            "startTimeFormatted": "00:04:28.111",
+            "endTime": 269.91,
+            "endTimeFormatted": "00:04:29.910",
+            "body": "or things that were literally"
+        },
+        {
+            "startTime": 269.911,
+            "startTimeFormatted": "00:04:29.911",
+            "endTime": 271.83,
+            "endTimeFormatted": "00:04:31.830",
+            "body": "unimaginable four or five years"
+        },
+        {
+            "startTime": 271.831,
+            "startTimeFormatted": "00:04:31.831",
+            "endTime": 274.08,
+            "endTimeFormatted": "00:04:34.080",
+            "body": "ago. Now I'm a, I'm a big fan of"
+        },
+        {
+            "startTime": 274.081,
+            "startTimeFormatted": "00:04:34.081",
+            "endTime": 275.61,
+            "endTimeFormatted": "00:04:35.610",
+            "body": "the Roadcaster pro, which is a"
+        },
+        {
+            "startTime": 275.611,
+            "startTimeFormatted": "00:04:35.611",
+            "endTime": 277.08,
+            "endTimeFormatted": "00:04:37.080",
+            "body": "little desktop unit though. I"
+        },
+        {
+            "startTime": 277.081,
+            "startTimeFormatted": "00:04:37.081",
+            "endTime": 279.15,
+            "endTimeFormatted": "00:04:39.150",
+            "body": "advocate a lot of podcasters buy"
+        },
+        {
+            "startTime": 279.151,
+            "startTimeFormatted": "00:04:39.151",
+            "endTime": 281.25,
+            "endTimeFormatted": "00:04:41.250",
+            "body": "because it's$600 containing"
+        },
+        {
+            "startTime": 281.251,
+            "startTimeFormatted": "00:04:41.251",
+            "endTime": 282.54,
+            "endTimeFormatted": "00:04:42.540",
+            "body": "technology that will cost you"
+        },
+        {
+            "startTime": 282.541,
+            "startTimeFormatted": "00:04:42.541",
+            "endTime": 285.57,
+            "endTimeFormatted": "00:04:45.570",
+            "body": "10,$15,000 to duplicate four or"
+        },
+        {
+            "startTime": 285.571,
+            "startTimeFormatted": "00:04:45.571",
+            "endTime": 287.04,
+            "endTimeFormatted": "00:04:47.040",
+            "body": "five years ago. I mean, that to"
+        },
+        {
+            "startTime": 287.041,
+            "startTimeFormatted": "00:04:47.041",
+            "endTime": 288.66,
+            "endTimeFormatted": "00:04:48.660",
+            "body": "me is exciting and amazing. So"
+        },
+        {
+            "startTime": 289.08,
+            "startTimeFormatted": "00:04:49.080",
+            "endTime": 290.07,
+            "endTimeFormatted": "00:04:50.070",
+            "body": "first I think we've kind of"
+        },
+        {
+            "startTime": 290.13,
+            "startTimeFormatted": "00:04:50.130",
+            "endTime": 291.96,
+            "endTimeFormatted": "00:04:51.960",
+            "body": "matured into being an industry"
+        },
+        {
+            "startTime": 291.961,
+            "startTimeFormatted": "00:04:51.961",
+            "endTime": 293.82,
+            "endTimeFormatted": "00:04:53.820",
+            "body": "now that can support that kind"
+        },
+        {
+            "startTime": 293.821,
+            "startTimeFormatted": "00:04:53.821",
+            "endTime": 296.86,
+            "endTimeFormatted": "00:04:56.860",
+            "body": "of thinking and a product like,"
+        },
+        {
+            "startTime": 296.94,
+            "startTimeFormatted": "00:04:56.940",
+            "endTime": 298.68,
+            "endTimeFormatted": "00:04:58.680",
+            "body": "like a book. And the second"
+        },
+        {
+            "startTime": 298.681,
+            "startTimeFormatted": "00:04:58.681",
+            "endTime": 302.25,
+            "endTimeFormatted": "00:05:02.250",
+            "body": "reason is, um, there's so many"
+        },
+        {
+            "startTime": 302.251,
+            "startTimeFormatted": "00:05:02.251",
+            "endTime": 304.95,
+            "endTimeFormatted": "00:05:04.950",
+            "body": "new podcasts and, and the thing"
+        },
+        {
+            "startTime": 304.951,
+            "startTimeFormatted": "00:05:04.951",
+            "endTime": 307.68,
+            "endTimeFormatted": "00:05:07.680",
+            "body": "that surprises me is someone who"
+        },
+        {
+            "startTime": 307.71,
+            "startTimeFormatted": "00:05:07.710",
+            "endTime": 309.54,
+            "endTimeFormatted": "00:05:09.540",
+            "body": "is a consultant for a lot of"
+        },
+        {
+            "startTime": 309.69,
+            "startTimeFormatted": "00:05:09.690",
+            "endTime": 311.78,
+            "endTimeFormatted": "00:05:11.780",
+            "body": "people, individuals and I, I"
+        },
+        {
+            "startTime": 311.79,
+            "startTimeFormatted": "00:05:11.790",
+            "endTime": 312.84,
+            "endTimeFormatted": "00:05:12.840",
+            "body": "work with people who are sitting"
+        },
+        {
+            "startTime": 312.841,
+            "startTimeFormatted": "00:05:12.841",
+            "endTime": 313.62,
+            "endTimeFormatted": "00:05:13.620",
+            "body": "around their kitchen table,"
+        },
+        {
+            "startTime": 313.621,
+            "startTimeFormatted": "00:05:13.621",
+            "endTime": 315.27,
+            "endTimeFormatted": "00:05:15.270",
+            "body": "trying to figure things out up"
+        },
+        {
+            "startTime": 315.271,
+            "startTimeFormatted": "00:05:15.271",
+            "endTime": 316.44,
+            "endTimeFormatted": "00:05:16.440",
+            "body": "to some of the largest media"
+        },
+        {
+            "startTime": 316.441,
+            "startTimeFormatted": "00:05:16.441",
+            "endTime": 318.51,
+            "endTimeFormatted": "00:05:18.510",
+            "body": "companies in the world and the"
+        },
+        {
+            "startTime": 318.511,
+            "startTimeFormatted": "00:05:18.511",
+            "endTime": 320.1,
+            "endTimeFormatted": "00:05:20.100",
+            "body": "conversations they have are"
+        },
+        {
+            "startTime": 320.101,
+            "startTimeFormatted": "00:05:20.101",
+            "endTime": 321.84,
+            "endTimeFormatted": "00:05:21.840",
+            "body": "almost identical, even though"
+        },
+        {
+            "startTime": 321.841,
+            "startTimeFormatted": "00:05:21.841",
+            "endTime": 324.27,
+            "endTimeFormatted": "00:05:24.270",
+            "body": "you have many more dollars, much"
+        },
+        {
+            "startTime": 324.3,
+            "startTimeFormatted": "00:05:24.300",
+            "endTime": 327.42,
+            "endTimeFormatted": "00:05:27.420",
+            "body": "bigger names and, um, uh, you"
+        },
+        {
+            "startTime": 327.421,
+            "startTimeFormatted": "00:05:27.421",
+            "endTime": 329.58,
+            "endTimeFormatted": "00:05:29.580",
+            "body": "know, uh, resources and crazy"
+        },
+        {
+            "startTime": 329.581,
+            "startTimeFormatted": "00:05:29.581",
+            "endTime": 330.99,
+            "endTimeFormatted": "00:05:30.990",
+            "body": "resources compared to people who"
+        },
+        {
+            "startTime": 330.991,
+            "startTimeFormatted": "00:05:30.991",
+            "endTime": 331.8,
+            "endTimeFormatted": "00:05:31.800",
+            "body": "are trying to figure out how to"
+        },
+        {
+            "startTime": 331.801,
+            "startTimeFormatted": "00:05:31.801",
+            "endTime": 333.51,
+            "endTimeFormatted": "00:05:33.510",
+            "body": "do this with their friend, their"
+        },
+        {
+            "startTime": 333.54,
+            "startTimeFormatted": "00:05:33.540",
+            "endTime": 335.04,
+            "endTimeFormatted": "00:05:35.040",
+            "body": "obstacles are often the same"
+        },
+        {
+            "startTime": 335.22,
+            "startTimeFormatted": "00:05:35.220",
+            "endTime": 337.29,
+            "endTimeFormatted": "00:05:37.290",
+            "body": "they're kind of concerns or, or,"
+        },
+        {
+            "startTime": 337.291,
+            "startTimeFormatted": "00:05:37.291",
+            "endTime": 339,
+            "endTimeFormatted": "00:05:39.000",
+            "body": "or, or fears of how to get into"
+        },
+        {
+            "startTime": 339.001,
+            "startTimeFormatted": "00:05:39.001",
+            "endTime": 340.74,
+            "endTimeFormatted": "00:05:40.740",
+            "body": "this. And they get stuck on the"
+        },
+        {
+            "startTime": 340.741,
+            "startTimeFormatted": "00:05:40.741",
+            "endTime": 343.17,
+            "endTimeFormatted": "00:05:43.170",
+            "body": "same things too. And so when I"
+        },
+        {
+            "startTime": 343.171,
+            "startTimeFormatted": "00:05:43.171",
+            "endTime": 345.12,
+            "endTimeFormatted": "00:05:45.120",
+            "body": "started to realize how universal"
+        },
+        {
+            "startTime": 345.66,
+            "startTimeFormatted": "00:05:45.660",
+            "endTime": 347.4,
+            "endTimeFormatted": "00:05:47.400",
+            "body": "a lot of the problems are that"
+        },
+        {
+            "startTime": 347.43,
+            "startTimeFormatted": "00:05:47.430",
+            "endTime": 348.81,
+            "endTimeFormatted": "00:05:48.810",
+            "body": "prevent people from being able"
+        },
+        {
+            "startTime": 348.811,
+            "startTimeFormatted": "00:05:48.811",
+            "endTime": 350.01,
+            "endTimeFormatted": "00:05:50.010",
+            "body": "to achieve what they want to do."
+        },
+        {
+            "startTime": 350.82,
+            "startTimeFormatted": "00:05:50.820",
+            "endTime": 351.99,
+            "endTimeFormatted": "00:05:51.990",
+            "body": "Um, I like there's, there's"
+        },
+        {
+            "startTime": 352.05,
+            "startTimeFormatted": "00:05:52.050",
+            "endTime": 353.22,
+            "endTimeFormatted": "00:05:53.220",
+            "body": "solutions to that. I've"
+        },
+        {
+            "startTime": 353.221,
+            "startTimeFormatted": "00:05:53.221",
+            "endTime": 354.15,
+            "endTimeFormatted": "00:05:54.150",
+            "body": "struggled through this a lot"
+        },
+        {
+            "startTime": 354.151,
+            "startTimeFormatted": "00:05:54.151",
+            "endTime": 357.29,
+            "endTimeFormatted": "00:05:57.290",
+            "body": "myself. So I just, and I was"
+        },
+        {
+            "startTime": 357.291,
+            "startTimeFormatted": "00:05:57.291",
+            "endTime": 358.4,
+            "endTimeFormatted": "00:05:58.400",
+            "body": "also worried when, when I was"
+        },
+        {
+            "startTime": 358.401,
+            "startTimeFormatted": "00:05:58.401",
+            "endTime": 359.93,
+            "endTimeFormatted": "00:05:59.930",
+            "body": "first asked about this book that"
+        },
+        {
+            "startTime": 359.931,
+            "startTimeFormatted": "00:05:59.931",
+            "endTime": 361.31,
+            "endTimeFormatted": "00:06:01.310",
+            "body": "I could write about a chapter"
+        },
+        {
+            "startTime": 361.45,
+            "startTimeFormatted": "00:06:01.450",
+            "endTime": 362.27,
+            "endTimeFormatted": "00:06:02.270",
+            "body": "and about that would be about"
+        },
+        {
+            "startTime": 362.271,
+            "startTimeFormatted": "00:06:02.271",
+            "endTime": 365.33,
+            "endTimeFormatted": "00:06:05.330",
+            "body": "it. And so I had a couple of"
+        },
+        {
+            "startTime": 365.331,
+            "startTimeFormatted": "00:06:05.331",
+            "endTime": 366.62,
+            "endTimeFormatted": "00:06:06.620",
+            "body": "days off, for some reason, I sat"
+        },
+        {
+            "startTime": 366.621,
+            "startTimeFormatted": "00:06:06.621",
+            "endTime": 367.25,
+            "endTimeFormatted": "00:06:07.250",
+            "body": "down and said, okay, I'm just"
+        },
+        {
+            "startTime": 367.251,
+            "startTimeFormatted": "00:06:07.251",
+            "endTime": 368.87,
+            "endTimeFormatted": "00:06:08.870",
+            "body": "going to try. I didn't even say"
+        },
+        {
+            "startTime": 368.871,
+            "startTimeFormatted": "00:06:08.871",
+            "endTime": 369.68,
+            "endTimeFormatted": "00:06:09.680",
+            "body": "yes to write in the book. I'm"
+        },
+        {
+            "startTime": 369.681,
+            "startTimeFormatted": "00:06:09.681",
+            "endTime": 370.52,
+            "endTimeFormatted": "00:06:10.520",
+            "body": "just going to try to write a"
+        },
+        {
+            "startTime": 370.521,
+            "startTimeFormatted": "00:06:10.521",
+            "endTime": 372.38,
+            "endTimeFormatted": "00:06:12.380",
+            "body": "chapter. And I sat down on a"
+        },
+        {
+            "startTime": 372.381,
+            "startTimeFormatted": "00:06:12.381",
+            "endTime": 373.64,
+            "endTimeFormatted": "00:06:13.640",
+            "body": "thought about what frustrates"
+        },
+        {
+            "startTime": 373.641,
+            "startTimeFormatted": "00:06:13.641",
+            "endTime": 376.13,
+            "endTimeFormatted": "00:06:16.130",
+            "body": "people and I just started. And"
+        },
+        {
+            "startTime": 376.131,
+            "startTimeFormatted": "00:06:16.131",
+            "endTime": 377.63,
+            "endTimeFormatted": "00:06:17.630",
+            "body": "it became very clear to me that"
+        },
+        {
+            "startTime": 377.99,
+            "startTimeFormatted": "00:06:17.990",
+            "endTime": 379.16,
+            "endTimeFormatted": "00:06:19.160",
+            "body": "there was something to be said"
+        },
+        {
+            "startTime": 379.161,
+            "startTimeFormatted": "00:06:19.161",
+            "endTime": 381.02,
+            "endTimeFormatted": "00:06:21.020",
+            "body": "to an increasingly growing"
+        },
+        {
+            "startTime": 381.021,
+            "startTimeFormatted": "00:06:21.021",
+            "endTime": 381.86,
+            "endTimeFormatted": "00:06:21.860",
+            "body": "community of people."
+        },
+        {
+            "startTime": 382.57,
+            "startTimeFormatted": "00:06:22.570",
+            "endTime": 383.68,
+            "endTimeFormatted": "00:06:23.680",
+            "speaker": "Travis",
+            "body": "Well, and what I appreciate"
+        },
+        {
+            "startTime": 383.681,
+            "startTimeFormatted": "00:06:23.681",
+            "endTime": 385.69,
+            "endTimeFormatted": "00:06:25.690",
+            "body": "about the angle that you took"
+        },
+        {
+            "startTime": 385.691,
+            "startTimeFormatted": "00:06:25.691",
+            "endTime": 388.48,
+            "endTimeFormatted": "00:06:28.480",
+            "body": "with the book is that it's not,"
+        },
+        {
+            "startTime": 388.9,
+            "startTimeFormatted": "00:06:28.900",
+            "endTime": 390.88,
+            "endTimeFormatted": "00:06:30.880",
+            "body": "it isn't, it, isn't a book for"
+        },
+        {
+            "startTime": 390.881,
+            "startTimeFormatted": "00:06:30.881",
+            "endTime": 392.98,
+            "endTimeFormatted": "00:06:32.980",
+            "body": "beginner podcasters in the sense"
+        },
+        {
+            "startTime": 392.981,
+            "startTimeFormatted": "00:06:32.981",
+            "endTime": 393.7,
+            "endTimeFormatted": "00:06:33.700",
+            "body": "that if you're just getting"
+        },
+        {
+            "startTime": 393.701,
+            "startTimeFormatted": "00:06:33.701",
+            "endTime": 394.96,
+            "endTimeFormatted": "00:06:34.960",
+            "body": "started, it's a very valuable"
+        },
+        {
+            "startTime": 394.961,
+            "startTimeFormatted": "00:06:34.961",
+            "endTime": 396.34,
+            "endTimeFormatted": "00:06:36.340",
+            "body": "resource to help you avoid some"
+        },
+        {
+            "startTime": 396.341,
+            "startTimeFormatted": "00:06:36.341",
+            "endTime": 398.83,
+            "endTimeFormatted": "00:06:38.830",
+            "body": "of those early mistakes, classic"
+        },
+        {
+            "startTime": 398.831,
+            "startTimeFormatted": "00:06:38.831",
+            "endTime": 399.94,
+            "endTimeFormatted": "00:06:39.940",
+            "body": "mistakes, rookie mistakes that"
+        },
+        {
+            "startTime": 399.941,
+            "startTimeFormatted": "00:06:39.941",
+            "endTime": 402.07,
+            "endTimeFormatted": "00:06:42.070",
+            "body": "you see, but it's also extremely"
+        },
+        {
+            "startTime": 402.071,
+            "startTimeFormatted": "00:06:42.071",
+            "endTime": 404.23,
+            "endTimeFormatted": "00:06:44.230",
+            "body": "challenging. Even for someone"
+        },
+        {
+            "startTime": 404.231,
+            "startTimeFormatted": "00:06:44.231",
+            "endTime": 405.1,
+            "endTimeFormatted": "00:06:45.100",
+            "body": "like myself, that's been in"
+        },
+        {
+            "startTime": 405.101,
+            "startTimeFormatted": "00:06:45.101",
+            "endTime": 407.53,
+            "endTimeFormatted": "00:06:47.530",
+            "body": "podcasting for years to like you"
+        },
+        {
+            "startTime": 407.531,
+            "startTimeFormatted": "00:06:47.531",
+            "endTime": 408.55,
+            "endTimeFormatted": "00:06:48.550",
+            "body": "start reading through this. And"
+        },
+        {
+            "startTime": 408.551,
+            "startTimeFormatted": "00:06:48.551",
+            "endTime": 410.26,
+            "endTimeFormatted": "00:06:50.260",
+            "body": "you're like, I don't do half the"
+        },
+        {
+            "startTime": 410.27,
+            "startTimeFormatted": "00:06:50.270",
+            "endTime": 412.12,
+            "endTimeFormatted": "00:06:52.120",
+            "body": "stuff that I even intellectually"
+        },
+        {
+            "startTime": 412.121,
+            "startTimeFormatted": "00:06:52.121",
+            "endTime": 414.73,
+            "endTimeFormatted": "00:06:54.730",
+            "body": "know I should be doing. Um, and"
+        },
+        {
+            "startTime": 414.731,
+            "startTimeFormatted": "00:06:54.731",
+            "endTime": 416.38,
+            "endTimeFormatted": "00:06:56.380",
+            "body": "one, one that I, I want to"
+        },
+        {
+            "startTime": 416.83,
+            "startTimeFormatted": "00:06:56.830",
+            "endTime": 417.87,
+            "endTimeFormatted": "00:06:57.870",
+            "body": "really spend some time with,"
+        },
+        {
+            "startTime": 418,
+            "startTimeFormatted": "00:06:58.000",
+            "endTime": 418.63,
+            "endTimeFormatted": "00:06:58.630",
+            "body": "cause I feel like it would be"
+        },
+        {
+            "startTime": 418.631,
+            "startTimeFormatted": "00:06:58.631",
+            "endTime": 419.83,
+            "endTimeFormatted": "00:06:59.830",
+            "body": "the most valuable for people"
+        },
+        {
+            "startTime": 419.831,
+            "startTimeFormatted": "00:06:59.831",
+            "endTime": 421.45,
+            "endTimeFormatted": "00:07:01.450",
+            "body": "listening is the 10 word"
+        },
+        {
+            "startTime": 421.451,
+            "startTimeFormatted": "00:07:01.451",
+            "endTime": 424.54,
+            "endTimeFormatted": "00:07:04.540",
+            "body": "description, because one of my"
+        },
+        {
+            "startTime": 425.02,
+            "startTimeFormatted": "00:07:05.020",
+            "endTime": 427.09,
+            "endTimeFormatted": "00:07:07.090",
+            "body": "constant wrestling matches is"
+        },
+        {
+            "startTime": 427.091,
+            "startTimeFormatted": "00:07:07.091",
+            "endTime": 429.73,
+            "endTimeFormatted": "00:07:09.730",
+            "body": "that I, as a, as a creative"
+        },
+        {
+            "startTime": 429.731,
+            "startTimeFormatted": "00:07:09.731",
+            "endTime": 431.32,
+            "endTimeFormatted": "00:07:11.320",
+            "body": "outlet, want my podcast to be"
+        },
+        {
+            "startTime": 431.321,
+            "startTimeFormatted": "00:07:11.321",
+            "endTime": 432.82,
+            "endTimeFormatted": "00:07:12.820",
+            "body": "self-serving in certain ways,"
+        },
+        {
+            "startTime": 433.09,
+            "startTimeFormatted": "00:07:13.090",
+            "endTime": 433.87,
+            "endTimeFormatted": "00:07:13.870",
+            "body": "right? Like I want to wake up"
+        },
+        {
+            "startTime": 433.871,
+            "startTimeFormatted": "00:07:13.871",
+            "endTime": 434.86,
+            "endTimeFormatted": "00:07:14.860",
+            "body": "excited about making new"
+        },
+        {
+            "startTime": 434.861,
+            "startTimeFormatted": "00:07:14.861",
+            "endTime": 436.3,
+            "endTimeFormatted": "00:07:16.300",
+            "body": "episodes. I want to, I want to"
+        },
+        {
+            "startTime": 436.301,
+            "startTimeFormatted": "00:07:16.301",
+            "endTime": 437.62,
+            "endTimeFormatted": "00:07:17.620",
+            "body": "expand my creativity. I want to"
+        },
+        {
+            "startTime": 437.621,
+            "startTimeFormatted": "00:07:17.621",
+            "endTime": 438.79,
+            "endTimeFormatted": "00:07:18.790",
+            "body": "try new things, experiment with"
+        },
+        {
+            "startTime": 438.791,
+            "startTimeFormatted": "00:07:18.791",
+            "endTime": 441.01,
+            "endTimeFormatted": "00:07:21.010",
+            "body": "new things. Um, but you do a"
+        },
+        {
+            "startTime": 441.011,
+            "startTimeFormatted": "00:07:21.011",
+            "endTime": 442.6,
+            "endTimeFormatted": "00:07:22.600",
+            "body": "really good job of kind of"
+        },
+        {
+            "startTime": 442.601,
+            "startTimeFormatted": "00:07:22.601",
+            "endTime": 444.94,
+            "endTimeFormatted": "00:07:24.940",
+            "body": "helping push against that and in"
+        },
+        {
+            "startTime": 444.941,
+            "startTimeFormatted": "00:07:24.941",
+            "endTime": 446.38,
+            "endTimeFormatted": "00:07:26.380",
+            "body": "a really good way, and the"
+        },
+        {
+            "startTime": 446.381,
+            "startTimeFormatted": "00:07:26.381",
+            "endTime": 447.91,
+            "endTimeFormatted": "00:07:27.910",
+            "body": "importance of staying focused"
+        },
+        {
+            "startTime": 448.36,
+            "startTimeFormatted": "00:07:28.360",
+            "endTime": 450.46,
+            "endTimeFormatted": "00:07:30.460",
+            "body": "and, and really being laser"
+        },
+        {
+            "startTime": 450.461,
+            "startTimeFormatted": "00:07:30.461",
+            "endTime": 452.8,
+            "endTimeFormatted": "00:07:32.800",
+            "body": "focused on why does your podcast"
+        },
+        {
+            "startTime": 453.22,
+            "startTimeFormatted": "00:07:33.220",
+            "endTime": 454.27,
+            "endTimeFormatted": "00:07:34.270",
+            "body": "exist for the expectations of"
+        },
+        {
+            "startTime": 454.271,
+            "startTimeFormatted": "00:07:34.271",
+            "endTime": 456.31,
+            "endTimeFormatted": "00:07:36.310",
+            "body": "your listeners, um, and making"
+        },
+        {
+            "startTime": 456.311,
+            "startTimeFormatted": "00:07:36.311",
+            "endTime": 457.57,
+            "endTimeFormatted": "00:07:37.570",
+            "body": "sure you over deliver on that."
+        },
+        {
+            "startTime": 457.571,
+            "startTimeFormatted": "00:07:37.571",
+            "endTime": 459.19,
+            "endTimeFormatted": "00:07:39.190",
+            "body": "So I'd love to just, maybe even"
+        },
+        {
+            "startTime": 459.191,
+            "startTimeFormatted": "00:07:39.191",
+            "endTime": 459.94,
+            "endTimeFormatted": "00:07:39.940",
+            "body": "if you want to just share the"
+        },
+        {
+            "startTime": 459.941,
+            "startTimeFormatted": "00:07:39.941",
+            "endTime": 461.02,
+            "endTimeFormatted": "00:07:41.020",
+            "body": "anecdote that you had about your"
+        },
+        {
+            "startTime": 461.021,
+            "startTimeFormatted": "00:07:41.021",
+            "endTime": 462.82,
+            "endTimeFormatted": "00:07:42.820",
+            "body": "yoga teacher and kind of going"
+        },
+        {
+            "startTime": 462.821,
+            "startTimeFormatted": "00:07:42.821",
+            "endTime": 463.87,
+            "endTimeFormatted": "00:07:43.870",
+            "body": "through that exercise. So I"
+        },
+        {
+            "startTime": 463.871,
+            "startTimeFormatted": "00:07:43.871",
+            "endTime": 464.86,
+            "endTimeFormatted": "00:07:44.860",
+            "body": "thought that was a good story."
+        },
+        {
+            "startTime": 465.1,
+            "startTimeFormatted": "00:07:45.100",
+            "endTime": 466.15,
+            "endTimeFormatted": "00:07:46.150",
+            "body": "And I think we'll flesh out the"
+        },
+        {
+            "startTime": 466.151,
+            "startTimeFormatted": "00:07:46.151",
+            "endTime": 468.52,
+            "endTimeFormatted": "00:07:48.520",
+            "body": "importance of having a really"
+        },
+        {
+            "startTime": 468.521,
+            "startTimeFormatted": "00:07:48.521",
+            "endTime": 470.23,
+            "endTimeFormatted": "00:07:50.230",
+            "body": "clear idea of what your podcast"
+        },
+        {
+            "startTime": 470.231,
+            "startTimeFormatted": "00:07:50.231",
+            "endTime": 470.62,
+            "endTimeFormatted": "00:07:50.620",
+            "body": "is about."
+        },
+        {
+            "startTime": 471.13,
+            "startTimeFormatted": "00:07:51.130",
+            "endTime": 473.05,
+            "endTimeFormatted": "00:07:53.050",
+            "speaker": "Eric",
+            "body": "Yeah. I think a lot of my work"
+        },
+        {
+            "startTime": 473.41,
+            "startTimeFormatted": "00:07:53.410",
+            "endTime": 475.03,
+            "endTimeFormatted": "00:07:55.030",
+            "body": "is just in general, a lot of my"
+        },
+        {
+            "startTime": 475.031,
+            "startTimeFormatted": "00:07:55.031",
+            "endTime": 476.62,
+            "endTimeFormatted": "00:07:56.620",
+            "body": "work, including this book is"
+        },
+        {
+            "startTime": 476.621,
+            "startTimeFormatted": "00:07:56.621",
+            "endTime": 478.38,
+            "endTimeFormatted": "00:07:58.380",
+            "body": "simply taking people's heads and"
+        },
+        {
+            "startTime": 478.66,
+            "startTimeFormatted": "00:07:58.660",
+            "endTime": 479.26,
+            "endTimeFormatted": "00:07:59.260",
+            "body": "pointing them in a slightly"
+        },
+        {
+            "startTime": 479.261,
+            "startTimeFormatted": "00:07:59.261",
+            "endTime": 481.21,
+            "endTimeFormatted": "00:08:01.210",
+            "body": "different direction. Uh, they're"
+        },
+        {
+            "startTime": 481.211,
+            "startTimeFormatted": "00:08:01.211",
+            "endTime": 482.23,
+            "endTimeFormatted": "00:08:02.230",
+            "body": "worried about what they're going"
+        },
+        {
+            "startTime": 482.231,
+            "startTimeFormatted": "00:08:02.231",
+            "endTime": 483.64,
+            "endTimeFormatted": "00:08:03.640",
+            "body": "to do whenever someone says they"
+        },
+        {
+            "startTime": 483.641,
+            "startTimeFormatted": "00:08:03.641",
+            "endTime": 484.93,
+            "endTimeFormatted": "00:08:04.930",
+            "body": "want to do a podcast. And I say,"
+        },
+        {
+            "startTime": 484.931,
+            "startTimeFormatted": "00:08:04.931",
+            "endTime": 486.67,
+            "endTimeFormatted": "00:08:06.670",
+            "body": "what is it? They often describe"
+        },
+        {
+            "startTime": 486.671,
+            "startTimeFormatted": "00:08:06.671",
+            "endTime": 488.05,
+            "endTimeFormatted": "00:08:08.050",
+            "body": "it from very features based"
+        },
+        {
+            "startTime": 488.051,
+            "startTimeFormatted": "00:08:08.051",
+            "endTime": 489.16,
+            "endTimeFormatted": "00:08:09.160",
+            "body": "perspective. Oh, I'm going to,"
+        },
+        {
+            "startTime": 489.4,
+            "startTimeFormatted": "00:08:09.400",
+            "endTime": 490.84,
+            "endTimeFormatted": "00:08:10.840",
+            "body": "I'm going to have conversations"
+        },
+        {
+            "startTime": 490.841,
+            "startTimeFormatted": "00:08:10.841",
+            "endTime": 492.46,
+            "endTimeFormatted": "00:08:12.460",
+            "body": "with women filmmakers about"
+        },
+        {
+            "startTime": 492.85,
+            "startTimeFormatted": "00:08:12.850",
+            "endTime": 495.37,
+            "endTimeFormatted": "00:08:15.370",
+            "body": "women in film, right? That's a"
+        },
+        {
+            "startTime": 495.371,
+            "startTimeFormatted": "00:08:15.371",
+            "endTime": 496.6,
+            "endTimeFormatted": "00:08:16.600",
+            "body": "feature, that's not a benefit."
+        },
+        {
+            "startTime": 496.9,
+            "startTimeFormatted": "00:08:16.900",
+            "endTime": 499.66,
+            "endTimeFormatted": "00:08:19.660",
+            "body": "Right. And I always try to get"
+        },
+        {
+            "startTime": 499.661,
+            "startTimeFormatted": "00:08:19.661",
+            "endTime": 501.16,
+            "endTimeFormatted": "00:08:21.160",
+            "body": "people in that perspective shift"
+        },
+        {
+            "startTime": 501.161,
+            "startTimeFormatted": "00:08:21.161",
+            "endTime": 502.51,
+            "endTimeFormatted": "00:08:22.510",
+            "body": "is, and this is where my history"
+        },
+        {
+            "startTime": 502.6,
+            "startTimeFormatted": "00:08:22.600",
+            "endTime": 503.8,
+            "endTimeFormatted": "00:08:23.800",
+            "body": "is. A broadcaster comes in and"
+        },
+        {
+            "startTime": 504.1,
+            "startTimeFormatted": "00:08:24.100",
+            "endTime": 505.15,
+            "endTimeFormatted": "00:08:25.150",
+            "body": "let's think about the audience"
+        },
+        {
+            "startTime": 505.151,
+            "startTimeFormatted": "00:08:25.151",
+            "endTime": 507.01,
+            "endTimeFormatted": "00:08:27.010",
+            "body": "for that. Okay. Let's not think"
+        },
+        {
+            "startTime": 507.011,
+            "startTimeFormatted": "00:08:27.011",
+            "endTime": 509.5,
+            "endTimeFormatted": "00:08:29.500",
+            "body": "about what you are right at this"
+        },
+        {
+            "startTime": 509.501,
+            "startTimeFormatted": "00:08:29.501",
+            "endTime": 511.09,
+            "endTimeFormatted": "00:08:31.090",
+            "body": "moment. Let's think let's start"
+        },
+        {
+            "startTime": 511.091,
+            "startTimeFormatted": "00:08:31.091",
+            "endTime": 512.83,
+            "endTimeFormatted": "00:08:32.830",
+            "body": "with the listener. And so, you"
+        },
+        {
+            "startTime": 512.831,
+            "startTimeFormatted": "00:08:32.831",
+            "endTime": 514.39,
+            "endTimeFormatted": "00:08:34.390",
+            "body": "know, I, I, um, you know,"
+        },
+        {
+            "startTime": 514.42,
+            "startTimeFormatted": "00:08:34.420",
+            "endTime": 515.92,
+            "endTimeFormatted": "00:08:35.920",
+            "body": "everyone, it used to be part of"
+        },
+        {
+            "startTime": 515.921,
+            "startTimeFormatted": "00:08:35.921",
+            "endTime": 516.91,
+            "endTimeFormatted": "00:08:36.910",
+            "body": "my kind of standard stump"
+        },
+        {
+            "startTime": 516.911,
+            "startTimeFormatted": "00:08:36.911",
+            "endTime": 518.53,
+            "endTimeFormatted": "00:08:38.530",
+            "body": "speech. I would say, even the"
+        },
+        {
+            "startTime": 518.531,
+            "startTimeFormatted": "00:08:38.531",
+            "endTime": 520.12,
+            "endTimeFormatted": "00:08:40.120",
+            "body": "yoga instructor down the street"
+        },
+        {
+            "startTime": 520.51,
+            "startTimeFormatted": "00:08:40.510",
+            "endTime": 523.12,
+            "endTimeFormatted": "00:08:43.120",
+            "body": "has a podcast. And one day I was"
+        },
+        {
+            "startTime": 523.121,
+            "startTimeFormatted": "00:08:43.121",
+            "endTime": 524.47,
+            "endTimeFormatted": "00:08:44.470",
+            "body": "in yoga class and my yoga"
+        },
+        {
+            "startTime": 524.471,
+            "startTimeFormatted": "00:08:44.471",
+            "endTime": 526.27,
+            "endTimeFormatted": "00:08:46.270",
+            "body": "instructor came up to me say,"
+        },
+        {
+            "startTime": 526.28,
+            "startTimeFormatted": "00:08:46.280",
+            "endTime": 527.74,
+            "endTimeFormatted": "00:08:47.740",
+            "body": "can I talk to you after class?"
+        },
+        {
+            "startTime": 528.16,
+            "startTimeFormatted": "00:08:48.160",
+            "endTime": 529.51,
+            "endTimeFormatted": "00:08:49.510",
+            "body": "My first thought was like, Oh,"
+        },
+        {
+            "startTime": 529.6,
+            "startTimeFormatted": "00:08:49.600",
+            "endTime": 532.18,
+            "endTimeFormatted": "00:08:52.180",
+            "body": "what did I do that required a"
+        },
+        {
+            "startTime": 532.181,
+            "startTimeFormatted": "00:08:52.181",
+            "endTime": 533.83,
+            "endTimeFormatted": "00:08:53.830",
+            "body": "talking to after class? I'm"
+        },
+        {
+            "startTime": 533.831,
+            "startTimeFormatted": "00:08:53.831",
+            "endTime": 534.73,
+            "endTimeFormatted": "00:08:54.730",
+            "body": "like, Oh, I didn't want to think"
+        },
+        {
+            "startTime": 534.731,
+            "startTimeFormatted": "00:08:54.731",
+            "endTime": 536.28,
+            "endTimeFormatted": "00:08:56.280",
+            "body": "about this. And I kind of forgot"
+        },
+        {
+            "startTime": 536.281,
+            "startTimeFormatted": "00:08:56.281",
+            "endTime": 537.24,
+            "endTimeFormatted": "00:08:57.240",
+            "body": "about it. And then he kind of"
+        },
+        {
+            "startTime": 537.41,
+            "startTimeFormatted": "00:08:57.410",
+            "endTime": 538.35,
+            "endTimeFormatted": "00:08:58.350",
+            "body": "came, he came up to me like"
+        },
+        {
+            "startTime": 538.38,
+            "startTimeFormatted": "00:08:58.380",
+            "endTime": 539.76,
+            "endTimeFormatted": "00:08:59.760",
+            "body": "either that day or a day later,"
+        },
+        {
+            "startTime": 540.24,
+            "startTimeFormatted": "00:09:00.240",
+            "endTime": 542.19,
+            "endTimeFormatted": "00:09:02.190",
+            "body": "a next class and said, Hey, you"
+        },
+        {
+            "startTime": 542.191,
+            "startTimeFormatted": "00:09:02.191",
+            "endTime": 543.93,
+            "endTimeFormatted": "00:09:03.930",
+            "body": "know, I I've, everybody tells me"
+        },
+        {
+            "startTime": 543.931,
+            "startTimeFormatted": "00:09:03.931",
+            "endTime": 546.27,
+            "endTimeFormatted": "00:09:06.270",
+            "body": "I should have a podcast. And I'm"
+        },
+        {
+            "startTime": 546.271,
+            "startTimeFormatted": "00:09:06.271",
+            "endTime": 547.86,
+            "endTimeFormatted": "00:09:07.860",
+            "body": "like, Oh, now even my yoga"
+        },
+        {
+            "startTime": 547.861,
+            "startTimeFormatted": "00:09:07.861",
+            "endTime": 549.66,
+            "endTimeFormatted": "00:09:09.660",
+            "body": "instructor is, has a vodcast or"
+        },
+        {
+            "startTime": 549.661,
+            "startTimeFormatted": "00:09:09.661",
+            "endTime": 551.88,
+            "endTimeFormatted": "00:09:11.880",
+            "body": "wants to have a podcast. And so"
+        },
+        {
+            "startTime": 551.91,
+            "startTimeFormatted": "00:09:11.910",
+            "endTime": 553.11,
+            "endTimeFormatted": "00:09:13.110",
+            "body": "I sat down with him and I"
+        },
+        {
+            "startTime": 553.111,
+            "startTimeFormatted": "00:09:13.111",
+            "endTime": 554.94,
+            "endTimeFormatted": "00:09:14.940",
+            "body": "started talking about some of"
+        },
+        {
+            "startTime": 554.941,
+            "startTimeFormatted": "00:09:14.941",
+            "endTime": 556.23,
+            "endTimeFormatted": "00:09:16.230",
+            "body": "the concepts that I use with"
+        },
+        {
+            "startTime": 556.231,
+            "startTimeFormatted": "00:09:16.231",
+            "endTime": 558.36,
+            "endTimeFormatted": "00:09:18.360",
+            "body": "broadcasters or media people and"
+        },
+        {
+            "startTime": 558.361,
+            "startTimeFormatted": "00:09:18.361",
+            "endTime": 559.86,
+            "endTimeFormatted": "00:09:19.860",
+            "body": "realized they were far too"
+        },
+        {
+            "startTime": 559.861,
+            "startTimeFormatted": "00:09:19.861",
+            "endTime": 561.45,
+            "endTimeFormatted": "00:09:21.450",
+            "body": "advanced for where he was at. He"
+        },
+        {
+            "startTime": 561.451,
+            "startTimeFormatted": "00:09:21.451",
+            "endTime": 563.37,
+            "endTimeFormatted": "00:09:23.370",
+            "body": "just had this passion to talk to"
+        },
+        {
+            "startTime": 563.371,
+            "startTimeFormatted": "00:09:23.371",
+            "endTime": 564.96,
+            "endTimeFormatted": "00:09:24.960",
+            "body": "people and he had something to"
+        },
+        {
+            "startTime": 564.961,
+            "startTimeFormatted": "00:09:24.961",
+            "endTime": 567.06,
+            "endTimeFormatted": "00:09:27.060",
+            "body": "say, but he had no idea of how"
+        },
+        {
+            "startTime": 567.061,
+            "startTimeFormatted": "00:09:27.061",
+            "endTime": 568.77,
+            "endTimeFormatted": "00:09:28.770",
+            "body": "to think about it. And so I"
+        },
+        {
+            "startTime": 568.771,
+            "startTimeFormatted": "00:09:28.771",
+            "endTime": 570.81,
+            "endTimeFormatted": "00:09:30.810",
+            "body": "ended up drawing on a piece of"
+        },
+        {
+            "startTime": 570.811,
+            "startTimeFormatted": "00:09:30.811",
+            "endTime": 572.61,
+            "endTimeFormatted": "00:09:32.610",
+            "body": "paper, a circle, or what became"
+        },
+        {
+            "startTime": 572.611,
+            "startTimeFormatted": "00:09:32.611",
+            "endTime": 574.47,
+            "endTimeFormatted": "00:09:34.470",
+            "body": "a circle with a couple of points"
+        },
+        {
+            "startTime": 574.471,
+            "startTimeFormatted": "00:09:34.471",
+            "endTime": 576.12,
+            "endTimeFormatted": "00:09:36.120",
+            "body": "on it. And it kind of developed"
+        },
+        {
+            "startTime": 576.121,
+            "startTimeFormatted": "00:09:36.121",
+            "endTime": 577.77,
+            "endTimeFormatted": "00:09:37.770",
+            "body": "an exercise that I still use"
+        },
+        {
+            "startTime": 578.25,
+            "startTimeFormatted": "00:09:38.250",
+            "endTime": 579.81,
+            "endTimeFormatted": "00:09:39.810",
+            "body": "with people all the time,"
+        },
+        {
+            "startTime": 579.811,
+            "startTimeFormatted": "00:09:39.811",
+            "endTime": 580.8,
+            "endTimeFormatted": "00:09:40.800",
+            "body": "whether I'm doing it in a bar"
+        },
+        {
+            "startTime": 580.801,
+            "startTimeFormatted": "00:09:40.801",
+            "endTime": 582.2,
+            "endTimeFormatted": "00:09:42.200",
+            "body": "napkin or on a dry erase board"
+        },
+        {
+            "startTime": 582.27,
+            "startTimeFormatted": "00:09:42.270",
+            "endTime": 583.95,
+            "endTimeFormatted": "00:09:43.950",
+            "body": "in a conference room where we"
+        },
+        {
+            "startTime": 583.951,
+            "startTimeFormatted": "00:09:43.951",
+            "endTime": 586.08,
+            "endTimeFormatted": "00:09:46.080",
+            "body": "talk about who is the audience"
+        },
+        {
+            "startTime": 586.081,
+            "startTimeFormatted": "00:09:46.081",
+            "endTime": 587.43,
+            "endTimeFormatted": "00:09:47.430",
+            "body": "for this, get incredibly"
+        },
+        {
+            "startTime": 587.431,
+            "startTimeFormatted": "00:09:47.431",
+            "endTime": 589.44,
+            "endTimeFormatted": "00:09:49.440",
+            "body": "specific about who they are and"
+        },
+        {
+            "startTime": 589.441,
+            "startTimeFormatted": "00:09:49.441",
+            "endTime": 590.58,
+            "endTimeFormatted": "00:09:50.580",
+            "body": "what journey are you putting"
+        },
+        {
+            "startTime": 590.581,
+            "startTimeFormatted": "00:09:50.581",
+            "endTime": 592.44,
+            "endTimeFormatted": "00:09:52.440",
+            "body": "them on? You know? Uh, and"
+        },
+        {
+            "startTime": 592.441,
+            "startTimeFormatted": "00:09:52.441",
+            "endTime": 593.49,
+            "endTimeFormatted": "00:09:53.490",
+            "body": "that's why it becomes a circle"
+        },
+        {
+            "startTime": 593.491,
+            "startTimeFormatted": "00:09:53.491",
+            "endTime": 594.66,
+            "endTimeFormatted": "00:09:54.660",
+            "body": "because all these things filled"
+        },
+        {
+            "startTime": 594.661,
+            "startTimeFormatted": "00:09:54.661",
+            "endTime": 596.7,
+            "endTimeFormatted": "00:09:56.700",
+            "body": "into a kind of flow into each"
+        },
+        {
+            "startTime": 596.701,
+            "startTimeFormatted": "00:09:56.701",
+            "endTime": 598.59,
+            "endTimeFormatted": "00:09:58.590",
+            "body": "other of asking yourself, what"
+        },
+        {
+            "startTime": 598.591,
+            "startTimeFormatted": "00:09:58.591",
+            "endTime": 599.79,
+            "endTimeFormatted": "00:09:59.790",
+            "body": "do you have to say to that"
+        },
+        {
+            "startTime": 599.791,
+            "startTimeFormatted": "00:09:59.791",
+            "endTime": 601.65,
+            "endTimeFormatted": "00:10:01.650",
+            "body": "person? Once you define them and"
+        },
+        {
+            "startTime": 601.651,
+            "startTimeFormatted": "00:10:01.651",
+            "endTime": 602.79,
+            "endTimeFormatted": "00:10:02.790",
+            "body": "you get very specific, I make"
+        },
+        {
+            "startTime": 602.791,
+            "startTimeFormatted": "00:10:02.791",
+            "endTime": 604.23,
+            "endTimeFormatted": "00:10:04.230",
+            "body": "people look up pictures and"
+        },
+        {
+            "startTime": 604.231,
+            "startTimeFormatted": "00:10:04.231",
+            "endTime": 605.28,
+            "endTimeFormatted": "00:10:05.280",
+            "body": "print them out. We put them up"
+        },
+        {
+            "startTime": 605.37,
+            "startTimeFormatted": "00:10:05.370",
+            "endTime": 606.93,
+            "endTimeFormatted": "00:10:06.930",
+            "body": "on the wall, we give them names"
+        },
+        {
+            "startTime": 606.931,
+            "startTimeFormatted": "00:10:06.931",
+            "endTime": 608.97,
+            "endTimeFormatted": "00:10:08.970",
+            "body": "and fake bios. And then we"
+        },
+        {
+            "startTime": 608.971,
+            "startTimeFormatted": "00:10:08.971",
+            "endTime": 610.32,
+            "endTimeFormatted": "00:10:10.320",
+            "body": "consolidate them all into like"
+        },
+        {
+            "startTime": 610.321,
+            "startTimeFormatted": "00:10:10.321",
+            "endTime": 612.54,
+            "endTimeFormatted": "00:10:12.540",
+            "body": "what we think the person is. And"
+        },
+        {
+            "startTime": 612.66,
+            "startTimeFormatted": "00:10:12.660",
+            "endTime": 613.56,
+            "endTimeFormatted": "00:10:13.560",
+            "body": "we know, what do you have to say"
+        },
+        {
+            "startTime": 613.561,
+            "startTimeFormatted": "00:10:13.561",
+            "endTime": 615.03,
+            "endTimeFormatted": "00:10:15.030",
+            "body": "to them? Who are you, what"
+        },
+        {
+            "startTime": 615.031,
+            "startTimeFormatted": "00:10:15.031",
+            "endTime": 616.35,
+            "endTimeFormatted": "00:10:16.350",
+            "body": "version of yourself, or what is"
+        },
+        {
+            "startTime": 616.351,
+            "startTimeFormatted": "00:10:16.351",
+            "endTime": 617.7,
+            "endTimeFormatted": "00:10:17.700",
+            "body": "your voice in this? What is your"
+        },
+        {
+            "startTime": 617.701,
+            "startTimeFormatted": "00:10:17.701",
+            "endTime": 619.23,
+            "endTimeFormatted": "00:10:19.230",
+            "body": "perspective, your personality,"
+        },
+        {
+            "startTime": 620.21,
+            "startTimeFormatted": "00:10:20.210",
+            "endTime": 621.39,
+            "endTimeFormatted": "00:10:21.390",
+            "body": "and then what is the outcome,"
+        },
+        {
+            "startTime": 621.48,
+            "startTimeFormatted": "00:10:21.480",
+            "endTime": 623.96,
+            "endTimeFormatted": "00:10:23.960",
+            "body": "the desired outcome. and then we"
+        },
+        {
+            "startTime": 623.961,
+            "startTimeFormatted": "00:10:23.961",
+            "endTime": 625.34,
+            "endTimeFormatted": "00:10:25.340",
+            "body": "get into this Exercise that I"
+        },
+        {
+            "startTime": 625.341,
+            "startTimeFormatted": "00:10:25.341",
+            "endTime": 626.69,
+            "endTimeFormatted": "00:10:26.690",
+            "body": "kind of force people into. And"
+        },
+        {
+            "startTime": 627.05,
+            "startTimeFormatted": "00:10:27.050",
+            "endTime": 628.34,
+            "endTimeFormatted": "00:10:28.340",
+            "body": "the way I usually do it now,"
+        },
+        {
+            "startTime": 628.341,
+            "startTimeFormatted": "00:10:28.341",
+            "endTime": 630.41,
+            "endTimeFormatted": "00:10:30.410",
+            "body": "since I, I always evolving this"
+        },
+        {
+            "startTime": 630.411,
+            "startTimeFormatted": "00:10:30.411",
+            "endTime": 632.24,
+            "endTimeFormatted": "00:10:32.240",
+            "body": "exercise is I make people write"
+        },
+        {
+            "startTime": 632.241,
+            "startTimeFormatted": "00:10:32.241",
+            "endTime": 633.35,
+            "endTimeFormatted": "00:10:33.350",
+            "body": "it. And then they, then they"
+        },
+        {
+            "startTime": 633.351,
+            "startTimeFormatted": "00:10:33.351",
+            "endTime": 634.64,
+            "endTimeFormatted": "00:10:34.640",
+            "body": "kind of hide it from everyone."
+        },
+        {
+            "startTime": 634.91,
+            "startTimeFormatted": "00:10:34.910",
+            "endTime": 635.93,
+            "endTimeFormatted": "00:10:35.930",
+            "body": "And during the rest of the"
+        },
+        {
+            "startTime": 635.931,
+            "startTimeFormatted": "00:10:35.931",
+            "endTime": 637.28,
+            "endTimeFormatted": "00:10:37.280",
+            "body": "workshop, they can edit it. And"
+        },
+        {
+            "startTime": 637.281,
+            "startTimeFormatted": "00:10:37.281",
+            "endTime": 638.12,
+            "endTimeFormatted": "00:10:38.120",
+            "body": "at the end of the workshop,"
+        },
+        {
+            "startTime": 638.15,
+            "startTimeFormatted": "00:10:38.150",
+            "endTime": 639.8,
+            "endTimeFormatted": "00:10:39.800",
+            "body": "everyone reads their versions of"
+        },
+        {
+            "startTime": 639.801,
+            "startTimeFormatted": "00:10:39.801",
+            "endTime": 641.78,
+            "endTimeFormatted": "00:10:41.780",
+            "body": "these 10 word descriptions that"
+        },
+        {
+            "startTime": 641.781,
+            "startTimeFormatted": "00:10:41.781",
+            "endTime": 643.67,
+            "endTimeFormatted": "00:10:43.670",
+            "body": "describe your project and"
+        },
+        {
+            "startTime": 643.671,
+            "startTimeFormatted": "00:10:43.671",
+            "endTime": 645.86,
+            "endTimeFormatted": "00:10:45.860",
+            "body": "nothing else in the world, no"
+        },
+        {
+            "startTime": 645.861,
+            "startTimeFormatted": "00:10:45.861",
+            "endTime": 646.67,
+            "endTimeFormatted": "00:10:46.670",
+            "body": "one in the room should be able"
+        },
+        {
+            "startTime": 646.671,
+            "startTimeFormatted": "00:10:46.671",
+            "endTime": 647.81,
+            "endTimeFormatted": "00:10:47.810",
+            "body": "to say, yeah, there's also"
+        },
+        {
+            "startTime": 647.811,
+            "startTimeFormatted": "00:10:47.811",
+            "endTime": 651.32,
+            "endTimeFormatted": "00:10:51.320",
+            "body": "another, uh, podcast, a women"
+        },
+        {
+            "startTime": 651.77,
+            "startTimeFormatted": "00:10:51.770",
+            "endTime": 652.88,
+            "endTimeFormatted": "00:10:52.880",
+            "body": "talking to women filmmakers"
+        },
+        {
+            "startTime": 652.881,
+            "startTimeFormatted": "00:10:52.881",
+            "endTime": 653.72,
+            "endTimeFormatted": "00:10:53.720",
+            "body": "about women's film. You know,"
+        },
+        {
+            "startTime": 653.721,
+            "startTimeFormatted": "00:10:53.721",
+            "endTime": 655.22,
+            "endTimeFormatted": "00:10:55.220",
+            "body": "there's, there are others. So"
+        },
+        {
+            "startTime": 655.221,
+            "startTimeFormatted": "00:10:55.221",
+            "endTime": 657.2,
+            "endTimeFormatted": "00:10:57.200",
+            "body": "what makes yours distinct? Are"
+        },
+        {
+            "startTime": 657.201,
+            "startTimeFormatted": "00:10:57.201",
+            "endTime": 660.29,
+            "endTimeFormatted": "00:11:00.290",
+            "body": "you focusing on, uh, filmmakers"
+        },
+        {
+            "startTime": 660.32,
+            "startTimeFormatted": "00:11:00.320",
+            "endTime": 662.9,
+            "endTimeFormatted": "00:11:02.900",
+            "body": "in the Minneapolis st. Paul"
+        },
+        {
+            "startTime": 662.901,
+            "startTimeFormatted": "00:11:02.901",
+            "endTime": 664.55,
+            "endTimeFormatted": "00:11:04.550",
+            "body": "area? Are you talking about a"
+        },
+        {
+            "startTime": 664.551,
+            "startTimeFormatted": "00:11:04.551",
+            "endTime": 667.28,
+            "endTimeFormatted": "00:11:07.280",
+            "body": "specific age or a specific genre"
+        },
+        {
+            "startTime": 667.281,
+            "startTimeFormatted": "00:11:07.281",
+            "endTime": 669.2,
+            "endTimeFormatted": "00:11:09.200",
+            "body": "film, or a specific time period"
+        },
+        {
+            "startTime": 669.201,
+            "startTimeFormatted": "00:11:09.201",
+            "endTime": 671.06,
+            "endTimeFormatted": "00:11:11.060",
+            "body": "in which films were made, um,"
+        },
+        {
+            "startTime": 671.36,
+            "startTimeFormatted": "00:11:11.360",
+            "endTime": 672.77,
+            "endTimeFormatted": "00:11:12.770",
+            "body": "that include that in your"
+        },
+        {
+            "startTime": 672.771,
+            "startTimeFormatted": "00:11:12.771",
+            "endTime": 674.09,
+            "endTimeFormatted": "00:11:14.090",
+            "body": "description? So you're literally"
+        },
+        {
+            "startTime": 674.091,
+            "startTimeFormatted": "00:11:14.091",
+            "endTime": 675.65,
+            "endTimeFormatted": "00:11:15.650",
+            "body": "describing one podcast in a"
+        },
+        {
+            "startTime": 675.651,
+            "startTimeFormatted": "00:11:15.651",
+            "endTime": 676.61,
+            "endTimeFormatted": "00:11:16.610",
+            "body": "world of almost a million"
+        },
+        {
+            "startTime": 676.611,
+            "startTimeFormatted": "00:11:16.611",
+            "endTime": 679.43,
+            "endTimeFormatted": "00:11:19.430",
+            "body": "others, right. And that provides"
+        },
+        {
+            "startTime": 679.431,
+            "startTimeFormatted": "00:11:19.431",
+            "endTime": 681.56,
+            "endTimeFormatted": "00:11:21.560",
+            "body": "you with an editorial lens that"
+        },
+        {
+            "startTime": 681.561,
+            "startTimeFormatted": "00:11:21.561",
+            "endTime": 683.54,
+            "endTimeFormatted": "00:11:23.540",
+            "body": "you can then use to make all"
+        },
+        {
+            "startTime": 683.541,
+            "startTimeFormatted": "00:11:23.541",
+            "endTime": 684.92,
+            "endTimeFormatted": "00:11:24.920",
+            "body": "kinds of decisions about what's"
+        },
+        {
+            "startTime": 684.921,
+            "startTimeFormatted": "00:11:24.921",
+            "endTime": 687.08,
+            "endTimeFormatted": "00:11:27.080",
+            "body": "right for your podcast, from its"
+        },
+        {
+            "startTime": 687.081,
+            "startTimeFormatted": "00:11:27.081",
+            "endTime": 688.43,
+            "endTimeFormatted": "00:11:28.430",
+            "body": "title, how it describes itself,"
+        },
+        {
+            "startTime": 688.58,
+            "startTimeFormatted": "00:11:28.580",
+            "endTime": 689.81,
+            "endTimeFormatted": "00:11:29.810",
+            "body": "its artwork, the type of guests,"
+        },
+        {
+            "startTime": 689.811,
+            "startTimeFormatted": "00:11:29.811",
+            "endTime": 690.56,
+            "endTimeFormatted": "00:11:30.560",
+            "body": "you have, the kind of"
+        },
+        {
+            "startTime": 690.561,
+            "startTimeFormatted": "00:11:30.561",
+            "endTime": 692.33,
+            "endTimeFormatted": "00:11:32.330",
+            "body": "conversations you have the"
+        },
+        {
+            "startTime": 692.331,
+            "startTimeFormatted": "00:11:32.331",
+            "endTime": 693.83,
+            "endTimeFormatted": "00:11:33.830",
+            "body": "answer to those five questions,"
+        },
+        {
+            "startTime": 694.22,
+            "startTimeFormatted": "00:11:34.220",
+            "endTime": 695.36,
+            "endTimeFormatted": "00:11:35.360",
+            "body": "the basic things that go around"
+        },
+        {
+            "startTime": 695.361,
+            "startTimeFormatted": "00:11:35.361",
+            "endTime": 697.58,
+            "endTimeFormatted": "00:11:37.580",
+            "body": "the circle and the 10 word as"
+        },
+        {
+            "startTime": 697.581,
+            "startTimeFormatted": "00:11:37.581",
+            "endTime": 699.2,
+            "endTimeFormatted": "00:11:39.200",
+            "body": "you have that you have a huge"
+        },
+        {
+            "startTime": 699.201,
+            "startTimeFormatted": "00:11:39.201",
+            "endTime": 701.39,
+            "endTimeFormatted": "00:11:41.390",
+            "body": "amount of clarity that you never"
+        },
+        {
+            "startTime": 701.6,
+            "startTimeFormatted": "00:11:41.600",
+            "endTime": 702.8,
+            "endTimeFormatted": "00:11:42.800",
+            "body": "would've had before, or spent"
+        },
+        {
+            "startTime": 702.92,
+            "startTimeFormatted": "00:11:42.920",
+            "endTime": 705.35,
+            "endTimeFormatted": "00:11:45.350",
+            "body": "years kind of figuring out one"
+        },
+        {
+            "startTime": 705.351,
+             "startTimeFormatted": "00:11:45.351",
+            "endTime": 707.39,
+            "endTimeFormatted": "00:11:47.390",
+            "body": "episode at a time. And many"
+        },
+        {
+            "startTime": 707.391,
+            "startTimeFormatted": "00:11:47.391",
+            "endTime": 708.71,
+            "endTimeFormatted": "00:11:48.710",
+            "body": "people don't have years to"
+        },
+        {
+            "startTime": 708.711,
+            "startTimeFormatted": "00:11:48.711",
+            "endTime": 709.16,
+            "endTimeFormatted": "00:11:49.160",
+            "body": "figure it out."
+        },
+        {
+            "startTime": 709.91,
+            "startTimeFormatted": "00:11:49.910",
+            "endTime": 710.6,
+            "endTimeFormatted": "00:11:50.600",
+            "speaker": "Travis",
+            "body": "Sure. Yeah. Most"
+        }
+    ]
+}

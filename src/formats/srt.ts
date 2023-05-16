@@ -1,3 +1,4 @@
+import { addSegment } from "../segments"
 import { parseSpeaker } from "../speaker"
 import { parseTimestamp, timestampFormatter } from "../timestamp"
 import { PATTERN_LINE_SEPARATOR, Segment } from "../types"
@@ -91,15 +92,12 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
  *
  * @param segmentLines Lines containing SRT data
  * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
- * @returns Created {@link Segment} and updated speaker
+ * @returns Created segment
  */
-const createSegmentFromSRTLines = (
-    segmentLines: Array<string>,
-    lastSpeaker: string
-): { segment: Segment; speaker: string } => {
+const createSegmentFromSRTLines = (segmentLines: Array<string>, lastSpeaker: string): Segment => {
     const srtSegment = parseSRTSegment(segmentLines)
     const calculatedSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
-    const segment: Segment = {
+    return {
         startTime: srtSegment.startTime,
         startTimeFormatted: timestampFormatter.format(srtSegment.startTime),
         endTime: srtSegment.endTime,
@@ -107,7 +105,6 @@ const createSegmentFromSRTLines = (
         speaker: calculatedSpeaker,
         body: srtSegment.body,
     }
-    return { segment, speaker: calculatedSpeaker }
 }
 
 /**
@@ -136,7 +133,7 @@ export const parseSRT = (data: string): Array<Segment> => {
         throw new TypeError(`Data is not valid SRT format`)
     }
 
-    const outSegments: Array<Segment> = []
+    let outSegments: Array<Segment> = []
     let lastSpeaker = ""
 
     let segmentLines = []
@@ -146,9 +143,8 @@ export const parseSRT = (data: string): Array<Segment> => {
             // handle consecutive multiple blank lines
             if (segmentLines.length !== 0) {
                 try {
-                    const s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
-                    lastSpeaker = s.speaker
-                    outSegments.push(s.segment)
+                    outSegments = addSegment(createSegmentFromSRTLines(segmentLines, lastSpeaker), outSegments)
+                    lastSpeaker = outSegments[outSegments.length - 1].speaker
                 } catch (e) {
                     console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
                     console.error(segmentLines)
@@ -164,9 +160,8 @@ export const parseSRT = (data: string): Array<Segment> => {
     // handle data when trailing line not included
     if (segmentLines.length !== 0) {
         try {
-            const s = createSegmentFromSRTLines(segmentLines, lastSpeaker)
-            lastSpeaker = s.speaker
-            outSegments.push(s.segment)
+            outSegments = addSegment(createSegmentFromSRTLines(segmentLines, lastSpeaker), outSegments)
+            lastSpeaker = outSegments[outSegments.length - 1].speaker
         } catch (e) {
             console.error(`Error parsing final SRT segment lines: ${e}`)
             console.error(segmentLines)
