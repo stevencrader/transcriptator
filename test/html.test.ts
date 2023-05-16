@@ -1,3 +1,5 @@
+// noinspection HtmlRequiredLangAttribute
+
 import { describe, expect, test } from "@jest/globals"
 
 import { Segment } from "../src"

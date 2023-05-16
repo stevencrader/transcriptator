@@ -49,7 +49,8 @@ yarn add transcriptator
 
 There are three primary methods and two types. See the jsdoc for additional information.
 
-The `convertFile` function accepts the transcript file data and parses it in to an array of `Segment`. If `transcriptFormat` is not defined, will use `determineFormat` to attempt to identify the type.
+The `convertFile` function accepts the transcript file data and parses it in to an array of `Segment`.
+If `transcriptFormat` is not defined, will use `determineFormat` to attempt to identify the type.
 
     convertFile(data: string, transcriptFormat: TranscriptFormat = undefined): Array<Segment>
 
@@ -57,17 +58,15 @@ The `determineFormat` function accepts the transcript file data and attempts to 
 
     determineFormat(data: string): TranscriptFormat
 
-The `combineSingleWordSegments` function is a helper function for combining the previously parsed `Segment` objects together. The only allowable use case is when the existing `Segment` only contain a single word in the `body`.
-
-    combineSingleWordSegments(segments: Array<Segment>, maxLength = 32): Array<Segment>
-
 The `TranscriptFormat` enum defines the allowable transcript types supported by Transcriptator.
 
 The `Segment` type defines the segment/cue of the transcript.
 
 ### Custom timestamp formatter
 
-To change the way the `startTime` and `endTime` are formatted in `startTimeFormatted` and `endTimeFormatted`, register a custom formatter to be used instead.
+To change the way the `startTime` and `endTime` are formatted in `startTimeFormatted` and `endTimeFormatted`,
+register a custom formatter to be used instead.
+
 The formatter function shall accept a single argument as a number and return the value formatted as a string.
 
 ```javascript
@@ -78,6 +77,51 @@ function customFormatter(timestamp) {
 }
 
 timestampFormatter.registerCustomFormatter(customFormatter)
+```
+
+### Options for segments
+
+Additional options are available for combining or formatting two or more segments
+
+To change the options, use the `Options.setOptions` function.
+
+The options only need to be specified once and will be used when parsing any transcript data.
+
+To restore options to their default value, call `Options.restoreDefaultSettings`.
+
+The `IOptions` interface used by `Options` defines options for combining and formatting parsed segments.
+
+-   `combineEqualTimes`: boolean
+    -   Combine segments if the `Segment.startTime`, `Segment.endTime`, and `Segment.speaker` match between the current and prior segments
+    -   Cannot be used with `combineSegments` or `combineSpeaker`
+    -   Default: false
+-   `combineEqualTimesSeparator`: string
+    -   Character to use when `combineEqualTimes` is true.
+    -   Default: `\n`
+-   `combineSegments`: boolean
+    -   Combine segments where speaker is the same and concatenated `body` fits in the `combineSegmentsLength`
+    -   Cannot be used with `combineEqualTimes` or `combineSpeaker`
+    -   Default: false
+-   `combineSegmentsLength`: number
+    -   Max length of body text to use when `combineSegments` is true
+    -   Default: See `DEFAULT_COMBINE_SEGMENTS_LENGTH`
+-   `combineSpeaker`: boolean
+    -   Combine consecutive segments from the same speaker.
+    -   Note: this will override `combineSegments` and `combineSegmentsLength`
+    -   Warning: if the transcript does not contain speaker information, resulting segment will contain entire transcript text.
+    -   Default: false
+-   `speakerChange`: boolean
+    -   Only include `Segment.speaker` when speaker changes
+    -   May be used in combination with `combineEqualTimes` and `combineSegments`
+    -   Default: false
+
+```javascript
+import { Options } from "transcriptator"
+
+Options.setOptions({
+    combineSegments: true,
+    combineSegmentsLength: 32,
+})
 ```
 
 ## Supported File Formats

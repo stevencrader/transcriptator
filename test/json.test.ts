@@ -1,6 +1,6 @@
 import { describe, expect, test } from "@jest/globals"
 
-import { Segment } from "../src"
+import { IOptions, Options, Segment } from "../src"
 import { parseJSON } from "../src/formats/json"
 
 import { readFile, TestFiles } from "./test_utils"
@@ -94,27 +94,87 @@ describe("Parse JSON file data", () => {
     test.each<{
         filePath: string
         expectedFilePath: string
+        options: IOptions
         id: string
     }>([
         {
             filePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST,
             expectedFilePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST_OUTPUT,
+            options: undefined,
             id: "Buzzcast",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST_COMBINE_EQUAL_TIME_OUTPUT,
+            options: {
+                combineEqualTimes: true,
+            },
+            id: "Buzzcast, combine equal times",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST_COMBINE_EQUAL_TIME_SPACE_OUTPUT,
+            options: {
+                combineEqualTimes: true,
+                combineEqualTimesSeparator: " ",
+            },
+            id: "Buzzcast, combine equal times, space",
         },
         {
             filePath: TestFiles.TRANSCRIPT_JSON_LALALAND,
             expectedFilePath: TestFiles.TRANSCRIPT_JSON_LALALAND_OUTPUT,
+            options: undefined,
             id: "LaLaLand",
         },
         {
             filePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
             expectedFilePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_OUTPUT,
+            options: undefined,
             id: "How to Start a Podcast",
         },
-    ])("Parse JSON File ($id)", ({ filePath, expectedFilePath }) => {
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_COMBINE_SEGMENTS_32_OUTPUT,
+            options: {
+                combineSegments: true,
+                combineSegmentsLength: 32,
+            },
+            id: "How to Start a Podcast, combine segments, 32",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_COMBINE_SPEAKER_OUTPUT,
+            options: {
+                combineSpeaker: true,
+                combineSegments: true,
+                combineSegmentsLength: 32,
+            },
+            id: "How to Start a Podcast, combine speaker",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_BUZZCAST_SPEAKER_CHANGE_COMBINE_EQUAL_TIME_SPACE_OUTPUT,
+            options: {
+                speakerChange: true,
+                combineEqualTimes: true,
+                combineEqualTimesSeparator: " ",
+            },
+            id: "Buzzcast, speaker change",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_HOW_TO_START_A_PODCAST_SPEAKER_CHANGE_OUTPUT,
+            options: {
+                speakerChange: true,
+                combineSegments: true,
+                combineSegmentsLength: 32,
+            },
+            id: "How to Start a Podcast, speaker change",
+        },
+    ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, options }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
-
+        Options.setOptions(options)
         const segments = parseJSON(data)
         expect(segments).toEqual(expectedJSONData.segments)
     })

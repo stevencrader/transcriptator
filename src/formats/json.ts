@@ -1,3 +1,4 @@
+import { addSegment } from "../segments"
 import { parseSpeaker } from "../speaker"
 import { timestampFormatter } from "../timestamp"
 import { Segment } from "../types"
@@ -17,7 +18,7 @@ export type JSONSegment = {
     /**
      * Name of speaker for `body`
      */
-    speaker: string
+    speaker?: string
     /**
      * Text of transcript for segment
      */
@@ -73,17 +74,20 @@ export const isJSON = (data: string): boolean => {
  * @returns An array of Segments from the parsed data
  */
 const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
-    const outSegments: Array<Segment> = []
+    let outSegments: Array<Segment> = []
 
     data.segments.forEach((segment) => {
-        outSegments.push({
-            startTime: segment.startTime,
-            startTimeFormatted: timestampFormatter.format(segment.startTime),
-            endTime: segment.endTime,
-            endTimeFormatted: timestampFormatter.format(segment.endTime),
-            speaker: segment.speaker,
-            body: segment.body,
-        })
+        outSegments = addSegment(
+            {
+                startTime: segment.startTime,
+                startTimeFormatted: timestampFormatter.format(segment.startTime),
+                endTime: segment.endTime,
+                endTimeFormatted: timestampFormatter.format(segment.endTime),
+                speaker: segment.speaker,
+                body: segment.body,
+            },
+            outSegments
+        )
     })
 
     return outSegments
@@ -153,7 +157,7 @@ const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
  * @throws {TypeError} When item in `data` does not match the {@link SubtitleSegment} format
  */
 const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => {
-    const outSegments: Array<Segment> = []
+    let outSegments: Array<Segment> = []
 
     let lastSpeaker = ""
 
@@ -162,7 +166,8 @@ const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => 
         if (subtitleSegment !== undefined) {
             lastSpeaker = subtitleSegment.speaker ? subtitleSegment.speaker : lastSpeaker
             subtitleSegment.speaker = lastSpeaker
-            outSegments.push(subtitleSegment)
+
+            outSegments = addSegment(subtitleSegment, outSegments)
         } else {
             throw new TypeError(`Unable to parse segment for item ${count}`)
         }

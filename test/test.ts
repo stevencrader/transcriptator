@@ -1,6 +1,8 @@
+// noinspection HtmlRequiredLangAttribute
+
 import { describe, expect, test } from "@jest/globals"
 
-import { combineSingleWordSegments, convertFile, determineFormat, Segment, TranscriptFormat } from "../src"
+import { convertFile, determineFormat, Options, TranscriptFormat } from "../src"
 
 import { readFile, TestFiles } from "./test_utils"
 
@@ -130,6 +132,8 @@ describe("Convert File", () => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         const segments = convertFile(data, transcriptFormat)
         expect(segments).toEqual(expectedJSONData.segments)
     })
@@ -183,6 +187,8 @@ Subtitles: @marlonrock1986 (^^V^^)
             id: "VTT, wrong format",
         },
     ])("Convert File Error ($id)", ({ data, transcriptFormat }) => {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         expect(() => convertFile(data, transcriptFormat as TranscriptFormat)).toThrow(Error)
     })
 })
@@ -190,17 +196,11 @@ Subtitles: @marlonrock1986 (^^V^^)
 describe("Combine Single Word Segments", () => {
     // noinspection HtmlRequiredLangAttribute
     test.each<{
-        segments: Array<Segment> | string
+        segments: string
         maxLength: number
-        expected: Array<Segment> | string
+        expected: string
         id: string
     }>([
-        {
-            segments: [],
-            maxLength: 32,
-            expected: [],
-            id: "Empty",
-        },
         {
             segments: TestFiles.ONE_WORD_SEGMENTS,
             maxLength: 32,
@@ -214,51 +214,14 @@ describe("Combine Single Word Segments", () => {
             id: "length 50",
         },
     ])("Combine Single Word Segments ($id)", ({ segments, maxLength, expected }) => {
-        const segmentsJSON = typeof segments === "string" ? JSON.parse(readFile(segments)) : segments
-        const expectedJSON = typeof expected === "string" ? JSON.parse(readFile(expected)) : expected
+        const segmentsData = readFile(segments)
+        const expectedJSON = JSON.parse(readFile(expected))
 
-        const outSegments = combineSingleWordSegments(segmentsJSON as Array<Segment>, maxLength)
+        Options.setOptions({
+            combineSegments: true,
+            combineSegmentsLength: maxLength,
+        })
+        const outSegments = convertFile(segmentsData, TranscriptFormat.JSON)
         expect(outSegments).toStrictEqual(expectedJSON)
-    })
-})
-
-describe("Unsupported segment data", () => {
-    test.each<{
-        segments: Array<Segment>
-        maxLength: number
-        id: string
-    }>([
-        {
-            segments: [
-                {
-                    speaker: "Travis",
-                    startTime: 0.3,
-                    startTimeFormatted: "00:00:00.300",
-                    endTime: 0.93,
-                    endTimeFormatted: "00:00:00.930",
-                    body: "Hey, Travis",
-                },
-                {
-                    speaker: "Travis",
-                    startTime: 0.931,
-                    startTimeFormatted: "00:00:00.931",
-                    endTime: 1.08,
-                    endTimeFormatted: "00:00:01.080",
-                    body: "Albritain",
-                },
-                {
-                    speaker: "Travis",
-                    startTime: 1.321,
-                    startTimeFormatted: "00:00:01.321",
-                    endTime: 1.65,
-                    endTimeFormatted: "00:00:01.650",
-                    body: "here.",
-                },
-            ],
-            maxLength: 32,
-            id: "Space 1",
-        },
-    ])("Unsupported segment data ($id)", ({ segments, maxLength }) => {
-        expect(() => combineSingleWordSegments(segments, maxLength)).toThrow(Error)
     })
 })

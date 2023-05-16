@@ -1,5 +1,6 @@
 import { HTMLElement, parse } from "node-html-parser"
 
+import { addSegment } from "../segments"
 import { parseTimestamp, timestampFormatter } from "../timestamp"
 import { Segment } from "../types"
 
@@ -87,16 +88,13 @@ const updateSegmentPartFromElement = (
  *
  * @param segmentPart HTML segment data
  * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
- * @returns Created {@link Segment} and updated speaker
+ * @returns Created segment
  */
-const createSegmentFromSegmentPart = (
-    segmentPart: HTMLSegmentPart,
-    lastSpeaker: string
-): { segment: Segment; speaker: string } => {
+const createSegmentFromSegmentPart = (segmentPart: HTMLSegmentPart, lastSpeaker: string): Segment => {
     const calculatedSpeaker = segmentPart.cite ? segmentPart.cite : lastSpeaker
     const startTime = parseTimestamp(segmentPart.time)
 
-    const segment: Segment = {
+    return {
         startTime,
         startTimeFormatted: timestampFormatter.format(startTime),
         endTime: 0,
@@ -104,8 +102,6 @@ const createSegmentFromSegmentPart = (
         speaker: calculatedSpeaker.replace(":", "").trimEnd(),
         body: segmentPart.text,
     }
-
-    return { segment, speaker: calculatedSpeaker }
 }
 
 /**
@@ -115,7 +111,7 @@ const createSegmentFromSegmentPart = (
  * @returns Segments created from HTML data
  */
 const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segment> => {
-    const outSegments: Array<Segment> = []
+    let outSegments: Array<Segment> = []
     let lastSpeaker = ""
 
     let segmentPart: HTMLSegmentPart = {
@@ -142,19 +138,19 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
             if (segmentPart.time === "") {
                 console.warn(`Segment ${count} does not contain time information, ignoring`)
             } else {
-                const s = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
-                lastSpeaker = s.speaker
+                const segment = createSegmentFromSegmentPart(segmentPart, lastSpeaker)
+                lastSpeaker = segment.speaker
 
                 // update endTime of previous Segment
                 const totalSegments = outSegments.length
                 if (totalSegments > 0) {
-                    outSegments[totalSegments - 1].endTime = s.segment.startTime
+                    outSegments[totalSegments - 1].endTime = segment.startTime
                     outSegments[totalSegments - 1].endTimeFormatted = timestampFormatter.format(
                         outSegments[totalSegments - 1].endTime
                     )
                 }
 
-                outSegments.push(s.segment)
+                outSegments = addSegment(segment, outSegments)
             }
 
             // clear

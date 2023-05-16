@@ -1,6 +1,6 @@
 import { describe, expect, jest, test } from "@jest/globals"
 
-import { Segment } from "../src"
+import { IOptions, Options, Segment } from "../src"
 import { parseSRT, parseSRTSegment, SRTSegment } from "../src/formats/srt"
 
 import { readFile, TestFiles } from "./test_utils"
@@ -135,22 +135,45 @@ describe("Parse SRT file data", () => {
     test.each<{
         filePath: string
         expectedFilePath: string
+        options: IOptions
         id: string
     }>([
         {
             filePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST,
             expectedFilePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST_OUTPUT,
+            options: undefined,
             id: "Buzzcast",
         },
         {
             filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20,
             expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+            options: undefined,
             id: "Podcasting 2.0",
         },
-    ])("Parse SRT File ($id)", ({ filePath, expectedFilePath }) => {
+        {
+            filePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST_COMBINED_SEGMENTS_128_OUTPUT,
+            options: {
+                combineSegments: true,
+                combineSegmentsLength: 128,
+            },
+            id: "Buzzcast, combined segments 128",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_BUZZCAST_SPEAKER_CHANGE_COMBINED_SEGMENTS_128_OUTPUT,
+            options: {
+                speakerChange: true,
+                combineSegments: true,
+                combineSegmentsLength: 128,
+            },
+            id: "Buzzcast, speaker change, combined segments 128",
+        },
+    ])("Parse SRT File ($id)", ({ filePath, expectedFilePath, options }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
 
+        Options.setOptions(options)
         const segments = parseSRT(data)
         expect(segments).toEqual(expectedJSONData.segments)
     })
