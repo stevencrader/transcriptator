@@ -62,8 +62,8 @@ export interface FormatterCallback {
  * A custom formatter may be registered.
  * If one isn't registered, the default formatter will be used and the data will be formatted as HH:mm:SS.fff
  */
-export class TimestampFormatter {
-    static _instance: TimestampFormatter
+export class TimestampFormatterManager {
+    static _instance: TimestampFormatterManager
 
     private customFormatter: FormatterCallback = undefined
 
@@ -71,11 +71,11 @@ export class TimestampFormatter {
      * Create the formatter
      */
     constructor() {
-        if (!TimestampFormatter._instance) {
-            TimestampFormatter._instance = this
+        if (!TimestampFormatterManager._instance) {
+            TimestampFormatterManager._instance = this
         }
         // eslint-disable-next-line no-constructor-return
-        return TimestampFormatter._instance
+        return TimestampFormatterManager._instance
     }
 
     /**
@@ -105,7 +105,7 @@ export class TimestampFormatter {
      */
     public format = (timestamp: number): string => {
         if (this.customFormatter === undefined) {
-            return TimestampFormatter.defaultFormatter(timestamp)
+            return TimestampFormatterManager.defaultFormatter(timestamp)
         }
         return this.customFormatter(timestamp)
     }
@@ -127,4 +127,4 @@ export class TimestampFormatter {
     }
 }
 
-export const timestampFormatter = new TimestampFormatter()
+export const TimestampFormatter = new TimestampFormatterManager()

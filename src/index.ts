@@ -5,7 +5,7 @@ import { isVTT, parseVTT } from "./formats/vtt"
 import { Segment, TranscriptFormat } from "./types"
 
 export { Segment, TranscriptFormat } from "./types"
-export { timestampFormatter, FormatterCallback } from "./timestamp"
+export { TimestampFormatter, FormatterCallback } from "./timestamp"
 export { Options, IOptions } from "./options"
 
 /**

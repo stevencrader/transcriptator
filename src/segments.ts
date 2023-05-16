@@ -1,5 +1,5 @@
 import { Options } from "./options"
-import { timestampFormatter } from "./timestamp"
+import { TimestampFormatter } from "./timestamp"
 import { DEFAULT_COMBINE_SEGMENTS_LENGTH, Segment } from "./types"
 
 /**
@@ -46,7 +46,7 @@ const joinSegments = (segments: Array<Segment>, bodySeparator: string = undefine
     const newSegment = { ...segments[0] }
     segments.slice(1).forEach((segment) => {
         newSegment.endTime = segment.endTime
-        newSegment.endTimeFormatted = timestampFormatter.format(segment.endTime)
+        newSegment.endTimeFormatted = TimestampFormatter.format(segment.endTime)
         newSegment.body = joinBody(newSegment.body, segment.body, bodySeparator)
     })
     return newSegment
