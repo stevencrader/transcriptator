@@ -145,8 +145,8 @@ describe("Parse SRT file data", () => {
             id: "Buzzcast",
         },
         {
-            filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20,
-            expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+            filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_EPISODE_124,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_EPISODE_124_OUTPUT,
             options: undefined,
             id: "Podcasting 2.0",
         },

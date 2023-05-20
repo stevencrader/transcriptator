@@ -19,9 +19,11 @@ export interface IOptions {
      * Combine segments if the {@link Segment.startTime}, {@link Segment.endTime}, and {@link Segment.speaker} match
      * between the current and prior segments
      *
-     * Cannot be used with {@link combineSegments} or {@link combineSpeaker}
+     * Can be used with {@link combineSegments}. The {@link combineEqualTimes} rule is applied first.
      *
-     * Default: false
+     * Can be used with {@link speakerChange}. The {@link speakerChange} rule is applied last.
+     *
+     * Cannot be used with {@link combineSpeaker}
      */
     combineEqualTimes?: boolean
 
@@ -35,9 +37,11 @@ export interface IOptions {
     /**
      * Combine segments where speaker is the same and concatenated `body` fits in the {@link combineSegmentsLength}
      *
-     * Cannot be used with {@link combineEqualTimes} or {@link combineSpeaker}
+     * Can be used with {@link combineEqualTimes}. The {@link combineSegments} rule is applied first.
      *
-     * Default: false
+     * Can be used with {@link speakerChange}. The {@link speakerChange} rule is applied last.
+     *
+     * Cannot be used with {@link combineSpeaker}
      */
     combineSegments?: boolean
 
@@ -51,19 +55,16 @@ export interface IOptions {
     /**
      * Combine consecutive segments from the same speaker.
      *
-     * Note: this will override {@link combineSegments} and {@link combineSegmentsLength}
+     * Note: If this is enabled, {@link combineEqualTimes} and {@link combineSegments} will not be applied.
      *
      * Warning: if the transcript does not contain speaker information, resulting segment will contain entire transcript text.
-     *
-     * Default: false
      */
     combineSpeaker?: boolean
+
     /**
      * Only include {@link Segment.speaker} when speaker changes
      *
-     * May be used in combination with {@link combineEqualTimes} and {@link combineSegments}
-     *
-     * Default: false
+     * May be used in combination with {@link combineSpeaker}, {@link combineEqualTimes}, or {@link combineSegments}
      */
     speakerChange?: boolean
 }
@@ -81,7 +82,11 @@ export class OptionsManager implements IOptions {
      * Combine segments if the {@link Segment.startTime}, {@link Segment.endTime}, and {@link Segment.speaker} match
      * between the current and prior segments
      *
-     * Cannot be used with {@link combineSegments} or {@link combineSpeaker}
+     * Can be used with {@link combineSegments}. The {@link combineEqualTimes} rule is applied first.
+     *
+     * Can be used with {@link speakerChange}. The {@link speakerChange} rule is applied last.
+     *
+     * Cannot be used with {@link combineSpeaker}
      */
     public combineEqualTimes = false
 
@@ -93,7 +98,11 @@ export class OptionsManager implements IOptions {
     /**
      * Combine segments where speaker is the same and concatenated `body` fits in the {@link combineSegmentsLength}
      *
-     * Cannot be used with {@link combineEqualTimes} or {@link combineSpeaker}
+     * Can be used with {@link combineEqualTimes}. The {@link combineSegments} rule is applied first.
+     *
+     * Can be used with {@link speakerChange}. The {@link speakerChange} rule is applied last.
+     *
+     * Cannot be used with {@link combineSpeaker}
      */
     public combineSegments = false
 
@@ -105,7 +114,7 @@ export class OptionsManager implements IOptions {
     /**
      * Combine consecutive segments from the same speaker.
      *
-     * Note: this will override {@link combineSegments} and {@link combineSegmentsLength}
+     * Note: If this is enabled, {@link combineEqualTimes} and {@link combineSegments} will not be applied.
      *
      * Warning: if the transcript does not contain speaker information, resulting segment will contain entire transcript text.
      */
@@ -114,7 +123,7 @@ export class OptionsManager implements IOptions {
     /**
      * Only include {@link Segment.speaker} when speaker changes
      *
-     * May be used in combination with {@link combineEqualTimes} and {@link combineSegments}
+     * May be used in combination with {@link combineSpeaker}, {@link combineEqualTimes}, or {@link combineSegments}
      */
     public speakerChange = false
 
