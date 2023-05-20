@@ -1,4 +1,4 @@
-# transcriptator 1.1.0-beta.0
+# transcriptator 1.1.0
 
 New `Options`:
 
