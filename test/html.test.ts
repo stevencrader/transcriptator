@@ -298,9 +298,9 @@ describe("Parse HTML file data", () => {
             id: "Buzzcast",
         },
         {
-            filePath: TestFiles.TRANSCRIPT_HTML_PODNEWS_WEEKLY_REVIEW,
-            expectedFilePath: TestFiles.TRANSCRIPT_HTML_PODNEWS_WEEKLY_REVIEW_OUTPUT,
-            id: "Podnews Weekly Review",
+            filePath: TestFiles.TRANSCRIPT_HTML_PODNEWS_WEEKLY_REVIEW_2023_03_17,
+            expectedFilePath: TestFiles.TRANSCRIPT_HTML_PODNEWS_WEEKLY_REVIEW_2023_03_17_OUTPUT,
+            id: "Podnews Weekly Review 2023-03-07",
         },
     ])("Parse HTML File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)

@@ -130,6 +130,14 @@ const doCombineSegments = (
     maxLength: number,
     lastSpeaker: string
 ): CombineResult => {
+    if (priorSegment === undefined) {
+        return {
+            segment: newSegment,
+            replace: false,
+            combined: false,
+        }
+    }
+
     const combineSegmentsLength = maxLength || DEFAULT_COMBINE_SEGMENTS_LENGTH
 
     if (
@@ -340,15 +348,32 @@ const doCombineWithPrior = (newSegment: Segment, priorSegment: Segment, lastSpea
         combined: false,
     }
 
+    let combinedSpeaker = false
     if (combineSpeaker) {
         result = doCombineSpeaker(result.segment, priorSegment, lastSpeaker)
+        combinedSpeaker = result.combined
     }
-    if (!result.combined && combineSegments) {
-        result = doCombineSegments(result.segment, priorSegment, combineSegmentsLength, lastSpeaker)
-    }
-    if (!result.combined && combineEqualTimes) {
+
+    if (!combinedSpeaker && combineEqualTimes) {
         result = doCombineEqualTimes(result.segment, priorSegment, combineEqualTimesSeparator, lastSpeaker)
     }
+
+    if (!combinedSpeaker && combineSegments) {
+        let combineResult
+        if (combineEqualTimes && result.combined) {
+            combineResult = doCombineSegments(result.segment, undefined, combineSegmentsLength, lastSpeaker)
+        } else {
+            combineResult = doCombineSegments(result.segment, priorSegment, combineSegmentsLength, lastSpeaker)
+        }
+        if (combineResult) {
+            result = {
+                segment: combineResult.segment,
+                replace: result.replace || combineResult.replace,
+                combined: result.combined || combineResult.combined,
+            }
+        }
+    }
+
     if (speakerChange) {
         result = applyOptionsAndDoSpeakerChange(result, priorSegment, lastSpeaker)
     }

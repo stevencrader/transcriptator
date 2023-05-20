@@ -87,9 +87,9 @@ describe("Convert File", () => {
             id: "SRT Detect",
         },
         {
-            filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20,
+            filePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_EPISODE_124,
             transcriptFormat: TranscriptFormat.SRT,
-            expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_OUTPUT,
+            expectedFilePath: TestFiles.TRANSCRIPT_SRT_PODCASTING_20_EPISODE_124_OUTPUT,
             id: "SRT",
         },
         {

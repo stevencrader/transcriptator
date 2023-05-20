@@ -171,6 +171,25 @@ describe("Parse JSON file data", () => {
             },
             id: "How to Start a Podcast, speaker change",
         },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05_OUTPUT,
+            options: {
+                combineEqualTimes: true,
+                combineEqualTimesSeparator: " ",
+                combineSegments: true,
+                combineSegmentsLength: 50,
+            },
+            id: "Podnews Weekly Review 2023-05-05, equal times and segments",
+        },
+        {
+            filePath: TestFiles.TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05,
+            expectedFilePath: TestFiles.TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05_COMBINE_SPEAKER_OUTPUT,
+            options: {
+                combineSpeaker: true,
+            },
+            id: "Podnews Weekly Review 2023-05-05, combine speaker",
+        },
     ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, options }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))

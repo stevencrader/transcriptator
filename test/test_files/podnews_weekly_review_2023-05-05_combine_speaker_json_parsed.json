@@ -1,0 +1,212 @@
+{
+    "segments": [
+        {
+            "startTime": 0.035,
+            "startTimeFormatted": "00:00:00.035",
+            "endTime": 3.455,
+            "endTimeFormatted": "00:00:03.455",
+            "speaker": "James C",
+            "body": "it's Friday, the 5th of May 20, 23."
+        },
+        {
+            "startTime": 4.26,
+            "startTimeFormatted": "00:00:04.260",
+            "endTime": 12.69,
+            "endTimeFormatted": "00:00:12.690",
+            "speaker": "Jingles",
+            "body": "The last word in podcasting news. This is the Pod News weekly review with James Kirkland and Sam Sethi."
+        },
+        {
+            "startTime": 14.009,
+            "startTimeFormatted": "00:00:14.009",
+            "endTime": 15.989,
+            "endTimeFormatted": "00:00:15.989",
+            "speaker": "James C",
+            "body": "I'm James Cridland, the editor of Pop News."
+        },
+        {
+            "startTime": 16.122,
+            "startTimeFormatted": "00:00:16.122",
+            "endTime": 18.442,
+            "endTimeFormatted": "00:00:18.442",
+            "speaker": "Sam Sethi",
+            "body": "And I'm Sam Sethi, the CEO of Podfans."
+        },
+        {
+            "startTime": 18.553,
+            "startTimeFormatted": "00:00:18.553",
+            "endTime": 40.723,
+            "endTimeFormatted": "00:00:40.723",
+            "speaker": "James C",
+            "body": "In the chapters today, Spotify podcasts is still growing and now it offers monetization options outside of the US. A review of the latest data and numbers for April is hosted by the advertising being undervalued. The podcast Academy tells us who does what and the winners of the Arias and the Publisher Podcast Awards were announced and"
+        },
+        {
+            "startTime": 40.75,
+            "startTimeFormatted": "00:00:40.750",
+            "endTime": 47.95,
+            "endTimeFormatted": "00:00:47.950",
+            "speaker": "Chris Quamme Rhoden",
+            "body": "Hi, I'm Chris Quamme Rhoden. I'm principal engineer at Acast and I'll be on later to talk about Acast support of the Podcast Standards Project."
+        },
+        {
+            "startTime": 48.088,
+            "startTimeFormatted": "00:00:48.088",
+            "endTime": 55.488,
+            "endTimeFormatted": "00:00:55.488",
+            "speaker": "Nick Hilton",
+            "body": "This is Nick Hilton, and I'll be on later to talk about   podcast host-read advertising."
+        },
+        {
+            "startTime": 55.743,
+            "startTimeFormatted": "00:00:55.743",
+            "endTime": 83.005,
+            "endTimeFormatted": "00:01:23.005",
+            "speaker": "James C",
+            "body": "they will. This podcast is sponsored and hosted by Buzz Sprout. Last week, 3889 people started a podcast with Buzz Sprout podcast hosting made easy with powerful tools and remarkable customer support. Now you can turn your listeners into supporters with Buzz Sprout subscriptions, and we're sponsored by Pod News Live, where podcasting connects in Manchester in June. Get your tickets at Pod news dot net slash live."
+        },
+        {
+            "startTime": 83.205,
+            "startTimeFormatted": "00:01:23.205",
+            "endTime": 92.205,
+            "endTimeFormatted": "00:01:32.205",
+            "speaker": "Jingles",
+            "body": "Pod news lie where the podcast industry connects. Get your tickets now at Pod News start PCMag slash live."
+        },
+        {
+            "startTime": 94.157,
+            "startTimeFormatted": "00:01:34.157",
+            "endTime": 107.177,
+            "endTimeFormatted": "00:01:47.177",
+            "speaker": "Sam Sethi",
+            "body": "on that. Jane So let's kick this off. Here's a little fun fact for you, April. There was one new podcast episode every 1.5 seconds. That's quite mad really, isn't it?"
+        },
+        {
+            "startTime": 107.088,
+            "startTimeFormatted": "00:01:47.088",
+            "endTime": 116.748,
+            "endTimeFormatted": "00:01:56.748",
+            "speaker": "James C",
+            "body": "I know it's a ridiculous number, isn't it? Yes. 1.7 million podcasts published in April, which makes it one every 1.5 seconds. It's quite a thing."
+        },
+        {
+            "startTime": 116.913,
+            "startTimeFormatted": "00:01:56.913",
+            "endTime": 147.003,
+            "endTimeFormatted": "00:02:27.003",
+            "speaker": "Sam Sethi",
+            "body": "I'm now talking quite a thing. We've we've written the obituary on this product several times, but it seems to keep coming back. Spotify for Podcasts posts the second highest share of new episodes growing 13% in January. So Spotify's megaphone has also continued to grow as well. But Spotify for podcast only thought genuinely that that was it. It was going to be buried put away, never to be talked about again, but somehow it seems to be growing. Tell me more. Why"
+        },
+        {
+            "startTime": 146.968,
+            "startTimeFormatted": "00:02:26.968",
+            "endTime": 149.258,
+            "endTimeFormatted": "00:02:29.258",
+            "speaker": "James C",
+            "body": "Yes, it's amazing what a brand does."
+        },
+        {
+            "startTime": 148.983,
+            "startTimeFormatted": "00:02:28.983",
+            "endTime": 149.433,
+            "endTimeFormatted": "00:02:29.433",
+            "speaker": "Sam Sethi",
+            "body": "so"
+        },
+        {
+            "startTime": 149.278,
+            "startTimeFormatted": "00:02:29.278",
+            "endTime": 180.688,
+            "endTimeFormatted": "00:03:00.688",
+            "speaker": "James C",
+            "body": "So they changed it away from being called anchor in March. And certainly March and April have seen significant growth for the product, which is now called Spotify Podcast, as they're hosting products. That is doing really, really well. And I think, you know, perhaps it's just that people see the Spotify brand and they go, Ooh, we trust the Spotify brand and maybe we didn't really trust the anchor brand. And so maybe that's one of the reasons why we're seeing more"
+        },
+        {
+            "startTime": 180.543,
+            "startTimeFormatted": "00:03:00.543",
+            "endTime": 180.933,
+            "endTimeFormatted": "00:03:00.933",
+            "speaker": "Sam Sethi",
+            "body": "people"
+        },
+        {
+            "startTime": 180.688,
+            "startTimeFormatted": "00:03:00.688",
+            "endTime": 181.288,
+            "endTimeFormatted": "00:03:01.288",
+            "speaker": "James C",
+            "body": "and more people"
+        },
+        {
+            "startTime": 180.933,
+            "startTimeFormatted": "00:03:00.933",
+            "endTime": 181.263,
+            "endTimeFormatted": "00:03:01.263",
+            "speaker": "Sam Sethi",
+            "body": "do things"
+        },
+        {
+            "startTime": 181.288,
+            "startTimeFormatted": "00:03:01.288",
+            "endTime": 181.678,
+            "endTimeFormatted": "00:03:01.678",
+            "speaker": "James C",
+            "body": "using"
+        },
+        {
+            "startTime": 181.493,
+            "startTimeFormatted": "00:03:01.493",
+            "endTime": 181.693,
+            "endTimeFormatted": "00:03:01.693",
+            "speaker": "Sam Sethi",
+            "body": "like"
+        },
+        {
+            "startTime": 181.678,
+            "startTimeFormatted": "00:03:01.678",
+            "endTime": 183.118,
+            "endTimeFormatted": "00:03:03.118",
+            "speaker": "James C",
+            "body": "Spotify for podcasters to"
+        },
+        {
+            "startTime": 183.003,
+            "startTimeFormatted": "00:03:03.003",
+            "endTime": 183.223,
+            "endTimeFormatted": "00:03:03.223",
+            "speaker": "Sam Sethi",
+            "body": "that"
+        },
+        {
+            "startTime": 183.118,
+            "startTimeFormatted": "00:03:03.118",
+            "endTime": 189.448,
+            "endTimeFormatted": "00:03:09.448",
+            "speaker": "James C",
+            "body": "host their show. That said, Spotify is megaphone is has actually published their best ever figures"
+        },
+        {
+            "startTime": 189.553,
+            "startTimeFormatted": "00:03:09.553",
+            "endTime": 189.773,
+            "endTimeFormatted": "00:03:09.773",
+            "speaker": "Sam Sethi",
+            "body": "home?"
+        },
+        {
+            "startTime": 189.898,
+            "startTimeFormatted": "00:03:09.898",
+            "endTime": 198.538,
+            "endTimeFormatted": "00:03:18.538",
+            "speaker": "James C",
+            "body": "in terms of share of new episodes as well. According to Livewire Dot IO. So clearly Spotify is hosting. Companies are having a moment."
+        },
+        {
+            "startTime": 198.483,
+            "startTimeFormatted": "00:03:18.483",
+            "endTime": 207.504,
+            "endTimeFormatted": "00:03:27.504",
+            "speaker": "Sam Sethi",
+            "body": "Well, there you go. they've also started rolling out some monetization products, automated ads and investor ads to more countries."
+        }
+    ]
+}

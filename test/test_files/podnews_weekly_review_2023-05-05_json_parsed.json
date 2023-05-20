@@ -1,0 +1,540 @@
+{
+  "segments": [
+    {
+      "startTime": 0.035,
+      "startTimeFormatted": "00:00:00.035",
+      "endTime": 3.455,
+      "endTimeFormatted": "00:00:03.455",
+      "speaker": "James C",
+      "body": "it's Friday, the 5th of May 20, 23."
+    },
+    {
+      "startTime": 4.26,
+      "startTimeFormatted": "00:00:04.260",
+      "endTime": 8.37,
+      "endTimeFormatted": "00:00:08.370",
+      "speaker": "Jingles",
+      "body": "The last word in podcasting news. This is the Pod"
+    },
+    {
+      "startTime": 8.38,
+      "startTimeFormatted": "00:00:08.380",
+      "endTime": 12.69,
+      "endTimeFormatted": "00:00:12.690",
+      "speaker": "Jingles",
+      "body": "News weekly review with James Kirkland and Sam Sethi."
+    },
+    {
+      "startTime": 14.009,
+      "startTimeFormatted": "00:00:14.009",
+      "endTime": 15.989,
+      "endTimeFormatted": "00:00:15.989",
+      "speaker": "James C",
+      "body": "I'm James Cridland, the editor of Pop News."
+    },
+    {
+      "startTime": 16.122,
+      "startTimeFormatted": "00:00:16.122",
+      "endTime": 18.442,
+      "endTimeFormatted": "00:00:18.442",
+      "speaker": "Sam Sethi",
+      "body": "And I'm Sam Sethi, the CEO of Podfans."
+    },
+    {
+      "startTime": 18.553,
+      "startTimeFormatted": "00:00:18.553",
+      "endTime": 21.523,
+      "endTimeFormatted": "00:00:21.523",
+      "speaker": "James C",
+      "body": "In the chapters today, Spotify podcasts is still"
+    },
+    {
+      "startTime": 21.523,
+      "startTimeFormatted": "00:00:21.523",
+      "endTime": 25.063,
+      "endTimeFormatted": "00:00:25.063",
+      "speaker": "James C",
+      "body": "growing and now it offers monetization options outside of"
+    },
+    {
+      "startTime": 25.063,
+      "startTimeFormatted": "00:00:25.063",
+      "endTime": 29.233,
+      "endTimeFormatted": "00:00:29.233",
+      "speaker": "James C",
+      "body": "the US. A review of the latest data and numbers for April is"
+    },
+    {
+      "startTime": 29.233,
+      "startTimeFormatted": "00:00:29.233",
+      "endTime": 33.463,
+      "endTimeFormatted": "00:00:33.463",
+      "speaker": "James C",
+      "body": "hosted by the advertising being undervalued. The podcast Academy"
+    },
+    {
+      "startTime": 33.463,
+      "startTimeFormatted": "00:00:33.463",
+      "endTime": 37.153,
+      "endTimeFormatted": "00:00:37.153",
+      "speaker": "James C",
+      "body": "tells us who does what and the winners of the Arias and the"
+    },
+    {
+      "startTime": 37.153,
+      "startTimeFormatted": "00:00:37.153",
+      "endTime": 40.723,
+      "endTimeFormatted": "00:00:40.723",
+      "speaker": "James C",
+      "body": "Publisher Podcast Awards were announced and"
+    },
+    {
+      "startTime": 40.75,
+      "startTimeFormatted": "00:00:40.750",
+      "endTime": 42.34,
+      "endTimeFormatted": "00:00:42.340",
+      "speaker": "Chris Quamme Rhoden",
+      "body": "Hi, I'm Chris Quamme Rhoden. I'm"
+    },
+    {
+      "startTime": 42.34,
+      "startTimeFormatted": "00:00:42.340",
+      "endTime": 45.46,
+      "endTimeFormatted": "00:00:45.460",
+      "speaker": "Chris Quamme Rhoden",
+      "body": "principal engineer at Acast and I'll be on later to talk about"
+    },
+    {
+      "startTime": 45.48,
+      "startTimeFormatted": "00:00:45.480",
+      "endTime": 47.95,
+      "endTimeFormatted": "00:00:47.950",
+      "speaker": "Chris Quamme Rhoden",
+      "body": "Acast support of the Podcast Standards Project."
+    },
+    {
+      "startTime": 48.088,
+      "startTimeFormatted": "00:00:48.088",
+      "endTime": 52.468,
+      "endTimeFormatted": "00:00:52.468",
+      "speaker": "Nick Hilton",
+      "body": "This is Nick Hilton, and I'll be on later to"
+    },
+    {
+      "startTime": 52.468,
+      "startTimeFormatted": "00:00:52.468",
+      "endTime": 55.488,
+      "endTimeFormatted": "00:00:55.488",
+      "speaker": "Nick Hilton",
+      "body": "talk about   podcast host-read advertising."
+    },
+    {
+      "startTime": 55.743,
+      "startTimeFormatted": "00:00:55.743",
+      "endTime": 58.933,
+      "endTimeFormatted": "00:00:58.933",
+      "speaker": "James C",
+      "body": "they will. This podcast is sponsored and hosted by Buzz"
+    },
+    {
+      "startTime": 58.933,
+      "startTimeFormatted": "00:00:58.933",
+      "endTime": 63.243,
+      "endTimeFormatted": "00:01:03.243",
+      "speaker": "James C",
+      "body": "Sprout. Last week, 3889 people started a podcast with Buzz"
+    },
+    {
+      "startTime": 63.243,
+      "startTimeFormatted": "00:01:03.243",
+      "endTime": 66.813,
+      "endTimeFormatted": "00:01:06.813",
+      "speaker": "James C",
+      "body": "Sprout podcast hosting made easy with powerful tools and"
+    },
+    {
+      "startTime": 66.813,
+      "startTimeFormatted": "00:01:06.813",
+      "endTime": 69.903,
+      "endTimeFormatted": "00:01:09.903",
+      "speaker": "James C",
+      "body": "remarkable customer support. Now you can turn your listeners into"
+    },
+    {
+      "startTime": 69.903,
+      "startTimeFormatted": "00:01:09.903",
+      "endTime": 72.993,
+      "endTimeFormatted": "00:01:12.993",
+      "speaker": "James C",
+      "body": "supporters with Buzz Sprout subscriptions, and we're"
+    },
+    {
+      "startTime": 72.993,
+      "startTimeFormatted": "00:01:12.993",
+      "endTime": 77.253,
+      "endTimeFormatted": "00:01:17.253",
+      "speaker": "James C",
+      "body": "sponsored by Pod News Live, where podcasting connects in"
+    },
+    {
+      "startTime": 77.245,
+      "startTimeFormatted": "00:01:17.245",
+      "endTime": 81.765,
+      "endTimeFormatted": "00:01:21.765",
+      "speaker": "James C",
+      "body": "Manchester in June. Get your tickets at Pod news dot net"
+    },
+    {
+      "startTime": 81.775,
+      "startTimeFormatted": "00:01:21.775",
+      "endTime": 83.005,
+      "endTimeFormatted": "00:01:23.005",
+      "speaker": "James C",
+      "body": "slash live."
+    },
+    {
+      "startTime": 83.205,
+      "startTimeFormatted": "00:01:23.205",
+      "endTime": 88.095,
+      "endTimeFormatted": "00:01:28.095",
+      "speaker": "Jingles",
+      "body": "Pod news lie where the podcast industry connects. Get"
+    },
+    {
+      "startTime": 88.095,
+      "startTimeFormatted": "00:01:28.095",
+      "endTime": 92.205,
+      "endTimeFormatted": "00:01:32.205",
+      "speaker": "Jingles",
+      "body": "your tickets now at Pod News start PCMag slash live."
+    },
+    {
+      "startTime": 94.157,
+      "startTimeFormatted": "00:01:34.157",
+      "endTime": 100.157,
+      "endTimeFormatted": "00:01:40.157",
+      "speaker": "Sam Sethi",
+      "body": "on that. Jane So let's kick this off."
+    },
+    {
+      "startTime": 97.057,
+      "startTimeFormatted": "00:01:37.057",
+      "endTime": 100.157,
+      "endTimeFormatted": "00:01:40.157",
+      "speaker": "Sam Sethi",
+      "body": "Here's a little fun fact for you,"
+    },
+    {
+      "startTime": 100.757,
+      "startTimeFormatted": "00:01:40.757",
+      "endTime": 105.707,
+      "endTimeFormatted": "00:01:45.707",
+      "speaker": "Sam Sethi",
+      "body": "April. There was one new podcast episode every 1.5 seconds."
+    },
+    {
+      "startTime": 105.797,
+      "startTimeFormatted": "00:01:45.797",
+      "endTime": 107.177,
+      "endTimeFormatted": "00:01:47.177",
+      "speaker": "Sam Sethi",
+      "body": "That's quite mad really, isn't it?"
+    },
+    {
+      "startTime": 107.088,
+      "startTimeFormatted": "00:01:47.088",
+      "endTime": 109.188,
+      "endTimeFormatted": "00:01:49.188",
+      "speaker": "James C",
+      "body": "I know it's a ridiculous number, isn't it? Yes."
+    },
+    {
+      "startTime": 109.188,
+      "startTimeFormatted": "00:01:49.188",
+      "endTime": 113.988,
+      "endTimeFormatted": "00:01:53.988",
+      "speaker": "James C",
+      "body": "1.7 million podcasts published in April, which makes it one"
+    },
+    {
+      "startTime": 113.988,
+      "startTimeFormatted": "00:01:53.988",
+      "endTime": 116.748,
+      "endTimeFormatted": "00:01:56.748",
+      "speaker": "James C",
+      "body": "every 1.5 seconds. It's quite a thing."
+    },
+    {
+      "startTime": 116.913,
+      "startTimeFormatted": "00:01:56.913",
+      "endTime": 120.453,
+      "endTimeFormatted": "00:02:00.453",
+      "speaker": "Sam Sethi",
+      "body": "I'm now talking quite a thing. We've we've written the"
+    },
+    {
+      "startTime": 120.453,
+      "startTimeFormatted": "00:02:00.453",
+      "endTime": 123.423,
+      "endTimeFormatted": "00:02:03.423",
+      "speaker": "Sam Sethi",
+      "body": "obituary on this product several times, but it seems to keep"
+    },
+    {
+      "startTime": 123.423,
+      "startTimeFormatted": "00:02:03.423",
+      "endTime": 127.263,
+      "endTimeFormatted": "00:02:07.263",
+      "speaker": "Sam Sethi",
+      "body": "coming back. Spotify for Podcasts posts the second"
+    },
+    {
+      "startTime": 127.263,
+      "startTimeFormatted": "00:02:07.263",
+      "endTime": 132.723,
+      "endTimeFormatted": "00:02:12.723",
+      "speaker": "Sam Sethi",
+      "body": "highest share of new episodes growing 13% in January. So"
+    },
+    {
+      "startTime": 132.723,
+      "startTimeFormatted": "00:02:12.723",
+      "endTime": 135.843,
+      "endTimeFormatted": "00:02:15.843",
+      "speaker": "Sam Sethi",
+      "body": "Spotify's megaphone has also continued to grow as well. But"
+    },
+    {
+      "startTime": 136.083,
+      "startTimeFormatted": "00:02:16.083",
+      "endTime": 140.073,
+      "endTimeFormatted": "00:02:20.073",
+      "speaker": "Sam Sethi",
+      "body": "Spotify for podcast only thought genuinely that that was it. It"
+    },
+    {
+      "startTime": 140.073,
+      "startTimeFormatted": "00:02:20.073",
+      "endTime": 143.373,
+      "endTimeFormatted": "00:02:23.373",
+      "speaker": "Sam Sethi",
+      "body": "was going to be buried put away, never to be talked about again,"
+    },
+    {
+      "startTime": 143.373,
+      "startTimeFormatted": "00:02:23.373",
+      "endTime": 147.003,
+      "endTimeFormatted": "00:02:27.003",
+      "speaker": "Sam Sethi",
+      "body": "but somehow it seems to be growing. Tell me more. Why"
+    },
+    {
+      "startTime": 146.968,
+      "startTimeFormatted": "00:02:26.968",
+      "endTime": 149.258,
+      "endTimeFormatted": "00:02:29.258",
+      "speaker": "James C",
+      "body": "Yes, it's amazing what a brand does."
+    },
+    {
+      "startTime": 148.983,
+      "startTimeFormatted": "00:02:28.983",
+      "endTime": 149.433,
+      "endTimeFormatted": "00:02:29.433",
+      "speaker": "Sam Sethi",
+      "body": "so"
+    },
+    {
+      "startTime": 149.278,
+      "startTimeFormatted": "00:02:29.278",
+      "endTime": 153.448,
+      "endTimeFormatted": "00:02:33.448",
+      "speaker": "James C",
+      "body": "So they changed it away from being called anchor in"
+    },
+    {
+      "startTime": 153.448,
+      "startTimeFormatted": "00:02:33.448",
+      "endTime": 158.968,
+      "endTimeFormatted": "00:02:38.968",
+      "speaker": "James C",
+      "body": "March. And certainly March and April have seen significant"
+    },
+    {
+      "startTime": 158.968,
+      "startTimeFormatted": "00:02:38.968",
+      "endTime": 162.268,
+      "endTimeFormatted": "00:02:42.268",
+      "speaker": "James C",
+      "body": "growth for the product, which is now called Spotify Podcast, as"
+    },
+    {
+      "startTime": 162.268,
+      "startTimeFormatted": "00:02:42.268",
+      "endTime": 166.348,
+      "endTimeFormatted": "00:02:46.348",
+      "speaker": "James C",
+      "body": "they're hosting products. That is doing really, really well."
+    },
+    {
+      "startTime": 167.248,
+      "startTimeFormatted": "00:02:47.248",
+      "endTime": 170.218,
+      "endTimeFormatted": "00:02:50.218",
+      "speaker": "James C",
+      "body": "And I think, you know, perhaps it's just that people see the"
+    },
+    {
+      "startTime": 170.218,
+      "startTimeFormatted": "00:02:50.218",
+      "endTime": 173.638,
+      "endTimeFormatted": "00:02:53.638",
+      "speaker": "James C",
+      "body": "Spotify brand and they go, Ooh, we trust the Spotify brand and"
+    },
+    {
+      "startTime": 173.638,
+      "startTimeFormatted": "00:02:53.638",
+      "endTime": 178.378,
+      "endTimeFormatted": "00:02:58.378",
+      "speaker": "James C",
+      "body": "maybe we didn't really trust the anchor brand. And so maybe"
+    },
+    {
+      "startTime": 178.378,
+      "startTimeFormatted": "00:02:58.378",
+      "endTime": 180.688,
+      "endTimeFormatted": "00:03:00.688",
+      "speaker": "James C",
+      "body": "that's one of the reasons why we're seeing more"
+    },
+    {
+      "startTime": 180.543,
+      "startTimeFormatted": "00:03:00.543",
+      "endTime": 180.933,
+      "endTimeFormatted": "00:03:00.933",
+      "speaker": "Sam Sethi",
+      "body": "people"
+    },
+    {
+      "startTime": 180.688,
+      "startTimeFormatted": "00:03:00.688",
+      "endTime": 181.288,
+      "endTimeFormatted": "00:03:01.288",
+      "speaker": "James C",
+      "body": "and more people"
+    },
+    {
+      "startTime": 180.933,
+      "startTimeFormatted": "00:03:00.933",
+      "endTime": 181.263,
+      "endTimeFormatted": "00:03:01.263",
+      "speaker": "Sam Sethi",
+      "body": "do things"
+    },
+    {
+      "startTime": 181.288,
+      "startTimeFormatted": "00:03:01.288",
+      "endTime": 181.678,
+      "endTimeFormatted": "00:03:01.678",
+      "speaker": "James C",
+      "body": "using"
+    },
+    {
+      "startTime": 181.493,
+      "startTimeFormatted": "00:03:01.493",
+      "endTime": 181.693,
+      "endTimeFormatted": "00:03:01.693",
+      "speaker": "Sam Sethi",
+      "body": "like"
+    },
+    {
+      "startTime": 181.678,
+      "startTimeFormatted": "00:03:01.678",
+      "endTime": 183.118,
+      "endTimeFormatted": "00:03:03.118",
+      "speaker": "James C",
+      "body": "Spotify for podcasters to"
+    },
+    {
+      "startTime": 183.003,
+      "startTimeFormatted": "00:03:03.003",
+      "endTime": 183.223,
+      "endTimeFormatted": "00:03:03.223",
+      "speaker": "Sam Sethi",
+      "body": "that"
+    },
+    {
+      "startTime": 183.118,
+      "startTimeFormatted": "00:03:03.118",
+      "endTime": 187.198,
+      "endTimeFormatted": "00:03:07.198",
+      "speaker": "James C",
+      "body": "host their show. That said, Spotify is megaphone is"
+    },
+    {
+      "startTime": 187.198,
+      "startTimeFormatted": "00:03:07.198",
+      "endTime": 189.448,
+      "endTimeFormatted": "00:03:09.448",
+      "speaker": "James C",
+      "body": "has actually published their best ever figures"
+    },
+    {
+      "startTime": 189.553,
+      "startTimeFormatted": "00:03:09.553",
+      "endTime": 189.773,
+      "endTimeFormatted": "00:03:09.773",
+      "speaker": "Sam Sethi",
+      "body": "home?"
+    },
+    {
+      "startTime": 189.898,
+      "startTimeFormatted": "00:03:09.898",
+      "endTime": 193.078,
+      "endTimeFormatted": "00:03:13.078",
+      "speaker": "James C",
+      "body": "in terms of share of new episodes as well. According"
+    },
+    {
+      "startTime": 193.078,
+      "startTimeFormatted": "00:03:13.078",
+      "endTime": 197.638,
+      "endTimeFormatted": "00:03:17.638",
+      "speaker": "James C",
+      "body": "to Livewire Dot IO. So clearly Spotify is hosting. Companies"
+    },
+    {
+      "startTime": 197.638,
+      "startTimeFormatted": "00:03:17.638",
+      "endTime": 198.538,
+      "endTimeFormatted": "00:03:18.538",
+      "speaker": "James C",
+      "body": "are having a moment."
+    },
+    {
+      "startTime": 198.483,
+      "startTimeFormatted": "00:03:18.483",
+      "endTime": 202.044,
+      "endTimeFormatted": "00:03:22.044",
+      "speaker": "Sam Sethi",
+      "body": "Well, there you go. they've also started rolling out"
+    },
+    {
+      "startTime": 202.044,
+      "startTimeFormatted": "00:03:22.044",
+      "endTime": 206.694,
+      "endTimeFormatted": "00:03:26.694",
+      "speaker": "Sam Sethi",
+      "body": "some monetization products, automated ads and investor ads"
+    },
+    {
+      "startTime": 206.694,
+      "startTimeFormatted": "00:03:26.694",
+      "endTime": 207.504,
+      "endTimeFormatted": "00:03:27.504",
+      "speaker": "Sam Sethi",
+      "body": "to more countries."
+    }
+  ]
+}

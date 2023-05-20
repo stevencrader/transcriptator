@@ -93,26 +93,30 @@ The `IOptions` interface used by `Options` defines options for combining and for
 
 -   `combineEqualTimes`: boolean
     -   Combine segments if the `Segment.startTime`, `Segment.endTime`, and `Segment.speaker` match between the current and prior segments
-    -   Cannot be used with `combineSegments` or `combineSpeaker`
+    -   Can be used with `combineSegments`. The `combineEqualTimes` rule is applied first.
+    -   Can be used with `speakerChange`. The `speakerChange` rule is applied last.
+    -   Cannot be used with `combineSpeaker`
     -   Default: false
 -   `combineEqualTimesSeparator`: string
     -   Character to use when `combineEqualTimes` is true.
     -   Default: `\n`
 -   `combineSegments`: boolean
     -   Combine segments where speaker is the same and concatenated `body` fits in the `combineSegmentsLength`
-    -   Cannot be used with `combineEqualTimes` or `combineSpeaker`
+    -   Can be used with `combineEqualTimes`. The `combineSegments` rule is applied first.
+    -   Can be used with `speakerChange`. The `speakerChange` rule is applied last.
+    -   Cannot be used with `combineSpeaker`
     -   Default: false
 -   `combineSegmentsLength`: number
     -   Max length of body text to use when `combineSegments` is true
     -   Default: See `DEFAULT_COMBINE_SEGMENTS_LENGTH`
 -   `combineSpeaker`: boolean
     -   Combine consecutive segments from the same speaker.
-    -   Note: this will override `combineSegments` and `combineSegmentsLength`
+    -   Note: If this is enabled, `combineEqualTimes` and `combineSegments` will not be applied.
     -   Warning: if the transcript does not contain speaker information, resulting segment will contain entire transcript text.
     -   Default: false
 -   `speakerChange`: boolean
     -   Only include `Segment.speaker` when speaker changes
-    -   May be used in combination with `combineEqualTimes` and `combineSegments`
+    -   May be used in combination with `combineSpeaker`, `combineEqualTimes`, or `combineSegments`
     -   Default: false
 
 ```javascript
@@ -291,7 +295,7 @@ References:
 Transcripts used for testing are excerpts from the following shows.
 
 -   [Podcasting 2.0](https://podcastindex.org/podcast/920666)
-    -   podcasting_20.srt (from Episode 124)
+    -   podcasting_20_episode_124.srt (from Episode 124)
 -   [Buzzcast](https://buzzcast.buzzsprout.com/231452/9092843)
     -   buzzcast.html
     -   buzzcast.srt
@@ -299,8 +303,10 @@ Transcripts used for testing are excerpts from the following shows.
 -   [How to Start a Podcast](https://feeds.buzzsprout.com/1/2562823/)
     -   how_to_start_a_podcast.json
     -   how_to_start_a_podcast.html
--   [Podnews Weekly Review](https://feeds.buzzsprout.com/1538779/12458004/)
-    -   podnews_weekly_review.html
+-   [Podnews Weekly Review (2023-03-17)](https://feeds.buzzsprout.com/1538779/12458004/)
+    -   podnews_weekly_review_2023-03-17.html
+-   [Podnews Weekly Review (2023-05-05)](https://feeds.buzzsprout.com/1538779/12782529/)
+    -   podnews_weekly_review_2023-05-05.json
 -   [subtitle.js](https://github.com/gsantiago/subtitle.js)
     -   LaLaLand.vtt
     -   LaLaLand.json
