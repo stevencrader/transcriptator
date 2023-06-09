@@ -6,6 +6,20 @@ import { DEFAULT_COMBINE_SEGMENTS_LENGTH, Segment } from "./types"
  * Regular Expression for detecting punctuation that should not be prefixed with a space
  */
 const PATTERN_PUNCTUATIONS = /^ *[.,?!}\]>) *$]/
+/**
+ * Regular Expression for detecting space characters at the end of a string
+ */
+const PATTERN_TRAILING_SPACE = /^ *$/
+
+/**
+ * Remove any trailing space characters from data
+ *
+ * @param data text to trim
+ * @returns text with any trailing space character removed
+ */
+const trimEndSpace = (data: string): string => {
+    return data.replace(PATTERN_TRAILING_SPACE, "")
+}
 
 /**
  * Append `addition` to `body` with the character(s) specified.
@@ -23,9 +37,9 @@ const joinBody = (body: string, addition: string, separator: string = undefined)
         if (PATTERN_PUNCTUATIONS.exec(addition)) {
             separatorToUse = ""
         }
-        return `${body}${separatorToUse}${addition}`
+        return `${trimEndSpace(body)}${separatorToUse}${trimEndSpace(addition)}`
     }
-    return addition
+    return trimEndSpace(addition)
 }
 
 /**

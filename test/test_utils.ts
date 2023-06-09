@@ -11,6 +11,8 @@ export enum TestFiles {
     TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05 = "podnews_weekly_review_2023-05-05.json",
     TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05_OUTPUT = "podnews_weekly_review_2023-05-05_json_parsed.json",
     TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_05_05_COMBINE_SPEAKER_OUTPUT = "podnews_weekly_review_2023-05-05_combine_speaker_json_parsed.json",
+    TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_06_02 = "podnews_weekly_review_2023-06-02.json",
+    TRANSCRIPT_JSON_PODNEWS_WEEKLY_REVIEW_2023_06_02_OUTPUT = "podnews_weekly_review_2023-06-02_json_parsed.json",
     TRANSCRIPT_JSON_BUZZCAST = "buzzcast.json",
     TRANSCRIPT_JSON_BUZZCAST_OUTPUT = "buzzcast_json_parsed.json",
     TRANSCRIPT_JSON_BUZZCAST_COMBINE_EQUAL_TIME_OUTPUT = "buzzcast_json_combine_equal_time_parsed.json",
