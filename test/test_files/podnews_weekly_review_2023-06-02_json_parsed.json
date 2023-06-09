@@ -1,0 +1,20 @@
+{
+    "segments": [
+        {
+            "startTime": 0.221,
+            "startTimeFormatted": "00:00:00.221",
+            "endTime": 3.09,
+            "endTimeFormatted": "00:00:03.090",
+            "speaker": "Speaker 1",
+            "body": "It's Friday, the 2nd of June 2023."
+        },
+        {
+            "startTime": 4.34,
+            "startTimeFormatted": "00:00:04.340",
+            "endTime": 8.729,
+            "endTimeFormatted": "00:00:08.729",
+            "speaker": "Speaker 2",
+            "body": "The last word in podcasting news. This is the Pod News"
+        }
+    ]
+}
