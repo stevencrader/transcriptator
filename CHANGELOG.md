@@ -1,3 +1,7 @@
+# transcriptator 1.1.2
+
+-   Add support to remove extra spaces when combining segment body ([Resolves #22](https://github.com/stevencrader/transcriptator/issues/22))
+
 # transcriptator 1.1.0
 
 New `Options`:
