@@ -15,6 +15,11 @@ describe("Parse VTT file data", () => {
             expectedFilePath: TestFiles.TRANSCRIPT_VTT_LALALAND_OUTPUT,
             id: "LaLaLand",
         },
+        {
+            filePath: TestFiles.KDE_EXPRESS_16_KDE_EN_TELEGRAM,
+            expectedFilePath: TestFiles.KDE_EXPRESS_16_KDE_EN_TELEGRAM_OUTPUT,
+            id: "KDE Express",
+        },
     ])("Parse VTT File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))

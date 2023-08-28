@@ -36,6 +36,8 @@ export enum TestFiles {
     ONE_WORD_SEGMENTS = "one_word_segments.json",
     ONE_WORD_SEGMENTS_OUTPUT_32 = "one_word_segments_parsed_32.json",
     ONE_WORD_SEGMENTS_OUTPUT_50 = "one_word_segments_parsed_50.json",
+    KDE_EXPRESS_16_KDE_EN_TELEGRAM = "kde_express-16_kde_en_telegram.vtt",
+    KDE_EXPRESS_16_KDE_EN_TELEGRAM_OUTPUT = "kde_express-16_kde_en_telegram_vtt_parsed.json",
 }
 
 /**

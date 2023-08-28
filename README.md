@@ -281,6 +281,18 @@ here in Southern California.
 
 ```
 
+The index number is optional:
+
+```
+WEBVTT
+
+00:00:00.000 --> 00:00:11.840
+ Buenas, bienvenidas de vuelta a KDE Express. Esta vez para no perder el ritmo volvemos a la
+
+00:00:11.840 --> 00:00:16.800
+ versión movilidad que no tenemos a los compañeros disponibles y hoy quería haceros un especial
+```
+
 The timestamp may contain the hour and minutes but is not required. The millisecond may be separated with either a comma or decimal.
 
 Attempts to find the speaker's name from the beginning of the first line of each segment.
@@ -310,6 +322,8 @@ Transcripts used for testing are excerpts from the following shows.
 -   [subtitle.js](https://github.com/gsantiago/subtitle.js)
     -   LaLaLand.vtt
     -   LaLaLand.json
+-   [KDE Express](https://kdeexpress.gitlab.io/posts/kdeexpress/16-kde-express/)
+    -   kde_express-16_kde_en_telegram.vtt
 
 ## Contributing
 

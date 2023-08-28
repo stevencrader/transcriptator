@@ -8,6 +8,7 @@ import { readFile, TestFiles } from "./test_utils"
 describe("SRT segment data", () => {
     test.each<{
         data: Array<string>
+        indexOptional: boolean
         expected: SRTSegment
         id: string
     }>([
@@ -18,6 +19,7 @@ describe("SRT segment data", () => {
                 "Adam Curry: podcasting 2.0 March",
                 "4 2023 Episode 124 on D flat",
             ],
+            indexOptional: false,
             expected: {
                 index: 1,
                 startTime: 0.78,
@@ -29,6 +31,7 @@ describe("SRT segment data", () => {
         },
         {
             data: ["1", "00:00:00.780 --> 00:00:06.210", "Adam Curry: podcasting 2.0 March"],
+            indexOptional: false,
             expected: {
                 index: 1,
                 startTime: 0.78,
@@ -40,6 +43,7 @@ describe("SRT segment data", () => {
         },
         {
             data: ["1", "00:00:00,780 --> 00:00:06,210", "podcasting 2.0 March", "4 2023 Episode 124 on D flat"],
+            indexOptional: false,
             expected: {
                 index: 1,
                 startTime: 0.78,
@@ -58,6 +62,7 @@ describe("SRT segment data", () => {
                 "",
                 "2",
             ],
+            indexOptional: false,
             expected: {
                 index: 1,
                 startTime: 0.78,
@@ -78,6 +83,7 @@ describe("SRT segment data", () => {
                 "podcasting 2.0 preserving,",
                 "protecting and extending the",
             ],
+            indexOptional: false,
             expected: {
                 index: 1,
                 startTime: 0.78,
@@ -87,8 +93,23 @@ describe("SRT segment data", () => {
             },
             id: "large body",
         },
-    ])("SRT Segment ($id)", ({ data, expected }) => {
-        expect(parseSRTSegment(data)).toEqual(expected)
+        {
+            data: [
+                "00:00:00.000 --> 00:00:11.840",
+                " Buenas, bienvenidas de vuelta a KDE Express. Esta vez para no perder el ritmo volvemos a la",
+            ],
+            indexOptional: true,
+            expected: {
+                index: -1,
+                startTime: 0,
+                endTime: 11.84,
+                speaker: "",
+                body: "Buenas, bienvenidas de vuelta a KDE Express. Esta vez para no perder el ritmo volvemos a la",
+            },
+            id: "no timestamp",
+        },
+    ])("SRT Segment ($id)", ({ data, indexOptional, expected }) => {
+        expect(parseSRTSegment(data, indexOptional)).toEqual(expected)
     })
 })
 

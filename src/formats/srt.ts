@@ -33,13 +33,14 @@ export type SRTSegment = {
  * Parse lines looking for data to be SRT format
  *
  * @param lines Lines containing SRT data
+ * @param indexOptional if true and index line does not exist, don't raise error. Return value will be -1.
  * @returns Parsed segment
  * @throws {Error} When no non-empty strings in `lines`
  * @throws {Error} When the minimum required number of lines is not received
  * @throws {Error} When segment lines does not start with a number
  * @throws {Error} When second segment line does not follow the timestamp format
  */
-export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
+export const parseSRTSegment = (lines: Array<string>, indexOptional = false): SRTSegment => {
     do {
         if (lines.length === 0) {
             throw new Error("SRT segment lines empty")
@@ -50,16 +51,25 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
         }
     } while (lines.length > 0)
 
-    if (lines.length < 3) {
+    const minLineCount = indexOptional ? 2 : 3
+    if (lines.length < minLineCount) {
         throw new Error(`SRT requires at least 3 lines, ${lines.length} received`)
     }
 
-    const index = parseInt(lines[0], 10)
+    let currentIndex = 0
+    let index = Number(lines[currentIndex])
+    currentIndex++
     if (!index) {
-        throw new Error(`First line of SRT segment is not a number`)
+        if (indexOptional) {
+            index = -1
+            currentIndex = 0
+        } else {
+            throw new Error(`First line of SRT segment is not a number`)
+        }
     }
 
-    const timestampLine = lines[1]
+    const timestampLine = lines[currentIndex]
+    currentIndex++
     if (!timestampLine.includes("-->")) {
         throw new Error(`SRT timestamp line does not include --> separator`)
     }
@@ -70,7 +80,7 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
     const startTime = parseTimestamp(timestampParts[0].trim())
     const endTime = parseTimestamp(timestampParts[1].trim())
 
-    let bodyLines = lines.slice(2)
+    let bodyLines = lines.slice(currentIndex)
     const emptyLineIndex = bodyLines.findIndex((v) => v.trim() === "")
     if (emptyLineIndex > 0) {
         bodyLines = bodyLines.slice(0, emptyLineIndex)
@@ -92,10 +102,11 @@ export const parseSRTSegment = (lines: Array<string>): SRTSegment => {
  *
  * @param segmentLines Lines containing SRT data
  * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
+ * @param dataIsVTT the data is VTT formatted. Enables handling of minor differences between SRT and VTT
  * @returns Created segment
  */
-const createSegmentFromSRTLines = (segmentLines: Array<string>, lastSpeaker: string): Segment => {
-    const srtSegment = parseSRTSegment(segmentLines)
+const createSegmentFromSRTLines = (segmentLines: Array<string>, lastSpeaker: string, dataIsVTT = false): Segment => {
+    const srtSegment = parseSRTSegment(segmentLines, dataIsVTT)
     const calculatedSpeaker = srtSegment.speaker ? srtSegment.speaker : lastSpeaker
     return {
         startTime: srtSegment.startTime,
@@ -111,12 +122,14 @@ const createSegmentFromSRTLines = (segmentLines: Array<string>, lastSpeaker: str
  * Determines if the value of data is a valid SRT transcript format
  *
  * @param data The transcript data
+ * @param dataIsVTT the data is VTT formatted. Enables handling of minor differences between SRT and VTT
  * @returns True: data is valid SRT transcript format
  */
-export const isSRT = (data: string): boolean => {
+export const isSRT = (data: string, dataIsVTT = false): boolean => {
     try {
-        return parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20)) !== undefined
+        return parseSRTSegment(data.split(PATTERN_LINE_SEPARATOR).slice(0, 20), dataIsVTT) !== undefined
     } catch (e) {
+        console.error(`Unable to parse data as SRT:`, e)
         return false
     }
 }
@@ -125,11 +138,12 @@ export const isSRT = (data: string): boolean => {
  * Parse SRT data to an Array of {@link Segment}
  *
  * @param data The transcript data
+ * @param dataIsVTT the data is VTT formatted. Enables handling of minor differences between SRT and VTT
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When `data` is not valid SRT format
  */
-export const parseSRT = (data: string): Array<Segment> => {
-    if (!isSRT(data)) {
+export const parseSRT = (data: string, dataIsVTT = false): Array<Segment> => {
+    if (!isSRT(data, dataIsVTT)) {
         throw new TypeError(`Data is not valid SRT format`)
     }
 
@@ -143,7 +157,10 @@ export const parseSRT = (data: string): Array<Segment> => {
             // handle consecutive multiple blank lines
             if (segmentLines.length !== 0) {
                 try {
-                    outSegments = addSegment(createSegmentFromSRTLines(segmentLines, lastSpeaker), outSegments)
+                    outSegments = addSegment(
+                        createSegmentFromSRTLines(segmentLines, lastSpeaker, dataIsVTT),
+                        outSegments
+                    )
                     lastSpeaker = outSegments[outSegments.length - 1].speaker
                 } catch (e) {
                     console.error(`Error parsing SRT segment lines (source line ${count}): ${e}`)
@@ -160,7 +177,7 @@ export const parseSRT = (data: string): Array<Segment> => {
     // handle data when trailing line not included
     if (segmentLines.length !== 0) {
         try {
-            outSegments = addSegment(createSegmentFromSRTLines(segmentLines, lastSpeaker), outSegments)
+            outSegments = addSegment(createSegmentFromSRTLines(segmentLines, lastSpeaker, dataIsVTT), outSegments)
             lastSpeaker = outSegments[outSegments.length - 1].speaker
         } catch (e) {
             console.error(`Error parsing final SRT segment lines: ${e}`)

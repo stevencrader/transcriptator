@@ -13,7 +13,7 @@ const PATTERN_SPEAKER = /^(?<speaker>[a-z].+?): (?<body>.*)/i
  */
 export const parseSpeaker = (data: string): { speaker: string; message: string } => {
     let speaker = ""
-    let message = data
+    let message = data.trimStart()
     const speakerMatch = PATTERN_SPEAKER.exec(data)
     if (speakerMatch !== null) {
         speaker = speakerMatch.groups.speaker
