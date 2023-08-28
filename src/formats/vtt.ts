@@ -31,5 +31,5 @@ export const parseVTT = (data: string): Array<Segment> => {
 
     // format is similar enough to SRT to be parsed by the same parser
     // Remove WEBVTT header first
-    return parseSRT(data.substring(WEBVTT_HEADER.length).trimStart())
+    return parseSRT(data.substring(WEBVTT_HEADER.length).trimStart(), true)
 }

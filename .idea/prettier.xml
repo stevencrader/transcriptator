@@ -2,6 +2,6 @@
 <project version="4">
   <component name="PrettierConfiguration">
     <option name="myRunOnReformat" value="true" />
-    <option name="myFilesPattern" value="" />
+    <option name="myFilesPattern" value="**/*.{md,json,yml,eslintrc,config.js}" />
   </component>
 </project>
