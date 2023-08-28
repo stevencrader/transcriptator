@@ -1,3 +1,7 @@
+# transcriptator 1.1.3
+
+-   Add support for VTT without index value ([Resolves #25](https://github.com/stevencrader/transcriptator/issues/25))
+
 # transcriptator 1.1.2
 
 -   Add support to remove extra spaces when combining segment body ([Resolves #22](https://github.com/stevencrader/transcriptator/issues/22))

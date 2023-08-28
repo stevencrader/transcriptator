@@ -7,7 +7,7 @@
 <br>
 
 [![npm](https://img.shields.io/npm/v/transcriptator)](https://www.npmjs.com/package/transcriptator)
-[![npm](https://img.shields.io/npm/v/transcriptator?label=yarn)](https://yarnpkg.com/package/transcriptator)
+[![npm](https://img.shields.io/npm/v/transcriptator?label=yarn)](https://yarnpkg.com/package?name=transcriptator)
 [![install size](https://packagephobia.com/badge?p=transcriptator)](https://packagephobia.com/result?p=transcriptator)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 [![Number of Contributors](https://img.shields.io/github/contributors/stevencrader/transcriptator?style=flat&label=Contributors)](https://github.com/stevencrader/transcriptator/graphs/contributors)
