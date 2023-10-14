@@ -49,7 +49,7 @@ export const isHTML = (data: string): boolean => {
  */
 const updateSegmentPartFromElement = (
     element: HTMLElement,
-    segmentPart: HTMLSegmentPart
+    segmentPart: HTMLSegmentPart,
 ): {
     current: HTMLSegmentPart
     next: HTMLSegmentPart
@@ -146,7 +146,7 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
                 if (totalSegments > 0) {
                     outSegments[totalSegments - 1].endTime = segment.startTime
                     outSegments[totalSegments - 1].endTimeFormatted = TimestampFormatter.format(
-                        outSegments[totalSegments - 1].endTime
+                        outSegments[totalSegments - 1].endTime,
                     )
                 }
 

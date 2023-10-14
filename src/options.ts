@@ -221,7 +221,7 @@ export class OptionsManager implements IOptions {
                 combineSpeaker: false,
                 speakerChange: false,
             },
-            false
+            false,
         )
     }
 

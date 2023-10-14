@@ -159,7 +159,7 @@ export const parseSRT = (data: string, dataIsVTT = false): Array<Segment> => {
                 try {
                     outSegments = addSegment(
                         createSegmentFromSRTLines(segmentLines, lastSpeaker, dataIsVTT),
-                        outSegments
+                        outSegments,
                     )
                     lastSpeaker = outSegments[outSegments.length - 1].speaker
                 } catch (e) {

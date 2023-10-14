@@ -82,7 +82,7 @@ export const saveSegmentsToFile = (segments: Array<Segment>, filename: string): 
             segments,
         },
         null,
-        4
+        4,
     )
     saveFile(filename, data)
 }

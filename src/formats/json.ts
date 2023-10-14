@@ -86,7 +86,7 @@ const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
                 speaker: segment.speaker,
                 body: segment.body,
             },
-            outSegments
+            outSegments,
         )
     })
 

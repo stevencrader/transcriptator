@@ -142,7 +142,7 @@ const doCombineSegments = (
     newSegment: Segment,
     priorSegment: Segment,
     maxLength: number,
-    lastSpeaker: string
+    lastSpeaker: string,
 ): CombineResult => {
     if (priorSegment === undefined) {
         return {
@@ -194,7 +194,7 @@ const doCombineEqualTimes = (
     newSegment: Segment,
     priorSegment: Segment,
     separator: string,
-    lastSpeaker: string
+    lastSpeaker: string,
 ): CombineResult => {
     const combineEqualTimesSeparator = separator || "\n"
 
@@ -289,7 +289,7 @@ const doSpeakerChange = (newSegment: Segment, priorSegment: Segment, lastSpeaker
 const applyOptionsAndDoSpeakerChange = (
     currentResult: CombineResult,
     priorSegment: Segment,
-    lastSpeaker: string
+    lastSpeaker: string,
 ): CombineResult => {
     const { combineSegments, combineEqualTimes } = Options
     let result = currentResult
