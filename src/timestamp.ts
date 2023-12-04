@@ -7,7 +7,6 @@ const PATTERN_TIMESTAMP = /^(?<time>((?<hour>\d+):|)((?<minute>\d+):|)((?<second
  * Parse timestamp from value
  *
  * Supported formats must match {@link PATTERN_TIMESTAMP}
- *
  * @param value Value to parse timestamp from. If number, assumes already a timestamp in seconds.
  * @returns Parsed timestamp in seconds
  * @throws {TypeError} When value is not a string
@@ -80,7 +79,6 @@ export class TimestampFormatterManager {
 
     /**
      * Default formatter where the timestamp number is formatted to a human readable string in the format HH:mm:SS.fff
-     *
      * @param timestamp Time in seconds to format
      * @returns formatted timestamp string
      */
@@ -99,7 +97,6 @@ export class TimestampFormatterManager {
      *
      * If a custom formatter has been registered, it will be used.
      * If not, the default formatter is used and the data will be returned in the format HH:mm:SS.fff
-     *
      * @param timestamp Time in seconds to format
      * @returns formatted timestamp string
      */
@@ -112,7 +109,6 @@ export class TimestampFormatterManager {
 
     /**
      * Register a custom timestamp formatter
-     *
      * @param formatter function to call to format timestamp to string
      */
     public registerCustomFormatter = (formatter: FormatterCallback): void => {

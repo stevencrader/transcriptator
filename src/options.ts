@@ -2,7 +2,6 @@ import { DEFAULT_COMBINE_SEGMENTS_LENGTH } from "./types"
 
 /**
  * Verifies the type of the value matches the expected type
- *
  * @param name name of option to check value for
  * @param expectedType expected type off the value for the option
  * @param value value to check
@@ -140,7 +139,6 @@ export class OptionsManager implements IOptions {
 
     /**
      * Get option value from it's name
-     *
      * @param name name of option to get
      * @returns value of option. If unknown, returns undefined
      */
@@ -173,7 +171,6 @@ export class OptionsManager implements IOptions {
 
     /**
      * Set option value using it's name
-     *
      * @param name name of option to set
      * @param value value to set option to
      */
@@ -227,7 +224,6 @@ export class OptionsManager implements IOptions {
 
     /**
      * Set one or more options
-     *
      * @param options the options to set
      * @param setDefault true: set all values to the default before setting values specified by `options`
      */
@@ -245,7 +241,6 @@ export class OptionsManager implements IOptions {
 
     /**
      * Helper to determine if at least one option should be applied
-     *
      * @returns true: at least one option set
      */
     public optionsSet = (): boolean => {

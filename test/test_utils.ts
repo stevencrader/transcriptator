@@ -47,7 +47,6 @@ const OUTPUT_DIR = path.join(__dirname, "/test_output")
 
 /**
  * Read file from `test_files` directory
- *
  * @param filename Name of file to read
  * @returns Data read from `filename`
  */
@@ -58,7 +57,6 @@ export const readFile = (filename: string): string => {
 
 /**
  * Save data to the filename specified in the {@link OUTPUT_DIR}
- *
  * @param filename Name of file to save data to
  * @param data Data to save to file
  */
@@ -72,7 +70,6 @@ const saveFile = (filename: string, data: string): void => {
 
 /**
  * Save segments to JSON file specified by filename in {@link OUTPUT_DIR}
- *
  * @param segments Array of Segments
  * @param filename Name of file to save segments to
  */

@@ -31,7 +31,6 @@ export type SRTSegment = {
 
 /**
  * Parse lines looking for data to be SRT format
- *
  * @param lines Lines containing SRT data
  * @param indexOptional if true and index line does not exist, don't raise error. Return value will be -1.
  * @returns Parsed segment
@@ -99,7 +98,6 @@ export const parseSRTSegment = (lines: Array<string>, indexOptional = false): SR
 
 /**
  * Create Segment from lines containing an SRT segment/cue
- *
  * @param segmentLines Lines containing SRT data
  * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
  * @param dataIsVTT the data is VTT formatted. Enables handling of minor differences between SRT and VTT
@@ -120,7 +118,6 @@ const createSegmentFromSRTLines = (segmentLines: Array<string>, lastSpeaker: str
 
 /**
  * Determines if the value of data is a valid SRT transcript format
- *
  * @param data The transcript data
  * @param dataIsVTT the data is VTT formatted. Enables handling of minor differences between SRT and VTT
  * @returns True: data is valid SRT transcript format
@@ -136,7 +133,6 @@ export const isSRT = (data: string, dataIsVTT = false): boolean => {
 
 /**
  * Parse SRT data to an Array of {@link Segment}
- *
  * @param data The transcript data
  * @param dataIsVTT the data is VTT formatted. Enables handling of minor differences between SRT and VTT
  * @returns An array of Segments from the parsed data
