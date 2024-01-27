@@ -315,6 +315,8 @@ Transcripts used for testing are excerpts from the following shows.
 -   [How to Start a Podcast](https://feeds.buzzsprout.com/1/2562823/)
     -   how_to_start_a_podcast.json
     -   how_to_start_a_podcast.html
+-   [Podnews Daily (2024-01-25)](https://podnews.net/update/nz-podcast-summit-2024)
+    -   podnews_daily_2024-01-25.vtt
 -   [Podnews Weekly Review (2023-03-17)](https://feeds.buzzsprout.com/1538779/12458004/)
     -   podnews_weekly_review_2023-03-17.html
 -   [Podnews Weekly Review (2023-05-05)](https://feeds.buzzsprout.com/1538779/12782529/)

@@ -1,0 +1,356 @@
+{
+    "segments": [
+        {
+            "startTime": 0.86,
+            "startTimeFormatted": "00:00:00.860",
+            "endTime": 7.38,
+            "endTimeFormatted": "00:00:07.380",
+            "speaker": "SPEAKER_1",
+            "body": "Podcasting is coming back to New Zealand again, the latest from podnews.net with Hindenburg Pro's auto levels."
+        },
+        {
+            "startTime": 10.1,
+            "startTimeFormatted": "00:00:10.100",
+            "endTime": 13.48,
+            "endTimeFormatted": "00:00:13.480",
+            "speaker": "SPEAKER_1",
+            "body": "The New Zealand Podcasting Summit 2024 has been announced."
+        },
+        {
+            "startTime": 13.5,
+            "startTimeFormatted": "00:00:13.500",
+            "endTime": 15.62,
+            "endTimeFormatted": "00:00:15.620",
+            "speaker": "SPEAKER_1",
+            "body": "It's on May the 11th in Auckland."
+        },
+        {
+            "startTime": 15.84,
+            "startTimeFormatted": "00:00:15.840",
+            "endTime": 25.56,
+            "endTimeFormatted": "00:00:25.560",
+            "speaker": "SPEAKER_1",
+            "body": "The speaker list includes a number of podcasters from across Outer Roa, including MediaWorks, NZMe, RNZ and Stuff Audio, and a number of independent producers."
+        },
+        {
+            "startTime": 26.08,
+            "startTimeFormatted": "00:00:26.080",
+            "endTime": 28.52,
+            "endTimeFormatted": "00:00:28.520",
+            "speaker": "SPEAKER_1",
+            "body": "I spoke there last year, and I'd recommend it."
+        },
+        {
+            "startTime": 28.58,
+            "startTimeFormatted": "00:00:28.580",
+            "endTime": 33.68,
+            "endTimeFormatted": "00:00:33.680",
+            "speaker": "SPEAKER_1",
+            "body": "Tickets are available in a link you'll find in our show notes and our newsletter at podnews.net."
+        },
+        {
+            "startTime": 34.48,
+            "startTimeFormatted": "00:00:34.480",
+            "endTime": 38.52,
+            "endTimeFormatted": "00:00:38.520",
+            "speaker": "SPEAKER_1",
+            "body": "Good luck to those going to Podfest, which kicks off today in Orlando and Florida."
+        },
+        {
+            "startTime": 38.54,
+            "startTimeFormatted": "00:00:38.540",
+            "endTime": 39.4,
+            "endTimeFormatted": "00:00:39.400",
+            "speaker": "SPEAKER_1",
+            "body": "It's a great event."
+        },
+        {
+            "startTime": 39.72,
+            "startTimeFormatted": "00:00:39.720",
+            "endTime": 41.84,
+            "endTimeFormatted": "00:00:41.840",
+            "speaker": "SPEAKER_1",
+            "body": "Want to check out a new podcast app?"
+        },
+        {
+            "startTime": 41.86,
+            "startTimeFormatted": "00:00:41.860",
+            "endTime": 44.72,
+            "endTimeFormatted": "00:00:44.720",
+            "speaker": "SPEAKER_1",
+            "body": "Fountain has today launched on Product Hunt."
+        },
+        {
+            "startTime": 44.74,
+            "startTimeFormatted": "00:00:44.740",
+            "endTime": 46.08,
+            "endTimeFormatted": "00:00:46.080",
+            "speaker": "SPEAKER_1",
+            "body": "You should go and take a peek."
+        },
+        {
+            "startTime": 46.28,
+            "startTimeFormatted": "00:00:46.280",
+            "endTime": 49.52,
+            "endTimeFormatted": "00:00:49.520",
+            "speaker": "SPEAKER_1",
+            "body": "There's a link to that in our show notes and our newsletter at podnews.net."
+        },
+        {
+            "startTime": 50.24,
+            "startTimeFormatted": "00:00:50.240",
+            "endTime": 55.98,
+            "endTimeFormatted": "00:00:55.980",
+            "speaker": "SPEAKER_1",
+            "body": "There's a new book out called Podcasting in a Platform Age, written by John L Sullivan, published today."
+        },
+        {
+            "startTime": 56.44,
+            "startTimeFormatted": "00:00:56.440",
+            "endTime": 61.08,
+            "endTimeFormatted": "00:01:01.080",
+            "speaker": "SPEAKER_1",
+            "body": "What happens when money pours into a medium which has historically been more grassroots?"
+        },
+        {
+            "startTime": 61.46,
+            "startTimeFormatted": "00:01:01.460",
+            "endTime": 71.36,
+            "endTimeFormatted": "00:01:11.360",
+            "speaker": "SPEAKER_1",
+            "body": "The book details the efforts of industry players to transform podcasting into a profitable medium, which are beginning to challenge the very definition of podcasting itself."
+        },
+        {
+            "startTime": 72.26,
+            "startTimeFormatted": "00:01:12.260",
+            "endTime": 80.12,
+            "endTimeFormatted": "00:01:20.120",
+            "speaker": "SPEAKER_1",
+            "body": "Acast podcast ads in Ireland have delivered 7 million euro to podcasters since the end of 2019, according to the company today."
+        },
+        {
+            "startTime": 80.54,
+            "startTimeFormatted": "00:01:20.540",
+            "endTime": 85.46,
+            "endTimeFormatted": "00:01:25.460",
+            "speaker": "SPEAKER_1",
+            "body": "Mia Lobel, formerly at Pushkin Industries, is now running a podcast consultancy."
+        },
+        {
+            "startTime": 85.48,
+            "startTimeFormatted": "00:01:25.480",
+            "endTime": 92.4,
+            "endTimeFormatted": "00:01:32.400",
+            "speaker": "SPEAKER_1",
+            "body": "She writes, Willie D won't sell his podcast despite multi-million dollar offers almost weekly."
+        },
+        {
+            "startTime": 92.68,
+            "startTimeFormatted": "00:01:32.680",
+            "endTime": 96.06,
+            "endTimeFormatted": "00:01:36.060",
+            "speaker": "SPEAKER_1",
+            "body": "According to Hip Hop DX, he's the host of Willie D Live."
+        },
+        {
+            "startTime": 96.36,
+            "startTimeFormatted": "00:01:36.360",
+            "endTime": 102.7,
+            "endTimeFormatted": "00:01:42.700",
+            "speaker": "SPEAKER_1",
+            "body": "The show is predominantly on YouTube and most of his shows have got fewer than 10,000 views."
+        },
+        {
+            "startTime": 103.22,
+            "startTimeFormatted": "00:01:43.220",
+            "endTime": 105.58,
+            "endTimeFormatted": "00:01:45.580",
+            "speaker": "SPEAKER_1",
+            "body": "And in Stockholm, it's all going on."
+        },
+        {
+            "startTime": 105.66,
+            "startTimeFormatted": "00:01:45.660",
+            "endTime": 111.36,
+            "endTimeFormatted": "00:01:51.360",
+            "speaker": "SPEAKER_1",
+            "body": "We've linked to a story from Expressen, a news website in the newsletter."
+        },
+        {
+            "startTime": 111.64,
+            "startTimeFormatted": "00:01:51.640",
+            "endTime": 116.04,
+            "endTimeFormatted": "00:01:56.040",
+            "speaker": "SPEAKER_1",
+            "body": "We've just left the Swedish words, but here we'll translate them."
+        },
+        {
+            "startTime": 116.44,
+            "startTimeFormatted": "00:01:56.440",
+            "endTime": 120.66,
+            "endTimeFormatted": "00:02:00.660",
+            "speaker": "SPEAKER_1",
+            "body": "Man in suit throws poo at Spotify's front door."
+        },
+        {
+            "startTime": 121.46,
+            "startTimeFormatted": "00:02:01.460",
+            "endTime": 123.5,
+            "endTimeFormatted": "00:02:03.500",
+            "speaker": "SPEAKER_1",
+            "body": "Perhaps he couldn't find the unsubscribe button."
+        },
+        {
+            "startTime": 124.32,
+            "startTimeFormatted": "00:02:04.320",
+            "endTime": 129.68,
+            "endTimeFormatted": "00:02:09.680",
+            "speaker": "SPEAKER_1",
+            "body": "And in podcast news, anyone who tells you women don't need financial advice specifically for them is wrong."
+        },
+        {
+            "startTime": 129.76,
+            "startTimeFormatted": "00:02:09.760",
+            "endTime": 142.52,
+            "endTimeFormatted": "00:02:22.520",
+            "speaker": "SPEAKER_1",
+            "body": "According to Her Money with Jean Chatsky, she takes every audience of women through the steps they need to take today to live comfortably and worry free tomorrow with the latest research, expert tips and personal advice."
+        },
+        {
+            "startTime": 143.2,
+            "startTimeFormatted": "00:02:23.200",
+            "endTime": 145.7,
+            "endTimeFormatted": "00:02:25.700",
+            "speaker": "SPEAKER_1",
+            "body": "Song Exploder is celebrating its 10th anniversary."
+        },
+        {
+            "startTime": 145.72,
+            "startTimeFormatted": "00:02:25.720",
+            "endTime": 154.86,
+            "endTimeFormatted": "00:02:34.860",
+            "speaker": "SPEAKER_1",
+            "body": "PRX says the show will have a number of live appearances, including an Evolutions by Podcast movement in March and with the Toronto Symphony Orchestra in April."
+        },
+        {
+            "startTime": 154.98,
+            "startTimeFormatted": "00:02:34.980",
+            "endTime": 158.02,
+            "endTimeFormatted": "00:02:38.020",
+            "speaker": "SPEAKER_1",
+            "body": "We can also expect a new version of the first ever show."
+        },
+        {
+            "startTime": 158.94,
+            "startTimeFormatted": "00:02:38.940",
+            "endTime": 168.64,
+            "endTimeFormatted": "00:02:48.640",
+            "speaker": "SPEAKER_1",
+            "body": "For the love of rugby is new from Crowdsports today, fronted by England's most capped men's player Ben Youngs and current England international Dan Cole."
+        },
+        {
+            "startTime": 169.04,
+            "startTimeFormatted": "00:02:49.040",
+            "endTime": 179.94,
+            "endTimeFormatted": "00:02:59.940",
+            "speaker": "SPEAKER_1",
+            "body": "The Olympics this year will mean a lot of new shows like Tom Dean Medal Machine, new from Global today, following the career of swimmer Tom Dean, who is attempting a record breaking five medal haul."
+        },
+        {
+            "startTime": 180.3,
+            "startTimeFormatted": "00:03:00.300",
+            "endTime": 188.04,
+            "endTimeFormatted": "00:03:08.040",
+            "speaker": "SPEAKER_1",
+            "body": "And Mind the Business, small business success stories is back for a new season from Intuit QuickBooks and iHeart Media."
+        },
+        {
+            "startTime": 188.78,
+            "startTimeFormatted": "00:03:08.780",
+            "endTime": 191.78,
+            "endTimeFormatted": "00:03:11.780",
+            "speaker": "SPEAKER_1",
+            "body": "Traders for Selected Shows are in our new podcast, Traders Podcast."
+        },
+        {
+            "startTime": 191.8,
+            "startTimeFormatted": "00:03:11.800",
+            "endTime": 193.52,
+            "endTimeFormatted": "00:03:13.520",
+            "speaker": "SPEAKER_1",
+            "body": "You'll find that wherever you get your podcasts."
+        },
+        {
+            "startTime": 193.88,
+            "startTimeFormatted": "00:03:13.880",
+            "endTime": 196.74,
+            "endTimeFormatted": "00:03:16.740",
+            "speaker": "SPEAKER_1",
+            "body": "And this podcast is sponsored by Hindenburg Pro."
+        },
+        {
+            "startTime": 197,
+            "startTimeFormatted": "00:03:17.000",
+            "endTime": 199.32,
+            "endTimeFormatted": "00:03:19.320",
+            "speaker": "SPEAKER_1",
+            "body": "Still setting your audio levels clip by clip."
+        },
+        {
+            "startTime": 199.9,
+            "startTimeFormatted": "00:03:19.900",
+            "endTime": 201.22,
+            "endTimeFormatted": "00:03:21.220",
+            "speaker": "SPEAKER_1",
+            "body": "Oh, the humanity."
+        },
+        {
+            "startTime": 201.24,
+            "startTimeFormatted": "00:03:21.240",
+            "endTime": 203.52,
+            "endTimeFormatted": "00:03:23.520",
+            "speaker": "SPEAKER_1",
+            "body": "Hindenburg Pro, see what we did there."
+        },
+        {
+            "startTime": 203.6,
+            "startTimeFormatted": "00:03:23.600",
+            "endTime": 206.5,
+            "endTimeFormatted": "00:03:26.500",
+            "speaker": "SPEAKER_1",
+            "body": "Hindenburg Pro takes care of all of that for you."
+        },
+        {
+            "startTime": 206.52,
+            "startTimeFormatted": "00:03:26.520",
+            "endTime": 213.02,
+            "endTimeFormatted": "00:03:33.020",
+            "speaker": "SPEAKER_1",
+            "body": "So you can get on with telling your story, setting your audio levels is an excellent thing that Hindenburg Pro does."
+        },
+        {
+            "startTime": 213.38,
+            "startTimeFormatted": "00:03:33.380",
+            "endTime": 220.3,
+            "endTimeFormatted": "00:03:40.300",
+            "speaker": "SPEAKER_1",
+            "body": "And today you can get a special 90 day trial and 30% off by following the links at podnews.net/latest."
+        },
+        {
+            "startTime": 220.7,
+            "startTimeFormatted": "00:03:40.700",
+            "endTime": 224.08,
+            "endTimeFormatted": "00:03:44.080",
+            "speaker": "SPEAKER_1",
+            "body": "And that's the latest from our newsletter to read all the stories and subscribe."
+        },
+        {
+            "startTime": 224.1,
+            "startTimeFormatted": "00:03:44.100",
+            "endTime": 225.62,
+            "endTimeFormatted": "00:03:45.620",
+            "speaker": "SPEAKER_1",
+            "body": "We're at podnews.net."
+        }
+    ]
+}

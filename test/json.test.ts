@@ -3,7 +3,7 @@ import { describe, expect, test } from "@jest/globals"
 import { IOptions, Options, Segment } from "../src"
 import { parseJSON } from "../src/formats/json"
 
-import { readFile, saveSegmentsToFile, TestFiles } from "./test_utils"
+import { readFile, TestFiles } from "./test_utils"
 
 describe("JSON formats test", () => {
     test.each<{
@@ -198,12 +198,11 @@ describe("Parse JSON file data", () => {
             },
             id: "Podnews Weekly Review 2023-06-02, extra space",
         },
-    ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, options, id }) => {
+    ])("Parse JSON File ($id)", ({ filePath, expectedFilePath, options }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
         Options.setOptions(options)
         const segments = parseJSON(data)
-        saveSegmentsToFile(segments, `out_json_${id}.json`)
         expect(segments).toEqual(expectedJSONData.segments)
     })
 })
