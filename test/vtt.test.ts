@@ -20,6 +20,11 @@ describe("Parse VTT file data", () => {
             expectedFilePath: TestFiles.KDE_EXPRESS_16_KDE_EN_TELEGRAM_OUTPUT,
             id: "KDE Express",
         },
+        {
+            filePath: TestFiles.TRANSCRIPT_VTT_PODNEWS_DAILY_2024_01_25,
+            expectedFilePath: TestFiles.TRANSCRIPT_VTT_PODNEWS_DAILY_2024_01_25_OUTPUT,
+            id: "Podnews Daily 2024-01-25",
+        },
     ])("Parse VTT File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))
