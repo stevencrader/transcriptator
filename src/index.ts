@@ -10,7 +10,6 @@ export { Options, IOptions } from "./options"
 
 /**
  * Determines the format of transcript by inspecting the data
- *
  * @param data The transcript data
  * @returns The determined transcript format
  * @throws {TypeError} Cannot determine format of data or error parsing data
@@ -39,7 +38,6 @@ export const determineFormat = (data: string): TranscriptFormat => {
 
 /**
  * Convert the data to an Array of {@link Segment}
- *
  * @param data The transcript data
  * @param transcriptFormat The format of the data.
  * @returns An Array of Segment objects from the parsed data

@@ -13,7 +13,6 @@ const PATTERN_TRAILING_SPACE = /^ *$/
 
 /**
  * Remove any trailing space characters from data
- *
  * @param data text to trim
  * @returns text with any trailing space character removed
  */
@@ -25,7 +24,6 @@ const trimEndSpace = (data: string): string => {
  * Append `addition` to `body` with the character(s) specified.
  *
  * If `addition` matches the {@link PATTERN_PUNCTUATIONS} pattern, no character is added before the additional data.
- *
  * @param body Current body text
  * @param addition Additional text to add to `body`
  * @param separator Character(s) to use to separate data. If undefined, uses `\n`.
@@ -44,7 +42,6 @@ const joinBody = (body: string, addition: string, separator: string = undefined)
 
 /**
  * Combine one or more {@link Segment}
- *
  * @param segments Array of Segment objects to combine
  * @param bodySeparator Character(s) to use to separate body data. If undefined, uses `\n`.
  * @returns Combined segment where:
@@ -89,13 +86,12 @@ type CombineResult = {
  * Checks if the new and prior segments have the same speaker.
  *
  * If so, combines segments where:
- *   - `startTime`: from priorSegment
- *   - `startTimeFormatted`: from priorSegment
- *   - `endTime`: from newSegment
- *   - `endTimeFormatted`: from newSegment
- *   - `speaker`: from priorSegment
- *   - `body`: body of priorSegment with body of newSegment separated with space
- *
+ * - `startTime`: from priorSegment
+ * - `startTimeFormatted`: from priorSegment
+ * - `endTime`: from newSegment
+ * - `endTimeFormatted`: from newSegment
+ * - `speaker`: from priorSegment
+ * - `body`: body of priorSegment with body of newSegment separated with space
  * @param newSegment segment being created
  * @param priorSegment prior parsed segment
  * @param lastSpeaker last speaker name.
@@ -123,13 +119,12 @@ const doCombineSpeaker = (newSegment: Segment, priorSegment: Segment, lastSpeake
  * max length
  *
  * If so, combines segments where:
- *   - `startTime`: from priorSegment
- *   - `startTimeFormatted`: from priorSegment
- *   - `endTime`: from newSegment
- *   - `endTimeFormatted`: from newSegment
- *   - `speaker`: from priorSegment
- *   - `body`: body of priorSegment with body of newSegment separated with space
- *
+ * - `startTime`: from priorSegment
+ * - `startTimeFormatted`: from priorSegment
+ * - `endTime`: from newSegment
+ * - `endTimeFormatted`: from newSegment
+ * - `speaker`: from priorSegment
+ * - `body`: body of priorSegment with body of newSegment separated with space
  * @param newSegment segment being created
  * @param priorSegment prior parsed segment
  * @param maxLength maximum allowed length of combined body. If undefined, uses {@link DEFAULT_COMBINE_SEGMENTS_LENGTH}
@@ -175,13 +170,12 @@ const doCombineSegments = (
  * Checks if the new and prior segments have the same speaker, startTime and endTime.
  *
  * If so, combines segments where:
- *   - `startTime`: from priorSegment
- *   - `startTimeFormatted`: from priorSegment
- *   - `endTime`: from newSegment
- *   - `endTimeFormatted`: from newSegment
- *   - `speaker`: from priorSegment
- *   - `body`: body of priorSegment with body of newSegment separated with value of separator argument
- *
+ * - `startTime`: from priorSegment
+ * - `startTimeFormatted`: from priorSegment
+ * - `endTime`: from newSegment
+ * - `endTimeFormatted`: from newSegment
+ * - `speaker`: from priorSegment
+ * - `body`: body of priorSegment with body of newSegment separated with value of separator argument
  * @param newSegment segment being created
  * @param priorSegment prior parsed segment
  * @param separator string to use to combine body values. If undefined, uses "\n"
@@ -220,13 +214,12 @@ const doCombineEqualTimes = (
  * Checks if the new and prior segments have the same speaker. If so, sets the speaker value to undefined
  *
  * If so, combines segments where:
- *   - `startTime`: from priorSegment
- *   - `startTimeFormatted`: from priorSegment
- *   - `endTime`: from newSegment
- *   - `endTimeFormatted`: from newSegment
- *   - `speaker`: from newSegment if different from priorSegment else undefined
- *   - `body`: body of priorSegment with body of newSegment separated with space
- *
+ * - `startTime`: from priorSegment
+ * - `startTimeFormatted`: from priorSegment
+ * - `endTime`: from newSegment
+ * - `endTimeFormatted`: from newSegment
+ * - `speaker`: from newSegment if different from priorSegment else undefined
+ * - `body`: body of priorSegment with body of newSegment separated with space
  * @param newSegment segment being created
  * @param priorSegment prior parsed segment. For the first segment, this shall be undefined.
  * @param lastSpeaker last speaker name.
@@ -279,7 +272,6 @@ const doSpeakerChange = (newSegment: Segment, priorSegment: Segment, lastSpeaker
 
 /**
  * Determine how {@link Options.speakerChange is applied based an past options being applied}
- *
  * @param currentResult current result object from any prior options
  * @param priorSegment prior parsed segment
  * @param lastSpeaker last speaker name.
@@ -317,7 +309,6 @@ const applyOptionsAndDoSpeakerChange = (
  * Apply convert rules when no prior segment exits.
  *
  * NOTE: not all rules applicable when no prior segment
- *
  * @param newSegment segment before any rules options to it
  * @param lastSpeaker last speaker name.
  * Used when speaker in segment has been removed via {@link Options.speakerChange} rule
@@ -339,7 +330,6 @@ const doCombineNoPrior = (newSegment: Segment, lastSpeaker: string): CombineResu
 
 /**
  * Apply convert rules when prior segment exits.
- *
  * @param newSegment segment before any rules options to it
  * @param priorSegment prior parsed segment
  * @param lastSpeaker last speaker name.
@@ -397,7 +387,6 @@ const doCombineWithPrior = (newSegment: Segment, priorSegment: Segment, lastSpea
 
 /**
  * Apply any options to the current segment
- *
  * @param newSegment segment before any rules options to it
  * @param priorSegment prior parsed segment. For the first segment, this shall be undefined.
  * @param lastSpeaker last speaker name.
@@ -426,7 +415,6 @@ const applyOptions = (newSegment: Segment, priorSegment: Segment, lastSpeaker: s
 
 /**
  * Get the last speaker name from the previously parsed segments
- *
  * @param priorSegment prior parsed segment
  * @param priorSegments array of all previous segments
  * @returns the name of the last speaker
@@ -450,7 +438,6 @@ const getLastSpeaker = (priorSegment: Segment, priorSegments: Array<Segment>): s
 
 /**
  * Helper for adding segment to or updating last segment in array of segments
- *
  * @param newSegment segment to add or replace
  * @param priorSegments array of all previous segments
  * @returns updated array of segments with new segment added or last segment updated (per options)

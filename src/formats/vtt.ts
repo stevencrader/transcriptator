@@ -9,7 +9,6 @@ const WEBVTT_HEADER = "WEBVTT"
 
 /**
  * Determines if the value of data is a valid VTT transcript format
- *
  * @param data The transcript data
  * @returns True: data is valid VTT transcript format
  */
@@ -19,7 +18,6 @@ export const isVTT = (data: string): boolean => {
 
 /**
  * Parse VTT data to an Array of {@link Segment}
- *
  * @param data The transcript data
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When `data` is not valid VTT format

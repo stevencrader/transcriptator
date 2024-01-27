@@ -8,7 +8,6 @@ const PATTERN_SPEAKER_2 = /^<v (?<speaker>\w+?)>(?<body>.*)/i
  * Attempt to extract the speaker's name from the data.
  *
  * Looks for the strings in the format matching {@link PATTERN_SPEAKER}
- *
  * @param data Data to get speaker from
  * @returns The speaker (if found) and the remaining string
  */

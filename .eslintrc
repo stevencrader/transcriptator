@@ -64,6 +64,7 @@
         "@typescript-eslint/return-await": ["error", "in-try-catch"],
         "jsdoc/require-param-type": 0,
         "jsdoc/require-returns-type": 0,
+        "jsdoc/no-undefined-types": 0,
         "jsdoc/require-jsdoc": [
             "error",
             {

@@ -27,7 +27,6 @@ type HTMLSegmentPart = {
 
 /**
  * Determines if the value of data is a valid HTML transcript format
- *
  * @param data The transcript data
  * @returns True: data is valid HTML transcript format
  */
@@ -42,7 +41,6 @@ export const isHTML = (data: string): boolean => {
 
 /**
  * Updates HTML Segment parts if expected HTML segment
- *
  * @param element HTML segment to check
  * @param segmentPart Current segment parts
  * @returns Updated HTML Segment part and segment data for next segment (if fields encountered)
@@ -85,7 +83,6 @@ const updateSegmentPartFromElement = (
 
 /**
  * Create Segment from HTML segment parts
- *
  * @param segmentPart HTML segment data
  * @param lastSpeaker Name of last speaker. Will be used if no speaker found in `segmentLines`
  * @returns Created segment
@@ -106,7 +103,6 @@ const createSegmentFromSegmentPart = (segmentPart: HTMLSegmentPart, lastSpeaker:
 
 /**
  * Parse HTML data and create {@link Segment} for each segment data found in data
- *
  * @param elements HTML elements containing transcript data
  * @returns Segments created from HTML data
  */
@@ -168,7 +164,6 @@ const getSegmentsFromHTMLElements = (elements: Array<HTMLElement>): Array<Segmen
 
 /**
  * Parse HTML data to an Array of {@link Segment}
- *
  * @param data The transcript data
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When `data` is not valid HTML format
