@@ -14,10 +14,10 @@ jobs:
             - name: Enable Corepack
               run: corepack enable
 
-            - name: Set Node.js 16.x
+            - name: Set Node.js 20.x
               uses: actions/setup-node@v3
               with:
-                  node-version: 16.x
+                  node-version: 20.x
                   cache: "yarn"
 
             - name: Install project dependencies
