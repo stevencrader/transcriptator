@@ -1,3 +1,8 @@
+# transcriptator 1.1.4
+
+-   Add support for handling speaker markers in Apple generated VTT files
+-   Update dependencies, Node 20.11.0, Yarn 4.0.2
+
 # transcriptator 1.1.3
 
 -   Add support for VTT without index value ([Resolves #25](https://github.com/stevencrader/transcriptator/issues/25))
