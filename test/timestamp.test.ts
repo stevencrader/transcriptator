@@ -95,7 +95,6 @@ describe("Undefined timestamp", () => {
 
 /**
  * Custom formatter
- *
  * @param timestamp Time in seconds to format
  * @returns formatted timestamp string
  */

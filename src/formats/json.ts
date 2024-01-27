@@ -59,7 +59,6 @@ export type SubtitleSegment = {
 
 /**
  * Determines if the value of data is a valid JSON transcript format
- *
  * @param data The transcript data
  * @returns True: data is valid JSON transcript format
  */
@@ -69,7 +68,6 @@ export const isJSON = (data: string): boolean => {
 
 /**
  * Parse JSON data where segments are in the `segments` Array and in the {@link JSONSegment} format
- *
  * @param data Parsed JSON data
  * @returns An array of Segments from the parsed data
  */
@@ -95,7 +93,6 @@ const parseDictSegmentsJSON = (data: JSONTranscript): Array<Segment> => {
 
 /**
  * Parse JSON data where top level item is a dict/object
- *
  * @param data The transcript data
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When JSON data does not match one of the valid formats
@@ -118,7 +115,6 @@ const parseDictJSON = (data: object): Array<Segment> => {
 
 /**
  * Convert {@link SubtitleSegment} to the {@link Segment} format used here
- *
  * @param data Segment parsed from JSON data
  * @returns Segment representing `data`.
  * Returns {@link undefined} when data does not match {@link SubtitleSegment} format.
@@ -151,7 +147,6 @@ const getSegmentFromSubtitle = (data: SubtitleSegment): Segment => {
 
 /**
  * Parse JSON data where items in data are in the {@link SubtitleSegment} format
- *
  * @param data Parsed JSON data
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When item in `data` does not match the {@link SubtitleSegment} format
@@ -178,7 +173,6 @@ const parseListJSONSubtitle = (data: Array<SubtitleSegment>): Array<Segment> => 
 
 /**
  * Parse JSON data where top level item is an Array
- *
  * @param data The transcript data
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When JSON data does not match one of the valid formats
@@ -202,7 +196,6 @@ const parseListJSON = (data: Array<unknown>): Array<Segment> => {
 
 /**
  * Parse JSON data to an Array of {@link Segment}
- *
  * @param data The transcript data
  * @returns An array of Segments from the parsed data
  * @throws {TypeError} When `data` is not valid JSON format
