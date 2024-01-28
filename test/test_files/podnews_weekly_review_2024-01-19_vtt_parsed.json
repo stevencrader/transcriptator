@@ -1,0 +1,1516 @@
+{
+    "segments": [
+        {
+            "startTime": 0,
+            "startTimeFormatted": "00:00:00.000",
+            "endTime": 3.48,
+            "endTimeFormatted": "00:00:03.480",
+            "speaker": "SPEAKER_1",
+            "body": "It's Friday, the 19th of January, 2024."
+        },
+        {
+            "startTime": 4.24,
+            "startTimeFormatted": "00:00:04.240",
+            "endTime": 6.6,
+            "endTimeFormatted": "00:00:06.600",
+            "speaker": "SPEAKER_2",
+            "body": "The last word in podcasting news."
+        },
+        {
+            "startTime": 7.08,
+            "startTimeFormatted": "00:00:07.080",
+            "endTime": 12.7,
+            "endTimeFormatted": "00:00:12.700",
+            "speaker": "SPEAKER_3",
+            "body": "This is the Podnews Weekly Review with James Cridland and Sam Sethi."
+        },
+        {
+            "startTime": 14.26,
+            "startTimeFormatted": "00:00:14.260",
+            "endTime": 16.14,
+            "endTimeFormatted": "00:00:16.140",
+            "speaker": "SPEAKER_1",
+            "body": "I'm James Cridland, the editor of Podnews."
+        },
+        {
+            "startTime": 16.4,
+            "startTimeFormatted": "00:00:16.400",
+            "endTime": 18.7,
+            "endTimeFormatted": "00:00:18.700",
+            "speaker": "SPEAKER_2",
+            "body": "And I'm Sam Sethi, the CEO of True Funds."
+        },
+        {
+            "startTime": 18.98,
+            "startTimeFormatted": "00:00:18.980",
+            "endTime": 25.36,
+            "endTimeFormatted": "00:00:25.360",
+            "speaker": "SPEAKER_1",
+            "body": "In the chapters today, welcome to the number one weekly podcast of all time, According to Good Pods."
+        },
+        {
+            "startTime": 25.38,
+            "startTimeFormatted": "00:00:25.380",
+            "endTime": 26.48,
+            "endTimeFormatted": "00:00:26.480",
+            "speaker": "SPEAKER_1",
+            "body": "Yes, that's this one."
+        },
+        {
+            "startTime": 26.98,
+            "startTimeFormatted": "00:00:26.980",
+            "endTime": 28.5,
+            "endTimeFormatted": "00:00:28.500",
+            "speaker": "SPEAKER_1",
+            "body": "More details about that in a second."
+        },
+        {
+            "startTime": 28.86,
+            "startTimeFormatted": "00:00:28.860",
+            "endTime": 30.96,
+            "endTimeFormatted": "00:00:30.960",
+            "speaker": "SPEAKER_1",
+            "body": "Podcast ads should be funnier."
+        },
+        {
+            "startTime": 31.22,
+            "startTimeFormatted": "00:00:31.220",
+            "endTime": 33.62,
+            "endTimeFormatted": "00:00:33.620",
+            "speaker": "SPEAKER_1",
+            "body": "Good news from Audioboom as well."
+        },
+        {
+            "startTime": 33.64,
+            "startTimeFormatted": "00:00:33.640",
+            "endTime": 34.14,
+            "endTimeFormatted": "00:00:34.140",
+            "speaker": "SPEAKER_1",
+            "body": "Plus."
+        },
+        {
+            "startTime": 34.34,
+            "startTimeFormatted": "00:00:34.340",
+            "endTime": 35.22,
+            "endTimeFormatted": "00:00:35.220",
+            "speaker": "SPEAKER_3",
+            "body": "I'm Andy Goldsmith."
+        },
+        {
+            "startTime": 35.4,
+            "startTimeFormatted": "00:00:35.400",
+            "endTime": 37.7,
+            "endTimeFormatted": "00:00:37.700",
+            "speaker": "SPEAKER_3",
+            "body": "I'm managing director of Adelicious."
+        },
+        {
+            "startTime": 38.12,
+            "startTimeFormatted": "00:00:38.120",
+            "endTime": 44.82,
+            "endTimeFormatted": "00:00:44.820",
+            "speaker": "SPEAKER_3",
+            "body": "Today, I'm going to be talking about advertising and my ongoing issue around age and ageism in the industry."
+        },
+        {
+            "startTime": 45.02,
+            "startTimeFormatted": "00:00:45.020",
+            "endTime": 45.52,
+            "endTimeFormatted": "00:00:45.520",
+            "speaker": "SPEAKER_1",
+            "body": "He will."
+        },
+        {
+            "startTime": 45.6,
+            "startTimeFormatted": "00:00:45.600",
+            "endTime": 47.62,
+            "endTimeFormatted": "00:00:47.620",
+            "speaker": "SPEAKER_1",
+            "body": "This podcast is sponsored by Buzzsprout."
+        },
+        {
+            "startTime": 47.64,
+            "startTimeFormatted": "00:00:47.640",
+            "endTime": 51.96,
+            "endTimeFormatted": "00:00:51.960",
+            "speaker": "SPEAKER_1",
+            "body": "Last week, 3, 105 people started a podcast with Buzzsprout."
+        },
+        {
+            "startTime": 52.3,
+            "startTimeFormatted": "00:00:52.300",
+            "endTime": 59.06,
+            "endTimeFormatted": "00:00:59.060",
+            "speaker": "SPEAKER_1",
+            "body": "Podcast hosting made easy with powerful tools, free learning materials and remarkable customer support."
+        },
+        {
+            "startTime": 59.24,
+            "startTimeFormatted": "00:00:59.240",
+            "endTime": 63.1,
+            "endTimeFormatted": "00:01:03.100",
+            "speaker": "SPEAKER_3",
+            "body": "From your daily newsletter, the Podnews Weekly Review."
+        },
+        {
+            "startTime": 64.62,
+            "startTimeFormatted": "00:01:04.620",
+            "endTime": 65.98,
+            "endTimeFormatted": "00:01:05.980",
+            "speaker": "SPEAKER_2",
+            "body": "Okay, James, let's kick this off."
+        },
+        {
+            "startTime": 66.16,
+            "startTimeFormatted": "00:01:06.160",
+            "endTime": 72.92,
+            "endTimeFormatted": "00:01:12.920",
+            "speaker": "SPEAKER_2",
+            "body": "Now you had a report in Podnews Daily that podcast ads need to be funnier from Signal Hill."
+        },
+        {
+            "startTime": 75.02,
+            "startTimeFormatted": "00:01:15.020",
+            "endTime": 84.9,
+            "endTimeFormatted": "00:01:24.900",
+            "speaker": "SPEAKER_1",
+            "body": "Well, apparently people, podcast consumers, people who listen to podcasts, expect and would like to hear podcasts that are funny or entertaining."
+        },
+        {
+            "startTime": 86.12,
+            "startTimeFormatted": "00:01:26.120",
+            "endTime": 93.24,
+            "endTimeFormatted": "00:01:33.240",
+            "speaker": "SPEAKER_1",
+            "body": "And according to the data, what they're actually getting is podcasts that communicate features, benefits of products and services."
+        },
+        {
+            "startTime": 93.42,
+            "startTimeFormatted": "00:01:33.420",
+            "endTime": 94.98,
+            "endTimeFormatted": "00:01:34.980",
+            "speaker": "SPEAKER_1",
+            "body": "So not quite as exciting."
+        },
+        {
+            "startTime": 95,
+            "startTimeFormatted": "00:01:35.000",
+            "endTime": 101.4,
+            "endTimeFormatted": "00:01:41.400",
+            "speaker": "SPEAKER_1",
+            "body": "Now, what I would say about this is that the numbers are quite close to one another."
+        },
+        {
+            "startTime": 102.04,
+            "startTimeFormatted": "00:01:42.040",
+            "endTime": 107.24,
+            "endTimeFormatted": "00:01:47.240",
+            "speaker": "SPEAKER_1",
+            "body": "So 71% of people say that they want funny podcasts."
+        },
+        {
+            "startTime": 107.8,
+            "startTimeFormatted": "00:01:47.800",
+            "endTime": 113.98,
+            "endTimeFormatted": "00:01:53.980",
+            "speaker": "SPEAKER_1",
+            "body": "61% of people say that they want podcasts, podcast ads, which communicate features and benefits."
+        },
+        {
+            "startTime": 115.2,
+            "startTimeFormatted": "00:01:55.200",
+            "endTime": 121.26,
+            "endTimeFormatted": "00:02:01.260",
+            "speaker": "SPEAKER_1",
+            "body": "So actually, there's not much difference in it, and there's not much difference in what people are actually hearing."
+        },
+        {
+            "startTime": 121.28,
+            "startTimeFormatted": "00:02:01.280",
+            "endTime": 124.52,
+            "endTimeFormatted": "00:02:04.520",
+            "speaker": "SPEAKER_1",
+            "body": "78% of people say that they're hearing the boring ads."
+        },
+        {
+            "startTime": 124.78,
+            "startTimeFormatted": "00:02:04.780",
+            "endTime": 128.02,
+            "endTimeFormatted": "00:02:08.020",
+            "speaker": "SPEAKER_1",
+            "body": "72% of people say that they're hearing entertaining ads."
+        },
+        {
+            "startTime": 128.22,
+            "startTimeFormatted": "00:02:08.220",
+            "endTime": 134.96,
+            "endTimeFormatted": "00:02:14.960",
+            "speaker": "SPEAKER_1",
+            "body": "So perhaps it's not quite as bad as they seem, but there's certainly a small disconnect, I guess, is what the data is showing."
+        },
+        {
+            "startTime": 135.2,
+            "startTimeFormatted": "00:02:15.200",
+            "endTime": 145.12,
+            "endTimeFormatted": "00:02:25.120",
+            "speaker": "SPEAKER_2",
+            "body": "I do remember back in the late 80s, early 90s in the UK, ads became super funny, and they became very memorable because they were super funny."
+        },
+        {
+            "startTime": 145.14,
+            "startTimeFormatted": "00:02:25.140",
+            "endTime": 147.02,
+            "endTimeFormatted": "00:02:27.020",
+            "speaker": "SPEAKER_2",
+            "body": "People would regale the stories of them."
+        },
+        {
+            "startTime": 147.52,
+            "startTimeFormatted": "00:02:27.520",
+            "endTime": 151.54,
+            "endTimeFormatted": "00:02:31.540",
+            "speaker": "SPEAKER_2",
+            "body": "And then we went through a phase with ads in the UK where they were songs."
+        },
+        {
+            "startTime": 151.98,
+            "startTimeFormatted": "00:02:31.980",
+            "endTime": 153.24,
+            "endTimeFormatted": "00:02:33.240",
+            "speaker": "SPEAKER_2",
+            "body": "Do the shake and vac."
+        },
+        {
+            "startTime": 172.1,
+            "startTimeFormatted": "00:02:52.100",
+            "endTime": 173.76,
+            "endTimeFormatted": "00:02:53.760",
+            "speaker": "SPEAKER_4",
+            "body": "Beef grills and lamb grills."
+        },
+        {
+            "startTime": 173.82,
+            "startTimeFormatted": "00:02:53.820",
+            "endTime": 175.84,
+            "endTimeFormatted": "00:02:55.840",
+            "speaker": "SPEAKER_4",
+            "body": "More sizzlers from the Bird's Eye Steakhouse."
+        },
+        {
+            "startTime": 185.56,
+            "startTimeFormatted": "00:03:05.560",
+            "endTime": 194.32,
+            "endTimeFormatted": "00:03:14.320",
+            "speaker": "SPEAKER_2",
+            "body": "And I remember going to a concert and they had this comedian at the beginning who came up on stage I think there was about 50, 000 people in the audience."
+        },
+        {
+            "startTime": 194.76,
+            "startTimeFormatted": "00:03:14.760",
+            "endTime": 199.02,
+            "endTimeFormatted": "00:03:19.020",
+            "speaker": "SPEAKER_2",
+            "body": "And he did all the songs of adverts as his act."
+        },
+        {
+            "startTime": 199.46,
+            "startTimeFormatted": "00:03:19.460",
+            "endTime": 204.66,
+            "endTimeFormatted": "00:03:24.660",
+            "speaker": "SPEAKER_2",
+            "body": "And everyone in the audience remembered every word of every advert because it was a song."
+        },
+        {
+            "startTime": 205.18,
+            "startTimeFormatted": "00:03:25.180",
+            "endTime": 207.6,
+            "endTimeFormatted": "00:03:27.600",
+            "speaker": "SPEAKER_2",
+            "body": "And I just wonder, maybe that's what we need to do."
+        },
+        {
+            "startTime": 207.62,
+            "startTimeFormatted": "00:03:27.620",
+            "endTime": 210.66,
+            "endTimeFormatted": "00:03:30.660",
+            "speaker": "SPEAKER_2",
+            "body": "Maybe instead of making them funny, make them songs."
+        },
+        {
+            "startTime": 210.78,
+            "startTimeFormatted": "00:03:30.780",
+            "endTime": 211.24,
+            "endTimeFormatted": "00:03:31.240",
+            "speaker": "SPEAKER_2",
+            "body": "I don't know."
+        },
+        {
+            "startTime": 211.36,
+            "startTimeFormatted": "00:03:31.360",
+            "endTime": 212.48,
+            "endTimeFormatted": "00:03:32.480",
+            "speaker": "SPEAKER_2",
+            "body": "Maybe that's the way forward."
+        },
+        {
+            "startTime": 212.68,
+            "startTimeFormatted": "00:03:32.680",
+            "endTime": 222.08,
+            "endTimeFormatted": "00:03:42.080",
+            "speaker": "SPEAKER_1",
+            "body": "There was a thing, so when I used to write radio commercials, one of the big advertisers was Cold Seal, and Cold Seal had these awful jingles."
+        },
+        {
+            "startTime": 224.74,
+            "startTimeFormatted": "00:03:44.740",
+            "endTime": 232.22,
+            "endTimeFormatted": "00:03:52.220",
+            "speaker": "SPEAKER_1",
+            "body": "They were a double glazing company, and they had these awful songs that used to run over, and over, and over again."
+        },
+        {
+            "startTime": 232.26,
+            "startTimeFormatted": "00:03:52.260",
+            "endTime": 237.52,
+            "endTimeFormatted": "00:03:57.520",
+            "speaker": "SPEAKER_1",
+            "body": "And so, of course, all of the advertisers said, oh, I'd like a song like Cold Seal, please."
+        },
+        {
+            "startTime": 237.54,
+            "startTimeFormatted": "00:03:57.540",
+            "endTime": 241.38,
+            "endTimeFormatted": "00:04:01.380",
+            "speaker": "SPEAKER_4",
+            "body": "Cold Seal Windows are the best you can voice, a call double two, double one, double five."
+        },
+        {
+            "startTime": 241.46,
+            "startTimeFormatted": "00:04:01.460",
+            "endTime": 245.88,
+            "endTimeFormatted": "00:04:05.880",
+            "speaker": "SPEAKER_1",
+            "body": "And it was not easy and not fun."
+        },
+        {
+            "startTime": 246.14,
+            "startTimeFormatted": "00:04:06.140",
+            "endTime": 252.28,
+            "endTimeFormatted": "00:04:12.280",
+            "speaker": "SPEAKER_1",
+            "body": "I suppose when you have an ad that stands out, then all of a sudden, you remember that."
+        },
+        {
+            "startTime": 252.76,
+            "startTimeFormatted": "00:04:12.760",
+            "endTime": 262.68,
+            "endTimeFormatted": "00:04:22.680",
+            "speaker": "SPEAKER_1",
+            "body": "I mean, similarly, there was an ad, which was a very futuristic ad, I seem to remember, for a product called Ready Brek, which was a porridge, warm porridge breakfast cereal."
+        },
+        {
+            "startTime": 262.84,
+            "startTimeFormatted": "00:04:22.840",
+            "endTime": 269.88,
+            "endTimeFormatted": "00:04:29.880",
+            "speaker": "SPEAKER_4",
+            "body": "Ready Brek, with lashings of hot milk to soak up those natural oats, malt and vitamins, all goodness and nothing wasted."
+        },
+        {
+            "startTime": 269.9,
+            "startTimeFormatted": "00:04:29.900",
+            "endTime": 271.14,
+            "endTimeFormatted": "00:04:31.140",
+            "speaker": "SPEAKER_2",
+            "body": "Loved it in the day, yes."
+        },
+        {
+            "startTime": 271.16,
+            "startTimeFormatted": "00:04:31.160",
+            "endTime": 273.34,
+            "endTimeFormatted": "00:04:33.340",
+            "speaker": "SPEAKER_1",
+            "body": "Yes, and it was Central Heating for Kids."
+        },
+        {
+            "startTime": 273.52,
+            "startTimeFormatted": "00:04:33.520",
+            "endTime": 274.8,
+            "endTimeFormatted": "00:04:34.800",
+            "speaker": "SPEAKER_4",
+            "body": "Central Heating for Kids."
+        },
+        {
+            "startTime": 274.88,
+            "startTimeFormatted": "00:04:34.880",
+            "endTime": 282.02,
+            "endTimeFormatted": "00:04:42.020",
+            "speaker": "SPEAKER_1",
+            "body": "And there was one kid that had had his Ready Brek in the morning, and he was nice and warm, and it showed this sort of red glow."
+        },
+        {
+            "startTime": 282.2,
+            "startTimeFormatted": "00:04:42.200",
+            "endTime": 283.88,
+            "endTimeFormatted": "00:04:43.880",
+            "speaker": "SPEAKER_2",
+            "body": "Nuclear glow around them, yes."
+        },
+        {
+            "startTime": 284.1,
+            "startTimeFormatted": "00:04:44.100",
+            "endTime": 286.28,
+            "endTimeFormatted": "00:04:46.280",
+            "speaker": "SPEAKER_1",
+            "body": "Yeah, yeah, made him look radioactive."
+        },
+        {
+            "startTime": 286.86,
+            "startTimeFormatted": "00:04:46.860",
+            "endTime": 291.9,
+            "endTimeFormatted": "00:04:51.900",
+            "speaker": "SPEAKER_1",
+            "body": "But again, I think it's just a different, you know, a different take."
+        },
+        {
+            "startTime": 292.08,
+            "startTimeFormatted": "00:04:52.080",
+            "endTime": 297.5,
+            "endTimeFormatted": "00:04:57.500",
+            "speaker": "SPEAKER_1",
+            "body": "Perhaps what people are really asking for is ads that are a little bit different, perhaps."
+        },
+        {
+            "startTime": 297.58,
+            "startTimeFormatted": "00:04:57.580",
+            "endTime": 299.64,
+            "endTimeFormatted": "00:04:59.640",
+            "speaker": "SPEAKER_1",
+            "body": "That's what, you know, one might guess."
+        },
+        {
+            "startTime": 300.4,
+            "startTimeFormatted": "00:05:00.400",
+            "endTime": 304.34,
+            "endTimeFormatted": "00:05:04.340",
+            "speaker": "SPEAKER_2",
+            "body": "Well, talking of funnier things, here's a funny thing, James."
+        },
+        {
+            "startTime": 304.4,
+            "startTimeFormatted": "00:05:04.400",
+            "endTime": 311.56,
+            "endTimeFormatted": "00:05:11.560",
+            "speaker": "SPEAKER_2",
+            "body": "It turns out that Podnews Weekly Review, this podcast, is the number one weekly podcast of all time."
+        },
+        {
+            "startTime": 312.12,
+            "startTimeFormatted": "00:05:12.120",
+            "endTime": 312.66,
+            "endTimeFormatted": "00:05:12.660",
+            "speaker": "SPEAKER_2",
+            "body": "Excellent."
+        },
+        {
+            "startTime": 312.78,
+            "startTimeFormatted": "00:05:12.780",
+            "endTime": 314,
+            "endTimeFormatted": "00:05:14.000",
+            "speaker": "SPEAKER_2",
+            "body": "Where's the 200 million?"
+        },
+        {
+            "startTime": 314.04,
+            "startTimeFormatted": "00:05:14.040",
+            "endTime": 315.3,
+            "endTimeFormatted": "00:05:15.300",
+            "speaker": "SPEAKER_2",
+            "body": "Come on, Joe Rogan, move over."
+        },
+        {
+            "startTime": 315.32,
+            "startTimeFormatted": "00:05:15.320",
+            "endTime": 315.88,
+            "endTimeFormatted": "00:05:15.880",
+            "speaker": "SPEAKER_1",
+            "body": "Well, yes."
+        },
+        {
+            "startTime": 315.9,
+            "startTimeFormatted": "00:05:15.900",
+            "endTime": 317.66,
+            "endTimeFormatted": "00:05:17.660",
+            "speaker": "SPEAKER_1",
+            "body": "So this is data from Good Pods."
+        },
+        {
+            "startTime": 318.02,
+            "startTimeFormatted": "00:05:18.020",
+            "endTime": 321.94,
+            "endTimeFormatted": "00:05:21.940",
+            "speaker": "SPEAKER_1",
+            "body": "And who am I to doubt the data from Good Pods?"
+        },
+        {
+            "startTime": 322.76,
+            "startTimeFormatted": "00:05:22.760",
+            "endTime": 324.18,
+            "endTimeFormatted": "00:05:24.180",
+            "speaker": "SPEAKER_1",
+            "body": "It is worked out."
+        },
+        {
+            "startTime": 324.44,
+            "startTimeFormatted": "00:05:24.440",
+            "endTime": 334.7,
+            "endTimeFormatted": "00:05:34.700",
+            "speaker": "SPEAKER_1",
+            "body": "It's the best weekly podcasts, worked out from millions of podcasts available on the Good Pods platform and ranked by listens, ratings, comments, subscriptions and shares."
+        },
+        {
+            "startTime": 336.26,
+            "startTimeFormatted": "00:05:36.260",
+            "endTime": 339.96,
+            "endTimeFormatted": "00:05:39.960",
+            "speaker": "SPEAKER_1",
+            "body": "The number one spot is this very podcast."
+        },
+        {
+            "startTime": 341.28,
+            "startTimeFormatted": "00:05:41.280",
+            "endTime": 346.62,
+            "endTimeFormatted": "00:05:46.620",
+            "speaker": "SPEAKER_1",
+            "body": "So I'm just waiting for, you know, Spotify to get in touch, obviously, cause I'm imagining that they'll be buying us."
+        },
+        {
+            "startTime": 347.02,
+            "startTimeFormatted": "00:05:47.020",
+            "endTime": 347.32,
+            "endTimeFormatted": "00:05:47.320",
+            "speaker": "SPEAKER_2",
+            "body": "Yep."
+        },
+        {
+            "startTime": 347.36,
+            "startTimeFormatted": "00:05:47.360",
+            "endTime": 349.64,
+            "endTimeFormatted": "00:05:49.640",
+            "speaker": "SPEAKER_2",
+            "body": "Exclusively on Spotify only."
+        },
+        {
+            "startTime": 350.04,
+            "startTimeFormatted": "00:05:50.040",
+            "endTime": 350.48,
+            "endTimeFormatted": "00:05:50.480",
+            "speaker": "SPEAKER_1",
+            "body": "Yes."
+        },
+        {
+            "startTime": 350.5,
+            "startTimeFormatted": "00:05:50.500",
+            "endTime": 354.96,
+            "endTimeFormatted": "00:05:54.960",
+            "speaker": "SPEAKER_1",
+            "body": "Well, I think an exclusive video on Spotify."
+        },
+        {
+            "startTime": 355.42,
+            "startTimeFormatted": "00:05:55.420",
+            "endTime": 357.12,
+            "endTimeFormatted": "00:05:57.120",
+            "speaker": "SPEAKER_2",
+            "body": "Oh no, not at this time of the morning."
+        },
+        {
+            "startTime": 357.14,
+            "startTimeFormatted": "00:05:57.140",
+            "endTime": 358.18,
+            "endTimeFormatted": "00:05:58.180",
+            "speaker": "SPEAKER_2",
+            "body": "You don't want one of those."
+        },
+        {
+            "startTime": 358.48,
+            "startTimeFormatted": "00:05:58.480",
+            "endTime": 359.06,
+            "endTimeFormatted": "00:05:59.060",
+            "speaker": "SPEAKER_1",
+            "body": "Exactly."
+        },
+        {
+            "startTime": 359.12,
+            "startTimeFormatted": "00:05:59.120",
+            "endTime": 359.94,
+            "endTimeFormatted": "00:05:59.940",
+            "speaker": "SPEAKER_1",
+            "body": "No, exactly."
+        },
+        {
+            "startTime": 361.02,
+            "startTimeFormatted": "00:06:01.020",
+            "endTime": 361.36,
+            "endTimeFormatted": "00:06:01.360",
+            "speaker": "SPEAKER_1",
+            "body": "Yes."
+        },
+        {
+            "startTime": 361.86,
+            "startTimeFormatted": "00:06:01.860",
+            "endTime": 364.9,
+            "endTimeFormatted": "00:06:04.900",
+            "speaker": "SPEAKER_1",
+            "body": "Gaming with the Bros cast is number two."
+        },
+        {
+            "startTime": 365.58,
+            "startTimeFormatted": "00:06:05.580",
+            "endTime": 367.56,
+            "endTimeFormatted": "00:06:07.560",
+            "speaker": "SPEAKER_1",
+            "body": "The Night Post is number three."
+        },
+        {
+            "startTime": 367.74,
+            "startTimeFormatted": "00:06:07.740",
+            "endTime": 371.24,
+            "endTimeFormatted": "00:06:11.240",
+            "speaker": "SPEAKER_1",
+            "body": "And number four, the Modern Art Notes podcast."
+        },
+        {
+            "startTime": 371.26,
+            "startTimeFormatted": "00:06:11.260",
+            "endTime": 374.7,
+            "endTimeFormatted": "00:06:14.700",
+            "speaker": "SPEAKER_1",
+            "body": "And you might be asking to yourself, I've never heard of any of those shows."
+        },
+        {
+            "startTime": 374.72,
+            "startTimeFormatted": "00:06:14.720",
+            "endTime": 378.96,
+            "endTimeFormatted": "00:06:18.960",
+            "speaker": "SPEAKER_1",
+            "body": "And that's probably, probably the point."
+        },
+        {
+            "startTime": 379.96,
+            "startTimeFormatted": "00:06:19.960",
+            "endTime": 381.62,
+            "endTimeFormatted": "00:06:21.620",
+            "speaker": "SPEAKER_1",
+            "body": "So anyway, so thank you, Good Pods."
+        },
+        {
+            "startTime": 383.12,
+            "startTimeFormatted": "00:06:23.120",
+            "endTime": 389.7,
+            "endTimeFormatted": "00:06:29.700",
+            "speaker": "SPEAKER_1",
+            "body": "I've always thought that these figures were slightly dubious, but obviously now that we're number one, I will never doubt them again."
+        },
+        {
+            "startTime": 389.86,
+            "startTimeFormatted": "00:06:29.860",
+            "endTime": 390.76,
+            "endTimeFormatted": "00:06:30.760",
+            "speaker": "SPEAKER_2",
+            "body": "Yes, that's it."
+        },
+        {
+            "startTime": 391.42,
+            "startTimeFormatted": "00:06:31.420",
+            "endTime": 394.6,
+            "endTimeFormatted": "00:06:34.600",
+            "speaker": "SPEAKER_2",
+            "body": "Was it also because you question their AI descriptions?"
+        },
+        {
+            "startTime": 394.62,
+            "startTimeFormatted": "00:06:34.620",
+            "endTime": 398.52,
+            "endTimeFormatted": "00:06:38.520",
+            "speaker": "SPEAKER_2",
+            "body": "Maybe they're just giving you a little leg up as a thank you."
+        },
+        {
+            "startTime": 398.9,
+            "startTimeFormatted": "00:06:38.900",
+            "endTime": 402.92,
+            "endTimeFormatted": "00:06:42.920",
+            "speaker": "SPEAKER_1",
+            "body": "I'm sure they're completely, you know, completely above board with these analytics."
+        },
+        {
+            "startTime": 403.16,
+            "startTimeFormatted": "00:06:43.160",
+            "endTime": 409.54,
+            "endTimeFormatted": "00:06:49.540",
+            "speaker": "SPEAKER_1",
+            "body": "And yes, and I'm sure that they're all, yes, absolutely all fine and dandy."
+        },
+        {
+            "startTime": 409.68,
+            "startTimeFormatted": "00:06:49.680",
+            "endTime": 416.58,
+            "endTimeFormatted": "00:06:56.580",
+            "speaker": "SPEAKER_1",
+            "body": "It's like when you win an award, you know, if you don't win an award, then the award's rigged and you know, it's just pay to play and blah, blah, blah."
+        },
+        {
+            "startTime": 416.6,
+            "startTimeFormatted": "00:06:56.600",
+            "endTime": 418.6,
+            "endTimeFormatted": "00:06:58.600",
+            "speaker": "SPEAKER_1",
+            "body": "And as soon as you win an award, it's, oh, it's excellent."
+        },
+        {
+            "startTime": 419.18,
+            "startTimeFormatted": "00:06:59.180",
+            "endTime": 419.72,
+            "endTimeFormatted": "00:06:59.720",
+            "speaker": "SPEAKER_1",
+            "body": "The future."
+        },
+        {
+            "startTime": 420.96,
+            "startTimeFormatted": "00:07:00.960",
+            "endTime": 422.38,
+            "endTimeFormatted": "00:07:02.380",
+            "speaker": "SPEAKER_2",
+            "body": "They can see."
+        },
+        {
+            "startTime": 422.42,
+            "startTimeFormatted": "00:07:02.420",
+            "endTime": 423.3,
+            "endTimeFormatted": "00:07:03.300",
+            "speaker": "SPEAKER_2",
+            "body": "Well done, judges."
+        },
+        {
+            "startTime": 423.32,
+            "startTimeFormatted": "00:07:03.320",
+            "endTime": 426.38,
+            "endTimeFormatted": "00:07:06.380",
+            "speaker": "SPEAKER_2",
+            "body": "You are very futuristic in your thinking, yes."
+        },
+        {
+            "startTime": 426.4,
+            "startTimeFormatted": "00:07:06.400",
+            "endTime": 441.46,
+            "endTimeFormatted": "00:07:21.460",
+            "speaker": "SPEAKER_1",
+            "body": "I mean, it would be interesting, wouldn't it, just to have a look at how many listens this show has had on the Good Pods platform, just to work out how many, you know, how many listens is needed to be number one forever."
+        },
+        {
+            "startTime": 442.8,
+            "startTimeFormatted": "00:07:22.800",
+            "endTime": 443.94,
+            "endTimeFormatted": "00:07:23.940",
+            "speaker": "SPEAKER_1",
+            "body": "Would you like to know that figure?"
+        },
+        {
+            "startTime": 443.98,
+            "startTimeFormatted": "00:07:23.980",
+            "endTime": 446.46,
+            "endTimeFormatted": "00:07:26.460",
+            "speaker": "SPEAKER_2",
+            "body": "Well, I've got one hand and I've got another hand."
+        },
+        {
+            "startTime": 446.48,
+            "startTimeFormatted": "00:07:26.480",
+            "endTime": 447.62,
+            "endTimeFormatted": "00:07:27.620",
+            "speaker": "SPEAKER_2",
+            "body": "Do I need any more hands?"
+        },
+        {
+            "startTime": 448.92,
+            "startTimeFormatted": "00:07:28.920",
+            "endTime": 455.18,
+            "endTimeFormatted": "00:07:35.180",
+            "speaker": "SPEAKER_1",
+            "body": "You've over-excited your hands, according to OP3."
+        },
+        {
+            "startTime": 455.8,
+            "startTimeFormatted": "00:07:35.800",
+            "endTime": 458.26,
+            "endTimeFormatted": "00:07:38.260",
+            "speaker": "SPEAKER_1",
+            "body": "Do you know how many downloads we had in Good Pods?"
+        },
+        {
+            "startTime": 460.04,
+            "startTimeFormatted": "00:07:40.040",
+            "endTime": 461.58,
+            "endTimeFormatted": "00:07:41.580",
+            "speaker": "SPEAKER_1",
+            "body": "During December of last year."
+        },
+        {
+            "startTime": 461.6,
+            "startTimeFormatted": "00:07:41.600",
+            "endTime": 468.82,
+            "endTimeFormatted": "00:07:48.820",
+            "speaker": "SPEAKER_1",
+            "body": "Now we are, we're with the number one best weekly podcast of all time, according to Good Pods."
+        },
+        {
+            "startTime": 468.88,
+            "startTimeFormatted": "00:07:48.880",
+            "endTime": 470.88,
+            "endTimeFormatted": "00:07:50.880",
+            "speaker": "SPEAKER_1",
+            "body": "How many downloads do we get on Good Pods?"
+        },
+        {
+            "startTime": 470.9,
+            "startTimeFormatted": "00:07:50.900",
+            "endTime": 471.16,
+            "endTimeFormatted": "00:07:51.160",
+            "speaker": "SPEAKER_1",
+            "body": "Four."
+        },
+        {
+            "startTime": 471.22,
+            "startTimeFormatted": "00:07:51.220",
+            "endTime": 474.68,
+            "endTimeFormatted": "00:07:54.680",
+            "speaker": "SPEAKER_1",
+            "body": "In the whole month of December."
+        },
+        {
+            "startTime": 474.7,
+            "startTimeFormatted": "00:07:54.700",
+            "endTime": 475.86,
+            "endTimeFormatted": "00:07:55.860",
+            "speaker": "SPEAKER_2",
+            "body": "Four, I'm sticking with four."
+        },
+        {
+            "startTime": 476.12,
+            "startTimeFormatted": "00:07:56.120",
+            "endTime": 477.72,
+            "endTimeFormatted": "00:07:57.720",
+            "speaker": "SPEAKER_2",
+            "body": "No, no, no higher, no lower."
+        },
+        {
+            "startTime": 477.84,
+            "startTimeFormatted": "00:07:57.840",
+            "endTime": 478.16,
+            "endTimeFormatted": "00:07:58.160",
+            "speaker": "SPEAKER_1",
+            "body": "Four."
+        },
+        {
+            "startTime": 478.82,
+            "startTimeFormatted": "00:07:58.820",
+            "endTime": 479.06,
+            "endTimeFormatted": "00:07:59.060",
+            "speaker": "SPEAKER_2",
+            "body": "One."
+        },
+        {
+            "startTime": 482.7,
+            "startTimeFormatted": "00:08:02.700",
+            "endTime": 483.82,
+            "endTimeFormatted": "00:08:03.820",
+            "speaker": "SPEAKER_1",
+            "body": "So there you go."
+        },
+        {
+            "startTime": 484.52,
+            "startTimeFormatted": "00:08:04.520",
+            "endTime": 485.06,
+            "endTimeFormatted": "00:08:05.060",
+            "speaker": "SPEAKER_1",
+            "body": "Brilliant."
+        },
+        {
+            "startTime": 485.74,
+            "startTimeFormatted": "00:08:05.740",
+            "endTime": 486.76,
+            "endTimeFormatted": "00:08:06.760",
+            "speaker": "SPEAKER_1",
+            "body": "Well, thank you for that."
+        },
+        {
+            "startTime": 488.08,
+            "startTimeFormatted": "00:08:08.080",
+            "endTime": 488.74,
+            "endTimeFormatted": "00:08:08.740",
+            "speaker": "SPEAKER_1",
+            "body": "Let's move on."
+        },
+        {
+            "startTime": 489.08,
+            "startTimeFormatted": "00:08:09.080",
+            "endTime": 489.52,
+            "endTimeFormatted": "00:08:09.520",
+            "speaker": "SPEAKER_1",
+            "body": "Yes."
+        },
+        {
+            "startTime": 489.68,
+            "startTimeFormatted": "00:08:09.680",
+            "endTime": 491.36,
+            "endTimeFormatted": "00:08:11.360",
+            "speaker": "SPEAKER_2",
+            "body": "Now let's move on with some good news."
+        },
+        {
+            "startTime": 491.86,
+            "startTimeFormatted": "00:08:11.860",
+            "endTime": 493.54,
+            "endTimeFormatted": "00:08:13.540",
+            "speaker": "SPEAKER_2",
+            "body": "Audio Boom."
+        },
+        {
+            "startTime": 493.68,
+            "startTimeFormatted": "00:08:13.680",
+            "endTime": 494.98,
+            "endTimeFormatted": "00:08:14.980",
+            "speaker": "SPEAKER_2",
+            "body": "Yes, Audio Boom."
+        },
+        {
+            "startTime": 495.3,
+            "startTimeFormatted": "00:08:15.300",
+            "endTime": 501,
+            "endTimeFormatted": "00:08:21.000",
+            "speaker": "SPEAKER_2",
+            "body": "The London based podcast publisher has just posted a trading update for Q423."
+        },
+        {
+            "startTime": 501.68,
+            "startTimeFormatted": "00:08:21.680",
+            "endTime": 509.14,
+            "endTimeFormatted": "00:08:29.140",
+            "speaker": "SPEAKER_2",
+            "body": "Its revenues were at $19 million, up 37% quarter and quarter and up 5% on the year."
+        },
+        {
+            "startTime": 509.82,
+            "startTimeFormatted": "00:08:29.820",
+            "endTime": 514.28,
+            "endTimeFormatted": "00:08:34.280",
+            "speaker": "SPEAKER_2",
+            "body": "Downloads for the quarter are also only down a small amount,."
+        },
+        {
+            "startTime": 514.28,
+            "startTimeFormatted": "00:08:34.280",
+            "endTime": 519.94,
+            "endTimeFormatted": "00:08:39.940",
+            "speaker": "SPEAKER_2",
+            "body": "75% in spite of the Apple apocalypse of the auto download changes."
+        },
+        {
+            "startTime": 520.16,
+            "startTimeFormatted": "00:08:40.160",
+            "endTime": 522.32,
+            "endTimeFormatted": "00:08:42.320",
+            "speaker": "SPEAKER_2",
+            "body": "James, it all sounds amazing."
+        },
+        {
+            "startTime": 522.34,
+            "startTimeFormatted": "00:08:42.340",
+            "endTime": 523.34,
+            "endTimeFormatted": "00:08:43.340",
+            "speaker": "SPEAKER_2",
+            "body": "Well done, Audio Boom."
+        },
+        {
+            "startTime": 523.54,
+            "startTimeFormatted": "00:08:43.540",
+            "endTime": 524.4,
+            "endTimeFormatted": "00:08:44.400",
+            "speaker": "SPEAKER_2",
+            "body": "But is it really?"
+        },
+        {
+            "startTime": 524.42,
+            "startTimeFormatted": "00:08:44.420",
+            "endTime": 526.46,
+            "endTimeFormatted": "00:08:46.460",
+            "speaker": "SPEAKER_1",
+            "body": "Well, it kind of all does sound amazing."
+        },
+        {
+            "startTime": 526.72,
+            "startTimeFormatted": "00:08:46.720",
+            "endTime": 535.76,
+            "endTimeFormatted": "00:08:55.760",
+            "speaker": "SPEAKER_1",
+            "body": "I have been saying for quite some time that there is a difference between the US and the UK in terms of the podcast market."
+        },
+        {
+            "startTime": 537.02,
+            "startTimeFormatted": "00:08:57.020",
+            "endTime": 540.86,
+            "endTimeFormatted": "00:09:00.860",
+            "speaker": "SPEAKER_1",
+            "body": "And clearly they are at different points in their evolution."
+        },
+        {
+            "startTime": 541.22,
+            "startTimeFormatted": "00:09:01.220",
+            "endTime": 543.56,
+            "endTimeFormatted": "00:09:03.560",
+            "speaker": "SPEAKER_1",
+            "body": "But this seems to be pretty good news."
+        },
+        {
+            "startTime": 544.02,
+            "startTimeFormatted": "00:09:04.020",
+            "endTime": 547.12,
+            "endTimeFormatted": "00:09:07.120",
+            "speaker": "SPEAKER_1",
+            "body": "It's the highest revenue since quarter to 22."
+        },
+        {
+            "startTime": 547.14,
+            "startTimeFormatted": "00:09:07.140",
+            "endTime": 550.3,
+            "endTimeFormatted": "00:09:10.300",
+            "speaker": "SPEAKER_1",
+            "body": "They're still not making a profit, I should say."
+        },
+        {
+            "startTime": 550.32,
+            "startTimeFormatted": "00:09:10.320",
+            "endTime": 556.8,
+            "endTimeFormatted": "00:09:16.800",
+            "speaker": "SPEAKER_1",
+            "body": "But nevertheless, it seems to be quite splendid in terms of the numbers."
+        },
+        {
+            "startTime": 557.2,
+            "startTimeFormatted": "00:09:17.200",
+            "endTime": 560.6,
+            "endTimeFormatted": "00:09:20.600",
+            "speaker": "SPEAKER_1",
+            "body": "I was most interested at that total downloads number."
+        },
+        {
+            "startTime": 561.42,
+            "startTimeFormatted": "00:09:21.420",
+            "endTime": 568.8,
+            "endTimeFormatted": "00:09:28.800",
+            "speaker": "SPEAKER_1",
+            "body": "Because for the quarter, we have seen a lot of people who have been posting 15% down, 20% down."
+        },
+        {
+            "startTime": 570.62,
+            "startTimeFormatted": "00:09:30.620",
+            "endTime": 575.66,
+            "endTimeFormatted": "00:09:35.660",
+            "speaker": "SPEAKER_1",
+            "body": "In this particular case, downloads for the quarter are only down 0.75%, which is virtually nothing."
+        },
+        {
+            "startTime": 575.7,
+            "startTimeFormatted": "00:09:35.700",
+            "endTime": 579.5,
+            "endTimeFormatted": "00:09:39.500",
+            "speaker": "SPEAKER_1",
+            "body": "So I think that there's probably is some good news there."
+        },
+        {
+            "startTime": 580.08,
+            "startTimeFormatted": "00:09:40.080",
+            "endTime": 586.74,
+            "endTimeFormatted": "00:09:46.740",
+            "speaker": "SPEAKER_2",
+            "body": "Yes, Stuart Last, the CEO of Audioboom, said the business is returning to growth mode, which is great, and it's true."
+        },
+        {
+            "startTime": 587.72,
+            "startTimeFormatted": "00:09:47.720",
+            "endTime": 598.92,
+            "endTimeFormatted": "00:09:58.920",
+            "speaker": "SPEAKER_2",
+            "body": "He also said that there was a sharp increase in the number of ad slots we created per episode, with a subsequent one billion ad impressions being made available for sale to our customers in October."
+        },
+        {
+            "startTime": 599.32,
+            "startTimeFormatted": "00:09:59.320",
+            "endTime": 608.48,
+            "endTimeFormatted": "00:10:08.480",
+            "speaker": "SPEAKER_2",
+            "body": "So I sort of had a look around, and when you look at the share price chart, it goes back to, let's say, March, 2023."
+        },
+        {
+            "startTime": 609.62,
+            "startTimeFormatted": "00:10:09.620",
+            "endTime": 614.46,
+            "endTimeFormatted": "00:10:14.460",
+            "speaker": "SPEAKER_2",
+            "body": "The share price was somewhere around the 550, 600 mark."
+        },
+        {
+            "startTime": 615.32,
+            "startTimeFormatted": "00:10:15.320",
+            "endTime": 621.96,
+            "endTimeFormatted": "00:10:21.960",
+            "speaker": "SPEAKER_2",
+            "body": "It's currently, it went all the way down quite significantly by October 2023 to below 150."
+        },
+        {
+            "startTime": 622.26,
+            "startTimeFormatted": "00:10:22.260",
+            "endTime": 625.78,
+            "endTimeFormatted": "00:10:25.780",
+            "speaker": "SPEAKER_2",
+            "body": "It's bounced back up to 300, roughly."
+        },
+        {
+            "startTime": 626.06,
+            "startTimeFormatted": "00:10:26.060",
+            "endTime": 631.12,
+            "endTimeFormatted": "00:10:31.120",
+            "speaker": "SPEAKER_2",
+            "body": "So it's still half of the value that it was back in March 2023."
+        },
+        {
+            "startTime": 632.08,
+            "startTimeFormatted": "00:10:32.080",
+            "endTime": 641.8,
+            "endTimeFormatted": "00:10:41.800",
+            "speaker": "SPEAKER_2",
+            "body": "But what made it even more scary is when I looked further back to January 2022 and the share price was at 2, 250."
+        },
+        {
+            "startTime": 641.84,
+            "startTimeFormatted": "00:10:41.840",
+            "endTime": 646.44,
+            "endTimeFormatted": "00:10:46.440",
+            "speaker": "SPEAKER_2",
+            "body": "It's 10x less than January 2022."
+        },
+        {
+            "startTime": 646.78,
+            "startTimeFormatted": "00:10:46.780",
+            "endTime": 651.96,
+            "endTimeFormatted": "00:10:51.960",
+            "speaker": "SPEAKER_2",
+            "body": "They really did have what I'd call a black run ski drop in terms of their share price."
+        },
+        {
+            "startTime": 652.28,
+            "startTimeFormatted": "00:10:52.280",
+            "endTime": 654.68,
+            "endTimeFormatted": "00:10:54.680",
+            "speaker": "SPEAKER_2",
+            "body": "So it's good to see them returning."
+        },
+        {
+            "startTime": 654.7,
+            "startTimeFormatted": "00:10:54.700",
+            "endTime": 662.62,
+            "endTimeFormatted": "00:11:02.620",
+            "speaker": "SPEAKER_2",
+            "body": "I do say that 2023 now should be just renamed the Podcast Apocalypse and the Big Bree Set because it seems like everyone's had a problem."
+        },
+        {
+            "startTime": 662.8,
+            "startTimeFormatted": "00:11:02.800",
+            "endTime": 667.82,
+            "endTimeFormatted": "00:11:07.820",
+            "speaker": "SPEAKER_1",
+            "body": "Or the Podcast Winter, as Adam and Dave are calling it, which I do quite like."
+        },
+        {
+            "startTime": 668.16,
+            "startTimeFormatted": "00:11:08.160",
+            "endTime": 677,
+            "endTimeFormatted": "00:11:17.000",
+            "speaker": "SPEAKER_1",
+            "body": "And I think you're right to highlight the number of show, the number of ads which they are selling into shows has gone up."
+        },
+        {
+            "startTime": 677.04,
+            "startTimeFormatted": "00:11:17.040",
+            "endTime": 680.08,
+            "endTimeFormatted": "00:11:20.080",
+            "speaker": "SPEAKER_1",
+            "body": "They post a thing called the equivalent CPM."
+        },
+        {
+            "startTime": 680.76,
+            "startTimeFormatted": "00:11:20.760",
+            "endTime": 684.06,
+            "endTimeFormatted": "00:11:24.060",
+            "speaker": "SPEAKER_1",
+            "body": "So that's their average revenue per 1000 downloads."
+        },
+        {
+            "startTime": 685.66,
+            "startTimeFormatted": "00:11:25.660",
+            "endTime": 691.82,
+            "endTimeFormatted": "00:11:31.820",
+            "speaker": "SPEAKER_1",
+            "body": "And that is up 59% on quarter 3 23."
+        },
+        {
+            "startTime": 691.88,
+            "startTimeFormatted": "00:11:31.880",
+            "endTime": 695.56,
+            "endTimeFormatted": "00:11:35.560",
+            "speaker": "SPEAKER_1",
+            "body": "So up from $37 to $58."
+        },
+        {
+            "startTime": 696.8,
+            "startTimeFormatted": "00:11:36.800",
+            "endTime": 706.74,
+            "endTimeFormatted": "00:11:46.740",
+            "speaker": "SPEAKER_1",
+            "body": "So that can't just be done by yield management, by working out how much money you have, how much money you're going to charge for an ad."
+        },
+        {
+            "startTime": 706.76,
+            "startTimeFormatted": "00:11:46.760",
+            "endTime": 712.42,
+            "endTimeFormatted": "00:11:52.420",
+            "speaker": "SPEAKER_1",
+            "body": "It is also just purely the amount of ads that you cram into a show."
+        },
+        {
+            "startTime": 712.98,
+            "startTimeFormatted": "00:11:52.980",
+            "endTime": 719.9,
+            "endTimeFormatted": "00:11:59.900",
+            "speaker": "SPEAKER_1",
+            "body": "And I wonder necessarily whether or not that means that there's going to be even more ads in shows in the future."
+        },
+        {
+            "startTime": 720.06,
+            "startTimeFormatted": "00:12:00.060",
+            "endTime": 724.64,
+            "endTimeFormatted": "00:12:04.640",
+            "speaker": "SPEAKER_2",
+            "body": "Have they passed the radio 15-minute ads per hour?"
+        },
+        {
+            "startTime": 726.36,
+            "startTimeFormatted": "00:12:06.360",
+            "endTime": 734.86,
+            "endTimeFormatted": "00:12:14.860",
+            "speaker": "SPEAKER_1",
+            "body": "They haven't, but one thing that they do say is Audio Boom now creates more than eight advertising slots per episode download."
+        },
+        {
+            "startTime": 736.2,
+            "startTimeFormatted": "00:12:16.200",
+            "endTime": 738.14,
+            "endTimeFormatted": "00:12:18.140",
+            "speaker": "SPEAKER_1",
+            "body": "Now, that doesn't necessarily mean that they fill them."
+        },
+        {
+            "startTime": 741.38,
+            "startTimeFormatted": "00:12:21.380",
+            "endTime": 750.22,
+            "endTimeFormatted": "00:12:30.220",
+            "speaker": "SPEAKER_1",
+            "body": "And in fact, I had somebody asking to advertise in this very show, and they said, we want to buy a pre-roll, a 30-second pre-roll."
+        },
+        {
+            "startTime": 750.24,
+            "startTimeFormatted": "00:12:30.240",
+            "endTime": 753.24,
+            "endTimeFormatted": "00:12:33.240",
+            "speaker": "SPEAKER_1",
+            "body": "And I said, well, I don't want to sell you a 30-second pre-roll."
+        },
+        {
+            "startTime": 753.26,
+            "startTimeFormatted": "00:12:33.260",
+            "endTime": 760.42,
+            "endTimeFormatted": "00:12:40.420",
+            "speaker": "SPEAKER_1",
+            "body": "So it was as simple as that, but I'm trying to find James."
+        },
+        {
+            "startTime": 760.72,
+            "startTimeFormatted": "00:12:40.720",
+            "endTime": 761.94,
+            "endTimeFormatted": "00:12:41.940",
+            "speaker": "SPEAKER_1",
+            "body": "Well, they never got that far."
+        },
+        {
+            "startTime": 763.4,
+            "startTimeFormatted": "00:12:43.400",
+            "endTime": 768.42,
+            "endTimeFormatted": "00:12:48.420",
+            "speaker": "SPEAKER_1",
+            "body": "But I'm kind of keen to, yeah, just sort of tread a little bit carefully on that."
+        },
+        {
+            "startTime": 768.44,
+            "startTimeFormatted": "00:12:48.440",
+            "endTime": 774.54,
+            "endTimeFormatted": "00:12:54.540",
+            "speaker": "SPEAKER_1",
+            "body": "So eight potential slots, whether or not they've actually filled those is a different question."
+        },
+        {
+            "startTime": 774.56,
+            "startTimeFormatted": "00:12:54.560",
+            "endTime": 776.06,
+            "endTimeFormatted": "00:12:56.060",
+            "speaker": "SPEAKER_1",
+            "body": "They don't necessarily say that."
+        },
+        {
+            "startTime": 776.08,
+            "startTimeFormatted": "00:12:56.080",
+            "endTime": 779.96,
+            "endTimeFormatted": "00:12:59.960",
+            "speaker": "SPEAKER_1",
+            "body": "But I think, yeah, I think that that's certainly interesting to have a look at."
+        },
+        {
+            "startTime": 780.42,
+            "startTimeFormatted": "00:13:00.420",
+            "endTime": 783.76,
+            "endTimeFormatted": "00:13:03.760",
+            "speaker": "SPEAKER_2",
+            "body": "Well, just to give it, you know, not a total kick in the teeth."
+        },
+        {
+            "startTime": 783.78,
+            "startTimeFormatted": "00:13:03.780",
+            "endTime": 790.88,
+            "endTimeFormatted": "00:13:10.880",
+            "speaker": "SPEAKER_2",
+            "body": "I mean, Audio Booms platform were downloaded 1.5 billion times across 150 countries across the world."
+        },
+        {
+            "startTime": 791.3,
+            "startTimeFormatted": "00:13:11.300",
+            "endTime": 800.64,
+            "endTimeFormatted": "00:13:20.640",
+            "speaker": "SPEAKER_2",
+            "body": "Over 300 million people listened to an Audio Boom podcast and the popularity of Audio Boom podcast that it was the fifth biggest podcast publisher in the US."
+        },
+        {
+            "startTime": 801.58,
+            "startTimeFormatted": "00:13:21.580",
+            "endTime": 809.22,
+            "endTimeFormatted": "00:13:29.220",
+            "speaker": "SPEAKER_2",
+            "body": "So look, overall, I think, as I said, it's had a downhill ski slope in terms of its share price, but it is growing."
+        },
+        {
+            "startTime": 809.5,
+            "startTimeFormatted": "00:13:29.500",
+            "endTime": 811.84,
+            "endTimeFormatted": "00:13:31.840",
+            "speaker": "SPEAKER_2",
+            "body": "And I think 2024 will be a year of growth."
+        },
+        {
+            "startTime": 812.12,
+            "startTimeFormatted": "00:13:32.120",
+            "endTime": 812.78,
+            "endTimeFormatted": "00:13:32.780",
+            "speaker": "SPEAKER_2",
+            "body": "So there you go."
+        },
+        {
+            "startTime": 812.8,
+            "startTimeFormatted": "00:13:32.800",
+            "endTime": 813.02,
+            "endTimeFormatted": "00:13:33.020",
+            "speaker": "SPEAKER_1",
+            "body": "Yeah."
+        },
+        {
+            "startTime": 813.04,
+            "startTimeFormatted": "00:13:33.040",
+            "endTime": 818.12,
+            "endTimeFormatted": "00:13:38.120",
+            "speaker": "SPEAKER_1",
+            "body": "And the share price, of course, is worked out by idiots in the stock market who don't understand anything."
+        },
+        {
+            "startTime": 821.72,
+            "startTimeFormatted": "00:13:41.720",
+            "endTime": 827.64,
+            "endTimeFormatted": "00:13:47.640",
+            "speaker": "SPEAKER_2",
+            "body": "Now, talking of advertising, you caught up with a company called Adelicious, didn't you, James?"
+        },
+        {
+            "startTime": 828.34,
+            "startTimeFormatted": "00:13:48.340",
+            "endTime": 828.92,
+            "endTimeFormatted": "00:13:48.920",
+            "speaker": "SPEAKER_1",
+            "body": "Yes, I did."
+        },
+        {
+            "startTime": 828.94,
+            "startTimeFormatted": "00:13:48.940",
+            "endTime": 831.74,
+            "endTimeFormatted": "00:13:51.740",
+            "speaker": "SPEAKER_1",
+            "body": "So they're quite similar, actually, to Audiaboom in many ways."
+        },
+        {
+            "startTime": 831.76,
+            "startTimeFormatted": "00:13:51.760",
+            "endTime": 834.14,
+            "endTimeFormatted": "00:13:54.140",
+            "speaker": "SPEAKER_1",
+            "body": "I caught up with the managing director Andy Goldsmith."
+        },
+        {
+            "startTime": 834.94,
+            "startTimeFormatted": "00:13:54.940",
+            "endTime": 838.06,
+            "endTimeFormatted": "00:13:58.060",
+            "speaker": "SPEAKER_1",
+            "body": "He thinks we're targeting young people too much."
+        },
+        {
+            "startTime": 838.34,
+            "startTimeFormatted": "00:13:58.340",
+            "endTime": 845.34,
+            "endTimeFormatted": "00:14:05.340",
+            "speaker": "SPEAKER_1",
+            "body": "And he also thinks that podcast hosting companies should get with the program regarding certification with the IAB."
+        },
+        {
+            "startTime": 845.98,
+            "startTimeFormatted": "00:14:05.980",
+            "endTime": 849.9,
+            "endTimeFormatted": "00:14:09.900",
+            "speaker": "SPEAKER_3",
+            "body": "In a nutshell, we are a hosting and monetization network."
+        },
+        {
+            "startTime": 850.72,
+            "startTimeFormatted": "00:14:10.720",
+            "endTime": 855.04,
+            "endTimeFormatted": "00:14:15.040",
+            "speaker": "SPEAKER_3",
+            "body": "The best known hosting monetization business is Acast."
+        }
+    ]
+}

@@ -321,6 +321,8 @@ Transcripts used for testing are excerpts from the following shows.
     -   podnews_weekly_review_2023-03-17.html
 -   [Podnews Weekly Review (2023-05-05)](https://feeds.buzzsprout.com/1538779/12782529/)
     -   podnews_weekly_review_2023-05-05.json
+-   [Podnews Weekly Review (2024-01-19)](https://feeds.buzzsprout.com/1538779/14338472/)
+    -   podnews_weekly_review_2024-01-19.vtt
 -   [subtitle.js](https://github.com/gsantiago/subtitle.js)
     -   LaLaLand.vtt
     -   LaLaLand.json

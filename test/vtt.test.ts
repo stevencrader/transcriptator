@@ -25,6 +25,11 @@ describe("Parse VTT file data", () => {
             expectedFilePath: TestFiles.TRANSCRIPT_VTT_PODNEWS_DAILY_2024_01_25_OUTPUT,
             id: "Podnews Daily 2024-01-25",
         },
+        {
+            filePath: TestFiles.TRANSCRIPT_VTT_PODNEWS_WEEKLY_REVIEW_2024_01_19,
+            expectedFilePath: TestFiles.TRANSCRIPT_VTT_PODNEWS_WEEKLY_REVIEW_2024_01_19_OUTPUT,
+            id: "Podnews Weekly Review 2024-01-19",
+        },
     ])("Parse VTT File ($id)", ({ filePath, expectedFilePath }) => {
         const data = readFile(filePath)
         const expectedJSONData = JSON.parse(readFile(expectedFilePath))

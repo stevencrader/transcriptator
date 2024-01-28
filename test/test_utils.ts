@@ -40,6 +40,8 @@ export enum TestFiles {
     TRANSCRIPT_VTT_LALALAND_OUTPUT = "LaLaLand_vtt_parsed.json",
     TRANSCRIPT_VTT_PODNEWS_DAILY_2024_01_25 = "podnews_daily_2024-01-25.vtt",
     TRANSCRIPT_VTT_PODNEWS_DAILY_2024_01_25_OUTPUT = "podnews_daily_2024-01-25_vtt_parsed.json",
+    TRANSCRIPT_VTT_PODNEWS_WEEKLY_REVIEW_2024_01_19 = "podnews_weekly_review_2024-01-19.vtt",
+    TRANSCRIPT_VTT_PODNEWS_WEEKLY_REVIEW_2024_01_19_OUTPUT = "podnews_weekly_review_2024-01-19_vtt_parsed.json",
 }
 
 /**
